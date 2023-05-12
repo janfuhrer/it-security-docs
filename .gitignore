@@ -1,0 +1,16 @@
+# swap
+[._]*.s[a-w][a-z]
+[._]s[a-w][a-z]
+# session
+Session.vim
+# temporary
+.netrwhist
+*~
+# auto-generated tag files
+tags
+# Apple
+.DS_Store
+# Obsidian
+.obsidian/workspace
+# exclude local files
+local
