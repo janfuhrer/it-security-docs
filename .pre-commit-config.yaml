@@ -1,0 +1,18 @@
+---
+repos:
+  - repo: https://github.com/pre-commit/pre-commit-hooks.git
+    rev: v4.4.0
+    hooks:
+      - id: end-of-file-fixer
+        exclude_types: ['markdown']
+        stages: [commit]
+      - id: trailing-whitespace
+        exclude_types: ['markdown']
+        stages: [commit]
+      - id: mixed-line-ending
+        stages: [commit]
+      - id: check-byte-order-marker
+        stages: [commit]
+      - id: check-executables-have-shebangs
+        stages: [commit]
+      - id: check-merge-conflict
