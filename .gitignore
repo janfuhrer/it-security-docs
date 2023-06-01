@@ -11,6 +11,8 @@ tags
 # Apple
 .DS_Store
 # Obsidian
-.obsidian/workspace
+.obsidian/appearance.json
+.obsidian/workspace.json
+.obsidian/app.json
 # exclude local files
 local
