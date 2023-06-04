@@ -74,3 +74,101 @@ An illustrative example involves a deck of 52 playing cards. If a card is drawn 
 
 ![[Pasted image 20230603165249.png]]
 # Wieso wird hie /1000 und /10 grächnet?
+
+### What are possible attacks to reveal someones identity?
+
+#### All nodes collaborate against the victim
+This is the most severe scenario. Every single node in the entire network is conspiring against the victim, monitoring and sharing information about their activities. It means that no matter which path the victim's data takes, it's being tracked.
+
+#### All directly adjacent nodes collaborate
+This is a less severe situation than the first, but still serious. Only the nodes directly connected to the victim (those the victim communicates with directly) are conspiring. While this might not capture all of the victim's network activity (depending on the network's topology and routing), it captures a significant amount, especially if the network is decentralized and the victim communicates with many nodes.
+
+#### All non-collaborating adjacent nodes are made unreachable from the victim
+This scenario describes a situation where the nodes directly connected to the victim that aren't conspiring (and hence would provide secure, anonymous paths for the victim's data) are somehow taken offline or blocked. This could force the victim to use the collaborating nodes, effectively turning this into scenario 2.
+
+#### The victim is required to prove his innocence
+This scenario is a bit different, as it's not about the network's nodes colluding against the victim. Instead, it's about a situation where the victim is accused of wrongdoing and must provide proof of innocence, which could potentially involve revealing personal information or specific activities that compromise their anonymity. This is a challenging situation because it forces a conflict between maintaining anonymity and addressing the accusation.
+
+### What is the problem with the economy of anonymity?
+
+**Infrastructure and Maintenance Cost**
+Providing anonymity services often requires significant resources for infrastructure setup and maintenance. Anonymity networks require robust and resilient infrastructure to withstand various attacks and service disruptions. The cost associated with building and maintaining such a system can be substantial.
+
+**Legal Liabilities**
+Providers of anonymity services may face legal risks if their services are used for unlawful activities. These could include regulatory fines or legal costs associated with defending against allegations of facilitating illegal activities.
+
+**Inefficiencies**
+Anonymity often introduces inefficiencies into systems, such as slower data transmission due to routing through multiple nodes for obfuscation. These inefficiencies can make anonymous services less appealing to users and more costly to operate.
+
+**Mitigation of Attacks**
+Anonymity services are often targets for attacks, including denial-of-service attacks. The cost of implementing and maintaining security measures to defend against these attacks adds to the overall economic burden.
+
+**Reputational Risk**
+If an anonymity service is compromised or associated with illicit activities, it could suffer reputational damage, leading to a loss of users and potential revenue.
+
+**The anonymizing server that has the best reputation (performance, most traffic) is presumably compromised**
+High-reputation anonymizing servers with a lot of traffic are likely targets for compromise due to their value for attackers. These servers handle substantial data, making them attractive for malicious actors seeking valuable information or aiming to de-anonymize users. Despite this, good security measures can help protect these servers, but their risk of compromise is higher due to their prominence.
+
+### Explain the Dining Cryptographers Problem
+Every two cryptographers establish a shared one-bit secret. Everyone then makes an XOR out of the two shared one-bit secrets and reveals the result.
+
+- If they payed they invert the XOR
+- If they didn't pay they just reveal the XOR of the shared one-bit secrets
+
+Finally the revealed results are XORed aswell
+
+- If the result is 1 then someone payed but this person stays anonymous
+- If the result is 0 then the NSA payed
+
+### What is mixing and how does it work?
+A cryptographic protocol used to provide anonymity for network communications. This approach to maintaining privacy is implemented by a mix network, owhich uses a chain of mix nodes.
+
+**Example**
+1. Each message is encrypted with the public keys of the mix nodes in reverse order of the nodes it will pass through. The initial encryption might use the public key of the last node, then the next-to-last, and so on, until finally the message is encrypted with the key of the first node.
+
+2. The message is then sent through the network, passing through each mix node in order.
+
+3. Each mix node, upon receiving a message, uses its private key to decrypt its layer of encryption. This reveals the address of the next node to which the message should be sent.
+
+4. Additionally, each mix node changes the appearance of the message even if it can't read its contents. It does this by decrypting and re-encrypting the message, making it difficult to link the incoming and outgoing messages. The node might also batch multiple messages together, changing the order before forwarding them, which further obscures the origin-destination link.
+
+5. This process is repeated until the message reaches its final destination.
+
+### What are different types of mixing?
+**Threshold Mix**
+A type of mix that waits until it has received messages from a certain number of users (the threshold) before it sends them out in a random order.
+
+**Timed Mix**
+This mix collects messages for a certain period of time before sending them out in a random order.
+
+**Pool Mix**
+In a pool mix, incoming messages are added to a pool. A certain number of messages are randomly selected from the pool and sent out, while the remaining messages stay in the pool for the next round.
+
+### What is Mixminion?
+Mixminion is an anonymous remailer protocol that was designed to improve upon earlier protocols by offering better resistance to attacks, and more reliable delivery of messages. It's a mixmailer which uses mix networks for email communication, effectively anonymizing the sender and recipient of an email. Compared to previous mixers it has some advantages.
+
+**Possibility to Reply**
+One major advancement Mixminion brings over previous remailer protocols is the ability for recipients to reply to anonymous emails without knowing the sender's actual identity.
+
+**Directory Servers and Reputation System**
+Directory servers in Mixminion keep track of available mix nodes (remailers) and their reputations. This system helps users to select reliable and trustworthy nodes for routing their messages.
+
+**Exit Policies**
+Just like with Tor, mix nodes in Mixminion can have exit policies which allow the operator of the node to determine what type of traffic is allowed to exit their node and to where. This can help to manage legal and ethical considerations associated with running a node.
+
+### How do replies work in Mixminion?
+
+Example in which Alice sends a message to Bob and Bob can answer without knowing Alice:
+1. Alice prepares her message to Bob and includes the path for Bob's reply within her message. This path includes a "crossover" node and the second leg of the path after the crossover. It's worth noting that the path is encrypted, and the encryption layering matches the order of nodes in the path.
+
+2. Alice then selects a series of nodes (the first leg) in the Mixminion network through which to send her message. She adds this to the existing path information (creating a complete path from Alice to Bob and back to Alice), and then encrypts the message and path data in layers, where each layer corresponds to a node in the path.
+
+3. Alice sends her message into the Mixminion network. Each node in the path decrypts its layer of the message, revealing where to send the message next, and then re-encrypts the message before sending it on to help maintain anonymity.
+
+4. Eventually, the message arrives at Bob's email address. Bob can read Alice's message because it was encrypted for him. He can see the encrypted reply path but cannot decipher it because it is encrypted for the nodes in the path, not for him.
+
+5. Now, Bob prepares his reply and attaches Alice's encrypted reply path to it. He then chooses his own series of nodes (a new first leg) to reach the crossover node, encrypts his message and the entire path in layers, and sends it into the Mixminion network.
+
+6. When Bob's reply reaches the crossover node, the node decrypts its layer of the message to find out where to send the message next. The remaining part of the path is still encrypted and unreadable to the crossover node.
+
+7. The message continues to travel along the second leg of the path that Alice originally provided. Finally, the reply arrives back at Alice's email address.
