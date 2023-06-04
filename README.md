@@ -2,10 +2,7 @@
 
 in construction... 🏗️
 
-## START HERE
-
-- Homebase Docs: [[themes/000 Index|Index Docs]]
-- Homebase Exercises: [[exercises/000 Index|Index Exercises]]
+Open the vault local in [Obsidian](https://obsidian.md) (folder `docs`) or browse it at [janfuhrer.github.io/it-security-docs](https://janfuhrer.github.io/it-security-docs/).
 
 ## Pre-commit
 
