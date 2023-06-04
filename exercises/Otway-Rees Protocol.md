@@ -1,3 +1,9 @@
+tags: #AC1 
+links: [[exercises/000 Index|Index]]
+
+---
+# Otway-Rees Protocol
+
 ![[Otway-Rees_Protocol_Image.png]]
 
 The protocol can be specified as shown in the security protocol notation above, where **A**lice is authenticating herself to **B**ob using a server **S** (TTP) (**M** is a session-identifier, $N_A$ and $N_B$ are nonces)
@@ -26,3 +32,7 @@ This attack allows the intruder to disrupt the communication but does not allow 
 
 
 Sources: [Wikipedia](https://en.wikipedia.org/wiki/Otway%E2%80%93Rees_protocol) + ChatGPT
+
+---
+tags: #AC1 
+links: [[exercises/000 Index|Index]]
