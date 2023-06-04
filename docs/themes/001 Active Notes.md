@@ -1,4 +1,3 @@
-tags: #active   
 links: [[themes/000 Index|Index]]
 
 ---
@@ -13,5 +12,4 @@ links: [[themes/000 Index|Index]]
 - like signing with symmetric key -> but with shared key
 
 ---
-tags: #active  
 links: [[themes/000 Index|Index]]

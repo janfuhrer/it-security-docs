@@ -41,5 +41,4 @@ links:  [[themes/000 Index|Index]]
 - [[themes/Topic 12 - GNU Taler|GNU Taler]]
 
 ---
-tags: #AC2
 links:  [[themes/000 Index|Index]]

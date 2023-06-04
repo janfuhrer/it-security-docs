@@ -7,5 +7,4 @@ links: link - [[themes/000 Index|Index]]
 
 
 ---
-tags: 
 links: link - [[themes/000 Index|Index]]

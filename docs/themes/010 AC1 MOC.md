@@ -35,5 +35,4 @@ links:  [[themes/000 Index|Index]]
 - [[themes/Topic 10 - TL|Secret sharing, symmetric key management]]
 
 ---
-tags: #AC1 
 links: [[themes/000 Index|Index]]

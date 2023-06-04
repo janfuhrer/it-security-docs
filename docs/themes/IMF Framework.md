@@ -24,5 +24,4 @@ Equipping your library with an Index, Maps, and other fluid Frameworks enhances 
 - MOCs are not hierarchical like a table of contents. They are [[https://en.wikipedia.org/wiki/Heterarchy|heterarchial]]. Meaning, you can have multiple maps organizing the same info in different ways to fit whatever persepective the note is for.
 
 ---
-tags: #IMF
 links: [[themes/000 Index|Index]]

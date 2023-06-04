@@ -1,4 +1,4 @@
-# Index
+# 000 Index
 Welcome to the index. This is homebase.
 The Notes are based on the [[IMF Framework]] (get familiar with the concept first).
 

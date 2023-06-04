@@ -7,5 +7,4 @@ links:  [[020 AC2 MOC|AC2 MOC]] - [[themes/000 Index|Index]]
 
 
 ---
-tags: #AC2
 links:  [[020 AC2 MOC|AC2 MOC]] - [[themes/000 Index|Index]]
