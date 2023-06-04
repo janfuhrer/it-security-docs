@@ -4,7 +4,8 @@ in construction... 🏗️
 
 ## START HERE
 
-Homebase: [[000 Main Index|Index]]
+- Homebase Docs: [[themes/000 Index|Index Docs]]
+- Homebase Exercises: [[exercises/000 Index|Index Exercises]]
 
 ## Pre-commit
 
