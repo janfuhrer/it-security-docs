@@ -2,7 +2,7 @@ tags: #AC1
 links:  [[themes/000 Index|Index]]
 
 ---
-# Applied Cryptography 1 TOC
+# Applied Cryptography 1 MOC
 
 ### Topic 1
 - [[themes/Topic 1 - Intro|Introduction to IT security]]

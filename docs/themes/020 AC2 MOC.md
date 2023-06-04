@@ -2,7 +2,7 @@ tags: #AC2
 links:  [[themes/000 Index|Index]]
 
 ---
-# Applied Cryptography 2 TOC
+# Applied Cryptography 2 MOC
 
 ### Topic 1
 - [[themes/Topic 1 - Intro pk|Introduction public-key cryptography]]
