@@ -8,7 +8,8 @@ links:  [[themes/000 Index|Index]]
 - [[themes/Introduction to Modern Cryptography|Introduction]]  
 - [[themes/Perfectly Secret Encryption|Perfectly Secret Encryption]]  
 	- [[themes/OneTimePad|OneTimePad]]  
-	- [[themes/Shannons Theorem|Sha. non's Theorem]]  
+	- [[themes/Shannons Theorem|Shannon's Theorem]]  
+  
 **II - Private-Key (Symmetric) Cryptography**  
 - [[themes/Private-Key Encryption|Private-Key Encryption]]  
 	- [[themes/Computional Security|Computional Security]]  
@@ -23,6 +24,7 @@ links:  [[themes/000 Index|Index]]
 	- [[themes/CCA-Security|CCA-Security]]  
 - [[themes/Hash Functions|Hash Functions]]  
 	- [[themes/Random-Oracle Model|Random-Oracle Model]]  
+  
 **III - Public-Key (Asymmetric) Cryptography**  
 ...
 
