@@ -42,7 +42,7 @@ There is no reason to ever use a CCA-secure scheme that is *not* also an authent
 
 ### Standardized Schemes
 
-#### GCM (Galois/ mode mode)
+#### GCM (Galois/ counter mode)
 
 - follows the encrypt-then-authenticate approach with [[Block Cipher#Counter (CTR) mode|CTR mode]] as the underlying encryption  scheme and GMAC as the underlying message authentication code.
 - uses only one single key and the same IV for CTR-mode encryption and as the nonce for GMAC $\rightarrow$ Both these changes can be proven secure in GCM
