@@ -16,4 +16,4 @@ The Notes are based on the [[IMF Framework]] (get familiar with the concept firs
 - 020s - #AC2 #asymmetric
 - 030s - #ModernCryptography #symmetric #asymmetric 
 
-[^1] Introduction to Modern Cryptography, Third Edition (Chapman & Hall/Crc Cryptography and Network Security) by Jonathan Katz and Yehuda Lindell (ISBN: 780815354369)
+[^1]: Introduction to Modern Cryptography, Third Edition (Chapman & Hall/Crc Cryptography and Network Security) by Jonathan Katz and Yehuda Lindell (ISBN: 780815354369)
