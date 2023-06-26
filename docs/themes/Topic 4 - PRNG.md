@@ -11,10 +11,14 @@ To understand PRNG it is important to understand the concept of the distinguishe
 ## Requirements
 For a PRNG to be secure, it requires a few assumptions to be met:
 - $l(n) > n$ . This means that for any security parameter `n`, the length of the output must be at least as long as the security parameter (otherwise it would mean a security downgrade, because the this would lead to shorter pads resulting in a lower security parameter.
-- The probability for a bit $s_i, i \in 1,.., l(n)$  in bit-string $s$ to be 1 must be equal to a half with some negligible deviation $negl(n)$ which is dependent from the security parameter $n$
+- The probability for a bit $s_i, i \in 1,.., l(n)$  in bit-string $s$ to be 1 or 0 must be equal $1 \over 2$ with some negligible deviation $negl(n)$ which is dependent from the security parameter $n$
 $$\mathbb{P}(s_i = 1) \approx \mathbb{P}(s_i = 0) \approx  {1 \over 2} + negl(n)$$
 - If using a PRNG for security purposes, the **seed of the PRNG must be kept secret**, otherwise it's easy to recreate the random bit-strings.
 
+#### Construct PRG from PRF
+
+
+#### Sub-Key derivation
+
 ---
-tags: #AC1 #Randomness #symmetric #Pseudorandom
 links: [[themes/000 Index|Index]],  [[010 AC1 MOC|Applied Cryptography 1]], [[Topic 3 - Randomness|Randomness]]
