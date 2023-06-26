@@ -14,9 +14,9 @@ links:  [[themes/000 Index|Index]]
 - [[themes/Computational Security|Computational Security]]  
     - [[themes/EAV-Security|EAV-Security]]  
     - [[themes/CPA-Security|CPA-Security]]  
-    - Modes of Operation
-        - [[themes/Stream Cipher|Stream Cipher]]  
-        - [[themes/Block Cipher|Block Cipher]]  
+- Modes of Operation
+    - [[themes/Stream Cipher|Stream Cipher]]  
+    - [[themes/Block Cipher|Block Cipher]]  
 - [[themes/MAC|Message Authentication Codes]]  
 - [[themes/Authenticated Encryption|Authenticated Encryption]]  
     - [[themes/CCA-Security|CCA-Security]]  
