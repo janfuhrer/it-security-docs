@@ -3,8 +3,8 @@ site_name: IT-Security Docs
 theme:
   name: 'material'
   language: en
-  logo: assets/sample-logo_free.png
-  favicon: assets/favicon.ico
+  logo: assets/logo.png
+  favicon: assets/favicon.png
 
   features:
     # enable instant loading (XHR)
@@ -13,9 +13,9 @@ theme:
     - navigation.top
     # search highlighting
     - search.highlight
+    - navigation.indexes
 
   palette:
-
   # Light mode
   - media: "(prefers-color-scheme: light)"
     scheme: default
@@ -24,7 +24,6 @@ theme:
     toggle:
       icon: material/toggle-switch-off-outline
       name: Switch to dark mode
-
   # Dark mode
   - media: "(prefers-color-scheme: dark)"
     scheme: slate
@@ -43,6 +42,9 @@ markdown_extensions:
   # - pymdownx.superfences
   # - pymdownx.details
   # - pymdownx.magiclink
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
   - pymdownx.tasklist:
       custom_checkbox: true
   - def_list
@@ -56,7 +58,6 @@ markdown_extensions:
         - name: mermaid
           class: mermaid
           format: !!python/name:pymdownx.superfences.fence_code_format
-
   - toc:
       permalink: true
 
