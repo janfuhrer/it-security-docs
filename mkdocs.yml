@@ -1,26 +1,26 @@
 site_name: IT-Security Docs
 
 theme:
-    name: 'material'
-    palette:
+  name: 'material'
+  palette:
 
-    # Light mode
-    - media: "(prefers-color-scheme: light)"
-      scheme: default
-      primary: deep purple
-      accent: purple
-      toggle:
-        icon: material/toggle-switch-off-outline
-        name: Switch to dark mode
+  # Light mode
+  - media: "(prefers-color-scheme: light)"
+    scheme: default
+    primary: deep purple
+    accent: purple
+    toggle:
+      icon: material/toggle-switch-off-outline
+      name: Switch to dark mode
 
-    # Dark mode
-    - media: "(prefers-color-scheme: dark)"
-      scheme: slate
-      primary: deep purple
-      accent: purple
-      toggle:
-        icon: material/toggle-switch
-        name: Switch to light mode
+  # Dark mode
+  - media: "(prefers-color-scheme: dark)"
+    scheme: slate
+    primary: deep purple
+    accent: purple
+    toggle:
+      icon: material/toggle-switch
+      name: Switch to light mode
 
 # Extensions
 markdown_extensions:
@@ -51,6 +51,7 @@ markdown_extensions:
 plugins:
   - search
   - roamlinks
+  - awesome-pages
 
 
 extra_javascript:

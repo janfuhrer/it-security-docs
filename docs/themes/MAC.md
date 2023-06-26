@@ -18,8 +18,8 @@ Encryption does not (in general) provide any integrity! Ciphertexts in this case
 Prevent an adversary from modifying a message sent by one party to another, or from injecting a new message, without the receiver detecting that the message did not originate from the intended party $\rightarrow$ both parties share a common secret
 
 There are tow canonical application scenarios for MACs
-	1. ensuring integrity for two parties communicating with each other
-	2. one user communicating "with himself" over time (e.g. web cookies or a user protecting the contents of his hard drive)
+1. ensuring integrity for two parties communicating with each other
+2. one user communicating "with himself" over time (e.g. web cookies or a user protecting the contents of his hard drive)
 
 #### Formal definition
 
