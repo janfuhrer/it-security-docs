@@ -11,13 +11,13 @@ links:  [[themes/000 Index|Index]]
 - [[themes/Topic 2 - Security|Security]]
 
 ### Topic 3
-- [[themes/Topic 3 - Randomness|Randomness]]
+- [[themes/Topic 3 - Randomness|Randomness & RNG]]
 
 ### Topic 4
-- [[themes/Topic 4 - PRNG|Pseudo Random Number Generator (PRNG)]]
+- [[Topic 4 - PRNG|Pseudo Random Number Generator (PRNG)]]
 
 ### Topic 5
-- [[themes/Topic 5 - Stream Cipher|Stream Cipher]]
+- [[Topic 5 - Stream Cipher|Stream Cipher]]
 
 ### Topic 6
 - [[themes/Topic 6 - Random Oracle|Random Oracle]]
