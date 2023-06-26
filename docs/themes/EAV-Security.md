@@ -46,11 +46,10 @@ Our strategy will be to assume that some mathematical problem is hard, or that s
 
 Rather than sharing this long, pseudorandom pad, the sender and receiver can instead share a uniform seed that is used to generate the pad when needed.
 
-![[eav_with_prng.png]]
-
 - only for fixed length pad & messages
 - only EAV-Secure
 
+![[eav_with_prng.png]]
 
 ---
 links:  [[030 Modern Cryptography MOC|Modern Cryptography MOC]] - [[themes/000 Index|Index]]
