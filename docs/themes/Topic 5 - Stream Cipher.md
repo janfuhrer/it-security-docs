@@ -46,6 +46,8 @@ PRNG(k, len(c)) : 0100
 decrypt         : c XOR PRNG = 1110 XOR 0100 = 1010 = m
 ```
 
+![](_media/diagrams/stream_cipher_sequence_diagram.png)
+
 #### Algorithms / Building blocks
 
 ##### Gen(n) = k
