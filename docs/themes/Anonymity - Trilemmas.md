@@ -1,3 +1,9 @@
+tags: #asymmetric 
+links:  [[Topic 10 - Anonymity]], [[themes/000 Index|Index]]
+
+---
+# Trilemmas
+
 ## Examples for famous trilemmas
 
 **CAP Theorem**
@@ -11,3 +17,6 @@ This is a concept in information security where three desirable attributes - Ano
 
 **Zooko's Triangle**
 This is a concept in naming systems which argues that names can't be all three of the following: Secure (names honestly represent the identity of the named entity), Decentralized (no central authority is needed to control name allocation), and Human-meaningful (names are meaningful and memorable to humans). More recent developments in technology, such as blockchain systems, are challenging the notion of Zooko's Triangle, with claims that all three properties can be satisfied to some extent.
+
+---
+links:  [[Topic 10 - Anonymity]], [[themes/000 Index|Index]]

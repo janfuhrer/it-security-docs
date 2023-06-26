@@ -1,3 +1,9 @@
+tags: #asymmetric 
+links:  [[Topic 10 - Anonymity]], [[themes/000 Index|Index]]
+
+---
+# Attacks
+
 ## What are possible attacks to reveal someones identity?
 
 **All nodes collaborate against the victim**
@@ -103,3 +109,6 @@ Ensuring that timestamps are consistent with other nodes' clocks can prevent att
 
 **Anomaly detection systems**
 Systems that monitor for unusual timing patterns can help detect potential timing attacks.
+
+---
+links:  [[Topic 10 - Anonymity]], [[themes/000 Index|Index]]

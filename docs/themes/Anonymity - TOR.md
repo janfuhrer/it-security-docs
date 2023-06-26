@@ -1,3 +1,9 @@
+tags: #asymmetric 
+links:  [[Topic 10 - Anonymity]], [[themes/000 Index|Index]]
+
+---
+# TOR
+
 ## What is tor
 
 P2P network of low-latency mixes which are used to provide anonymous communication between parties on the Internet. It works for any TCP-based protocol and traffic enters the network via SOCKS proxy. Commonly used for anonym web browsing.
@@ -13,7 +19,7 @@ P2P network of low-latency mixes which are used to provide anonymous communicati
 - First mix server decrypts the message and sends the message to the next mix server until destination is reached.
 ![[tor_routing_1.png]]
 
-Just like in mixminion, there are directory servers which keep track of contact information, public keys and statistics. Clients use directory servers to chose servers based on bandwidth and update. Circuits / Routes are of length three. 
+Just like in [[Anonymity - Mixing#What is Mixminion?|mixminion]], there are directory servers which keep track of contact information, public keys and statistics. Clients use directory servers to chose servers based on bandwidth and update. Circuits / Routes are of length three. 
 ![[tor_routing_2.png]]
 
 In the example above
@@ -61,4 +67,6 @@ Over time, an adversary could observe when a user is active on the Tor network a
 
 **DoS**
 An attacker could flood the Tor network, or specific nodes within the network, with an overwhelming amount of traffic, making it unusable for legitimate users. This doesn't compromise anonymity directly, but it disrupts the operation of the network.
---> Beispiel von Grothoff mit loop circuits
+
+---
+links:  [[Topic 10 - Anonymity]], [[themes/000 Index|Index]]

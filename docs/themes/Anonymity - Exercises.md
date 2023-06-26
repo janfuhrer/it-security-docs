@@ -1,7 +1,12 @@
+tags: #asymmetric #exercise
+links:  [[Topic 10 - Anonymity]], [[themes/000 Index|Index]]
+
+---
+# Exercises
 
 ![[entropy_calculation_example.png]]
-# Wieso wird hie /1000 und /10 grächnet?
 
+ToDo How does Entropy calculation work?
 
 ## Explain the Dining Cryptographers Problem
 Every two cryptographers establish a shared one-bit secret. Everyone then makes an XOR out of the two shared one-bit secrets and reveals the result.
@@ -13,3 +18,6 @@ Finally the revealed results are XORed aswell
 
 - If the result is 1 then someone payed but this person stays anonymous
 - If the result is 0 then the NSA payed
+
+---
+links:  [[Topic 10 - Anonymity]], [[themes/000 Index|Index]]

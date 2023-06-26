@@ -1,3 +1,9 @@
+tags: #asymmetric 
+links:  [[Topic 10 - Anonymity]], [[themes/000 Index|Index]]
+
+---
+# Mixing
+
 ## What is mixing and how does it work?
 A cryptographic protocol used to provide anonymity for network communications. This approach to maintaining privacy is implemented by a mix network, owhich uses a chain of mix nodes.
 
@@ -96,3 +102,6 @@ If a nym server stores multiple messages and uses a single reply block to send a
 - No functionality to avoid DoS attacks
 - Statistical correlation of entities communicating over time is still possible if the whole network is observed
 - Bridge between anonymous network and traditional a traditional protocol is difficult
+
+---
+links:  [[Topic 10 - Anonymity]], [[themes/000 Index|Index]]

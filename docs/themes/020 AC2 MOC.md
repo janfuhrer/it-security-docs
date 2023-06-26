@@ -32,12 +32,7 @@ links:  [[themes/000 Index|Index]]
 - [[themes/Topic 9 - SC|Secure messaging and channels]]
 
 ### Topic 10
-- [[themes/Topic 10 - Anonymity|Anonymity (General)]]
-- [[Topic 10.1 - Anonymity (Exercises)|Exercises]]
-- [[Topic 10.2 - Anonymity (Mixing)|Mixing]]
-- [[Topic 10.3 - Anonymity (TOR)|TOR]]
-- [[Topic 10.4 - Anonymity (Trilemmas)|Trilemmas]]
-- [[Topic 10.5 - Anonymity (Attacks)|Attacks]]
+- [[themes/Topic 10 - Anonymity|Anonymity]]
 
 ### Topic 11
 - [[themes/Topic 11 - DPKI|Decentralized Public Key Infrastructures]]
