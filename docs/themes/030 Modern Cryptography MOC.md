@@ -12,7 +12,7 @@ links:  [[themes/000 Index|Index]]
   
 **II - Private-Key (Symmetric) Cryptography**  
 - [[themes/Private-Key Encryption|Private-Key Encryption]]  
-- [[themes/Computional Security|Computional Security]]  
+- [[themes/Computational Security|Computational Security]]  
     - [[themes/EAV-Security|EAV-Security]]  
     - [[themes/CPA-Security|CPA-Security]]  
     - [[themes/Pseudorandom Functions and Permutations|Pseudorandom Functions and Permutations]]  
