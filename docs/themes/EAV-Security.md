@@ -9,6 +9,7 @@ EAV-security implies that ciphertexts leak no information about individual bits 
 > A private-key encryption scheme has *indistinguishable encryptions in the presence of an eavesdropper*, or is is **EAV-Secure**, iff it is **semantically secure** in the presence of an eavesdropper.
 
 **Leaking the plaintext length**
+
 The default notion of secure encryption does not require the encryption scheme to hide the plaintext length. Sometimes, leaking the plaintext length is problematic:
 - *Simple numeric/text data*: Encryption of "yes/no" responses would leak the answer exactly
 - *Database searches*: the number of records returned can reveal information about what the user was searching for.
@@ -30,9 +31,12 @@ Mitigate or prevent such leakage by padding all messages before encrypting them.
 
 Just as indistinguishability is a computational relaxation of perfect secrecy, pseudorandomness is a computational relaxation of true randomness.
 
-**Formal definition**: $G$ is a pseudorandom generator if no efficient distinguisher can detect whether it is given a string output by $G$ or a string chosen uniformly at random.
+**Formal definition**
+
+$G$ is a pseudorandom generator if no efficient distinguisher can detect whether it is given a string output by $G$ or a string chosen uniformly at random.
 
 **Seed**
+
 - must be chosen uniformly and be kept secret from any adversary if we want $G(s)$ to look random
 - the seed $s$ must at least be large enough so that a brute-force attack running in time $2^n$ is infeasible
 

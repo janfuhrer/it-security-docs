@@ -7,9 +7,11 @@ links:  [[030 Modern Cryptography MOC|Modern Cryptography MOC]] - [[themes/000 I
 The attacker can e.g. influence and observe what messages get encrypted. At some later point in time, the attacker observes a ciphertext corresponding to some unknown message encrypted using the same key $k$. Let us even assume that the attacker knows that $m$ is one of two possibilities $m_0, m_1$. Security against CPA means that even in this case the attacker cannot tell which of those two messages was encrypted with probability significantly better than random guessing.
 
 **Example**
+
 A simple example is given by an attacker typing on a terminal, which in turn encrypts everything the adversary types using a key (unknown to the attacker) shared with a remote server. Here the attacker exactly controls what gets encrypted, and the encryption scheme should still reveal nothing when it is used—with the same key—to encrypt data typed by another user.
 
 **Take aways**
+
 - CPA-security is nowadays the minimal notion of security an encryption scheme should satisfy
 - Any private-key encryption scheme that is CPA-secure is also CPA-secure for **multiple** encryptions
 
@@ -33,6 +35,7 @@ A simple example is given by an attacker typing on a terminal, which in turn enc
 ![[cpa_with_prf.png]]
 
 **Construction**
+
 - $Enc$: $c := \langle r, F_k(r) \oplus m \rangle$
 - $Dec$: ciphertext $c = \langle r,s \rangle$ output message $m := F_k(r) \oplus s$
 

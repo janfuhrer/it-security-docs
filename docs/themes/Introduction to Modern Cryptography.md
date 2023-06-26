@@ -5,16 +5,18 @@ links:  [[030 Modern Cryptography MOC|Modern Cryptography MOC]] - [[themes/000 I
 # Introduction to Modern Cryptography
 
 **Heuristic approach to Science**
+
 Cryptography has gone from a **heuristic set of techniques** for ensuring secret communication for a few **to a science** for all.
 
 **Principles of Modern Cryptography**
+
 - cryptography was historically more of an art than a science, based on their perceived complexity or cleverness
 - in modern cryptography, the ultimate goal being to give a rigorous proof that a given construction is secure -> based on *formal definitions* and _hardness assumptions_ about the algorithmic hardness of certain mathematical problem
 
 
 ### Setting of Private-Key Encryption
 
-- Security of **encryption scheme** relies on a secret, **a key** (also named **shared-/ secret-key**) -> **private-key encryption**
+- Security of **encryption scheme** relies on a secret, **a key** (also named **shared-/ secret-key**) $\rightarrow$ **private-key encryption**
 - **Symmetric-key setting**: use the same key for encryption & decryption
 
 > The goal of encryption is to keep the plaintext hidden from an eavesdropper who can monitor the communication channel and observe the ciphertext.
@@ -31,15 +33,15 @@ Cryptography has gone from a **heuristic set of techniques** for ensuring secret
 - **Caesar's cipher**: shifting the letters of the alphabet 3 places forward
 - **Shift cipher**: a keyed variant of Caesar's cipher, the key $k$ is a number between 0 and 25, encryption is done by shift letters by $k$ places
 
---> use *brute-force (or exhaustive-search)* attack
+$\rightarrow$ use *brute-force (or exhaustive-search)* attack
 
 - **mono-alphabetic substitution cipher**: substitute the whole alphabet using a map, the key-space is now $26!$
 
---> use *frequency distribution attack*
+$\rightarrow$ use *frequency distribution attack*
 
 - **Vigenère (poly-alphabetic shift) cipher**: the key is a string of letters to "smooth out" the frequency distribution
 
---> can be broken with enough obtained ciphertexts (and/or if the key is short or the length of the key is known)
+$\rightarrow$ can be broken with enough obtained ciphertexts (and/or if the key is short or the length of the key is known)
 
 ### Security goals
 

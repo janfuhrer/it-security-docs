@@ -21,7 +21,6 @@ Any perfectly secret encryption scheme must have a key space that is at least as
 ### Definitions
 
 - XOR (bitwise exclusive-or): $a \oplus b$
- - **Message space**: set of all possible messages: $M$
 
 ---
 links:  [[Topic 2 - Security]], [[030 Modern Cryptography MOC|Modern Cryptography MOC]] - [[themes/000 Index|Index]]
