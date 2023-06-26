@@ -49,7 +49,7 @@ Action that takes advantage of a vulnerability.
 
 Event that could lead to loss of control over an information asset.
 
-**Cryptography**
+**Cryptography** ^51231c
 
 Practice and study of techniques for secure communication in the presence of adversaries.
 
@@ -63,7 +63,7 @@ Primitives are the building blocks for cryptographic protocols.
 
 Keys are short information assets used for certain cryptographic operations.
 
-**Kerckhoffs’ principle**
+**Kerckhoffs’ principle** ^8ae895
 
 A cryptosystem should be secure even if everything about the system, except the key, is public knowledge.
 

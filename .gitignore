@@ -14,6 +14,7 @@ tags
 .obsidian
 **/.obsidian/appearance.json
 **/.obsidian/workspace.json
+**/.obsidian/graph.json
 **/.obsidian/app.json
 # exclude local files
 */local

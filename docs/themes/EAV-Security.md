@@ -22,6 +22,10 @@ Mitigate or prevent such leakage by padding all messages before encrypting them.
 - allows messages of varying lengths
 - assumes the message length is revealed
 
+A semantically secure cryptosystem is one where only negligible information about the plaintext can be feasibly extracted from the ciphertext.
+
+Perfect secrecy (See [[themes/Shannons Theorem|Shannons Theorem]]) means that the ciphertext reveals no information at all about the plaintext, whereas semantic security implies that any information revealed cannot be feasibly extracted.
+
 ## Constructing an EAV-Secure Encryption Scheme
 
 ### Pseudorandom Generators
