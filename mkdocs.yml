@@ -1,5 +1,5 @@
 site_name: IT-Security Docs
-# fix 404
+# fix 404 error
 site_url: https://janfuhrer.github.io/it-security-docs/
 
 theme:
