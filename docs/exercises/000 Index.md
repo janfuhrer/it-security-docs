@@ -6,4 +6,4 @@
 
 ### Main Keywords
 
-- #AC1 #AC2
+- keywords: #AC1 #AC2

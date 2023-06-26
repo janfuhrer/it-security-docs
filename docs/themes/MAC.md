@@ -17,13 +17,15 @@ Encryption does not (in general) provide any integrity! Ciphertexts in this case
 
 Prevent an adversary from modifying a message sent by one party to another, or from injecting a new message, without the receiver detecting that the message did not originate from the intended party $\rightarrow$ both parties share a common secret
 
-There are tow canonical application scenarios for MACs
-	1. ensuring integrity for two parties communicating with each other
-	2. one user communicating "with himself" over time (e.g. web cookies or a user protecting the contents of his hard drive)
+There are tow canonical application scenarios for MACs:
+
+1. ensuring integrity for two parties communicating with each other
+2. one user communicating "with himself" over time (e.g. web cookies or a user protecting the contents of his hard drive)
 
 #### Formal definition
 
 A *message authentication code* (or MAC) consists of three probabilistic polynomial-time algorithms ($Gen, Mac, Vrfy$) such that:
+
 1. $Gen$: takes as input $1^n$ and outputs a key $k$ with $|k| \geq n$
 2. $Mac$: takes as input a key $k$ and a message $m \in \{0, 1\}^*$, and outputs a tag $t$. Since this algorithm may be randomized, we write this as $t \leftarrow Mac_k(m)$.
 3. $Vrfy$: takes as input a key $k$, a message $m$ and a tag $t$. It outputs a bit $b = 1$ meaning valid and $b = 0$ meaning invalid. Is deterministic, so we write $b := Vrfy_k(m,t)$

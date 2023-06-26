@@ -1,36 +1,50 @@
 site_name: IT-Security Docs
 
 theme:
-    name: 'material'
-    palette:
+  name: 'material'
+  language: en
+  logo: assets/logo.png
+  favicon: assets/favicon.png
 
-    # Light mode
-    - media: "(prefers-color-scheme: light)"
-      scheme: default
-      primary: deep purple
-      accent: purple
-      toggle:
-        icon: material/toggle-switch-off-outline
-        name: Switch to dark mode
+  features:
+    # enable instant loading (XHR)
+    - navigation.instant
+    # enable back-to-top button
+    - navigation.top
+    # search highlighting
+    - search.highlight
+    - navigation.indexes
 
-    # Dark mode
-    - media: "(prefers-color-scheme: dark)"
-      scheme: slate
-      primary: deep purple
-      accent: purple
-      toggle:
-        icon: material/toggle-switch
-        name: Switch to light mode
+  palette:
+  # Light mode
+  - media: "(prefers-color-scheme: light)"
+    scheme: default
+    primary: deep purple
+    accent: purple
+    toggle:
+      icon: material/toggle-switch-off-outline
+      name: Switch to dark mode
+  # Dark mode
+  - media: "(prefers-color-scheme: dark)"
+    scheme: slate
+    primary: deep purple
+    accent: purple
+    toggle:
+      icon: material/toggle-switch
+      name: Switch to light mode
 
 # Extensions
 markdown_extensions:
   - footnotes
-  # - attr_list
+  - attr_list
   - pymdownx.arithmatex:
       generic: true
   # - pymdownx.superfences
   # - pymdownx.details
   # - pymdownx.magiclink
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
   - pymdownx.tasklist:
       custom_checkbox: true
   - def_list
@@ -44,7 +58,6 @@ markdown_extensions:
         - name: mermaid
           class: mermaid
           format: !!python/name:pymdownx.superfences.fence_code_format
-
   - toc:
       permalink: true
 
@@ -52,9 +65,13 @@ plugins:
   - search
   - roamlinks
 
-
 extra_javascript:
   - javascripts/mathjax.js
   - https://polyfill.io/v3/polyfill.min.js?features=es6
   - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
   - https://unpkg.com/mermaid/dist/mermaid.min.js
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/janfuhrer/it-security-docs

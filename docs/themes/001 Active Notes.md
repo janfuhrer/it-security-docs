@@ -5,7 +5,6 @@ links: [[themes/000 Index|Index]]
 
 **ToDo**
 - Anforderungen Cryptography -> Lösungen/Anwendungen
-- update order of pages, evt. with https://github.com/lukasgeiter/mkdocs-awesome-pages-plugin
 
 **Draft MAC**
 - Only for authentication
