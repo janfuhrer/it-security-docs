@@ -27,7 +27,7 @@ A simple example is given by an attacker typing on a terminal, which in turn enc
 - the ciphertext includes both the result as well as $r$ (to enable the receiver to decrypt)
 - a *fresh* pseudorandom pad - that depends on $r$ - is used each time a message is encrypted
 - for any key $k$, every message $m$ has $2^n$ corresponding ciphertexts
-- encryption for arbitrary length messages (fixed length)
+- encryption for fixed length messages
 - *Example*: $r$ is the IV/nonce, the seed/key is used for the pseudorandom function (as in the EAV construction)
 
 ![[cpa_with_prf.png]]
