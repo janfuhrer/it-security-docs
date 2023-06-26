@@ -4,7 +4,7 @@ links:  [[Topic 2 - Security]], [[030 Modern Cryptography MOC|Modern Cryptograph
 ---
 # OneTimePad
 
-- the key is as long as the message
+- the key is as long as the message (and also the ciphertext has the same length)
 - the OneTimePad is only secure if used once (with a given key)
 
 #### Using OneTimePad twice
