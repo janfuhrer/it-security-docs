@@ -11,12 +11,10 @@ links:  [[themes/000 Index|Index]]
     - [[themes/Shannons Theorem|Shannon's Theorem]]  
   
 **II - Private-Key (Symmetric) Cryptography**  
-- [[themes/Private-Key Encryption|Private-Key Encryption]]  
-- [[themes/Computional Security|Computional Security]]  
+- [[themes/Computational Security|Computational Security]]  
     - [[themes/EAV-Security|EAV-Security]]  
     - [[themes/CPA-Security|CPA-Security]]  
-    - [[themes/Pseudorandom Functions and Permutations|Pseudorandom Functions and Permutations]]  
-    - [[themes/Modes of Operation and Encryption in Practice|Modes of Operation and Encryption in Practice]]  
+    - Modes of Operation
         - [[themes/Stream Cipher|Stream Cipher]]  
         - [[themes/Block Cipher|Block Cipher]]  
 - [[themes/MAC|Message Authentication Codes]]  
