@@ -60,8 +60,6 @@ The encryption primitive initializes a PRNG using the generated key `k` as seed.
 The decryption primitve initializes a PRNG using the generated key `k` as seed. Then it cosumes a `len(c)` bit-string of the PRNG to XOR the string with the ciphertext `c`, which results in plaintext `m`
 
 ---
-
-tags: #AC1 #symmetric #StreamCipher #EAV #ComputationalSecurity #private-key
 links: [[themes/000 Index|Index]],  [[010 AC1 MOC|Applied Cryptography 1]], [[Topic 4 - PRNG|PRNG]]
 
 
