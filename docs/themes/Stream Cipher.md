@@ -32,7 +32,7 @@ $F_s(IV \parallel \langle 0 \rangle),F_s(IV \parallel \langle 1 \rangle), ...$
 
 Stateful encryption where the sender and receiver are required to maintain state between the encryption/decryption of different messages. Does not need to use an IV.
 
-## Unsynchronized mode
+### Unsynchronized mode
 
 When a stream cipher does take an IV, it can be used to construct a **stateless encryption scheme**. The main advantage here is that the encryption scheme directly handles arbitrary-length messages.
 

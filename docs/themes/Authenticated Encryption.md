@@ -38,7 +38,7 @@ There is no reason to ever use a CCA-secure scheme that is *not* also an authent
 	- Decryption: if $Vrfy_{kM}(c, t) \neq 1$, output $Dec_{kE}(c)$
 - with associated data $d$ simply change tag to: $t \leftarrow Mac_{kM}(d \| c)$
 
-**The need for independent keys**
+### The need for independent keys
 
 > different instances of cryptographic primitives should always use independent keys!
 
@@ -56,7 +56,7 @@ There is no reason to ever use a CCA-secure scheme that is *not* also an authent
 - uses only one single key but is proven secure
 - CCM is relatively slow and cannot be fully parallelized
 
-#### ChaCha20-Poly1305
+### ChaCha20-Poly1305
 
 - relies on the encrypt-then-authenticate approach
 - using the stream cipher ChaCha20 in [[Stream Cipher#Unsynchronized mode|unsynchronized mode]] and Poly1305 as MAC
