@@ -1,3 +1,11 @@
+tags: #AC1 
+
+# Naming Systems
+
+links:  [[111 AC1 TOC - Naming Systems|Naming Systems]] - [[themes/000 Index|Index]]
+
+---
+
 ## What are security goals for name systems?
 
 *GPT*
@@ -97,3 +105,7 @@ It's a new technology and potentially complex which makes it difficult to adopt
 - **Ownership and Transfers:** The owner of an ENS name (i.e., the account that won the initial auction) has full control over the name and can transfer it to another Ethereum address at any time.
 
 - **Renewals:** Unlike traditional DNS, ENS names are not owned permanently. They need to be renewed regularly (currently every year), which involves sending a transaction and paying a renewal fee.
+
+---
+
+links:  [[111 AC1 TOC - Naming Systems|Naming Systems]] - [[themes/000 Index|Index]]

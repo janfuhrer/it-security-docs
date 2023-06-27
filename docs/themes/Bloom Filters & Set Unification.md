@@ -1,3 +1,11 @@
+tags: #AC1 
+
+# Bloom Filters & Set Unification
+
+links:  [[112 AC1 TOC - Key Revocation|Key Revocation]] - [[themes/000 Index|Index]]
+
+---
+
 ## Explain efficient set union and how it can be achieved
 
 The problem to solve is that two nodes each have a sets with small differences and they want to sync up their sets so they end up with the same combined sets.
@@ -39,3 +47,7 @@ The advantage of IBFs is that the size of the actual set does not matter. Only t
 ## How is the size of the IBF chosen
 
 Strata Estimator...
+
+---
+
+links:  [[112 AC1 TOC - Key Revocation|Key Revocation]] - [[themes/000 Index|Index]]

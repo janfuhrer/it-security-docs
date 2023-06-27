@@ -1,3 +1,11 @@
+tags: #AC1 
+
+# Blockchain
+
+links:  [[109 AC1 TOC - Blockchain|Blockchain]] - [[themes/000 Index|Index]]
+
+---
+
 ## What is a blockchain?
 
 A blockchain is a distributed ledger which stores data in a series of blocks. Blocks contain lists of transactions and the hash of the previous block. Adding the hash of the previous block links every block to the next which leads to the formation of a chain. Altering data in a older block becomes more difficult over time because the hashes in all the following blocks have to be altered as well.
@@ -160,3 +168,7 @@ Reversing fraudulent transactions is not possible if everything is private
 
 **Regulatory compliance**
 Anti-money laundering efforts can not be supported which might make this system illegal in some parts of the world
+
+---
+
+links:  [[109 AC1 TOC - Blockchain|Blockchain]] - [[themes/000 Index|Index]]
