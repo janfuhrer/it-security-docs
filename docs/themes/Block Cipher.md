@@ -2,7 +2,7 @@ tags: #symmetric
 
 # Block Cipher
 
-links:  [[300 Modern Cryptography MOC|Modern Cryptography MOC]] - [[108 AC1 TOC - From Symmetric Encryption to Secure Channels]] - [[themes/000 Index|Index]]
+links:  [[300 Modern Cryptography MOC|Modern Cryptography MOC]] - [[[[108 AC1 TOC - From Symmetric Encryption to Secure Channels|AC1 TOC - From Symmetric Encryption to Secure Channels]] - [[themes/000 Index|Index]]
 
 ---
 ## Pseudorandom permutation / function
@@ -86,4 +86,4 @@ A **nonce** refers to a value that is supposed to be **used once, and never repe
 
 
 ---
-links:  [[300 Modern Cryptography MOC|Modern Cryptography MOC]] - [[108 AC1 TOC - From Symmetric Encryption to Secure Channels]] - [[themes/000 Index|Index]]
+links:  [[300 Modern Cryptography MOC|Modern Cryptography MOC]] - [[108 AC1 TOC - From Symmetric Encryption to Secure Channels|AC1 TOC - From Symmetric Encryption to Secure Channels]] - [[themes/000 Index|Index]]

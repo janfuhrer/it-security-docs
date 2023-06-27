@@ -2,7 +2,7 @@ tags: #symmetric
 
 # CCA-Security
 
-links:  [[300 Modern Cryptography MOC|Modern Cryptography MOC]] - [[108 AC1 TOC - From Symmetric Encryption to Secure Channels]] - [[themes/000 Index|Index]]
+links:  [[300 Modern Cryptography MOC|Modern Cryptography MOC]] - [[108 AC1 TOC - From Symmetric Encryption to Secure Channels|AC1 TOC - From Symmetric Encryption to Secure Channels]] - [[themes/000 Index|Index]]
 
 ---
 
@@ -34,4 +34,4 @@ Example from slides:
 –Symmetric Encryption by Mihir Bellare and Phillip Rog- away*
 
 ---
-links:  [[300 Modern Cryptography MOC|Modern Cryptography MOC]] - [[108 AC1 TOC - From Symmetric Encryption to Secure Channels]] - [[themes/000 Index|Index]]
+links:  [[300 Modern Cryptography MOC|Modern Cryptography MOC]] - [[108 AC1 TOC - From Symmetric Encryption to Secure Channels|AC1 TOC - From Symmetric Encryption to Secure Channels]] - [[themes/000 Index|Index]]

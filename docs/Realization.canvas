@@ -8,7 +8,7 @@
 		{"type":"text","text":"# Jan","id":"a0e14f64ac0383a1","x":-980,"y":-300,"width":310,"height":220},
 		{"type":"text","text":"# Joel\n","id":"e4c703da1804a3eb","x":-980,"y":0,"width":310,"height":220},
 		{"type":"text","text":"# Mario","id":"68def68ed611a68f","x":-980,"y":300,"width":310,"height":220},
-		{"type":"text","text":"# Oliver\n- ~~Topic 9~~","id":"16b26a5424865cd0","x":-980,"y":620,"width":310,"height":220},
+		{"type":"text","text":"# Oliver\n- ~~Topic 8~~\n- ~~Topic 9~~","id":"16b26a5424865cd0","x":-980,"y":620,"width":310,"height":220},
 		{"type":"file","file":"themes/200 AC2 MOC.md","id":"05878e87fbfabe55","x":840,"y":-700,"width":740,"height":1380},
 		{"type":"text","text":"# Jan","id":"b2a8122072bfe469","x":1980,"y":-300,"width":310,"height":220},
 		{"type":"text","text":"# Joel\n- [[themes/Topic 11 - DPKI]]","id":"8c52720c7c15cbd3","x":1980,"y":0,"width":310,"height":220},

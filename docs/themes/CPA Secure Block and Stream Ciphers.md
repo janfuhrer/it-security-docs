@@ -2,7 +2,7 @@ tags: #AC1 #symmetric #StreamCipher #BlockCipher
 
 # CPA Secure Block and Stream Ciphers
 
-links [[105 AC1 TOC - Private Key Encryption|AC1 TOC - Private Key Encryption]] - [[108 AC1 TOC - From Symmetric Encryption to Secure Channels]] - [[themes/000 Index|Index]]
+links [[105 AC1 TOC - Private Key Encryption|AC1 TOC - Private Key Encryption]] - [[108 AC1 TOC - From Symmetric Encryption to Secure Channels|AC1 TOC - From Symmetric Encryption to Secure Channels]] - [[themes/000 Index|Index]]
 
 ---
 ### CPA - Attacker Model
@@ -21,4 +21,4 @@ No IV re-use has to be ensured
 
 ---
 
-links [[105 AC1 TOC - Private Key Encryption|AC1 TOC - Private Key Encryption]] - [[108 AC1 TOC - From Symmetric Encryption to Secure Channels]] - [[themes/000 Index|Index]]
+links [[105 AC1 TOC - Private Key Encryption|AC1 TOC - Private Key Encryption]] - [[108 AC1 TOC - From Symmetric Encryption to Secure Channels|AC1 TOC - From Symmetric Encryption to Secure Channels]] - [[themes/000 Index|Index]]

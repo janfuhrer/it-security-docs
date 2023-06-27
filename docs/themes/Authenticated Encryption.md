@@ -2,7 +2,7 @@ tags: #symmetric
 
 # Authenticated Encryption
 
-links:  [[300 Modern Cryptography MOC|Modern Cryptography MOC]] - [[108 AC1 TOC - From Symmetric Encryption to Secure Channels]]- [[themes/000 Index|Index]]
+links:  [[300 Modern Cryptography MOC|Modern Cryptography MOC]] - [[108 AC1 TOC - From Symmetric Encryption to Secure Channels|AC1 TOC - From Symmetric Encryption to Secure Channels]] - [[themes/000 Index|Index]]
 
 ---
 
@@ -77,4 +77,4 @@ $\rightarrow$ this attacks can be addressed using a **counter**
 $\rightarrow$ this attack can be addressed using a **directionality bit**
 
 ---
-links:  [[300 Modern Cryptography MOC|Modern Cryptography MOC]] - [[108 AC1 TOC - From Symmetric Encryption to Secure Channels]] - [[themes/000 Index|Index]]
+links:  [[300 Modern Cryptography MOC|Modern Cryptography MOC]] - [[108 AC1 TOC - From Symmetric Encryption to Secure Channels|AC1 TOC - From Symmetric Encryption to Secure Channels]] - [[themes/000 Index|Index]]

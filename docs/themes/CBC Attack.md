@@ -2,7 +2,7 @@ tags: #AC1
 
 # CBC Attack
 
-links:  [[108 AC1 TOC - From Symmetric Encryption to Secure Channels]] - [[themes/000 Index|Index]]
+links:  [[108 AC1 TOC - From Symmetric Encryption to Secure Channels|AC1 TOC - From Symmetric Encryption to Secure Channels]] - [[themes/000 Index|Index]]
 
 ---
 
@@ -13,4 +13,4 @@ https://github.com/janfuhrer/it-security-docs/issues/29
 
 ---
 
-links:  [[108 AC1 TOC - From Symmetric Encryption to Secure Channels]] - [[themes/000 Index|Index]]
+links:  [[108 AC1 TOC - From Symmetric Encryption to Secure Channels|AC1 TOC - From Symmetric Encryption to Secure Channels]] - [[themes/000 Index|Index]]
