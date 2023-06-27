@@ -5,7 +5,7 @@ The Notes are based on the [[IMF Framework]] (get familiar with the concept firs
 
 ### Index Categories
 
-000s - [[themes/000 Index|Index]], [[001 Active Notes|Active Notes]], and the following Maps of Content (MOCs):  
+000s - [[themes/000 Index|Index]], [[001 Active Notes|Active Notes]], [[002 Terms|Terms]] and the following Maps of Content (MOCs):  
 100s - [[100 AC1 MOC|Applied Cryptography 1]]: symmetric cryptography  
 200s - [[200 AC2 MOC|Applied Cryptography 2]]: asymmetric cryptography  
 300s - [[300 Modern Cryptography MOC|Modern Cryptography]]: summary of the book "Introduction to Modern Cryptography" [^1]
