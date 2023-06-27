@@ -1,5 +1,5 @@
 tags: #asymmetric 
-links:  [[Topic 10 - Anonymity]], [[themes/000 Index|Index]]
+links:  [[210 AC2 TOC - Anonymity]], [[themes/000 Index|Index]]
 
 ---
 # Attacks
@@ -111,4 +111,4 @@ Ensuring that timestamps are consistent with other nodes' clocks can prevent att
 Systems that monitor for unusual timing patterns can help detect potential timing attacks.
 
 ---
-links:  [[Topic 10 - Anonymity]], [[themes/000 Index|Index]]
+links:  [[210 AC2 TOC - Anonymity]], [[themes/000 Index|Index]]

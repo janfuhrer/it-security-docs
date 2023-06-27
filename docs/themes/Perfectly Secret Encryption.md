@@ -1,5 +1,5 @@
 tags: #symmetric
-links:  [[030 Modern Cryptography MOC|Modern Cryptography MOC]] - [[themes/000 Index|Index]]
+links:  [[300 Modern Cryptography MOC|Modern Cryptography MOC]] - [[themes/000 Index|Index]]
 
 ---
 # Perfectly Secret Encryption
@@ -23,4 +23,4 @@ For a scheme to be perfectly secret, observing this ciphertext should have no ef
 - Decryption algorithm is **deterministic**: $m := Dec_k(c)$
 
 ---
-links: [[030 Modern Cryptography MOC|Modern Cryptography MOC]] - [[themes/000 Index|Index]]
+links: [[300 Modern Cryptography MOC|Modern Cryptography MOC]] - [[themes/000 Index|Index]]

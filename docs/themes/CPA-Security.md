@@ -1,5 +1,5 @@
 tags: #symmetric #cpa
-links:  [[030 Modern Cryptography MOC|Modern Cryptography MOC]] - [[themes/000 Index|Index]]
+links:  [[300 Modern Cryptography MOC|Modern Cryptography MOC]] - [[themes/000 Index|Index]]
 
 ---
 # CPA-Security
@@ -45,4 +45,4 @@ A simple example is given by an attacker typing on a terminal, which in turn enc
 - $Func_n$: set of all functions mapping $n$-bit strings to $n$-bit strings.
 
 ---
-links:  [[030 Modern Cryptography MOC|Modern Cryptography MOC]] - [[themes/000 Index|Index]]
+links:  [[300 Modern Cryptography MOC|Modern Cryptography MOC]] - [[themes/000 Index|Index]]

@@ -1,5 +1,5 @@
 tags: #symmetric  #social
-links:  [[Topic 1 - Intro]] - [[themes/000 Index|Index]]
+links:  [[101 AC1 TOC - Intro]] - [[themes/000 Index|Index]]
 
 ---
 # Hacking
@@ -43,4 +43,4 @@ Example input: `Robert’); DROP TABLE students;--`
 4. Exfiltration
 
 ---
-links:  [[Topic 1 - Intro]] - [[themes/000 Index|Index]]
+links:  [[101 AC1 TOC - Intro]] - [[themes/000 Index|Index]]

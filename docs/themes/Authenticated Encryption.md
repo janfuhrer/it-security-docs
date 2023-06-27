@@ -1,5 +1,5 @@
 tags: #symmetric
-links:  [[030 Modern Cryptography MOC|Modern Cryptography MOC]] - [[themes/000 Index|Index]]
+links:  [[300 Modern Cryptography MOC|Modern Cryptography MOC]] - [[themes/000 Index|Index]]
 
 ---
 # Authenticated Encryption
@@ -74,4 +74,4 @@ $\rightarrow$ this attacks can be addressed using a **counter**
 $\rightarrow$ this attack can be addressed using a **directionality bit**
 
 ---
-links:  [[030 Modern Cryptography MOC|Modern Cryptography MOC]] - [[themes/000 Index|Index]]
+links:  [[300 Modern Cryptography MOC|Modern Cryptography MOC]] - [[themes/000 Index|Index]]

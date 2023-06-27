@@ -1,5 +1,5 @@
 tags: #symmetric
-links:  [[030 Modern Cryptography MOC|Modern Cryptography MOC]] - [[themes/000 Index|Index]]
+links:  [[300 Modern Cryptography MOC|Modern Cryptography MOC]] - [[themes/000 Index|Index]]
 
 ---
 # CCA-Security
@@ -24,4 +24,4 @@ CCA-security implies a very important property called *non-malleability*.
 
 
 ---
-links:  [[030 Modern Cryptography MOC|Modern Cryptography MOC]] - [[themes/000 Index|Index]]
+links:  [[300 Modern Cryptography MOC|Modern Cryptography MOC]] - [[themes/000 Index|Index]]

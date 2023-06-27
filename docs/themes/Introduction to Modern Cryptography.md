@@ -1,5 +1,5 @@
 tags: #symmetric #kerckhoff #historicalCiphers
-links:  [[030 Modern Cryptography MOC|Modern Cryptography MOC]] - [[themes/000 Index|Index]]
+links:  [[300 Modern Cryptography MOC|Modern Cryptography MOC]] - [[themes/000 Index|Index]]
 
 ---
 # Introduction to Modern Cryptography
@@ -59,4 +59,4 @@ $\rightarrow$ can be broken with enough obtained ciphertexts (and/or if the key 
 	- The key-space must be sufficient large to make an brute-force attack infeasible
 
 ---
-links: [[030 Modern Cryptography MOC|Modern Cryptography MOC]] - [[themes/000 Index|Index]]
+links: [[300 Modern Cryptography MOC|Modern Cryptography MOC]] - [[themes/000 Index|Index]]

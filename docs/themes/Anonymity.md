@@ -1,5 +1,5 @@
 tags: #asymmetric #social 
-links:  [[Topic 10 - Anonymity]], [[themes/000 Index|Index]]
+links:  [[210 AC2 TOC - Anonymity]], [[themes/000 Index|Index]]
 
 ---
 # Anonymity
@@ -107,4 +107,4 @@ If an anonymity service is compromised or associated with illicit activities, it
 High-reputation anonymizing servers with a lot of traffic are likely targets for compromise due to their value for attackers. These servers handle substantial data, making them attractive for malicious actors seeking valuable information or aiming to deanonymize users. Despite this, good security measures can help protect these servers, but their risk of compromise is higher due to their prominence.
 
 ---
-links:  [[Topic 10 - Anonymity]], [[themes/000 Index|Index]]
+links:  [[210 AC2 TOC - Anonymity]], [[themes/000 Index|Index]]

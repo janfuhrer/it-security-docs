@@ -1,5 +1,5 @@
 tags: #symmetric
-links:  [[030 Modern Cryptography MOC|Modern Cryptography MOC]] - [[themes/000 Index|Index]]
+links:  [[300 Modern Cryptography MOC|Modern Cryptography MOC]] - [[themes/000 Index|Index]]
 
 ---
 # Hash Functions
@@ -59,4 +59,4 @@ $H$ is one-way, if we have $y$ ($y = H(x)$) we cannot go back to find a $x'$ to 
 
 
 ---
-links:  [[030 Modern Cryptography MOC|Modern Cryptography MOC]] - [[themes/000 Index|Index]]
+links:  [[300 Modern Cryptography MOC|Modern Cryptography MOC]] - [[themes/000 Index|Index]]

@@ -1,5 +1,5 @@
 tags: #symmetric 
-links:  [[Topic 2 - Security]], [[themes/000 Index|Index]]
+links:  [[102 AC1 TOC  - Security]], [[themes/000 Index|Index]]
 
 ---
 # Security
@@ -17,4 +17,4 @@ Questions to be asked to reach security:
 - **Trust** - Assumptions, borders of problem domain
 
 ---
-links:  [[Topic 2 - Security]], [[themes/000 Index|Index]]
+links:  [[102 AC1 TOC  - Security]], [[themes/000 Index|Index]]

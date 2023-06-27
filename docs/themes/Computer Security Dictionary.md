@@ -1,5 +1,5 @@
 tags: #symmetric #meta
-links:  [[Topic 1 - Intro]] - [[themes/000 Index|Index]]
+links:  [[101 AC1 TOC - Intro]] - [[themes/000 Index|Index]]
 
 ---
 # Computer Security Dictionary
@@ -173,4 +173,4 @@ Encryption is the process of encoding of a message in such a way that only autho
 * Shared outcome: data in, statistical predictors out
 
 ---
-links:  [[Topic 1 - Intro]] - [[themes/000 Index|Index]]
+links:  [[101 AC1 TOC - Intro]] - [[themes/000 Index|Index]]

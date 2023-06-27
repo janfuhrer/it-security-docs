@@ -1,5 +1,5 @@
 tags: #symmetric #eav
-links:  [[030 Modern Cryptography MOC|Modern Cryptography MOC]] - [[themes/000 Index|Index]]
+links:  [[300 Modern Cryptography MOC|Modern Cryptography MOC]] - [[themes/000 Index|Index]]
 
 ---
 # EAV-Security
@@ -60,4 +60,4 @@ Rather than sharing this long, pseudorandom pad, the sender and receiver can ins
 ![[eav_with_prng.png]]
 
 ---
-links:  [[030 Modern Cryptography MOC|Modern Cryptography MOC]] - [[themes/000 Index|Index]]
+links:  [[300 Modern Cryptography MOC|Modern Cryptography MOC]] - [[themes/000 Index|Index]]
