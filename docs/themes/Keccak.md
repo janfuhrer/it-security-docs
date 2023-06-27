@@ -1,6 +1,6 @@
 tags: #AC1 #symmetric #StreamCipher #Keccak #SHA-3
 
-## Sponge Construction
+# Sponge Construction
 
 links: [[105 AC1 TOC - Stream Cipher|AC1 TOC - Stream Cipher]] - [[themes/000 Index|Index]]
 
@@ -81,6 +81,13 @@ Now that the absorbing phase is finished, we can squeeze  until we got enough bi
 8. apply $P(state) = 10110000 \lor 00000000 = 10110000$
 
 Appending the results of the squeeze cycles to one another results in $1011 1011 1011 1011$ which represents the result.
+
+### Building Ciphers with Keccak
+
+* Generating a One Time Pad for the required message length. This gives us as a possibility to build a Stream-Cipher. We just continue to squeeze more bits out of the XOF if needed.
+* Keccak can also be used for a Block-Cipher. Ascon-128 is such a cipher.
+	1. Absorb-Phase: Add the key and a counter
+	2. Squeeze-Phase: Take out the length of one block
 
 ---
 links: [[105 AC1 TOC - Stream Cipher|AC1 TOC - Stream Cipher]] - [[themes/000 Index|Index]]
