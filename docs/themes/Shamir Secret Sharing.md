@@ -27,17 +27,32 @@ Below are the 3 problems with a suggested solution:
 
 ### Scalability
 
-> If you want k out of n entities to coordinate to recover a secret, there are $$\binom{n}{k} = \frac{n!}{k!(n-k)!}$$ combinations to consider
+> If you want k out of n entities to coordinate to recover a secret, there are 
+> 
+> $$\binom{n}{k} = \frac{n!}{k!(n-k)!}$$
+>  combinations to consider
 
 => Use Polynominals!
 
 **Polynominals**
 
-A polynominal of degree k is fully determined by k + 1 data points $$(x_0,y_0), ...,(x_j,y_j),...,(x_k,y_k),$$where no two $x_j$ may be identical.
+A polynominal of degree k is fully determined by k + 1 data points 
+
+$$(x_0,y_0), ...,(x_j,y_j),...,(x_k,y_k),$$
+
+where no two $x_j$ may be identical.
 
 **Lagrange Interpolation**
+
 The interpolation polynominal in the Lagrange form is:
-$$L(x)= \sum_{j=0}^k y_j l_j(x)$$ where$$L_j(x)= \prod_{0\le m \le k} \frac{x-x_m}{x_j-x_m}=\frac{x-x_0}{x_j-x_0} \cdots \frac{x-x_{j-1}}{x_j-x_{j-1}} \frac{x-x_{j+1}}{x_j-x_{j+1}} \cdots \frac{x-x_{k}}{x_j-x_{k}}$$  for 0 **$\le$ j $\le$ k
+
+$$L(x)= \sum_{j=0}^k y_j l_j(x)$$
+
+where
+
+$$L_j(x)= \prod_{0\le m \le k} \frac{x-x_m}{x_j-x_m}=\frac{x-x_0}{x_j-x_0} \cdots \frac{x-x_{j-1}}{x_j-x_{j-1}} \frac{x-x_{j+1}}{x_j-x_{j+1}} \cdots \frac{x-x_{k}}{x_j-x_{k}}$$
+
+for 0 **$\le$ j $\le$ k
 
 **Practical Considerations**
 
