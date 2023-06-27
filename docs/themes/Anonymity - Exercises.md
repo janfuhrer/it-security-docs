@@ -4,9 +4,16 @@ links:  [[210 AC2 TOC - Anonymity]], [[themes/000 Index|Index]]
 ---
 # Exercises
 
-![[entropy_calculation_example.png]]
+## Entropy Calculation Example
 
-ToDo How does Entropy calculation work?
+Suppose we have 101 suspects including Bob. Furthermore, suppose for Bob the attacker has a probability of 0.9 and for all the 100 other suspects the probability is 0.001. What is the entropy of this?
+
+$\sum_{i=1}^{n} p_i \cdot \log_{2}\left(\frac{1}{p_i}\right)$
+
+$100 * \frac{1}{1000} * \log_{2}(1000) + \frac{9}{10} * log_{2}(\frac{10}{9}) = 1.133$
+
+
+100 suspects with probability $\frac{1}{1000}$ and 1 suspect with probability $\frac{9}{10}$
 
 ## Explain the Dining Cryptographers Problem
 Every two cryptographers establish a shared one-bit secret. Everyone then makes an XOR out of the two shared one-bit secrets and reveals the result.
