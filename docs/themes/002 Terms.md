@@ -39,9 +39,16 @@ links: [[themes/000 Index|Index]]
 **Random**
 
 * PRG (Pseudo Random Generator)
-* PRNG (Pseudo Random Number Generator) - Subset of PRG. Used interchangeably.
-* PRF (Pseudo Random Function) - [KDF > PRF > MAC](https://crypto.stackexchange.com/a/60652)
-* RNG/TRNG (True Random Number Generator)
+* PRNG (Pseudo Random Number Generator)
+	* Subset of PRG. Used interchangeably.
+* CSPRNG (Cryptographically secure pseudorandom number generator)
+	* A PRNG that is safe for cryptographic use. (Assuming the seed is picked correctly)
+* PRF (Pseudo Random Function) 
+	* [KDF > PRF > MAC](https://crypto.stackexchange.com/a/60652)
+* RNG (Random Number Generator)
+	* Some mechanism that produces random numbers
+* TRNG (True Random Number Generator)
+	* An RNG that is based off of some unpredictable physical process.
 
 ---
 links: [[themes/000 Index|Index]]
