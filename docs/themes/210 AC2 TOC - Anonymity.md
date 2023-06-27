@@ -1,8 +1,10 @@
 tags: #AC2
+
+# AC2 TOC - Anonymity
+
 links:  [[200 AC2 MOC|AC2 MOC]] - [[themes/000 Index|Index]]
 
 ---
-# AC2 TOC - Anonymity
 
 - [[themes/Anonymity|Anonymity]]
 - [[Anonymity - Attacks|Attacks]]

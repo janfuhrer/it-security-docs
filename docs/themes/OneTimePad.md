@@ -1,11 +1,10 @@
 tags: #symmetric 
 
----
-
 # OneTimePad
 
 links:  [[102 AC1 TOC - Security]] - [[300 Modern Cryptography MOC|Modern Cryptography MOC]] - [[themes/000 Index|Index]]
 
+---
 
 - the key is as long as the message (and also the ciphertext has the same length)
 - the OneTimePad is only secure if used once (with a given key)

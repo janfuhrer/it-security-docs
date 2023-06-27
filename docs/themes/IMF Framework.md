@@ -1,8 +1,10 @@
 tags: #IMF
+
+# The IMF Framework
+
 links: [[themes/000 Index|Index]]
 
 ---
-# The IMF Framework
 
 IMF stands for "**Index** and **Maps of Content**, and other fluid **Frameworks**".
 

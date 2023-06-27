@@ -1,9 +1,10 @@
 tags: #symmetric #cpa
 
----
 # CPA-Security
 
 links:  [[300 Modern Cryptography MOC|Modern Cryptography MOC]] - [[themes/000 Index|Index]]
+
+---
 
 The attacker can e.g. influence and observe what messages get encrypted. At some later point in time, the attacker observes a ciphertext corresponding to some unknown message encrypted using the same key $k$. Let us even assume that the attacker knows that $m$ is one of two possibilities $m_0, m_1$. Security against CPA means that even in this case the attacker cannot tell which of those two messages was encrypted with probability significantly better than random guessing.
 

@@ -1,8 +1,10 @@
 tags: #AC1
+
+# AC1 TOC - Stream Cipher
+
 links:  [[100 AC1 MOC|AC1 MOC]] - [[themes/000 Index|Index]]
 
 ---
-# AC1 TOC - Stream Cipher
 
 - [[Private Key Encryption]]
 - [[Keccak]]

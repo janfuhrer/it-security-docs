@@ -1,9 +1,10 @@
 tags: #symmetric 
 
----
 # Shannon's Theorem
 
-links:  [[102 AC1 TOC - Security]], [[300 Modern Cryptography MOC|Modern Cryptography MOC]] - [[themes/000 Index|Index]]
+links:  [[102 AC1 TOC - Security]] -[[300 Modern Cryptography MOC|Modern Cryptography MOC]] - [[themes/000 Index|Index]]
+
+---
 
 Shannon provided a characterization of perfectly secret encryption schemes.
 
@@ -13,4 +14,4 @@ Shannon provided a characterization of perfectly secret encryption schemes.
 > 	2. For every $m \in M$ and every $c \in C$, there is a unique key $k \in K$ such that $Enc_k(m)$ outputs $c$
 
 ---
-links:  [[102 AC1 TOC - Security]], [[300 Modern Cryptography MOC|Modern Cryptography MOC]] - [[themes/000 Index|Index]]
+links:  [[102 AC1 TOC - Security]] - [[300 Modern Cryptography MOC|Modern Cryptography MOC]] - [[themes/000 Index|Index]]
