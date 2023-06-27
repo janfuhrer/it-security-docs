@@ -2,7 +2,7 @@ tags: #symmetric
 
 # Shannon Cipher
 
-links:  [[themes/102 AC1 TOC - Security|AC1 TOC - Security]] - [[themes/000 Index|Index]]
+links:  [[102 AC1 TOC - Security & Cryptography|AC1 TOC - Security & Cryptography]] - [[themes/000 Index|Index]]
 
 ---
 
@@ -43,4 +43,4 @@ A different message with the same key should result in a strictly different ciph
 Refers to the decryption of the message.
 
 ---
-links:  [[themes/102 AC1 TOC - Security|AC1 TOC - Security]] - [[themes/000 Index|Index]]
+links:  [[102 AC1 TOC - Security & Cryptography|AC1 TOC - Security & Cryptography]] - [[themes/000 Index|Index]]

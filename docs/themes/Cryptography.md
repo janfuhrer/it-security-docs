@@ -2,7 +2,7 @@ tags: #symmetric
 
 # Cryptography
 
-links:  [[themes/102 AC1 TOC - Security|AC1 TOC - Security]] - [[themes/000 Index|Index]]
+links:  [[102 AC1 TOC - Security & Cryptography|AC1 TOC - Security & Cryptography]] - [[themes/000 Index|Index]]
 
 ---
 
@@ -20,4 +20,4 @@ Through cryptography we can maintain **PAIN**:
 - Nonrepudiation
 
 ---
-links:  [[themes/102 AC1 TOC - Security|AC1 TOC - Security]] - [[themes/000 Index|Index]]
+links:  [[102 AC1 TOC - Security & Cryptography|AC1 TOC - Security & Cryptography]] - [[themes/000 Index|Index]]

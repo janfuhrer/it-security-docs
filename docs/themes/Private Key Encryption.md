@@ -2,7 +2,7 @@ tags: #AC1 #symmetric #StreamCipher #EAV #ComputationalSecurity #private-key
 
 # Private Key Encryption
 
-links [[105 AC1 TOC - Stream Cipher|AC1 TOC - Stream Cipher]] - [[themes/000 Index|Index]]
+links [[105 AC1 TOC - Private Key Encryption|AC1 TOC - Private Key Encryption]] - [[themes/000 Index|Index]]
 
 ---
 ## Private-Key Encryption Scheme
@@ -30,7 +30,7 @@ m = Dec(k, c):
 - Indistinguishability
 
 ### Constructing Private-Key Encryption Scheme
-The idea of stream ciphers is to leverage a [[Pseudorandom Number Generator (PRNG)|Pseudorandom Number Generator (PRNG)]] and generate a one-time pad using a key. This pad is then XORed onto the plaintext. This gives a ciphertext. For decryption again take the key and the [[Pseudorandom Number Generator (PRNG)|Pseudorandom Number Generator (PRNG)]] and create the one-time pad. XORing the pad with the ciphertext will result in the plaintext. The key must be generated using the Gen(n) primitive of the respective private-key encryption scheme.
+The idea of stream ciphers is to leverage a [[Pseudorandom Number Generator|Pseudorandom Number Generator]] and generate a one-time pad using a key. This pad is then XORed onto the plaintext. This gives a ciphertext. For decryption again take the key and the [[Pseudorandom Number Generator|Pseudorandom Number Generator]] and create the one-time pad. XORing the pad with the ciphertext will result in the plaintext. The key must be generated using the Gen(n) primitive of the respective private-key encryption scheme.
 
 Here a simple example (the lengths are chosen for the example and are not secure):
 
@@ -63,7 +63,7 @@ The encryption primitive initializes a PRNG using the generated key `k` as seed.
 The decryption primitve initializes a PRNG using the generated key `k` as seed. Then it cosumes a `len(c)` bit-string of the PRNG to XOR the string with the ciphertext `c`, which results in plaintext `m`
 
 ---
-links [[105 AC1 TOC - Stream Cipher|AC1 TOC - Stream Cipher]] - [[themes/000 Index|Index]]
+links [[105 AC1 TOC - Private Key Encryption|AC1 TOC - Private Key Encryption]] - [[themes/000 Index|Index]]
 
 
 
