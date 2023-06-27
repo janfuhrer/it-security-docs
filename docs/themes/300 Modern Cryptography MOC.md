@@ -1,8 +1,9 @@
 tags: #ModernCryptography
-links:  [[themes/000 Index|Index]]
 
 ---
 # Introduction to Modern Cryptography MOC
+
+links:  [[themes/000 Index|Index]]
 
 **I - Introduction and Classical Cryptography**
 

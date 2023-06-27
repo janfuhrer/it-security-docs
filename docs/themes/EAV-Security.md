@@ -1,8 +1,9 @@
 tags: #symmetric #eav
-links:  [[300 Modern Cryptography MOC|Modern Cryptography MOC]] - [[themes/000 Index|Index]]
 
 ---
 # EAV-Security
+
+links:  [[300 Modern Cryptography MOC|Modern Cryptography MOC]] - [[themes/000 Index|Index]]
 
 EAV-security implies that ciphertexts leak no information about individual bits of the plainttext.
 
