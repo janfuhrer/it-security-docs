@@ -2,7 +2,7 @@ tags: #AC1 #symmetric #StreamCipher #BlockCipher
 
 # CPA Secure Block and Stream Ciphers
 
-links [[105 AC1 TOC - Stream Cipher|AC1 TOC - Stream Cipher]] - [[themes/000 Index|Index]]
+links [[105 AC1 TOC - Private Key Encryption|AC1 TOC - Private Key Encryption]] - [[themes/000 Index|Index]]
 
 ---
 ### CPA - Attacker Model
@@ -14,4 +14,4 @@ links [[105 AC1 TOC - Stream Cipher|AC1 TOC - Stream Cipher]] - [[themes/000 Ind
 ### CPA-Secure Stream Cipher
 
 ---
-links [[105 AC1 TOC - Stream Cipher|AC1 TOC - Stream Cipher]] - [[themes/000 Index|Index]]
+links [[105 AC1 TOC - Private Key Encryption|AC1 TOC - Private Key Encryption]] - [[themes/000 Index|Index]]

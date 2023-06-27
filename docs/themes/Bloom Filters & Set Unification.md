@@ -2,7 +2,7 @@ tags: #AC1
 
 # Bloom Filters & Set Unification
 
-links:  [[112 AC1 TOC - Key Revocation|Key Revocation]] - [[themes/000 Index|Index]]
+links:  [[112 AC1 TOC - Key Revocation|AC1 TOC - Key Revocation]] - [[themes/000 Index|Index]]
 
 ---
 
@@ -49,5 +49,4 @@ The advantage of IBFs is that the size of the actual set does not matter. Only t
 Strata Estimator...
 
 ---
-
-links:  [[112 AC1 TOC - Key Revocation|Key Revocation]] - [[themes/000 Index|Index]]
+links:  [[112 AC1 TOC - Key Revocation|AC1 TOC - Key Revocation]] - [[themes/000 Index|Index]]

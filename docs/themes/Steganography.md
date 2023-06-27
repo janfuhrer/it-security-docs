@@ -2,7 +2,7 @@ tags: #symmetric
 
 # Steganography
 
-links:  [[themes/102 AC1 TOC - Security|AC1 TOC - Security]] - [[themes/000 Index|Index]]
+links:  [[102 AC1 TOC - Security & Cryptography|AC1 TOC - Security & Cryptography]] - [[themes/000 Index|Index]]
 
 ---
 
@@ -13,4 +13,4 @@ Steganography is the practice of hiding information or messages within other non
 In steganography, the secret information is embedded within the carrier data by making subtle modifications that are visually or audibly imperceptible to the human senses. The carrier file, also known as the cover file, can be an image, audio file, or any other digital file format that provides enough redundancy or complexity to allow the hidden information to be concealed within it.
 
 ---
-links:  [[themes/102 AC1 TOC - Security|AC1 TOC - Security]] - [[themes/000 Index|Index]]
+links:  [[102 AC1 TOC - Security & Cryptography|AC1 TOC - Security & Cryptography]] - [[themes/000 Index|Index]]

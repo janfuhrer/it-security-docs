@@ -1,6 +1,6 @@
 tags: #AC1 #Randomness #symmetric #Pseudorandom
 
-# Pseudorandom Number Generator
+# Pseudorandom Number Generator (PRNG)
 
 links: [[100 AC1 MOC|AC1 MOC]] - [[themes/000 Index|Index]]
 

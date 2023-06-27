@@ -2,7 +2,7 @@ tags: #AC1 #symmetric #StreamCipher #Keccak #SHA-3
 
 # Sponge Construction
 
-links: [[105 AC1 TOC - Stream Cipher|AC1 TOC - Stream Cipher]] - [[themes/000 Index|Index]]
+links: [[105 AC1 TOC - Private Key Encryption|AC1 TOC - Private Key Encryption]] - [[themes/000 Index|Index]]
 
 ---
 
@@ -90,4 +90,4 @@ Appending the results of the squeeze cycles to one another results in $1011 1011
 	2. Squeeze-Phase: Take out the length of one block
 
 ---
-links: [[105 AC1 TOC - Stream Cipher|AC1 TOC - Stream Cipher]] - [[themes/000 Index|Index]]
+links: [[105 AC1 TOC - Private Key Encryption|AC1 TOC - Private Key Encryption]] - [[themes/000 Index|Index]]
