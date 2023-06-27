@@ -53,7 +53,7 @@ where
 
 $$L_j(x)= \prod_{0\le m \le k} \frac{x-x_m}{x_j-x_m}=\frac{x-x_0}{x_j-x_0} \cdots \frac{x-x_{j-1}}{x_j-x_{j-1}} \frac{x-x_{j+1}}{x_j-x_{j+1}} \cdots \frac{x-x_{k}}{x_j-x_{k}}$$
 
-for 0 **$\le$ j $\le$ k
+for 0 $\le$ j $\le$ k
 
 **Practical Considerations**
 
