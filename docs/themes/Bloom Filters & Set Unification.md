@@ -19,6 +19,7 @@ The receiver of a CBF can subtract all the elements from its set and when the CB
 
 **Invertible Bloom Filters**
 Extension of CBF. They allow negative counts are they store XOR-sums of the elements hashes in the buckets. This allows extraction of elements from the IBF and the construction of a symmetric difference.
+https://www.youtube.com/watch?v=YNbcXlllOBQ
 
 **Extraction**
 1. Chose a pure bucket (bucket with count 1) and read pure hash
