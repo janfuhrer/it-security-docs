@@ -2,7 +2,7 @@ tags: #symmetric
 
 # CCA-Security
 
-links:  [[300 Modern Cryptography MOC|Modern Cryptography MOC]] - [[themes/000 Index|Index]]
+links:  [[300 Modern Cryptography MOC|Modern Cryptography MOC]] - [[108 AC1 TOC - From Symmetric Encryption to Secure Channels]] - [[themes/000 Index|Index]]
 
 ---
 
@@ -24,6 +24,14 @@ CCA-security implies a very important property called *non-malleability*.
 
 > A non-malleable encryption scheme has the property that if the adversary modifies a given ciphertext, the result decrypts to a plaintext that bears no relation to the original one.
 
+## Authenticity
+
+IND-CCA itself does not provide authenticity. CCA only requires that an attacker cannot determine which of two different plaintexts a given ciphertext corresponds to. Authenticity cannot be provided because under IND-CCA an attacker is still able to create a new valid ciphertext.
+
+Example from slides:
+*CTR schemes are IND-CCA insecure:
+“Say ⟨r,C⟩ is a ciphertext of some l-bit message M, and we flip bit i of C, resulting in a new ciphertext ⟨r,C′⟩. Let M′ be the message obtained by decrypting the new ciphertext. Then M′ equals M with the i-th bit flipped. Thus, by making a decryption oracle query of⟨r,C′⟩one can learn M′ and thus M.”
+–Symmetric Encryption by Mihir Bellare and Phillip Rog- away*
 
 ---
-links:  [[300 Modern Cryptography MOC|Modern Cryptography MOC]] - [[themes/000 Index|Index]]
+links:  [[300 Modern Cryptography MOC|Modern Cryptography MOC]] - [[108 AC1 TOC - From Symmetric Encryption to Secure Channels]] - [[themes/000 Index|Index]]
