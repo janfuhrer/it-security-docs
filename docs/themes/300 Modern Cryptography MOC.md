@@ -27,6 +27,7 @@ links:  [[themes/000 Index|Index]]
 - [[themes/Hash Functions|Hash Functions]]
     - [[themes/Random-Oracle Model|Random-Oracle Model]]
     - [[themes/Additional Applications of Hash Functions|Additional Applications of Hash Functions]]
+    - [[themes/Examples of Hash Functions|Examples of Hash Functions]]
   
 **III - Public-Key (Asymmetric) Cryptography**
 

@@ -30,11 +30,20 @@ We have $x$ and cannot find a $x'$ wich results to the same Hash $y$ for both $x
 
 $H$ is one-way, if we have $y$ ($y = H(x)$) we cannot go back to find a $x'$ to compute $y$
 
-## Merkle-Damgård Transform
+## Compress Functions
+
+### Merkle-Damgård Transform
 
 - maps inputs of arbitrary length to outputs of length $n$
 
 ![[merkle_damgard_transform.png]]
+
+### Davies-Meyer
+
+- Davies-Meyer is a compress function from a block cipher
+- $F$ is a strong pseudorandom permutation
+
+![[davies_meyer-construction.png]]
 
 ## Hash-and-MAC
 
