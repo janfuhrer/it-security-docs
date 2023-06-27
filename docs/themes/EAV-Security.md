@@ -6,7 +6,9 @@ links:  [[300 Modern Cryptography MOC|Modern Cryptography MOC]] - [[themes/000 I
 
 ---
 
-EAV-security implies that ciphertexts leak no information about individual bits of the plainttext.
+## General definition
+
+EAV-security implies that ciphertexts leak no information about individual bits of the plaintext.
 
 > A private-key encryption scheme has *indistinguishable encryptions in the presence of an eavesdropper*, or is is **EAV-Secure**, iff it is **semantically secure** in the presence of an eavesdropper.
 
@@ -19,7 +21,7 @@ The default notion of secure encryption does not require the encryption scheme t
 
 Mitigate or prevent such leakage by padding all messages before encrypting them.
 
-### Semantic Security
+## Semantic Security
 
 - takes into account that arbitrary "external" information about the message may be available to the adversary
 - allows messages of varying lengths

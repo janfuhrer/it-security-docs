@@ -6,6 +6,8 @@ links:  [[300 Modern Cryptography MOC|Modern Cryptography MOC]] - [[themes/000 I
 
 ---
 
+## Cryptography and Classical Cryptography
+
 **Heuristic approach to Science**
 
 Cryptography has gone from a **heuristic set of techniques** for ensuring secret communication for a few **to a science** for all.
@@ -16,7 +18,7 @@ Cryptography has gone from a **heuristic set of techniques** for ensuring secret
 - in modern cryptography, the ultimate goal being to give a rigorous proof that a given construction is secure -> based on *formal definitions* and _hardness assumptions_ about the algorithmic hardness of certain mathematical problem
 
 
-### Setting of Private-Key Encryption
+## Setting of Private-Key Encryption
 
 - Security of **encryption scheme** relies on a secret, **a key** (also named **shared-/ secret-key**) $\rightarrow$ **private-key encryption**
 - **Symmetric-key setting**: use the same key for encryption & decryption
@@ -24,13 +26,13 @@ Cryptography has gone from a **heuristic set of techniques** for ensuring secret
 > The goal of encryption is to keep the plaintext hidden from an eavesdropper who can monitor the communication channel and observe the ciphertext.
 
 
-### Keys and Kerckhoffs' principle
+## Keys and Kerckhoffs' principle
 
 > The cipher method must not be required to be secret, and it must be able to fall into the hands of the enemy without inconvenience.
 
 **Security rely solely on secrecy of the key**
 
-### Historical Ciphers
+## Historical Ciphers
 
 - **Caesar's cipher**: shifting the letters of the alphabet 3 places forward
 - **Shift cipher**: a keyed variant of Caesar's cipher, the key $k$ is a number between 0 and 25, encryption is done by shift letters by $k$ places
@@ -45,7 +47,7 @@ $\rightarrow$ use *frequency distribution attack*
 
 $\rightarrow$ can be broken with enough obtained ciphertexts (and/or if the key is short or the length of the key is known)
 
-### Security goals
+## Security goals
 
 - **Ciphertext-only attack (COA)**: adversary just observes a ciphertext (or multiple) to determine information about the plaintext
 - **Known-plaintext attack (KPA)**: the adversary is able to learn one or more plaintext/ciphertext pairs generated using some key -> determine information about some *other* ciphertext (using the same key)
@@ -54,7 +56,7 @@ $\rightarrow$ can be broken with enough obtained ciphertexts (and/or if the key 
 
 ---
 
-### Definitions
+## Definitions
 
 - **Encryption scheme correctness**: $Dec_k(Enc_k(m)) = m$
 - **Key space**: set of all possible keys: $K$

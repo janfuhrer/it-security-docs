@@ -10,17 +10,17 @@ links:  [[300 Modern Cryptography MOC|Modern Cryptography MOC]] - [[themes/000 I
 
 Hash functions can be viewed as lying between the worlds of private- and public-key cryptography, because they have important applications in both settings.
 
-### Collision Resistance
+## Collision Resistance
 
 - a function $H$ is *collision resistant* if it is infeasible for any probabilistic polynomial-time algorithm to find a collision in $H$.
 - The domain of a hash function is normally larger than their range $\rightarrow$ in this case collisions *must exist*, but such collisions should be hard to find.
 
-### Keyed hash functions
+## Keyed hash functions
 
 - **Keyed hash functions**: $H$ takes as input a key $s$ and a string $x$ and outputs a string $\rightarrow$ the key is generally not kept secret!
 - Cryptographic hash functions used in practice are generally *unkeyed* and have a fixed output length
 
-### Weaker Notions of Security
+## Weaker Notions of Security
 
 **Second-preimage resistance**
 
@@ -30,13 +30,13 @@ We have $x$ and cannot find a $x'$ wich results to the same Hash $y$ for both $x
 
 $H$ is one-way, if we have $y$ ($y = H(x)$) we cannot go back to find a $x'$ to compute $y$
 
-### Merkle-Damgård Transform
+## Merkle-Damgård Transform
 
 - maps inputs of arbitrary length to outputs of length $n$
 
 ![[merkle_damgard_transform.png]]
 
-### Hash-and-MAC
+## Hash-and-MAC
 
 - use a fixed-length MAC for $l(n)$-bit messages and a collision-resistant hash function with $l(n)$-bit output length
 - Then we can authenticate an arbitrary-length message $m$ by using the MAC to authenticate the *hash* of $m$
@@ -59,7 +59,7 @@ $H$ is one-way, if we have $y$ ($y = H(x)$) we cannot go back to find a $x'$ to 
 
 ![[hmac.png]]
 
-### Attacks on Hash Functions
+## Attacks on Hash Functions
 
 - in symmetric-key using an $n$-bit secret key is vulnerable to a *brute-force attack* in which an attacker enumerates all $2^n$ possible keys
 - for a hash function $H$ to be collision resistant against attackers running in time $2^n$ it is required that $H$ have **output at least $2n$ bits long**
