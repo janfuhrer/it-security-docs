@@ -11,7 +11,7 @@ links:  [[300 Modern Cryptography MOC|Modern Cryptography MOC]] - [[themes/000 I
 That is, a block cipher $F : \{0, 1\}^n \times \{0, 1\}^l \rightarrow \{0, 1\}^l$ is a keyed function, $n$ is the key length of F and $l$ is the block length.
 The main distinction between block ciphers and pseudorandom permutations is that the former typically only support a specific set of key/block lengths and do not support arbitrary-length keys.
 
-### Electronic Code Block (ECB) mode
+## Electronic Code Block (ECB) mode
 
 - direct application of the block cipher
 - ECB mode is deterministic and therefore cannot be CPA secure
@@ -19,7 +19,7 @@ The main distinction between block ciphers and pseudorandom permutations is that
 
 ![[ecb_mode.png]]
 
-### Cipher Block Chaining (CBC) mode
+## Cipher Block Chaining (CBC) mode
 
 - randomized through IV
 - Unsynchronized mode (stateless)
@@ -28,7 +28,7 @@ The main distinction between block ciphers and pseudorandom permutations is that
 
 ![[cbc_mode.png]]
 
-### Chained CBC mode
+## Chained CBC mode
 
 - last block of the previous ciphertext is used as the IV $\rightarrow$ reduces bandwith
 - **synchronized mode** (stateful)
@@ -36,7 +36,7 @@ The main distinction between block ciphers and pseudorandom permutations is that
 
 ![[cbc-chained_mode.png]]
 
-### Output Feedback (OFB) mode
+## Output Feedback (OFB) mode
 
 - Unsynchronized mode (stateless)
 - Pseudorandom stream is independent
@@ -46,7 +46,7 @@ The main distinction between block ciphers and pseudorandom permutations is that
 
 ![[ofb_mode.png]]
 
-### Counter (CTR) mode
+## Counter (CTR) mode
 
 - Unsynchronized mode (stateless)
 - Parallel encryption & decryption
@@ -55,7 +55,7 @@ The main distinction between block ciphers and pseudorandom permutations is that
 
 ![[ctr_mode.png]]
 
-### Practical Considerations
+## Practical Considerations
 
 **Block length and concrete security**
 
@@ -65,7 +65,7 @@ If the block length $n$ is too short, then the resulting concrete-security bound
 
 A repeated IV can be catastrophic: it implies that the entire pseudorandom stream is repeated, which means that by XORing the two ciphertexts using the same IV reveals the XOR of the underlying plaintexts.
 
-### Nonce-Based Encryption
+## Nonce-Based Encryption
 
 The encryption and decryption algorithms additionally accept a *nonce* as input.
 A **nonce** refers to a value that is supposed to be **used once, and never repeated**.

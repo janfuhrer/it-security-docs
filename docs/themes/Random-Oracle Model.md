@@ -6,11 +6,11 @@ links:  [[300 Modern Cryptography MOC|Modern Cryptography MOC]] - [[themes/000 I
 
 ---
 
-### Idealized Model
+## Idealized Model
 
 An approach that has been hugely successful in practice, and which offers a "middle ground" between a fully rigorous proof of security on the one hand and no proof whatsoever on the other, is to introduce an *idealized model* in which to prove the security of cryptographic schemes. A popular example of this approach is the *random-oracle model*, which treats a cryptographic hash function as a truly random function.
 
-### The Random Oracle Model
+## The Random Oracle Model
 
 > The random-oracle model posits the existence of a public, random function $H$ that can be evaluated only by "querying" an oracle.
 

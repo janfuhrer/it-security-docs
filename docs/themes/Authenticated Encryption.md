@@ -10,15 +10,15 @@ Until now, we have considered how to obtain secrecy (using encryption) and integ
 
 > A private-key encryption scheme is an **authenticated encryption (AE) scheme** if it is CCA-Secure and unforgeable.
 
-### Authenticated encryption with associated data
+## Authenticated encryption with associated data
 
 Often, a message $m$ requires both secrecy and integrity but various associated data (e.g. header information) sent along with the message requires integrity only. This schemes are called *authenticated encryption with associated data (AEAD) schemes*.
 
-### CCA Security vs. Authenticated Encryption
+## CCA Security vs. Authenticated Encryption
 
 There is no reason to ever use a CCA-secure scheme that is *not* also an authenticated encryption scheme, simply because we don't have any constructions of the former that are more efficient than constructions of the latter.
 
-### Authenticated Encryption Schemes
+## Authenticated Encryption Schemes
 
 **Encrypt-and-authenticate**
 
@@ -42,15 +42,15 @@ There is no reason to ever use a CCA-secure scheme that is *not* also an authent
 
 > different instances of cryptographic primitives should always use independent keys!
 
-### Standardized Schemes
+## Standardized Schemes
 
-#### GCM (Galois/ counter mode)
+### GCM (Galois/ counter mode)
 
 - follows the encrypt-then-authenticate approach with [[Block Cipher#Counter (CTR) mode|CTR mode]] as the underlying encryption  scheme and GMAC as the underlying message authentication code.
 - uses only one single key and the same IV for CTR-mode encryption and as the nonce for GMAC $\rightarrow$ Both these changes can be proven secure in GCM
 - a repeated IV would fail secrecy and authentication!
 
-#### CCM (Counter with CBC-MAC)
+### CCM (Counter with CBC-MAC)
 
 - follows the authenticate-then-encrypt approach with [[Block Cipher#Counter (CTR) mode|CTR mode]] as the underlying encryption scheme and [[MAC#CBC-MAC|CBC-MAC]] as the underlying message authentication code.
 - uses only one single key but is proven secure
@@ -59,9 +59,9 @@ There is no reason to ever use a CCA-secure scheme that is *not* also an authent
 #### ChaCha20-Poly1305
 
 - relies on the encrypt-then-authenticate approach
-- using the stream cipher ChaCha20 in [[Stream Cipher#^c903f2|unsynchronized mode]] and Poly1305 as MAC
+- using the stream cipher ChaCha20 in [[Stream Cipher#Unsynchronized mode|unsynchronized mode]] and Poly1305 as MAC
 
-### Secure Communication Sessions
+## Secure Communication Sessions
 
 A **communication session** is a period of time during which the communicating parties maintain state. To ensure secure communication based on an AE scheme, the following attacks are still possible:
 

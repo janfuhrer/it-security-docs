@@ -6,6 +6,8 @@ links:  [[300 Modern Cryptography MOC|Modern Cryptography MOC]] - [[themes/000 I
 
 ---
 
+## General definition
+
 The attacker can e.g. influence and observe what messages get encrypted. At some later point in time, the attacker observes a ciphertext corresponding to some unknown message encrypted using the same key $k$. Let us even assume that the attacker knows that $m$ is one of two possibilities $m_0, m_1$. Security against CPA means that even in this case the attacker cannot tell which of those two messages was encrypted with probability significantly better than random guessing.
 
 **Example**
@@ -43,7 +45,7 @@ A simple example is given by an attacker typing on a terminal, which in turn enc
 
 ---
 
-### Definitions
+## Definitions
 - $Func_n$: set of all functions mapping $n$-bit strings to $n$-bit strings.
 
 ---

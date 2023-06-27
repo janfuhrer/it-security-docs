@@ -6,16 +6,16 @@ links:  [[300 Modern Cryptography MOC|Modern Cryptography MOC]] - [[themes/000 I
 
 ---
 
-### Secrecy vs. Integrity
+## Secrecy vs. Integrity
 
 - **Secrecy**: encryption can be used to prevent a **passive** eavesdropper from learning anything about messages sent over an open channel.
 - **Integrity**: Guarantee *message integrity* (or *message authentication*) against an **active** adversary who can inject messages on the channel or modify messages in transit.
 
-### Encryption vs. Message Authentication
+## Encryption vs. Message Authentication
 
 Encryption does not (in general) provide any integrity! Ciphertexts in this case are very easy to manipulate: flipping any bit in the ciphertext results in the same bit being flipped in the message that is recovered upon decryption. In fact, the same attack applies to the one-time pad encryption scheme, showing that even perfect secrecy is not sufficient to ensure the most basic level of message integrity.
 
-### Message Authentication Codes (MACs)
+## Message Authentication Codes (MACs)
 
 Prevent an adversary from modifying a message sent by one party to another, or from injecting a new message, without the receiver detecting that the message did not originate from the intended party $\rightarrow$ both parties share a common secret
 
@@ -24,7 +24,7 @@ There are tow canonical application scenarios for MACs:
 1. ensuring integrity for two parties communicating with each other
 2. one user communicating "with himself" over time (e.g. web cookies or a user protecting the contents of his hard drive)
 
-#### Formal definition
+### Formal definition
 
 A *message authentication code* (or MAC) consists of three probabilistic polynomial-time algorithms ($Gen, Mac, Vrfy$) such that:
 
@@ -32,7 +32,7 @@ A *message authentication code* (or MAC) consists of three probabilistic polynom
 2. $Mac$: takes as input a key $k$ and a message $m \in \{0, 1\}^*$, and outputs a tag $t$. Since this algorithm may be randomized, we write this as $t \leftarrow Mac_k(m)$.
 3. $Vrfy$: takes as input a key $k$, a message $m$ and a tag $t$. It outputs a bit $b = 1$ meaning valid and $b = 0$ meaning invalid. Is deterministic, so we write $b := Vrfy_k(m,t)$
 
-### Security of MACs
+## Security of MACs
 
 A secure MAC is said to be *existentially unforgeable under an adaptive chosen-message attack*. "Existentially unforgeable" refers to the fact that the adversary is unable to forge a valid tag on any message; this should hold even if the attacker can carry out an "adaptive chosen-message attack" by which it is able to obtain tags on arbitrary messages chosen adaptively during its attack.
 
@@ -51,7 +51,7 @@ This definition is called a **strongly secure** MAC.
 
 MAC verification should use *time-independent* string comparison that always **compares all bytes**
 
-### Constructing Secure MACs with pseudorandom function
+## Constructing Secure MACs with pseudorandom function
 
 - Let $F$ be a (length preserving) pseudorandom function. Define a fixed-length MAC for messages of length $n$ as follows:
 	- $Mac$: input a key $k$ and message $m$, output the tag $t := F_k(m)$
@@ -79,7 +79,6 @@ in compare with [[Block Cipher#Cipher Block Chaining (CBC) mode|CBC mode of oper
 
 - **GMAC***: Galois Message Authentication Code* is an specialization of the GCM (Galois/Counter mode) and used for authentication.
 - **Poly1305**
-
 
 ---
 links:  [[300 Modern Cryptography MOC|Modern Cryptography MOC]] - [[themes/000 Index|Index]]

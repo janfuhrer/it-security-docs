@@ -12,13 +12,13 @@ This type of attack, in which an adversary causes a receiver to decrypt cipherte
 
 **Example**: imagine a client sending encrypted messages to a server. If an adversary can impersonate the client and send ciphertexts to the server that appear to originate from the client, the server will decrypt those ciphertexts and the adversary may learn something about the result
 
-### Padding-Oracle Attacks
+## Padding-Oracle Attacks
 
 The adversary can send arbitrary ciphertexts to the padding oracle (e.g. a server) and learn (based on whether a "bad padding" error is returned) whether the underlying encoded data is padded correctly or not. It enables an adversary to completely recover the original message corresponding to any ciphertext of its choice.
 
 Padding oracle attacks can be quite powerful because they exploit vulnerabilities in the padding validation process, allowing attackers to decrypt encrypted data without knowledge of the encryption key.
 
-### Non-Malleability
+ Non-Malleability
 
 CCA-security implies a very important property called *non-malleability*.
 

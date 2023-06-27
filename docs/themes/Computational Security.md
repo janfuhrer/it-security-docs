@@ -6,6 +6,8 @@ links:  [[300 Modern Cryptography MOC|Modern Cryptography MOC]] - [[themes/000 I
 
 ---
 
+## General definition
+
 *Computational Security* definitions take into account computational limits on an attacker, and allow for a small probability that security is violated.
 
 **Relaxations relative to information-theoretic notions of security**
@@ -13,7 +15,7 @@ links:  [[300 Modern Cryptography MOC|Modern Cryptography MOC]] - [[themes/000 I
 1. Security is only guaranteed against **efficient** adversaries that run for some feasible amount of time. If we can make the resources required to break the scheme larger than those available to any realistic attacker, however, then for all practical purposes the scheme is unbreakable.
 2. Adversaries can potentially succeed with some **very small probability**. If we can make this probability sufficiently small, we need not worry about it.
 
-### The Concrete Approach
+## The Concrete Approach
 
 The security of a cryptographic scheme by explicitly bounding the maximum success probability of a (randomized) adversary running for some specified amount of time (or amount of computational effort).
 
@@ -23,7 +25,7 @@ The security of a cryptographic scheme by explicitly bounding the maximum succes
 - concrete guarantees are difficult to provide: 
 	- an adversary running for 5 years can break a given scheme with probability better than $\varepsilon$ $\rightarrow$ what type of computing power does this assume? Do we have dedicated hardware for some algorithms? ...
 
-### The Asymptotic Approach
+## The Asymptotic Approach
 
 If we describing schemes abstractly, it is convenient to use the *asymptotic* approach. This approach, rooted in complexity theory, introduces the **security parameter**, denoted by $n$.
 
@@ -31,7 +33,7 @@ If we describing schemes abstractly, it is convenient to use the *asymptotic* ap
 
 Viewing the security parameter as the key length, this corresponds to the fact that the time required for an exhaustive-search attack grows exponentially in the length of the key.
 
-### Defining Computationally Secure Encryption
+## Defining Computationally Secure Encryption
 
 > A **private-key encryption scheme** consists of three probabilistic polynomial-time algorithms $(Gen, Enc, Dec)$ such that:
 > 
@@ -41,7 +43,7 @@ Viewing the security parameter as the key length, this corresponds to the fact t
 
 ---
 
-### Definitions
+## Definitions
 
 - $PTT$ stands for *Probabilistic polynomial-time*
 - **Negligible success probability**: A negligible function is one that is asymptotically smaller than any inverse polynomial function $f(n) < \frac{1}{p(n)}$
