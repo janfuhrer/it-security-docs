@@ -2,6 +2,12 @@ site_name: IT-Security Docs
 # fix 404 error
 site_url: https://janfuhrer.github.io/it-security-docs/
 
+nav:
+- Home: index.md
+- "IT-Security Docs": "themes/000 Index.md"
+- Exercises: "exercises/000 Index.md"
+
+
 theme:
   name: 'material'
   language: en
