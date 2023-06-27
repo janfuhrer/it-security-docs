@@ -1,5 +1,5 @@
 tags: #symmetric #social 
-links:  [[Topic 1 - Intro]] - [[themes/000 Index|Index]]
+links:  [[101 AC1 TOC - Intro]] - [[themes/000 Index|Index]]
 
 ---
 # Mass Surveillance
@@ -23,4 +23,4 @@ A lot of math is used to identify targets. Who is innocent and who is not. The U
 
 
 ---
-links:  [[Topic 1 - Intro]] - [[themes/000 Index|Index]]
+links:  [[101 AC1 TOC - Intro]] - [[themes/000 Index|Index]]

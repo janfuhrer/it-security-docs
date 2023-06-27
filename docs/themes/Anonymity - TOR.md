@@ -1,5 +1,5 @@
 tags: #asymmetric 
-links:  [[Topic 10 - Anonymity]], [[themes/000 Index|Index]]
+links:  [[210 AC2 TOC - Anonymity]], [[themes/000 Index|Index]]
 
 ---
 # TOR
@@ -69,4 +69,4 @@ Over time, an adversary could observe when a user is active on the Tor network a
 An attacker could flood the Tor network, or specific nodes within the network, with an overwhelming amount of traffic, making it unusable for legitimate users. This doesn't compromise anonymity directly, but it disrupts the operation of the network.
 
 ---
-links:  [[Topic 10 - Anonymity]], [[themes/000 Index|Index]]
+links:  [[210 AC2 TOC - Anonymity]], [[themes/000 Index|Index]]

@@ -1,5 +1,5 @@
 tags: #symmetric 
-links:  [[Topic 2 - Security]], [[themes/000 Index|Index]]
+links:  [[102 AC1 TOC  - Security]], [[themes/000 Index|Index]]
 
 ---
 # Cryptography
@@ -18,4 +18,4 @@ Through cryptography we can maintain **PAIN**:
 - Nonrepudiation
 
 ---
-links:  [[Topic 2 - Security]], [[themes/000 Index|Index]]
+links:  [[102 AC1 TOC  - Security]], [[themes/000 Index|Index]]

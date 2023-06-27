@@ -1,11 +1,11 @@
 tags: #AC1 #symmetric #StreamCipher #Keccak #SHA-3
-links: [[docs/themes/000 Index|Index]], [[010 AC1 MOC|AC1]], [[Topic 5 - Stream Cipher|Stream Cipher]]
+links [[105 AC1 TOC - Stream Cipher]] - [[themes/000 Index|Index]]
 
 ---
 ## Sponge Construction
 The sponge construction is a quite novel approach to design cryptographic ciphers. One can think of a sponge which absorbs water when put into water and releases the water when squeezed. This concept is used in the sponge construction. In the first phase the ciphers absorbs information (takes input). In the second phase one can squeeze out output (generates output).
 
-![](./_media/sponge_construction.png)
+![](sponge_construction.png)
 ### Algorithms / Building Blocks
 #### Constants
 The sponge construction possesses four constants which define the sizing of an implementation:
@@ -69,4 +69,4 @@ Now that the absorbing phase is finished, we can squeeze  until we got enough bi
 Appending the results of the squeeze cycles to one another results in $1011 1011 1011 1011$ which represents the result.
 
 ---
-links: [[docs/themes/000 Index|Index]], [[010 AC1 MOC|AC1]], [[Topic 5 - Stream Cipher|Stream Cipher]]
+links [[105 AC1 TOC - Stream Cipher]] - [[themes/000 Index|Index]]

@@ -1,8 +1,8 @@
 tags: #AC1
-links:  [[010 AC1 MOC|AC1 MOC]] - [[themes/000 Index|Index]]
+links:  [[100 AC1 MOC|AC1 MOC]] - [[themes/000 Index|Index]]
 
 ---
-# AC1 Topic 3 TOC
+# AC1 TOC - Randomness
 
 - [[themes/Randomness|Randomness]]
 - [[themes/Entropy|Entropy]]
@@ -10,4 +10,4 @@ links:  [[010 AC1 MOC|AC1 MOC]] - [[themes/000 Index|Index]]
 - [[themes/Physical Uncloneable Function (PUF)|Physical Uncloneable Function (PUF)]]
 
 ---
-links:  [[010 AC1 MOC|AC1 MOC]] - [[themes/000 Index|Index]]
+links:  [[100 AC1 MOC|AC1 MOC]] - [[themes/000 Index|Index]]

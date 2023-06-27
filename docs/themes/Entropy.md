@@ -1,5 +1,5 @@
 tags: #symmetric 
-links:  [[Topic 3 - Randomness]] - [[themes/000 Index|Index]]
+links:  [[103 AC1 TOC - Randomness]] - [[themes/000 Index|Index]]
 
 ---
 # Entropy
@@ -7,4 +7,4 @@ links:  [[Topic 3 - Randomness]] - [[themes/000 Index|Index]]
 ToDo
 
 ---
-links:  [[Topic 3 - Randomness]] - [[themes/000 Index|Index]]
+links:  [[103 AC1 TOC - Randomness]] - [[themes/000 Index|Index]]

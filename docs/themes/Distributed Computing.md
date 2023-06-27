@@ -1,5 +1,5 @@
 tags: #asymmetric 
-links:  [[Topic 10 - Anonymity]], [[themes/000 Index|Index]]
+links:  [[210 AC2 TOC - Anonymity]], [[themes/000 Index|Index]]
 
 ---
 # Distributed Computing
@@ -81,4 +81,4 @@ Secure Multiparty Computation can be applied to more complex situations as well.
 SMC can be quite complex and requires careful implementation to ensure privacy and correctness. Its security is based on various cryptographic techniques like homomorphic encryption, secret sharing, and zero-knowledge proofs.
 
 ---
-links:  [[Topic 10 - Anonymity]], [[themes/000 Index|Index]]
+links:  [[210 AC2 TOC - Anonymity]], [[themes/000 Index|Index]]

@@ -5,7 +5,7 @@ links:  [[themes/000 Index|Index]]
 # Applied Cryptography 2 MOC
 
 ### Topic 1
-- [[themes/Topic 1 - Intro pk|Introduction public-key cryptography]]
+- [[201 AC2 TOC - Intro pk|Introduction public-key cryptography]]
 
 ### Topic 2
 - [[themes/Topic 2 - Maths|Modular Arithmetic and Group Theory]]
@@ -32,7 +32,7 @@ links:  [[themes/000 Index|Index]]
 - [[themes/Topic 9 - SC|Secure messaging and channels]]
 
 ### Topic 10
-- [[themes/Topic 10 - Anonymity|Anonymity]]
+- [[210 AC2 TOC - Anonymity|Anonymity]]
 
 ### Topic 11
 - [[themes/Topic 11 - DPKI|Decentralized Public Key Infrastructures]]

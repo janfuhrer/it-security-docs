@@ -1,5 +1,5 @@
 tags: #asymmetric 
-links:  [[Topic 10 - Anonymity]], [[themes/000 Index|Index]]
+links:  [[210 AC2 TOC - Anonymity]], [[themes/000 Index|Index]]
 
 ---
 # Mixing
@@ -104,4 +104,4 @@ If a nym server stores multiple messages and uses a single reply block to send a
 - Bridge between anonymous network and traditional a traditional protocol is difficult
 
 ---
-links:  [[Topic 10 - Anonymity]], [[themes/000 Index|Index]]
+links:  [[210 AC2 TOC - Anonymity]], [[themes/000 Index|Index]]

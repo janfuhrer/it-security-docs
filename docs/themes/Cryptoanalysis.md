@@ -1,5 +1,5 @@
 tags: #symmetric #asymmetric 
-links:  [[Topic 2 - Security]], [[themes/000 Index|Index]]
+links:  [[102 AC1 TOC  - Security]], [[themes/000 Index|Index]]
 
 ---
 # Cryptoanalysis
@@ -31,4 +31,4 @@ RSA and ElGamal are not CCA secure due to their homomorphic properties, but RSA-
 IND-CCA is a really strong notion of security, and the golden standard these days. There are standard constructions to turn any IND-CPA construction into an IND-CCA construction.
 
 ---
-links:  [[Topic 2 - Security]], [[themes/000 Index|Index]]
+links:  [[102 AC1 TOC  - Security]], [[themes/000 Index|Index]]

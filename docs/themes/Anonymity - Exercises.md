@@ -1,5 +1,5 @@
 tags: #asymmetric #exercise
-links:  [[Topic 10 - Anonymity]], [[themes/000 Index|Index]]
+links:  [[210 AC2 TOC - Anonymity]], [[themes/000 Index|Index]]
 
 ---
 # Exercises
@@ -20,4 +20,4 @@ Finally the revealed results are XORed aswell
 - If the result is 0 then the NSA payed
 
 ---
-links:  [[Topic 10 - Anonymity]], [[themes/000 Index|Index]]
+links:  [[210 AC2 TOC - Anonymity]], [[themes/000 Index|Index]]

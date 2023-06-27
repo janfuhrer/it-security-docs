@@ -5,19 +5,19 @@ links:  [[themes/000 Index|Index]]
 # Applied Cryptography 1 MOC
 
 ### Topic 1
-- [[themes/Topic 1 - Intro|Introduction to IT security]]
+- [[101 AC1 TOC - Intro|Introduction to IT security]]
 
 ### Topic 2
-- [[themes/Topic 2 - Security|Security]]
+- [[102 AC1 TOC  - Security|Security]]
 
 ### Topic 3
-- [[themes/Topic 3 - Randomness|Randomness & RNG]]
+- [[103 AC1 TOC - Randomness|Randomness & RNG]]
 
 ### Topic 4
-- [[Topic 4 - PRNG|Pseudo Random Number Generator (PRNG)]]
+- [[Pseudorandom Number Generator (PRNG)|Pseudo Random Number Generator (PRNG)]]
 
 ### Topic 5
-- [[Topic 5 - Stream Cipher|Stream Cipher]]
+- [[themes/105 AC1 TOC - Stream Cipher|Stream Cipher]]
 
 ### Topic 6
 - [[themes/Topic 6 - Random Oracle|Random Oracle]]
