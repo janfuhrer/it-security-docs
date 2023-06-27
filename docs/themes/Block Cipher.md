@@ -1,8 +1,9 @@
 tags: #symmetric
-links:  [[300 Modern Cryptography MOC|Modern Cryptography MOC]] - [[themes/000 Index|Index]]
 
 ---
 # Block Cipher
+
+links:  [[300 Modern Cryptography MOC|Modern Cryptography MOC]] - [[themes/000 Index|Index]]
 
 > A block cipher is simply another name for a (strong) pseudorandom permutation.
 

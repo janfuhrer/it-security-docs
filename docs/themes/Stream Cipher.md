@@ -1,8 +1,9 @@
 tags: #symmetric
-links:  [[300 Modern Cryptography MOC|Modern Cryptography MOC]] - [[themes/000 Index|Index]]
 
 ---
 # Stream Cipher
+
+links:  [[300 Modern Cryptography MOC|Modern Cryptography MOC]] - [[themes/000 Index|Index]]
 
 The output bits of a stream cipher are produced gradually and on demand, so that an application can request exactly as many pseudorandom bits as its needs.
 

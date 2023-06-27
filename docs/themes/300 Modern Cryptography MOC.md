@@ -1,8 +1,9 @@
 tags: #ModernCryptography
-links:  [[themes/000 Index|Index]]
 
 ---
 # Introduction to Modern Cryptography MOC
+
+links:  [[themes/000 Index|Index]]
 
 **I - Introduction and Classical Cryptography**
 
@@ -24,6 +25,7 @@ links:  [[themes/000 Index|Index]]
     - [[themes/CCA-Security|CCA-Security]]  
 - [[themes/Hash Functions|Hash Functions]]  
     - [[themes/Random-Oracle Model|Random-Oracle Model]]  
+    - [[themes/Additional Applications of Hash Functions|Additional Applications of Hash Functions]]
   
 **III - Public-Key (Asymmetric) Cryptography**
 

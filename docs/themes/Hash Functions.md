@@ -1,8 +1,9 @@
 tags: #symmetric
-links:  [[300 Modern Cryptography MOC|Modern Cryptography MOC]] - [[themes/000 Index|Index]]
 
 ---
 # Hash Functions
+
+links:  [[300 Modern Cryptography MOC|Modern Cryptography MOC]] - [[themes/000 Index|Index]]
 
 > Hash functions are simply functions that take inputs of some length and *compress* them into short, fixed-length outputs.
 
@@ -57,6 +58,15 @@ $H$ is one-way, if we have $y$ ($y = H(x)$) we cannot go back to find a $x'$ to 
 
 ![[hmac.png]]
 
+### Attacks on Hash Functions
+
+- in symmetric-key using an $n$-bit secret key is vulnerable to a *brute-force attack* in which an attacker enumerates all $2^n$ possible keys
+- for a hash function $H$ to be collision resistant against attackers running in time $2^n$ it is required that $H$ have **output at least $2n$ bits long**
+
+**Birthday attacks**
+
+- if $q$ people are in a room, what is the probability that some two of them share a birthday? $\rightarrow$ matching birthdays correspond to collisions
+- if $H$ has an output length of $l$, $q = \Theta(2^{l/2}) \rightarrow$ **yields a collision with probability roughly $1/2$** 
 
 ---
 links:  [[300 Modern Cryptography MOC|Modern Cryptography MOC]] - [[themes/000 Index|Index]]

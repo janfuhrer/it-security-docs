@@ -2,6 +2,24 @@ site_name: IT-Security Docs
 # fix 404 error
 site_url: https://janfuhrer.github.io/it-security-docs/
 
+nav:
+  - Home: index.md
+  - 'IT-Security Docs':
+    - Index: 'themes/000 Index.md'
+    - 'Applied Cryptography 1':
+      - Index: 'themes/100 AC1 MOC.md'
+      - Intro: 'themes/101 AC1 TOC - Intro.md'
+      - Security: 'themes/102 AC1 TOC - Security.md'
+      - Randomness: 'themes/103 AC1 TOC - Randomness.md'
+      - 'Stream Ciphers': 'themes/105 AC1 TOC - Stream Cipher.md'
+    - 'Applied Cryptography 2':
+      - Index: 'themes/200 AC2 MOC.md'
+      - Intro: 'themes/201 AC2 TOC - Intro pk.md'
+      - Anonymity: 'themes/210 AC2 TOC - Anonymity.md'
+    - 'Modern Cryptography': 'themes/300 Modern Cryptography MOC.md'
+  - Exercises: 'exercises/000 Index.md'
+
+
 theme:
   name: 'material'
   language: en
@@ -10,12 +28,13 @@ theme:
 
   features:
     # enable instant loading (XHR)
-    - navigation.instant
+    #- navigation.instant
     # enable back-to-top button
     - navigation.top
     # search highlighting
     - search.highlight
     - navigation.indexes
+    - navigation.tabs
 
   palette:
   # Light mode
