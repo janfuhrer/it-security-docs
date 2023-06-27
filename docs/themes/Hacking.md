@@ -1,8 +1,10 @@
 tags: #symmetric  #social
-links:  [[101 AC1 TOC - Intro]] - [[themes/000 Index|Index]]
+
+# Hacking
+
+links:  [[101 AC1 TOC - Intro|AC1 TOC - Intro]] - [[themes/000 Index|Index]]
 
 ---
-# Hacking
 
 ## Technical vulnerabilities
 
@@ -43,4 +45,4 @@ Example input: `Robert’); DROP TABLE students;--`
 4. Exfiltration
 
 ---
-links:  [[101 AC1 TOC - Intro]] - [[themes/000 Index|Index]]
+links:  [[101 AC1 TOC - Intro|AC1 TOC - Intro]] - [[themes/000 Index|Index]]

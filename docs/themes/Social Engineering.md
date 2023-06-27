@@ -1,8 +1,10 @@
 tags: #symmetric #social 
-links:  [[101 AC1 TOC - Intro]] - [[themes/000 Index|Index]]
+
+# Social Engineering
+
+links:  [[101 AC1 TOC - Intro|AC1 TOC - Intro]] - [[themes/000 Index|Index]]
 
 ---
-# Social Engineering
 
 Based on slides from Joint Threat Research and Intelligence Group (JTRIG)
 
@@ -36,11 +38,5 @@ Based on slides from Joint Threat Research and Intelligence Group (JTRIG)
 - UNDERPASS Change outcome of online polls
 - ...
 
-
-
-
-
-
-
 ---
-links:  [[101 AC1 TOC - Intro]] - [[themes/000 Index|Index]]
+links:  [[101 AC1 TOC - Intro|AC1 TOC - Intro]] - [[themes/000 Index|Index]]
