@@ -1,8 +1,10 @@
 tags: #symmetric #asymmetric 
-links:  [[102 AC1 TOC  - Security]], [[themes/000 Index|Index]]
+
+# Cryptoanalysis
+
+links:  [[themes/102 AC1 TOC - Security|AC1 TOC - Security]] - [[themes/000 Index|Index]]
 
 ---
-# Cryptoanalysis
 
 The art or process of deciphering coded messages without being told the key.
 
@@ -31,4 +33,4 @@ RSA and ElGamal are not CCA secure due to their homomorphic properties, but RSA-
 IND-CCA is a really strong notion of security, and the golden standard these days. There are standard constructions to turn any IND-CPA construction into an IND-CCA construction.
 
 ---
-links:  [[102 AC1 TOC  - Security]], [[themes/000 Index|Index]]
+links:  [[themes/102 AC1 TOC - Security|AC1 TOC - Security]] - [[themes/000 Index|Index]]

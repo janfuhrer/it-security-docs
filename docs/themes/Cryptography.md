@@ -1,8 +1,10 @@
 tags: #symmetric 
-links:  [[102 AC1 TOC  - Security]], [[themes/000 Index|Index]]
+
+# Cryptography
+
+links:  [[themes/102 AC1 TOC - Security|AC1 TOC - Security]] - [[themes/000 Index|Index]]
 
 ---
-# Cryptography
 
 Dictionary definition: the art of writing or solving codes.
 
@@ -18,4 +20,4 @@ Through cryptography we can maintain **PAIN**:
 - Nonrepudiation
 
 ---
-links:  [[102 AC1 TOC  - Security]], [[themes/000 Index|Index]]
+links:  [[themes/102 AC1 TOC - Security|AC1 TOC - Security]] - [[themes/000 Index|Index]]

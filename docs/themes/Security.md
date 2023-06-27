@@ -1,8 +1,10 @@
 tags: #symmetric 
-links:  [[102 AC1 TOC  - Security]], [[themes/000 Index|Index]]
+
+# Security
+
+links:  [[themes/102 AC1 TOC - Security|AC1 TOC - Security]] - [[themes/000 Index|Index]]
 
 ---
-# Security
 
 Dictionary definition:  the state of being free from danger or threat
 
@@ -17,4 +19,4 @@ Questions to be asked to reach security:
 - **Trust** - Assumptions, borders of problem domain
 
 ---
-links:  [[102 AC1 TOC  - Security]], [[themes/000 Index|Index]]
+links:  [[themes/102 AC1 TOC - Security|AC1 TOC - Security]] - [[themes/000 Index|Index]]

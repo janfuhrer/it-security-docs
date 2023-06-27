@@ -1,8 +1,10 @@
 tags: #symmetric 
-links:  [[102 AC1 TOC  - Security]], [[themes/000 Index|Index]]
+
+# Shannon Cipher
+
+links:  [[themes/102 AC1 TOC - Security|AC1 TOC - Security]] - [[themes/000 Index|Index]]
 
 ---
-# Shannon Cipher
 
 * **K**ey space
 * **M**essage space
@@ -41,4 +43,4 @@ A different message with the same key should result in a strictly different ciph
 Refers to the decryption of the message.
 
 ---
-links:  [[102 AC1 TOC  - Security]], [[themes/000 Index|Index]]
+links:  [[themes/102 AC1 TOC - Security|AC1 TOC - Security]] - [[themes/000 Index|Index]]
