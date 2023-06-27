@@ -30,7 +30,8 @@ Below are the 3 problems with a suggested solution:
 > If you want k out of n entities to coordinate to recover a secret, there are 
 > 
 > $$\binom{n}{k} = \frac{n!}{k!(n-k)!}$$
->  combinations to consider
+> 
+> combinations to consider
 
 => Use Polynominals!
 
