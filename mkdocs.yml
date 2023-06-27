@@ -16,6 +16,7 @@ theme:
     # search highlighting
     - search.highlight
     - navigation.indexes
+    - navigation.tabs
 
   palette:
   # Light mode

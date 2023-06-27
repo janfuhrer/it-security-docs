@@ -3,6 +3,7 @@ on:
   push:
     branches:
       - main
+      - jfu-tuesday-1
 permissions:
   contents: write
 jobs:

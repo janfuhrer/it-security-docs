@@ -23,4 +23,4 @@ Any perfectly secret encryption scheme must have a key space that is at least as
 - XOR (bitwise exclusive-or): $a \oplus b$
 
 ---
-links:  [[102 AC1 TOC  - Security]], [[300 Modern Cryptography MOC|Modern Cryptography MOC]] - [[themes/000 Index|Index]]
+links:  [[102 AC1 TOC  - Security]] - [[300 Modern Cryptography MOC|Modern Cryptography MOC]] - [[themes/000 Index|Index]]
