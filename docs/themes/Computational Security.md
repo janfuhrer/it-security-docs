@@ -1,9 +1,10 @@
 tags: #symmetric
 
----
 # Computational Security
 
 links:  [[300 Modern Cryptography MOC|Modern Cryptography MOC]] - [[themes/000 Index|Index]]
+
+---
 
 *Computational Security* definitions take into account computational limits on an attacker, and allow for a small probability that security is violated.
 

@@ -1,9 +1,10 @@
 tags: #symmetric #kerckhoff #historicalCiphers
 
----
 # Introduction to Modern Cryptography
 
 links:  [[300 Modern Cryptography MOC|Modern Cryptography MOC]] - [[themes/000 Index|Index]]
+
+---
 
 **Heuristic approach to Science**
 

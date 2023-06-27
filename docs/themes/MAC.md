@@ -1,9 +1,10 @@
 tags: #symmetric #mac
 
----
 # MAC
 
 links:  [[300 Modern Cryptography MOC|Modern Cryptography MOC]] - [[themes/000 Index|Index]]
+
+---
 
 ### Secrecy vs. Integrity
 

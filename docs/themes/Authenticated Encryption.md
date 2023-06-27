@@ -1,9 +1,10 @@
 tags: #symmetric
 
----
 # Authenticated Encryption
 
 links:  [[300 Modern Cryptography MOC|Modern Cryptography MOC]] - [[themes/000 Index|Index]]
+
+---
 
 Until now, we have considered how to obtain secrecy (using encryption) and integrity (using MACs) separately. The aim of *authenticated encryption* is to achieve both goals simultaneously.
 

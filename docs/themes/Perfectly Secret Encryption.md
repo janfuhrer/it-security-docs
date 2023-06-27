@@ -1,9 +1,10 @@
 tags: #symmetric
 
----
 # Perfectly Secret Encryption
 
 links:  [[300 Modern Cryptography MOC|Modern Cryptography MOC]] - [[themes/000 Index|Index]]
+
+---
 
 ### Perfect secrecy
 

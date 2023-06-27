@@ -1,9 +1,10 @@
 tags: #symmetric
 
----
 # Hash Functions
 
 links:  [[300 Modern Cryptography MOC|Modern Cryptography MOC]] - [[themes/000 Index|Index]]
+
+---
 
 > Hash functions are simply functions that take inputs of some length and *compress* them into short, fixed-length outputs.
 

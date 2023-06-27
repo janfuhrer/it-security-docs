@@ -1,8 +1,10 @@
-tags: #AC1
+tags: #AC1 
+
+# AC1 TOC - Randomness
+
 links:  [[100 AC1 MOC|AC1 MOC]] - [[themes/000 Index|Index]]
 
 ---
-# AC1 TOC - Randomness
 
 - [[themes/Randomness|Randomness]]
 - [[themes/Entropy|Entropy]]

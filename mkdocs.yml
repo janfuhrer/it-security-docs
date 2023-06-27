@@ -16,7 +16,14 @@ nav:
       - Index: 'themes/200 AC2 MOC.md'
       - Intro: 'themes/201 AC2 TOC - Intro pk.md'
       - Anonymity: 'themes/210 AC2 TOC - Anonymity.md'
-    - 'Modern Cryptography': 'themes/300 Modern Cryptography MOC.md'
+    - 'Modern Cryptography':
+      - Index: 'themes/300 Modern Cryptography MOC.md'
+      #- 'Introduction and Classical Cryptography':
+      #  - Introduction:
+      #  - 'Perfectly Secret Encryption':
+      #  -
+      #- 'Private-Key (Symmetric) Cryptography':
+      #  -
   - Exercises: 'exercises/000 Index.md'
 
 
