@@ -10,7 +10,7 @@ theme:
 
   features:
     # enable instant loading (XHR)
-    - navigation.instant
+    #- navigation.instant
     # enable back-to-top button
     - navigation.top
     # search highlighting
