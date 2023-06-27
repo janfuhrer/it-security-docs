@@ -5,6 +5,9 @@ site_url: https://janfuhrer.github.io/it-security-docs/
 nav:
 - Home: index.md
 - "IT-Security Docs": "themes/000 Index.md"
+  - "Applied Cryptography 1": "themes/100 AC1 MOC.md"
+    - "Intro": "themes/101 AC1 TOC - Intro.md"
+  - "Applied Cryptography 2": "themes/200 AC2 MOC.md"
 - Exercises: "exercises/000 Index.md"
 
 
