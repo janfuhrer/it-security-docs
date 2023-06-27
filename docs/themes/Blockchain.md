@@ -1,6 +1,6 @@
 ## What is a blockchain?
 
-A blockchain is a distributed ledger which stores data in a series of blocks. Blocks contain lists of transactions and the hash of the previous block. Adding the hash of the previous block links every block to the next which leads to the formation of a chain. Altering data in a older block becomes more difficult over time because the hashes in all the following blocks have to be altered aswell.
+A blockchain is a distributed ledger which stores data in a series of blocks. Blocks contain lists of transactions and the hash of the previous block. Adding the hash of the previous block links every block to the next which leads to the formation of a chain. Altering data in a older block becomes more difficult over time because the hashes in all the following blocks have to be altered as well.
 
 ## Advertised properties of blockchain
 
@@ -14,7 +14,7 @@ Given sufficient computing power an attacker can gain more mining power than the
 
 It's possible to simply start an additional blockchain or fork the initial blockchain and change / remove transactions.
 
-It's possible that the network partitions for some time and then merges again. Depending on the protocol this either breaks consensus and some central power has to step in and fix the problem or the longer chain is chosen as the valid one which leads to transations in the shorter chain getting lost.
+It's possible that the network partitions for some time and then merges again. Depending on the protocol this either breaks consensus and some central power has to step in and fix the problem or the longer chain is chosen as the valid one which leads to transactions in the shorter chain getting lost.
 
 ### Transparency
 
@@ -68,6 +68,16 @@ Mining means adding a random string to the block and hashing the block until som
 When a miner finds a block he propagates it through the network. Every miner/node reads the random string from the block, hashes the block and confirms that the resulting hash has enough leading 0's to reach the difficulty goal. If that's the case they remove those transactions from their mempool, add the block to their local copy of the blockchain (ledger) and continue mining.
 
 Mining is usually done with ASICs (application-specific integrated circuit) to get the most out of the available power. Mining on CPU / GPU is possible but normally not economically viable.
+
+
+## What is proof of stake?
+
+Instead of mining users can lock up their money and put it "at stake". Users that are staking are randomly chosen to "mine" the next block. This solution uses less energy because no mining is happening but it's debatable if it's as secure as mining. Users with a lot of money can have more influence over the network and they get more money over time because they still get the rewards for every block they mine.
+
+
+## Why is mining / staking necessary?
+
+It's to avoid sybil attacks. If there was no requirement to mine a block an attacker could deploy multiple nodes and have a higher chance to mine blocks. Mining / staking ensures that this is not possible.
 
 
 ## What is bitcoin?

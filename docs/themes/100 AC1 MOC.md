@@ -14,8 +14,10 @@ links:  [[themes/000 Index|Index]]
 - **Topic 6**: [[themes/Topic 6 - Random Oracle|Random Oracle]]
 - **Topic 7**: [[themes/Topic 7 - Authenticated Encryption|Authenticated Encryption with Associated Data]]
 - **Topic 8**:  [[themes/Topic 8 - SE|From Symmetric Encryption to Secure Channels]]
-- **Topic 9**: [[themes/Topic 9 - Blockchains|Blockchains]]
+- **Topic 9**: [[109 AC1 TOC - Blockchain|Blockchain]]
 - **Topic 10**: [[themes/Topic 10 - TL|Secret sharing, symmetric key management]]
+- **Topic 11**: [[111 AC1 TOC - Naming Systems|Naming Systems]]
+- **Topic 12**: [[112 AC1 TOC - Key Revocation|Key Revocation]]
 
 ---
 links: [[themes/000 Index|Index]]
