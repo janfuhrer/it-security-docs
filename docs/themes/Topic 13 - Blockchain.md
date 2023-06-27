@@ -296,3 +296,20 @@ The receiver of a CBF can subtract all the elements from its set and when the CB
 Extension of CBF. They allow negative counts are they store XOR-sums of the elements hashes in the buckets. This allows extraction of elements from the IBF and the construction of a symmetric difference.
 
 **Extraction**
+1. Chose a pure bucket (bucket with count 1) and read pure hash
+2. Based on hash you find out which other buckets are used
+3. XOR the sum of hashes with the pure hash which removes / extract the hash from the sum. The result is the element itself information if the element is missing in my own set or in the other nodes set (don't know where this information is supposed to come from)
+4. Hopefully more pure buckets will have formed to extract more elements
+5. Repeat until all elements are successfully extracted (IBF should be all 0). If not, the extraction failed and the process has to be restarted with a larger IBF.
+
+**Symmetric Difference**
+The symmetric difference can be calculated out of two IBFs from two nodes. It's an XOR of the two IBFs and the result is an IBF of the elements which are missing in the other set. After having calculated the diff, extraction can be applied because it's more likely to find buckets with count 1. If there are no buckets with 1 or if other conflicts occur the size of the array can be increased.
+
+![[ibf.png]]
+
+The advantage of IBFs is that the size of the actual set does not matter. Only the size of the diff matters. The larger the diff the larger the IBF has to be.
+
+
+## How is the size of the IBF chosen
+
+Strata Estimator...
