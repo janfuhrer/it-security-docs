@@ -36,5 +36,12 @@ links: [[themes/000 Index|Index]]
 * SHAKE / cSHAKE (Based on Keccak)
 * Ascon-Xof (Sponge construction)
 
+**Random**
+
+* PRG (Pseudo Random Generator)
+* PRNG (Pseudo Random Number Generator) - Subset of PRG. Used interchangeably.
+* PRF (Pseudo Random Function) - [KDF > PRF > MAC](https://crypto.stackexchange.com/a/60652)
+* RNG/TRNG (True Random Number Generator)
+
 ---
 links: [[themes/000 Index|Index]]
