@@ -7,7 +7,7 @@ links:  [[themes/000 Index|Index]]
 ---
 
 - **Topic 1**: [[101 AC1 TOC - Intro|Introduction to IT security]]
-- **Topic** 2: [[102 AC1 TOC - Security|Security]]
+- **Topic 2**: [[102 AC1 TOC - Security|Security]]
 - **Topic 3**: [[103 AC1 TOC - Randomness|Randomness & RNG]]
 - **Topic 4**: [[Pseudorandom Number Generator (PRNG)|Pseudo Random Number Generator (PRNG)]]
 - **Topic 5**: [[themes/105 AC1 TOC - Stream Cipher|Stream Cipher]]
