@@ -13,6 +13,7 @@ links:  [[100 AC1 MOC|AC1 MOC]] - [[themes/000 Index|Index]]
 - [[it-security-docs/docs/themes/Block Cipher### Pseudorandom permutation / function|Pseudo Random Functions]]
 - [[Authenticated Encryption#GCM (Galois/ counter mode)|GCM]]
 - [[Key Establishment]]
+- [[Secure Channels]]
 
 ---
 links:  [[100 AC1 MOC|AC1 MOC]] - [[themes/000 Index|Index]]
