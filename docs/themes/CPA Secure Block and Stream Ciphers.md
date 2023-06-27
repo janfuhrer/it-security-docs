@@ -1,5 +1,8 @@
 tags: #AC1 #symmetric #StreamCipher #BlockCipher
-links [[105 AC1 TOC - Stream Cipher]] - [[themes/000 Index|Index]]
+
+# CPA Secure Block and Stream Ciphers
+
+links [[105 AC1 TOC - Stream Cipher|AC1 TOC - Stream Cipher]] - [[themes/000 Index|Index]]
 
 ---
 ### CPA - Attacker Model
@@ -11,5 +14,4 @@ links [[105 AC1 TOC - Stream Cipher]] - [[themes/000 Index|Index]]
 ### CPA-Secure Stream Cipher
 
 ---
-links [[105 AC1 TOC - Stream Cipher]] - [[themes/000 Index|Index]]
-
+links [[105 AC1 TOC - Stream Cipher|AC1 TOC - Stream Cipher]] - [[themes/000 Index|Index]]
