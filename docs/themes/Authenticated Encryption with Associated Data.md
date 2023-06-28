@@ -13,10 +13,10 @@ This chapter will only describe AEAD. For an overview of Authenticated Encryptio
 AEAD provides:
 
 - Confidentiality
-- Integrety
+- Integrity
 - Authenticity
 
-For every AEAD cypher 3 inputs are needed:
+For every AEAD cipher 3 inputs are needed:
 
 - Plaintext Data
 - Secret Key
@@ -26,7 +26,7 @@ Here's how AEAD works:
 
 1. **Encryption**: The plaintext data is encrypted using the secret key to produce ciphertext. This ensures confidentiality as only entities with the secret key can decrypt and access the data.
    
-2. **Authentication**: The additional data, the ciphertext, and the secret key are used to generate a unique tag. This tag allows you to verify the integrity and authenticity of both the ciphertext and the additional data.
+2. **Authentication**: The additional data, the ciphertext, and the secret key are used to generate a unique tag (by applying a MAC over the additional data and the plaintext using the secret key). This tag allows you to verify the integrity and authenticity of both the ciphertext and the additional data.
 
 
 To decrypt and verify data using AEAD, the following inputs are required: the ciphertext, the additional data, the tag, and the secret key. The output is the plaintext data if the tag verifies correctly, and an error message otherwise.
@@ -61,7 +61,7 @@ Bob uses AES-GCM with his copy of the secret key "secretkey123", the received ci
 
 **Step 7: Bob compares the tags**
 
-Bob then compares this new authentication tag with the received tag "xyz789". If they match, it verifies that the data hasn't been tampered with during transmission and is indeed from Alice.
+Bob then compares this new authentication tag with the received tag "xyz789". If they match, it verifies that the data hasn't been tampered with during transmission and is indeed from Alice. Now bob has not only confidentiality (encrypted plaintext which he can decrypt by using the shared secret key) but also integrity and authenticity (by verifying the tag using the shared secret key).
 
 --- 
 
