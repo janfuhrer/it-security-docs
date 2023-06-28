@@ -26,7 +26,7 @@ Bloom filters where buckets (array fields) hold positive integers instead of onl
 The receiver of a CBF can subtract all the elements from its set and when the CBF ends up being negative, the CBF represents the elements that are missing in the other nodes set.
 
 **Invertible Bloom Filters**
-Extension of CBF. They allow negative counts are they store XOR-sums of the elements hashes in the buckets. This allows extraction of elements from the IBF and the construction of a symmetric difference.
+Extension of CBF. They allow negative counts and they store XOR-sums of the elements hashes in the buckets. This allows extraction of elements from the IBF and the construction of a symmetric difference.
 https://www.youtube.com/watch?v=YNbcXlllOBQ
 
 **Extraction**
@@ -43,10 +43,34 @@ The symmetric difference can be calculated out of two IBFs from two nodes. It's 
 
 The advantage of IBFs is that the size of the actual set does not matter. Only the size of the diff matters. The larger the diff the larger the IBF has to be.
 
+## Set Union Protocol
 
-## How is the size of the IBF chosen
+Unionise two sets in an efficient manner.
 
-Strata Estimator...
+### Difference Estimation / Strata Estimator 
+
+**Strata Estimator**: Collection of IBFs is called a Strata Estimator (SE)
+
+**Strata Estimator Creation**: Create fixed number of constant-size IBFs by sampling the set.
+
+* Stratum 1 contains $\frac{1}{2}$ of all elements
+* Stratum 2 contains $\frac{1}{4}$ of all elements
+* Stratum n contains $\frac{1}{2^n}$ all elements
+
+**Difference Estimation**: To estimate the difference between two sets, you compare the IBF in each stratum. Starting from the lowest stratum, you continue until you find a stratum where the IBFs differ. The index of this stratum gives an estimate of the size of the set difference ($δ$).
+
+### Protocol
+
+1. Alice sends $SE_{Alice}$ to Bob  
+2. Bob estimates the set difference $δ$  (Comparing against $SE_{Bob}$)
+3. Bob computes $IBF_{Bob}$ with size $δ$ and sends it to Alice 
+4. Alice computes $IBF_{Alice}$  
+5. Alice computes $IBF_{diff} = SymDiff (IBF_{Alice}, IBF_{Bob})$
+6. Alice extracts element hashes from $IBF_{diff}$ . 
+	* b= $left$ ⇒Send element to Bob
+	* b = $right$ ⇒ Send element request to to Bob  
+	* b = $fail$ ⇒ Send larger IBF (double the size) to Bob, go to (3.) with switched roles 
+	* b = $done$ ⇒ We’re done
 
 ---
 links:  [[112 AC1 TOC - Key Revocation|AC1 TOC - Key Revocation]] - [[themes/000 Index|Index]]

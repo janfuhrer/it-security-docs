@@ -25,7 +25,7 @@ pseudo code representing secure-send (encryption)
 pseudo code representing secure-receive (decryption)
 ![[secure-receive.png]]
 
-- The freshness property based on counters guarantees the following: If m1, m2, . . . , mn denote the messages send using secure-send(), then secure-receive() can guarantee that the messagesm1,m2,...,mn beingreceivedaresubsequenceof the messages sent.
+- The freshness property based on counters guarantees the following: If m1, m2, . . . , mn denote the messages send using secure-send(), then secure-receive() can guarantee that the messages m1,m2,...,mn being received are sub sequence of the messages sent.
 - Counters give no timing guarantees, i.e., the adversary Mallory can delay messages at will.
 - Timing guarantees can be achieved using
 	- Time-stamps
@@ -45,12 +45,23 @@ pseudo code representing secure-receive (decryption)
 - Bob may turn “evil” and use Alice’s statements against her later
 - Signatures may provide too much (authentication and non-repudiation)
 
-**Off-the-record (OTR) protocol**
-Protocol that allows to authenticate and keep repudiation by publishing MAC keys after message is sent.
-https://robertheaton.com/otr3
+### Off-the-record (OTR) protocol
 
-**3DH**
-https://signal.org/blog/simplifying-otr-deniability/
+Protocol that allows to authenticate and keep repudiation by publishing MAC keys after message is sent.
+
+Achieved using two signatures and a DH handshake.
+
+[How OTR Works](https://robertheaton.com/otr3)
+
+### Triple Diffie-Hellman (3DH)
+
+Replaces the two signatures from OTR and does everything with 3 DH key exchanges.
+
+[Simplifying OTR Deniability](https://signal.org/blog/simplifying-otr-deniability/)
+
+If Alice's private key $(a, T_a)$ is compromised in the 3DH protocol, the attacker could not only decrypt messages meant for Alice, but could also impersonate Alice in her communications. This is because Alice's private key is used both to decrypt messages sent to her and to create a digital signature that verifies her identity. If an attacker has access to Alice's private key, they can forge this digital signature and send messages that appear to be from Alice.
+
+Compromising Alice's private key would not allow an attacker to decrypt past session keys, because 3DH provides forward secrecy. **Forward secrecy** is a feature of specific key agreement protocols that ensures that even if the private key is compromised, past session keys will not be compromised. Each session key is generated independently with a unique ephemeral key pair, so even if Alice's long-term private key is compromised, the session keys used for past secure communications would remain secure.
 
 ---
 
