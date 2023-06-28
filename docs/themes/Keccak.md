@@ -31,7 +31,7 @@ If the input to be hashed does not have the minimal length of $r$ bits, the inpu
 
 #### Absorb
 
-In the absorbing phase, we
+In the absorbing phase, the sponge construction consumes (absorbs) input and updates the internal state of the construction. This happens by applying $r$ sized chunks from input to the first $r$ bits of the internal state.
 
 #### Squeeze
 
