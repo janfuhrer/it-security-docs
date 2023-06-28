@@ -12,10 +12,10 @@ Hash functions can be viewed as lying between the worlds of private- and public-
 
 **Cryptographic Hash Functions**
 
-- a hash function with a fixed output length
-- has to be deterministic
-- Collision resistant (wich implies pre-image- and second-image resistant)
-- hash must therefore be a "one way" function
+- a hash function with a **fixed output length**
+- has to be **deterministic**
+- **Collision resistant** (which implies pre-image- and second-image resistance)
+- hash must therefore be a **one-way function**
 
 ## Collision Resistance
 
@@ -31,11 +31,11 @@ Hash functions can be viewed as lying between the worlds of private- and public-
 
 **Second-preimage resistance**
 
-We have $x$ and cannot find a $x'$ wich results to the same Hash $y$ for both $x$ and $x'$
+We have $x$ and cannot find a $x'$ which results to the same Hash $y$ for both $x$ and $x'$: $$H(x) = H(x'), x \neq x'$$
 
 **Preimage resistance**
 
-$H$ is one-way, if we have $y$ ($y = H(x)$) we cannot go back to find a $x'$ to compute $y$
+$H$ is one-way, if we have $y$ ($y = H(x)$) we cannot go back to find a $x'$ to compute $y$: $$H^{-1}(H(x)) = x, \textrm{let } H^{-1} \textrm{ be the inverse of } H$$
 
 ## Compress Functions
 
@@ -54,8 +54,8 @@ $H$ is one-way, if we have $y$ ($y = H(x)$) we cannot go back to find a $x'$ to 
 
 ## Attacks on Hash Functions
 
-- in symmetric-key using an $n$-bit secret key is vulnerable to a *brute-force attack* in which an attacker enumerates all $2^n$ possible keys
-- for a hash function $H$ to be collision resistant against attackers running in time $2^n$ it is required that $H$ have **output at least $2n$ bits long**
+- in symmetric-key using a $n$-bit secret key is vulnerable to a *brute-force attack* in which an attacker enumerates all $2^n$ possible keys
+- for a hash function $H$ to be collision resistant against attackers running in time $2^n$ it is required that $H$ has **output at least $2n$ bits long**
 
 ### Birthday attacks
 

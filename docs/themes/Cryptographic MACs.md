@@ -75,6 +75,7 @@ Source: [Link](https://crypto.stackexchange.com/a/67639)
 - KMAC is a PRF and [[Hash Functions#Keyed hash functions|keyed hash function]] based on [[Keccak]]
 - two variants KMAC128 and KMAC256, built from cSHAKE128 and cSHAKE256 respectively
 - KMAC can also be used as a XOF, which mimics the behaviour of cSHAKE
+- It can be leveraged in [[Key Derivation Function (KDF)|KDF]]
 
 ---
 links: [[themes/106 AC1 TOC - Random Oracle & Applications|AC1 TOC - Random Oracle & Applications]] - [[300 Modern Cryptography MOC|Modern Cryptography MOC]] - [[themes/000 Index|Index]]

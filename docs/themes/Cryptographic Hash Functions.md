@@ -20,6 +20,7 @@ links: [[themes/106 AC1 TOC - Random Oracle & Applications|AC1 TOC - Random Orac
 - applying the [[Hash Functions#Davies-Meyer|Davies-Meyer]] & [[Hash Functions#Merkle-Damgård Transform|Merkle-Damgård Transform]] construction
 - 160-bit output length
 - collisions was found, not recommended anymore
+- [SHAttered](https://shattered.io/)
 
 ### SHA-2
 
