@@ -15,7 +15,7 @@
 		{"type":"text","text":"# Christian","id":"c7a820821214499b","x":1980,"y":-600,"width":310,"height":220},
 		{"type":"text","text":"# Andy","id":"2cbdbd916e83646a","x":1980,"y":-900,"width":310,"height":220},
 		{"type":"text","text":"# Mario","id":"44d5e4720a587782","x":1980,"y":300,"width":310,"height":220},
-		{"type":"text","text":"# Oliver\n- ~~Topic 10~~","id":"4f46638f6fc7523c","x":1980,"y":620,"width":310,"height":220}
+		{"type":"text","text":"# Oliver\n- ~~Topic 9~~\n- ~~Topic 10~~","id":"4f46638f6fc7523c","x":1980,"y":620,"width":310,"height":220}
 	],
 	"edges":[
 		{"id":"24b2626acf66fc27","fromNode":"de191edf28777ec8","fromSide":"left","toNode":"05878e87fbfabe55","toSide":"right"},
