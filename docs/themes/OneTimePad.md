@@ -18,7 +18,8 @@ $c \oplus c' = (m \oplus k)\oplus (m' \oplus k) = m \oplus m'$
 
 ## Limitations of Perfect Secrecy
 
-Any perfectly secret encryption scheme must have a key space that is at least as large as the message space: $|K|\geq|M|$
+- Any perfectly secret encryption scheme must have a key space that is at least as large as the message space: $|K|\geq|M|$
+- The OneTimePad is not protected against integrity (e.g. is vulnerable to Non-Malleability) 
 
 ---
 

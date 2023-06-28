@@ -51,7 +51,7 @@ links: [[themes/000 Index|Index]]
 	* [HASH vs XOF vs MAC vs PRF vs KDF](https://www.cryptosys.net/pki/manpki/pki_prfxof.html)
 * [[Random Number Generator (RNG)|RNG]] (Random Number Generator)
 	* Some mechanism that produces random numbers
-* [[Random Number Generator (RNG)#^456990|TRNG]] (True Random Number Generator)
+* [[Random Number Generator (RNG)#TRNG|TRNG]] (True Random Number Generator)
 	* An RNG that is based off of some unpredictable physical process.
 
 ---

@@ -1,4 +1,4 @@
-tags: #symmetric #cpa 
+tags: #symmetric #CPA
 
 # CPA-Security
 

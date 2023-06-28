@@ -1,4 +1,4 @@
-tags: #symmetric 
+tags: #symmetric #PUF
 
 # Physical Uncloneable Function
 
@@ -18,9 +18,9 @@ In a typical scenario, a verifier sends a challenge (a random number or signal) 
 
 ## In the context of Security
 
-1. Authentication: PUFs can be used to authenticate devices in a network by using the unique challenge-response pairs.
-2. Key Generation: PUFs can also generate unique cryptographic keys, providing secure key storage.
-3. Anti-Tampering: Because PUFs rely on physical characteristics that can't be exactly duplicated or predicted, they provide a level of security against physical tampering and cloning.
+1. **Authentication**: PUFs can be used to authenticate devices in a network by using the unique challenge-response pairs.
+2. **Key Generation**: PUFs can also generate unique cryptographic keys, providing secure key storage.
+3. **Anti-Tampering**: Because PUFs rely on physical characteristics that can't be exactly duplicated or predicted, they provide a level of security against physical tampering and cloning.
 
 ## Unique properties
 
@@ -36,9 +36,14 @@ The main security assumption behind PUFs is the difficulty of physically cloning
 
 ## Pros & Cons
 
-* - Wear and Tear 
-* + Denial of Service is not possible. No network needed.
-* + Cloning is not possible if the security assumption holds.
+**Cons**
+
+* Wear and Tear 
+
+**Pros**
+
+* Denial of Service is not possible. No network needed.
+* Cloning is not possible if the security assumption holds.
 
 ## Example Protocol
 
