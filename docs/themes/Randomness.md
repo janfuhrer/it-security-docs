@@ -1,4 +1,4 @@
-tags: #symmetric 
+tags: #symmetric #Randomness 
 
 # Randomness
 
@@ -8,14 +8,14 @@ links:  [[103 AC1 TOC - Randomness|AC1 TOC - Randomness]] - [[themes/000 Index|I
 
 ## Definition
 
-Randomness refers to a phenomenon or process that is without pattern, order, or predictability. In simple terms, it denotes a condition where every possible outcome or event has an equal chance of occurrence (uniform distribution).
+Randomness refers to a phenomenon or process that is without pattern, order or predictability. In simple terms, it denotes a condition where every possible outcome or event has an equal chance of occurrence (uniform distribution).
 
 ## Requirements of Randomness
 
-1. Unpredictability: A random sequence can't be reasonably predicted.
-2. Lack of Pattern: There should be no discernible pattern or order in a random sequence.
-3. Balance: In a large enough sample, each possible outcome should occur roughly with the same frequency.
-4. Independence: The occurrence of one event should not affect the occurrence of another event.
+1. **Unpredictability**: A random sequence can't be reasonably predicted.
+2. **Lack of Pattern**: There should be no discernible pattern or order in a random sequence.
+3. **Balance**: In a large enough sample, each possible outcome should occur roughly with the same frequency.
+4. **Independence**: The occurrence of one event should not affect the occurrence of another event.
 
 ## Sources of Randomness
 

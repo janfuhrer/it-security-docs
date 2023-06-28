@@ -15,8 +15,8 @@ We need Ethics and Laws to answer those questions.
 
 ## Ethics
 
-- **Meta-ethics** - Nature of moral judgements. (universal, relative, nihilist). Why be moral?
-- **Normative ethics - Systematical approach to ethical questions
+- **Meta-ethics** - Nature of moral judgements (universal, relative, nihilist). Why be moral?
+- **Normative ethics** - Systematical approach to ethical questions
 - **Applied ethics**  - Answers to specific issues
 
 A few examples of normative ethics are mentioned below:

@@ -1,8 +1,10 @@
 tags: #asymmetric #exercise
-links:  [[210 AC2 TOC - Anonymity]], [[themes/000 Index|Index]]
+
+# Anonymity - Exercises
+
+links:  [[210 AC2 TOC - Anonymity|AC2 TOC - Anonymity]] - [[themes/000 Index|Index]]
 
 ---
-# Exercises
 
 ## Entropy Calculation Example
 
@@ -13,9 +15,10 @@ $\sum_{i=1}^{n} p_i \cdot \log_{2}\left(\frac{1}{p_i}\right)$
 $100 * \frac{1}{1000} * \log_{2}(1000) + \frac{9}{10} * log_{2}(\frac{10}{9}) = 1.133$
 
 
-100 suspects with probability $\frac{1}{1000}$ and 1 suspect with probability $\frac{9}{10}$
+100 suspects with probability $\frac{1}{1000}$ and 1 suspect with probability $\frac{9}{10}$.
 
 ## Explain the Dining Cryptographers Problem
+
 Every two cryptographers establish a shared one-bit secret. Everyone then makes an XOR out of the two shared one-bit secrets and reveals the result.
 
 - If they payed they invert the XOR
@@ -27,4 +30,4 @@ Finally the revealed results are XORed aswell
 - If the result is 0 then the NSA payed
 
 ---
-links:  [[210 AC2 TOC - Anonymity]], [[themes/000 Index|Index]]
+links:  [[210 AC2 TOC - Anonymity|AC2 TOC - Anonymity]] - [[themes/000 Index|Index]]
