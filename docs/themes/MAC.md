@@ -2,7 +2,7 @@ tags: #symmetric #mac
 
 # MAC
 
-links:  [[300 Modern Cryptography MOC|Modern Cryptography MOC]] - [[themes/000 Index|Index]]
+links: [[themes/106 AC1 TOC - Random Oracle & Applications|AC1 TOC - Random Oracle & Applications]] - [[300 Modern Cryptography MOC|Modern Cryptography MOC]] - [[themes/000 Index|Index]]
 
 ---
 
@@ -36,22 +36,24 @@ A *message authentication code* (or MAC) consists of three probabilistic polynom
 
 A secure MAC is said to be *existentially unforgeable under an adaptive chosen-message attack*. "Existentially unforgeable" refers to the fact that the adversary is unable to forge a valid tag on any message; this should hold even if the attacker can carry out an "adaptive chosen-message attack" by which it is able to obtain tags on arbitrary messages chosen adaptively during its attack.
 
-**Replay attacks**
+### Replay attacks
 
 The above definition offer **no protection against replay attacks** in which an attacker simply re-sends a previously authenticated message along with its valid tag. A example would be a authenticated transfer of $1000 from Alice to Bob wich can be repeated.
 A MAC by itself cannot protect against such attacks since **verification is stateless**.
 To prevent replay attacks, we can use **sequence numbers** or **time-stamps**.
 
-**Strong unforgeability**
+### Strong unforgeability
 
 It may be possible for an adversary to generate a *different* valid tag on some *previously* authenticated message. In standard applications of MACs, this is not a concern. Nevertheless, in some settings it is useful to consider a stronger definition of security for MACs.
 This definition is called a **strongly secure** MAC.
 
-**MAC verification**
+### MAC verification
 
 MAC verification should use *time-independent* string comparison that always **compares all bytes**
 
 ## Constructing Secure MACs with pseudorandom function
+
+### A Fixed Length MAC
 
 - Let $F$ be a (length preserving) pseudorandom function. Define a fixed-length MAC for messages of length $n$ as follows:
 	- $Mac$: input a key $k$ and message $m$, output the tag $t := F_k(m)$
@@ -63,22 +65,5 @@ MAC verification should use *time-independent* string comparison that always **c
 
 ![[mac_arbitrary_length.png]]
 
-### CBC-MAC
-
-in compare with [[Block Cipher#Cipher Block Chaining (CBC) mode|CBC mode of operation]]:
-- no IV
-- only output of last tag (no intermediate output)
-
-![[cbc_mac.png]]
-
-**CBC-MAC for arbitrary-length messages**
-
-![[cbc_mac_2.png]]
-
-### Other MACs
-
-- **GMAC***: Galois Message Authentication Code* is an specialization of the GCM (Galois/Counter mode) and used for authentication.
-- **Poly1305**
-
 ---
-links:  [[300 Modern Cryptography MOC|Modern Cryptography MOC]] - [[themes/000 Index|Index]]
+links: [[themes/106 AC1 TOC - Random Oracle & Applications|AC1 TOC - Random Oracle & Applications]] - [[300 Modern Cryptography MOC|Modern Cryptography MOC]] - [[themes/000 Index|Index]]]]

@@ -1,8 +1,8 @@
-tags: #symmetric
+tags: #symmetric #randomOracle
 
 # Random-Oracle Model
 
-links:  [[300 Modern Cryptography MOC|Modern Cryptography MOC]] - [[themes/000 Index|Index]]
+links: [[106 AC1 TOC - Random Oracle & Applications|AC1 TOC - Random Oracle & Applications]] -  [[300 Modern Cryptography MOC|Modern Cryptography MOC]] - [[themes/000 Index|Index]]
 
 ---
 
@@ -14,7 +14,7 @@ An approach that has been hugely successful in practice, and which offers a "mid
 
 > The random-oracle model posits the existence of a public, random function $H$ that can be evaluated only by "querying" an oracle.
 
-The oracle is simply a "black box" that takes a bit-string as input and returns a bit-string as output. The internal workings of the box are unknown and inscrutable. Everyone (including the adversary), can interact with the box. The box is **consistent**, if the box ever outputs $y$ for a particular input $x$, then it always outputs the same answer $y$ when given the same input again.
+The oracle is simply a "black box" that takes a bit-string as input and returns a bit-string as output. The internal workings of the box are unknown and inscrutable. Everyone (including the adversary), can interact with the box. The box is **consistent**, if the box ever outputs $y$ for a particular input $x$, then it always outputs the same answer $y$ when given the same input $x$ again.
 
 $H$ can either be viewed as being chosen the outputs "**in one shot**" uniformly from the set of all functions or "**on-the-fly**" as needed. In the second case we can view the function as being defined by a table that is initially empty. When the oracle receives a query $x$ it first checks whether $x$ is already in the table and otherwise chose a uniform string $y$, returns it and store it in the table.
 
@@ -32,4 +32,4 @@ The hope is that the cryptographic hash function used is "sufficiently good" at 
 - there is currently debate within the cryptographic community about how to interpret proofs in the random-oracle model.
 
 ---
-links:  [[300 Modern Cryptography MOC|Modern Cryptography MOC]] - [[themes/000 Index|Index]]
+links: [[106 AC1 TOC - Random Oracle & Applications|AC1 TOC - Random Oracle & Applications]] -  [[300 Modern Cryptography MOC|Modern Cryptography MOC]] - [[themes/000 Index|Index]]]]
