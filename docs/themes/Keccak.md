@@ -15,10 +15,10 @@ The sponge construction is a quite novel approach to design cryptographic cipher
 #### Constants
 
 The sponge construction possesses four constants which define the sizing of an implementation:
-- $r$ defines the number of bits which are absorbed per absorb cycle.
-- $c$ defines the number of 'shuffle'-bits.
-- $l$ defines the sum $r + c$ and represents the size of the sponges internal state.
-- $v$ defines the number of bits which are squeezed per squeeze cycle.
+ - $r$ defines the number of bits which are absorbed per absorb cycle.
+ - $c$ defines the number of 'shuffle'-bits.
+ - $l$ defines the sum $r + c$ and represents the size of the sponges internal state.
+ - $v$ defines the number of bits which are squeezed per squeeze cycle.
 
 #### Unkeyed, random Permutation
 
