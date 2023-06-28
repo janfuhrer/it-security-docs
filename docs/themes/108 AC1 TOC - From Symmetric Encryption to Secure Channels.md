@@ -7,7 +7,6 @@ links:  [[100 AC1 MOC|AC1 MOC]] - [[themes/000 Index|Index]]
 ---
 
 - [[CBC Attack]]
-- [[CPA Secure Block and Stream Ciphers]]
 - [[CCA-Security]]
 - [[CPA vs CCA]]
 - [[CPA-Security#Pseudorandom Functions and Permutations|Pseudo Random Functions]]
