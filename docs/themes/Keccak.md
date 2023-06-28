@@ -15,6 +15,7 @@ The sponge construction is a quite novel approach to design cryptographic cipher
 #### Constants
 
 The sponge construction possesses four constants which define the sizing of an implementation:
+
 - $r$ defines the number of bits which are absorbed per absorb cycle.
 - $c$ defines the number of 'shuffle'-bits.
 - $l$ defines the sum $r + c$ and represents the size of the sponges internal state.
@@ -42,11 +43,11 @@ In the squeeze phase, we can take out $v$ bits from the current state before the
 
 Suppose we have following configuration (the permutation does not fulfill the requirements of a real implementation):
 
-- $r = 4$
-- $c = 4$
-- $l = r + c =  4 + 4 = 8$
-- $v = 3$
-- $P(x) =  {x} \lor {0000 0000}$
+ - $r = 4$
+ - $c = 4$
+ - $l = r + c =  4 + 4 = 8$
+ - $v = 3$
+ - $P(x) =  {x} \lor {0000 0000}$
 
 Now we want to create a hash of length 12 bit and are given binary $input = 1001 0010$ (146).
 
@@ -84,7 +85,7 @@ Appending the results of the squeeze cycles to one another results in $1011 1011
 
 ### Building Ciphers with Keccak
 
-* Generating a One Time Pad for the required message length. This gives us as a possibility to build a Stream-Cipher. We just continue to squeeze more bits out of the XOF if needed.
+* Generating a One Time Pad for the required message length. This gives us as a possibility to build a Stream-Cipher. We just continue to squeeze more bits out of the XOF (extendable output function) if needed.
 * Keccak can also be used for a Block-Cipher. Ascon-128 is such a cipher.
 	1. Absorb-Phase: Add the key and a counter
 	2. Squeeze-Phase: Take out the length of one block

@@ -20,7 +20,7 @@ $$\mathbb{P}(s_i = 1) \approx \mathbb{P}(s_i = 0) \approx  {1 \over 2} + negl(n)
 
 ### Construct PRG (Pseudo Random Generator) from PRF (Pseudo Random Function)
 
-Let's assume $F$ is a pseudorandom function that takes a secret key $k$ and an input $x$, and produces a pseudorandom output $y$. So $F(k, x) = y$.
+Let's assume $F$ is a [[CPA-Security#Pseudorandom Functions and Permutations|pseudorandom function]] that takes a secret key $k$ and an input $x$, and produces a pseudorandom output $y$. So $F(k, x) = y$.
 
 1. Choose an initial seed $s0$ as the secret key for the PRF. The seed $s0$ must be chosen randomly and kept secret.
 2. For generating the n-th pseudorandom number, use the PRF $F$ with the seed $s0$ and $n$ as the inputs. The output of the PRF is the n-th pseudorandom number. So the n-th pseudorandom number is $F(s0, n)$.

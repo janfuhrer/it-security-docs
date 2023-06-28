@@ -2,7 +2,7 @@ tags: #symmetric
 
 # Authenticated Encryption
 
-links:  [[300 Modern Cryptography MOC|Modern Cryptography MOC]] - [[themes/000 Index|Index]] - [[themes/Authenticated Encryption with Associated Data|Authenticated Encryption with Associated Data]]
+links:  [[300 Modern Cryptography MOC|Modern Cryptography MOC]] - [[108 AC1 TOC - From Symmetric Encryption to Secure Channels|AC1 TOC - From Symmetric Encryption to Secure Channels]] - [[themes/000 Index|Index]] - [[themes/Authenticated Encryption with Associated Data|Authenticated Encryption with Associated Data]]
 
 ---
 
@@ -49,6 +49,7 @@ There is no reason to ever use a CCA-secure scheme that is *not* also an authent
 - follows the encrypt-then-authenticate approach with [[Block Cipher#Counter (CTR) mode|CTR mode]] as the underlying encryption  scheme and GMAC as the underlying message authentication code.
 - uses only one single key and the same IV for CTR-mode encryption and as the nonce for GMAC $\rightarrow$ Both these changes can be proven secure in GCM
 - a repeated IV would fail secrecy and authentication!
+![[GCM.png]]
 
 ### CCM (Counter with CBC-MAC)
 
@@ -76,4 +77,5 @@ $\rightarrow$ this attacks can be addressed using a **counter**
 $\rightarrow$ this attack can be addressed using a **directionality bit**
 
 ---
-links:  [[300 Modern Cryptography MOC|Modern Cryptography MOC]] - [[themes/000 Index|Index]] - [[themes/Authenticated Encryption with Associated Data|Authenticated Encryption with Associated Data]]
+
+links:  [[300 Modern Cryptography MOC|Modern Cryptography MOC]] - [[108 AC1 TOC - From Symmetric Encryption to Secure Channels|AC1 TOC - From Symmetric Encryption to Secure Channels]] - [[themes/000 Index|Index]] - [[themes/Authenticated Encryption with Associated Data|Authenticated Encryption with Associated Data]]
