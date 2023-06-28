@@ -31,9 +31,16 @@ links: [[themes/106 AC1 TOC - Random Oracle & Applications|AC1 TOC - Random Orac
 
 ### SHA-3
 
+- SHA-3 Standard defines:
+	- four fixed-length hash functions: SHA3-224, SHA3-256, SHA3-384, SHA3-512
+	- two extendable Output Functions (XOFs): SHAKE128 and SHAKE256 (see [[SHAKE & cSHAKE]])
 - applying the [[Keccak]] (Sponge) construction
-- released in 2015, supports 224-, 256-, 384- & 512-bit output lengths
 - also recommended
+
+
+## Security Strengths in Bits
+
+![[security_of_sha_functions.png]]
 
 ---
 links: [[themes/106 AC1 TOC - Random Oracle & Applications|AC1 TOC - Random Oracle & Applications]] - [[300 Modern Cryptography MOC|Modern Cryptography MOC]] - [[themes/000 Index|Index]]
