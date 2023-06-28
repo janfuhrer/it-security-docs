@@ -48,13 +48,13 @@ Each block $A_i$ is XORed with the first r bits of $S_R$ of the state S. Then a 
 
 ### Plaintext
 
-**Encryption
+**Encryption**
 
 As with the associated data, the plaintext is padded to a multiple of r bits and then divided into blocks of size r.
 
 Each iteration on the plaintext block $P_i$ is XORed with the first r bits of $S_r$. Then a ciphertext block $C_i$ is extracted. After the initial state S is transformed by the permutation $p^b$ using b rounds.
 
-**Decryption
+**Decryption**
 
 The plaintext block $P_i$ is computed by XORing $C_i$ with the first r bits of $S_r$. Then the first r bits of S are replaced by $C_i$. Finally, S is transformed using the b-round permutation $p^b$.
 
