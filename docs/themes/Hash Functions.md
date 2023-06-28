@@ -62,5 +62,16 @@ $H$ is one-way, if we have $y$ ($y = H(x)$) we cannot go back to find a $x'$ to 
 - if $q$ people are in a room, what is the probability that some two of them share a birthday? $\rightarrow$ matching birthdays correspond to collisions
 - if $H$ has an output length of $l$, $q = \Theta(2^{l/2}) \rightarrow$ **yields a collision with probability roughly $1/2$** 
 
+## Universal Hash Function
+
+> Universal hashes can be extremely cheap to evaluate - much cheaper than block ciphers, pseudorandom functions, and especially collision-resistant hashes.
+> (...)
+> Universal hashing gives us strong guarantees with extremely cheap options
+
+- selecting a hash function at random from a family of hash functions with a certain mathematical property
+- Example of universal hash families: [[Cryptographic MACs#GMAC (Galois Message Authentication Code)|GMAC]] or [[Cryptographic MACs#Poly1305|Poly1305]]
+
+Source: [Link](https://crypto.stackexchange.com/a/67639)
+
 ---
 links: [[themes/106 AC1 TOC - Random Oracle & Applications|AC1 TOC - Random Oracle & Applications]] - [[300 Modern Cryptography MOC|Modern Cryptography MOC]] - [[themes/000 Index|Index]]

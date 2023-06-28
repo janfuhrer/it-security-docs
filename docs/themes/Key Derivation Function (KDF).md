@@ -10,7 +10,7 @@ links:  [[106 AC1 TOC - Random Oracle & Applications|AC1 TOC - Random Oracle & A
 
 KDF (key derivation functions) derive a key from a KDK (key derivation key). This means that a KDF creates a key based on another key. A KDF assumes that the KDK which is supplied as input already possesses high entropy and therefore the KDF must not mess with this and just delegates to underlying [[CPA-Security#Pseudorandom Functions and Permutations|PRF]] (pseudo random functions). For this purpose, KDF leverage [[CPA-Security#Pseudorandom Functions and Permutations|PRF]]. The NIST recommends to use HMAC or KMAC as underlying [[CPA-Security#Pseudorandom Functions and Permutations|PRF]]. KDF which take high entropy as input can also be termed as key expansion. Key expansion is a subpart of a functioning KDF. You could also define a KDF which take  low entropy and generate a high entropy output from this. For low-high entropy scenarios read about [[Password Based Key Derivation Function (PBKDF)|Password Based Key Derivation Function (PBKDF)]].
 
-NIST Recommondations on KDF: [NIST SP 800-108r1](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-108r1.pdf) 
+NIST Recommendations on KDF: [NIST SP 800-108r1](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-108r1.pdf) 
 
 ## KDF using KMAC ([[Keccak|Keccak]])
 
