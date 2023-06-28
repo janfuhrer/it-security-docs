@@ -28,9 +28,9 @@ $-\sum_{i=1}^{n} p_i \cdot \log_{2}({p_i})$
 
 See [[Randomness#Sources of Randomness|Sources of Randomness]]
 
-We can combine multiple entropy sources with XOR. Doing this the entropy can only increase (or stay the same). Decrease is not possible.
+We can combine multiple entropy sources with XOR. Doing this the entropy can only increase (or stay the same). Decrease is not possible. This also means that if we combine different entropy sources, our entropy is at least as strong as the strongest entropy source in the sources pool.
 
-Entropy is better when the least amount of trust is required to get it eg. when we are closest to the source.
+Entropy is better when the least amount of trust is required to get it e.g. when we are closest to the source.
 
 ## Entropy calculation
 

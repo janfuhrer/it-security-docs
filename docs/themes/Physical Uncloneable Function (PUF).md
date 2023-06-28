@@ -37,7 +37,7 @@ The main security assumption behind PUFs is the difficulty of physically cloning
 ## Pros & Cons
 
 * - Wear and Tear 
-* + Denial of Service is not possible. Not network needed.
+* + Denial of Service is not possible. No network needed.
 * + Cloning is not possible if the security assumption holds.
 
 ## Example Protocol

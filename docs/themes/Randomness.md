@@ -40,5 +40,10 @@ Jitter refers to the small, unpredictable variations in the timing of events, su
 
 The concept behind a CPU Jitter RNG is that the precise timing of CPU instructions is difficult to predict due to the dynamic nature of computer systems and the complexity of concurrent processes running on them. By leveraging these timing variations, the RNG can extract random bits and construct random numbers.
 
+Sources on Jitter entropy:
+
+- [Clearification and justification of jittering as entropy source](http://www.chronox.de/jent.html)
+-  [Example implementation](https://github.com/smuellerDD/jitterentropy-library)
+
 ---
 links:  [[103 AC1 TOC - Randomness|AC1 TOC - Randomness]] - [[themes/000 Index|Index]]
