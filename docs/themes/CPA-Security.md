@@ -27,6 +27,9 @@ A simple example is given by an attacker typing on a terminal, which in turn enc
 
 > A pseudorandom function is a keyed function $F$ such that $F_k$ (for uniform $k \in {0, 1}^n$) is indistinguishable from $f$ (for uniform $f \in Func_n$)
 
+* [[Pseudorandom Number Generator#Construct PRG (Pseudo Random Generator) from PRF (Pseudo Random Function)|An example]]
+* [[Block Cipher#Pseudorandom permutation / function|Similarity Block Ciphers and PRFs]]
+
 ### CPA-Security from a Pseudorandom Function
 
 - uses **randomized encryption**: applying a pseudorandom function to a *random value* $r \in {0,1}^n$ 

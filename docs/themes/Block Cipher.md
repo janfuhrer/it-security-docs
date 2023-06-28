@@ -12,7 +12,7 @@ links:  [[300 Modern Cryptography MOC|Modern Cryptography MOC]] - [[[[108 AC1 TO
 That is, a block cipher $F : \{0, 1\}^n \times \{0, 1\}^l \rightarrow \{0, 1\}^l$ is a keyed function, $n$ is the key length of F and $l$ is the block length.
 The main distinction between block ciphers and pseudorandom permutations is that the former typically only support a specific set of key/block lengths and do not support arbitrary-length keys.
 
-The assumption that block ciphers (e.g. AES) are pseudo random functions (PRNG / pseudorandom permutation) is a commonly shared belief of the crypto community. No proof exists.
+The assumption that block ciphers (e.g. AES) are [[CPA-Security#Pseudorandom Functions and Permutations|pseudo random functions]] (PRNG / pseudorandom permutation) is a commonly shared belief of the crypto community. No proof exists.
 
 ## Electronic Code Block (ECB) mode
 
