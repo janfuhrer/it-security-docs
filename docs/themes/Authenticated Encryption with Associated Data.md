@@ -2,7 +2,7 @@ tags: #symmetric
 
 # Authenticated Encryption with Associated Data
 
-links:  [[107 AC1 TOC - AEAD|AC1 TOC - AEAD]] - [[themes/000 Index|Index]] - [[themes/Authenticated Encryption|Authenticated Encryption]]
+links:  [[107 AC1 TOC - AEAD|AC1 TOC - AEAD]] -  [[themes/Authenticated Encryption|Authenticated Encryption]] - [[themes/000 Index|Index]]]]
 
 ---
 
@@ -64,5 +64,4 @@ Bob uses AES-GCM with his copy of the secret key "secretkey123", the received ci
 Bob then compares this new authentication tag with the received tag "xyz789". If they match, it verifies that the data hasn't been tampered with during transmission and is indeed from Alice. Now bob has not only confidentiality (encrypted plaintext which he can decrypt by using the shared secret key) but also integrity and authenticity (by verifying the tag using the shared secret key).
 
 --- 
-
-links:  [[107 AC1 TOC - AEAD|AC1 TOC - AEAD]] - [[themes/000 Index|Index]] - [[themes/Authenticated Encryption|Authenticated Encryption]]
+links:  [[107 AC1 TOC - AEAD|AC1 TOC - AEAD]] -  [[themes/Authenticated Encryption|Authenticated Encryption]] - [[themes/000 Index|Index]]

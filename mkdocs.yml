@@ -11,6 +11,7 @@ nav:
       - 'Intro': 'themes/101 AC1 TOC - Intro.md'
       - 'Security & Cryptography': 'themes/102 AC1 TOC - Security & Cryptography.md'
       - 'Randomness': 'themes/103 AC1 TOC - Randomness.md'
+      - 'Pseudo Random Number Generator': 'themes/Pseudorandom Number Generator.md'
       - 'Private Key Encryption': 'themes/105 AC1 TOC - Private Key Encryption.md'
       - 'Random Oracle & Applications': 'themes/106 AC1 TOC - Random Oracle & Applications.md'
       - 'AEAD': 'themes/107 AC1 TOC - AEAD.md'

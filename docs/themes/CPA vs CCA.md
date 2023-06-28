@@ -1,6 +1,7 @@
+
 tags: #AC1 #symmetric #attack #attacker-model 
 
-# CPA vs CCA
+# CPA vs. CCA
 
 links [[108 AC1 TOC - From Symmetric Encryption to Secure Channels|AC1 TOC - From Symmetric Encryption to Secure Channels]] - [[themes/000 Index|Index]]
 
@@ -9,10 +10,12 @@ links [[108 AC1 TOC - From Symmetric Encryption to Secure Channels|AC1 TOC - Fro
 ## Comparison
 
 **Similarities**
+
 - Both are attacker models
 - Attacker can chose inputs and observe corresponding outputs
 
 **Differences**
+
 - In [[themes/CPA-Security|CPA]] the attacker does not have access to a decryption oracle while [[themes/CCA-Security|CCA]] attacker does
 - IND-CCA is a stronger security model
 

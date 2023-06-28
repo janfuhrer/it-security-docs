@@ -1,12 +1,10 @@
 tags: #symmetric #ascon #aead #sponge-construction
 
-# Authenticated Encryption with Associated Data
+# Ascon
 
 links:  [[107 AC1 TOC - AEAD|AC1 TOC - AEAD]] - [[themes/000 Index|Index]]
 
 ---
-
-# Ascon
 
 Ascon was Submitted on May 31, 2021 to NIST. It provides authenticated encryption wit associated data (AEAD) and hashing functionality. For full information see the [NIST Submission](https://ascon.iaik.tugraz.at/files/asconv12-nist.pdf)
 
@@ -69,6 +67,5 @@ Decryption returns the plaintext if the computed tag value matches $T$.
 
 ![[Ascon_notion.png]]
 
---- 
-
+---
 links:  [[107 AC1 TOC - AEAD|AC1 TOC - AEAD]] - [[themes/000 Index|Index]]

@@ -61,7 +61,7 @@ There is no reason to ever use a CCA-secure scheme that is *not* also an authent
 ### ChaCha20-Poly1305
 
 - relies on the encrypt-then-authenticate approach
-- using the stream cipher ChaCha20 in [[Stream Cipher#Unsynchronized mode|unsynchronized mode]] and Poly1305 as MAC
+- using the stream cipher ChaCha20 in [[Stream Cipher#Unsynchronized mode|unsynchronized mode]] and [[Cryptographic MACs#Poly1305|Poly1305]] as MAC
 
 ## Secure Communication Sessions
 

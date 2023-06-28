@@ -59,13 +59,6 @@ The assumption that block ciphers (e.g. AES) are [[CPA-Security#Pseudorandom Fun
 
 ![[ctr_mode.png]]
 
-## GCM (Galois/ counter mode)
-
-- following the *encrypt-then-authenticate*
-
-## CCM (Counter with CBC-Mac)
-
-
 ## Practical Considerations
 
 **Block length and concrete security**
