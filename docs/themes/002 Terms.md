@@ -6,9 +6,9 @@ links: [[themes/000 Index|Index]]
 
 **Cryptographic Hash Functions**
 
-* SHA-1 (Merkle–Damgård construction)
-* SHA-2 (Merkle–Damgård construction)
-* SHA-3 (Sponge construction / Keccak)
+* [[Examples of Hash Functions#SHA-1|SHA-1]] (Merkle–Damgård construction)
+* [[Examples of Hash Functions#SHA-2|SHA-2]] (Merkle–Damgård construction)
+* [[Examples of Hash Functions#SHA-3|SHA-3]] (Sponge construction / Keccak)
 * BLAKE (Bernstein)
 * Ascon-Hash (Sponge construction)
 
@@ -21,13 +21,13 @@ links: [[themes/000 Index|Index]]
 
 **MAC (Message Authentication Code)**
 
-* HMAC (Hash Based)
+* [[Hash Functions#HMAC|HMAC]] (Hash Based)
 * KMAC (Based on Keccak. Also usable as a regular hash function without key)
 * Poly1305 (Bernstein)
 
 **AEAD (Authenticated Encryption and Associated Data)**
 
-* AES-GCM
+* [[Authenticated Encryption#GCM (Galois/ counter mode)|AES-GCM]]
 * ChaCha20-Poly1305 (Bernstein)
 * Ascon-128 (Sponge construction)
 
@@ -39,15 +39,16 @@ links: [[themes/000 Index|Index]]
 **Random**
 
 * PRG (Pseudo Random Generator)
-* PRNG (Pseudo Random Number Generator)
+* [[Pseudorandom Number Generator|PRNG]] (Pseudo Random Number Generator)
 	* Subset of PRG. Used interchangeably.
-* CSPRNG (Cryptographically secure pseudorandom number generator)
+* [[Pseudorandom Number Generator#Other properties|CSPRNG]] (Cryptographically secure pseudorandom number generator)
 	* A PRNG that is safe for cryptographic use. (Assuming the seed is picked correctly)
-* PRF (Pseudo Random Function) 
+* [[CPA-Security#Pseudorandom Functions and Permutations|PRF]] (Pseudo Random Function) 
 	* [KDF > PRF > MAC](https://crypto.stackexchange.com/a/60652)
-* RNG (Random Number Generator)
+	* [HASH vs XOF vs MAC vs PRF vs KDF](https://www.cryptosys.net/pki/manpki/pki_prfxof.html)
+* [[Random Number Generator (RNG)|RNG]] (Random Number Generator)
 	* Some mechanism that produces random numbers
-* TRNG (True Random Number Generator)
+* [[Random Number Generator (RNG)#^456990|TRNG]] (True Random Number Generator)
 	* An RNG that is based off of some unpredictable physical process.
 
 ---
