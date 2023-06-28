@@ -35,8 +35,7 @@ links:  [[111 AC1 TOC - Naming Systems|AC1 TOC - Naming Systems]] - [[themes/000
 
 - **DNS-over-HTTPS:** This method sends DNS queries over the HTTPS protocol, allowing them to blend in with regular web traffic and thereby enhancing privacy. It also encrypts the queries, providing confidentiality, integrity, and authenticity.
 
-- **RAINS:** https://britram.github.io/rains-prototype/draft-trammell-rains-protocol.html#rfc.section.4
-
+- **RAINS:** New protocol designed by ETH Zürich
 
 ## Case study 1
 
@@ -65,7 +64,43 @@ There is no transparency and users can't be sure that google isn't sharing their
 
 *“The ETH Zurich is developing a new name system called RAINS with a new trust anchor operated by the regional Internet service provides, aka the local Isolation Service Domain (ISD). RAINS does not change the privacy of DNS (provides can continue to monitor traffic, all zone data becomes public) and allows the local authorities to block Web sites to improve public safety and enforce local laws (see also: ”Glu ̈cksspielgesetz in Switzerland”). At the same time, foreign censorship efforts are less likely to be effective (unless they foreign government forces the DNS authority to alter the authoritative records).”*
 
-...
+###  General infos
+
+* Feels a bit like splitting up the internet and each country is in power of their own part of the internet.
+* Every entry in RAINS is signed, ensuring the integrity and authenticity of the data.
+* RAINS uses an object-oriented approach, where each entry has an object type (like IP address, email, etc.) and a set of attributes. This allows RAINS to be more flexible and scalable than DNS, able to accommodate a wider variety of services.
+* Queries in RAINS can be done over secure channels, preventing eavesdropping.
+* In DNS, each record has a Time To Live (TTL), which specifies how long the record should be cached. RAINS replaces this with explicit validity periods, which specify a start and end time for the validity of each record. This can make caching more efficient and reduce unnecessary network traffic.
+* To ensure resilience and availability, RAINS supports sharding and replication of its name servers. This means that the data stored in RAINS can be distributed across multiple servers, reducing the impact of any single server going down.
+
+### Virtues
+
+**Availability**
+
+RAINS aims to decentralize trust by allowing for multiple trust anchors, compared to DNS's single root of trust. This could promote resilience and reduce single points of failure.
+
+**Censorship Resistance against adversaries abroad**
+
+With the decentralized trust model, RAINS could potentially limit the global reach of censorship attempts by a single entity.
+
+**end-to-end integrity**
+
+Entries are signed to ensure data integrity and authenticity. This enhances the reliability of the system and builds user trust. Queries in RAINS can also be done over secure channels, preventing eavesdropping.
+
+### Vices
+
+**Compartmentalisation**
+
+By allowing ISPs or individual countries to serve as trust anchors, RAINS may inadvertently enable fragmentation of the internet, with each country or region potentially controlling and shaping access to information.
+
+**Censorship Resistance at home**
+
+If each ISP or country is given control over its portion of the name system, this could enable regional censorship, where a country or an ISP could decide what to block.
+
+**Privacy**
+
+ISPs can already monitor your IP internet traffic. With RAINS they can also monitor your DNS requests. 
+
 
 ## Case study 3
 
