@@ -1,4 +1,4 @@
-tags: #symmetric #asymmetric 
+tags: #symmetric #asymmetric #CPA #CCA #attacker #attacker-model
 
 # Cryptoanalysis
 
@@ -22,7 +22,7 @@ If the cipher holds against this it is IND-CPA secure.
 
 IND-CPA immediately implies some sort of randomised ciphertext: if encryption was deterministic, the attacker would just encrypt the two plaintexts of their choice by themself, then compare those against the challenge received.
 
-Textbook RSA is not secure under CPA (due to a lack of randomisation), but ElGamal is. AES in ECB mode is not (due to lack of an IV), but in CBC/CTR mode it is.
+Textbook RSA is not secure under CPA (due to a lack of randomization), but ElGamal is. AES in ECB mode is not (due to lack of an IV), but in CBC/CTR mode it is.
 
 **CCA** means the attacker is able to obtain the decryption of any ciphertext of their choosing, except the challenge. It models the case where tricking an enemy into decrypting a lot of ciphertexts for you will not help you into breaking any others.
 

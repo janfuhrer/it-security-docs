@@ -14,6 +14,7 @@ Most important class are software bugs.
 * Hardware bugs  
 * Automatically executed software from CD/USB stick on old W32 systems
 * etc.
+A comprehensive list of current most spread vulnerabilities can be found in the [OWASP Top 10](https://owasp.org/Top10/)
 
 ## Typical Bugs
 
