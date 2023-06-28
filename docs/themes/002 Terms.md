@@ -4,6 +4,10 @@ links: [[themes/000 Index|Index]]
 
 ---
 
+**NIST Glossary**
+
+- The NIST maintains a comprehensive cybersecurity glossary: [NIST Glossary](https://csrc.nist.gov/glossary)
+
 **Cryptographic Hash Functions**
 
 * [[Cryptographic Hash Functions#SHA-1|SHA-1]] (Merkle–Damgård construction)
