@@ -24,12 +24,11 @@ Information has monetary value. Thus we speak about information assets.
 
 - Authenticity
 - Accountability
-- Auditablity (Non-repudiation)
+- Auditability (Non-repudiation)
 
 **Risk**
 
-Risk is value (cost of potential damage) multiplied by the probability of this
-damage occurring.
+Risk is value (cost of potential damage) multiplied by the probability of this damage occurring.
 
 **Vulnerability**
 

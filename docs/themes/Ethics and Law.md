@@ -24,32 +24,32 @@ A few examples of normative ethics are mentioned below:
 ### Virtues
 
 A quality considered morally good or desirable in a person.
-Virtue ethics were advocated by Aristotle.
+Virtue (de: Tugend) ethics were advocated by Aristotle.
 
-- Mercy
-- Discipline
-- Frugality (being economical with money or food)
-- Industriousness (hard working)
-- Truthfulness
+- Mercy (de: Barmherzigkeit)
+- Discipline (de: Disziplin)
+- Frugality (being economical with money or food) (de: Sparsamkeit)
+- Industriousness (hard working) (de: Fleiss)
+- Truthfulness (de: Ehrlichkeit / Aufrichtigkeit)
 
 Plato's four cardinal virtues:
 
-- Wisdom
-- Justice
-- Fortitude
-- Temperance (moderation, restrain)
+- Wisdom (de: Weisheit)
+- Justice (de: Gerechtigkeit)
+- Fortitude (de: Tapferkeit)
+- Temperance (moderation, restrain) (de: Mässigung / Abstinenz)
 
 #### Vices
 
 Immoral or wicked behaviour
 
-- Pride  
-- Jealousy  
-- Wrath  
-- Sloth
-- Avarice (greed, material gain)
-- Gluttony  (excess eating, greed)
-- Lust
+- Pride (de: Stolz)
+- Jealousy (de: Eifersucht)
+- Wrath (de: Zorn)
+- Sloth (de: Faulheit)
+- Avarice (greed, material gain) (de: Geiz)
+- Gluttony  (excess eating, greed) (de: Völlerei)
+- Lust (de: Lust)
 
 ### Deontology
 
@@ -98,7 +98,7 @@ Different ethics exist:
 A few examples:
 
 - Sharing
-- Decentralisation
+- Decentralization
 - Beurteile einen Hacker nach dem, was er tut, und nicht nach üblichen Kriterien wie Aussehen, Alter, Herkunft, Spezies, Geschlecht oder gesellschaftliche Stellung.
 - To reject bribery in all its forms
 - To improve the understanding by individuals and society of the capabilities and societal implications of conventional and emerging technologies, including intelligent systems
