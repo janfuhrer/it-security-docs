@@ -1,4 +1,4 @@
-tags: #symmetric 
+tags: #symmetric #secure-channel #repudiation #non-repudiation #OTR #off-the-record #forward-secrecy
 
 # Secure Channels
 
@@ -13,7 +13,7 @@ links:  [[108 AC1 TOC - From Symmetric Encryption to Secure Channels|AC1 TOC - F
 	- Integrity and authenticity
 	- Message freshness
 - Secure channels are probably one of the most important applications of crypto in the real world.
-- Many well known secure network protocols such as TLS/SSL, VPNs, IPSec, WPA etc but also application specific (e.g., secure VoIP), and proprietary protocols (maybe Skype?) make use of secure channels.
+- Many well known secure network protocols such as TLS/SSL, VPN, IPSec, WPA etc but also application specific (e.g., secure VoIP), and proprietary protocols (maybe Skype?) make use of secure channels.
 - It is also possible to get it wrong, e.g., the WEP protocol has a series of security flaws.
 
 

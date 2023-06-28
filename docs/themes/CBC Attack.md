@@ -12,7 +12,7 @@ In a chosen plaintext attack, an attacker can choose a plaintext and observe the
 
 In other words:
 
-If you guess the plaintext corresponding to _any_ ciphertext block you have seen before, and can predict a future IV, you can verify your guess by submitting a suitable message to be encrypted with that IV. Obviously, that could be bad if, say, you knew the plaintext to be either "yes" or "no", and only need to find out which one it is.
+If you guess the plaintext corresponding to _any_ ciphertext block you have seen before, and can predict a future IV, you can verify your guess by submitting a suitable message to be encrypted with that IV. Obviously, that could be bad if you knew the plaintext to be either "yes" or "no", and only need to find out which one it is.
 
 Extract cookies that were sent over HTTPS: [BEAST](https://crypto.stackexchange.com/a/3885)
 

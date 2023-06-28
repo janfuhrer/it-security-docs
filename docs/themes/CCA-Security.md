@@ -1,4 +1,4 @@
-tags: #symmetric
+tags: #symmetric #cca #attack #attacker-model 
 
 # CCA-Security
 
@@ -6,7 +6,7 @@ links:  [[300 Modern Cryptography MOC|Modern Cryptography MOC]] - [[108 AC1 TOC 
 
 ---
 
-Assume we have an **active** adversary wich observing a ciphertext $c$. An attacker who can tamper with the communication can modify $c$ to generate another ciphertext $c'$ and send it to the receiver. The receiver will then decrypt $c'$ to get $m'$ (if $m' \neq m$ and $m' \neq \perp$, this is a violation of integrity). What is of interest to us here, however, is the potential impact on secrecy. In particular, if the attacker learns partial information about $m'$, might that reveal information about the original message $m$?
+Assume we have an **active** adversary which observes a ciphertext $c$. An attacker who can tamper with the communication can modify $c$ to generate another ciphertext $c'$ and send it to the receiver. The receiver will then decrypt $c'$ to get $m'$ (if $m' \neq m$ and $m' \neq \perp$, this is a violation of integrity). What is of interest to us here, however, is the potential impact on secrecy. In particular, if the attacker learns partial information about $m'$, might that reveal information about the original message $m$?
 
 This type of attack, in which an adversary causes a receiver to decrypt ciphertexts that the adversary generates, is called a *chosen-ciphertext attack*. *Chosen-ciphertext attacks are possible, in principle, any time an attacker has the ability to inject traffic on the channel between the sender and receiver*.
 
@@ -18,7 +18,7 @@ The adversary can send arbitrary ciphertexts to the padding oracle (e.g. a serve
 
 Padding oracle attacks can be quite powerful because they exploit vulnerabilities in the padding validation process, allowing attackers to decrypt encrypted data without knowledge of the encryption key.
 
- Non-Malleability
+## Non-Malleability
 
 CCA-security implies a very important property called *non-malleability*.
 
@@ -30,8 +30,7 @@ IND-CCA itself does not provide authenticity. CCA only requires that an attacker
 
 Example from slides:
 *CTR schemes are IND-CCA insecure:
-“Say ⟨r,C⟩ is a ciphertext of some l-bit message M, and we flip bit i of C, resulting in a new ciphertext ⟨r,C′⟩. Let M′ be the message obtained by decrypting the new ciphertext. Then M′ equals M with the i-th bit flipped. Thus, by making a decryption oracle query of⟨r,C′⟩one can learn M′ and thus M.”
-–Symmetric Encryption by Mihir Bellare and Phillip Rog- away*
+> “Say ⟨r,C⟩ is a ciphertext of some l-bit message M, and we flip bit i of C, resulting in a new ciphertext ⟨r,C′⟩. Let M′ be the message obtained by decrypting the new ciphertext. Then M′ equals M with the i-th bit flipped. Thus, by making a decryption oracle query of⟨r,C′⟩one can learn M′ and thus M.” – Symmetric Encryption by Mihir Bellare and Phillip Rog- away
 
 ---
 links:  [[300 Modern Cryptography MOC|Modern Cryptography MOC]] - [[108 AC1 TOC - From Symmetric Encryption to Secure Channels|AC1 TOC - From Symmetric Encryption to Secure Channels]] - [[themes/000 Index|Index]]
