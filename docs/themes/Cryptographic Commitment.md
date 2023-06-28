@@ -1,4 +1,4 @@
-tags: #symmetric 
+tags: #symmetric #commitment #commitment-scheme
 
 # Cryptographic Commitment
 
