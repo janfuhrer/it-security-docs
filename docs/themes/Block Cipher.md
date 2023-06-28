@@ -2,14 +2,17 @@ tags: #symmetric
 
 # Block Cipher
 
-links:  [[300 Modern Cryptography MOC|Modern Cryptography MOC]] - [[themes/000 Index|Index]]
+links:  [[300 Modern Cryptography MOC|Modern Cryptography MOC]] - [[[[108 AC1 TOC - From Symmetric Encryption to Secure Channels|AC1 TOC - From Symmetric Encryption to Secure Channels]] - [[themes/000 Index|Index]]
 
 ---
+## Pseudorandom permutation / function
 
 > A block cipher is simply another name for a (strong) pseudorandom permutation.
 
 That is, a block cipher $F : \{0, 1\}^n \times \{0, 1\}^l \rightarrow \{0, 1\}^l$ is a keyed function, $n$ is the key length of F and $l$ is the block length.
 The main distinction between block ciphers and pseudorandom permutations is that the former typically only support a specific set of key/block lengths and do not support arbitrary-length keys.
+
+The assumption that block ciphers (e.g. AES) are pseudo random functions (PRNG / pseudorandom permutation) is a commonly shared belief of the crypto community. No proof exists.
 
 ## Electronic Code Block (ECB) mode
 
@@ -52,6 +55,7 @@ The main distinction between block ciphers and pseudorandom permutations is that
 - Parallel encryption & decryption
 - the blocks of the pseudorandom stream can be computed independently of each other
 - CPA secure
+- Not CCA secure (Attacker can flip one bit in cipher text, encrypt cipher text to get message with only one bit flipped)
 
 ![[ctr_mode.png]]
 
@@ -82,4 +86,4 @@ A **nonce** refers to a value that is supposed to be **used once, and never repe
 
 
 ---
-links:  [[300 Modern Cryptography MOC|Modern Cryptography MOC]] - [[themes/000 Index|Index]]
+links:  [[300 Modern Cryptography MOC|Modern Cryptography MOC]] - [[108 AC1 TOC - From Symmetric Encryption to Secure Channels|AC1 TOC - From Symmetric Encryption to Secure Channels]] - [[themes/000 Index|Index]]
