@@ -1,10 +1,11 @@
-tags: #AC1 #symmetric
 
----
+tags: #AC1 #symmetric #attack #attacker-model 
 
 # CPA vs. CCA
 
 links [[108 AC1 TOC - From Symmetric Encryption to Secure Channels|AC1 TOC - From Symmetric Encryption to Secure Channels]] - [[themes/000 Index|Index]]
+
+---
 
 ## Comparison
 

@@ -1,4 +1,4 @@
-tags: #symmetric
+tags: #symmetric #BlockCipher #Cipher #ECB #CBC #OBC #CTR #GCM #nonce
 
 # Block Cipher
 
