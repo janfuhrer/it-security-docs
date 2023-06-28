@@ -8,7 +8,7 @@ links:  [[106 AC1 TOC - Random Oracle & Applications|AC1 TOC - Random Oracle & A
 
 ## Definition
 
-A *commitment scheme* allows one party to "commit" to a value $m$ by sending a *commitment* $com$, and then to reveal $m$ (by "opening" the commitment) at a later point in time.
+A *commitment scheme* allows one party to "commit" to a value $m$ by sending a commitment $com$ and then to reveal $m$ (by "opening" the commitment) at a later point in time.
 
 **Properties**
 

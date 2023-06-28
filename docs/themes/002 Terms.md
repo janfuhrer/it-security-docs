@@ -6,9 +6,9 @@ links: [[themes/000 Index|Index]]
 
 **Cryptographic Hash Functions**
 
-* [[Examples of Hash Functions#SHA-1|SHA-1]] (Merkle–Damgård construction)
-* [[Examples of Hash Functions#SHA-2|SHA-2]] (Merkle–Damgård construction)
-* [[Examples of Hash Functions#SHA-3|SHA-3]] (Sponge construction / Keccak)
+* [[Cryptographic Hash Functions#SHA-1|SHA-1]] (Merkle–Damgård construction)
+* [[Cryptographic Hash Functions#SHA-2|SHA-2]] (Merkle–Damgård construction)
+* [[Cryptographic Hash Functions#SHA-3|SHA-3]] (Sponge construction / Keccak)
 * BLAKE (Bernstein)
 * Ascon-Hash (Sponge construction)
 
@@ -21,9 +21,9 @@ links: [[themes/000 Index|Index]]
 
 **MAC (Message Authentication Code)**
 
-* [[Hash Functions#HMAC|HMAC]] (Hash Based)
-* KMAC (Based on Keccak. Also usable as a regular hash function without key)
-* Poly1305 (Bernstein)
+* [[Cryptographic MACs#HMAC (Hash-based Message Authentication Code)|HMAC]] (Hash Based)
+* [[Cryptographic MACs#KMAC (Keccak Message Authentication Code|KMAC]] (Based on Keccak. Also usable as a regular hash function without key)
+* [[Cryptographic MACs#Poly1305|Poly1305]] (Bernstein)
 
 **AEAD (Authenticated Encryption and Associated Data)**
 

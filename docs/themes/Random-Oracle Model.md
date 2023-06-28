@@ -32,4 +32,4 @@ The hope is that the cryptographic hash function used is "sufficiently good" at 
 - there is currently debate within the cryptographic community about how to interpret proofs in the random-oracle model.
 
 ---
-links: [[106 AC1 TOC - Random Oracle & Applications|AC1 TOC - Random Oracle & Applications]] -  [[300 Modern Cryptography MOC|Modern Cryptography MOC]] - [[themes/000 Index|Index]]]]
+links: [[106 AC1 TOC - Random Oracle & Applications|AC1 TOC - Random Oracle & Applications]] -  [[300 Modern Cryptography MOC|Modern Cryptography MOC]] - [[themes/000 Index|Index]]

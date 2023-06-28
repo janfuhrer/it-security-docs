@@ -33,3 +33,6 @@ links: [[themes/106 AC1 TOC - Random Oracle & Applications|AC1 TOC - Random Orac
 - see article on https://github.com/marcelo140/length-extension
 
 The length-extension attack allows an attacker to extend the length of a given hash value, without knowing the original message or the secret key. By appending additional data to the hash output and calculating a new MAC, the attacker can generate valid MACs for extended messages, potentially leading to unauthorized access or forgery.
+
+---
+links: [[themes/106 AC1 TOC - Random Oracle & Applications|AC1 TOC - Random Oracle & Applications]] - [[300 Modern Cryptography MOC|Modern Cryptography MOC]] - [[themes/000 Index|Index]]
