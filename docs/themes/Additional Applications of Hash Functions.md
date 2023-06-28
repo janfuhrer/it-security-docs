@@ -1,17 +1,18 @@
-tags: #symmetric
+tags: #symmetric #hash
 
 # Additional Applications of Hash Functions
 
-links:  [[300 Modern Cryptography MOC|Modern Cryptography MOC]] - [[themes/000 Index|Index]]
+links: [[themes/106 AC1 TOC - Random Oracle & Applications|AC1 TOC - Random Oracle & Applications]] - [[300 Modern Cryptography MOC|Modern Cryptography MOC]] - [[themes/000 Index|Index]]
 
 ---
 
 ## Fingerprinting and Deduplication
 
-- use hash (or digest) as fingerprint of a file, used e.g. for
-	- *Virus fingerprinting*: compare only hash of a file with a hash database of virus-files
-	- *Deduplication*: eliminate duplicate copies of data, only store once
-	- *Peer-to-peer (P2P) file sharing*: server store files and broadcasting the hashes of those files, allow client to easily find out on which servers host a file is
+use hash (or digest) as fingerprint of a file, used e.g. for
+
+- *Virus fingerprinting*: compare only hash of a file with a hash database of virus-files
+- *Deduplication*: eliminate duplicate copies of data, only store once
+- *Peer-to-peer (P2P) file sharing*: server store files and broadcasting the hashes of those files, allow client to easily find out on which servers host a file is
 
 ## Password Hashing
 
@@ -29,16 +30,11 @@ To mitigate the problem of rainbow tables, we can introduce a *salt*. When a use
 
 ## Key Derivation
 
-> a key-derivation function provides a way to obtain a (close to) uniformly distributed string from any distribution with high min-entropy.
+- see [[Key Derivation Function (KDF)]]
 
 ## Commitment Schemes
 
-A *commitment scheme* allows one party to "commit" to a value $m$ by sending a *commitment* $com$, and then to reveal $m$ (by "opening" the commitment) at a later point in time.
-
-**Properties**
-
-- *Hiding*: the commitment $com$ reveals nothing about $m$
-- *Binding*: it is infeasible for the committer to output a commitment $com$ that it can later "open" as two different messages $m, m'$ (commitment is truly on one value).
+- see [[Cryptographic Commitment]]
 
 ---
-links:  [[300 Modern Cryptography MOC|Modern Cryptography MOC]] - [[themes/000 Index|Index]]
+links: [[themes/106 AC1 TOC - Random Oracle & Applications|AC1 TOC - Random Oracle & Applications]] - [[300 Modern Cryptography MOC|Modern Cryptography MOC]] - [[themes/000 Index|Index]]

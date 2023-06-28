@@ -3,28 +3,49 @@ site_name: IT-Security Docs
 site_url: https://janfuhrer.github.io/it-security-docs/
 
 nav:
-  - Home: index.md
+  - 'Home': index.md
   - 'IT-Security Docs':
-    - Index: 'themes/000 Index.md'
+    - 'Index': 'themes/000 Index.md'
     - 'Applied Cryptography 1':
-      - Index: 'themes/100 AC1 MOC.md'
-      - Intro: 'themes/101 AC1 TOC - Intro.md'
-      - Security: 'themes/102 AC1 TOC - Security.md'
-      - Randomness: 'themes/103 AC1 TOC - Randomness.md'
-      - 'Stream Ciphers': 'themes/105 AC1 TOC - Stream Cipher.md'
+      - 'Index': 'themes/100 AC1 MOC.md'
+      - 'Intro': 'themes/101 AC1 TOC - Intro.md'
+      - 'Security & Cryptography': 'themes/102 AC1 TOC - Security & Cryptography.md'
+      - 'Randomness': 'themes/103 AC1 TOC - Randomness.md'
+      - 'Private Key Encryption': 'themes/105 AC1 TOC - Private Key Encryption.md'
+      - 'Random Oracle & Applications': 'themes/106 AC1 TOC - Random Oracle & Applications.md'
+      - 'AEAD': 'themes/107 AC1 TOC - AEAD.md'
+      - 'Secure Channels': 'themes/108 AC1 TOC - From Symmetric Encryption to Secure Channels.md'
+      - 'Blockchain': 'themes/109 AC1 TOC - Blockchain.md'
+      - 'Secret Sharing': 'themes/110 AC1 TOC - Secret sharing.md'
+      - 'Naming Systems': 'themes/111 AC1 TOC - Naming Systems.md'
+      - 'Key Revocation': 'themes/112 AC1 TOC - Key Revocation.md'
     - 'Applied Cryptography 2':
-      - Index: 'themes/200 AC2 MOC.md'
-      - Intro: 'themes/201 AC2 TOC - Intro pk.md'
-      - Anonymity: 'themes/210 AC2 TOC - Anonymity.md'
+      - 'Index': 'themes/200 AC2 MOC.md'
+      - 'Intro': 'themes/201 AC2 TOC - Intro pk.md'
+      - 'Anonymity': 'themes/210 AC2 TOC - Anonymity.md'
     - 'Modern Cryptography':
-      - Index: 'themes/300 Modern Cryptography MOC.md'
-      #- 'Introduction and Classical Cryptography':
-      #  - Introduction:
-      #  - 'Perfectly Secret Encryption':
-      #  -
-      #- 'Private-Key (Symmetric) Cryptography':
-      #  -
-  - Exercises: 'exercises/000 Index.md'
+      - 'Index': 'themes/300 Modern Cryptography MOC.md'
+      - 'Introduction and Classical Cryptography':
+        - 'Introduction': 'themes/Introduction to Modern Cryptography.md'
+        - 'Perfectly Secret Encryption': 'themes/Perfectly Secret Encryption.md'
+        - 'OneTimePad': 'themes/OneTimePad.md'
+        - 'Shannons Theorem': 'themes/Shannons Theorem.md'
+      - 'Private-Key (Symmetric) Cryptography':
+        - 'Computational Security': 'themes/Computational Security.md'
+        - 'EAV-Security': 'themes/EAV-Security.md'
+        - 'CPA-Security': 'themes/CPA-Security.md'
+        - 'Stream Cipher': 'themes/Stream Cipher.md'
+        - 'Block Cipher': 'themes/Block Cipher.md'
+        - 'Message Authentication Codes': 'themes/MAC.md'
+        - 'Cryptographic MACs': 'themes/Cryptographic MACs.md'
+        - 'Authenticated Encryption': 'themes/Authenticated Encryption.md'
+        - 'CCA-Security': 'themes/CCA-Security.md'
+        - 'Hash Functions': 'themes/Hash Functions.md'
+        - 'Random-Oracle Model': 'themes/Random-Oracle Model.md'
+        - 'Additional Applications of Hash Functions': 'themes/Additional Applications of Hash Functions.md'
+        - 'Cryptographic Hash Functions': 'themes/Cryptographic Hash Functions.md'
+        - 'Hash-and-Mac': 'themes/Hash-and-Mac.md'
+  - 'Exercises': 'exercises/000 Index.md'
 
 
 theme:

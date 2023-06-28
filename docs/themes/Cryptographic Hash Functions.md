@@ -1,8 +1,8 @@
 tags: #symmetric #hash
 
-# Examples of Hash Functions
+# Cryptographic Hash Functions
 
-links:  [[300 Modern Cryptography MOC|Modern Cryptography MOC]] - [[themes/000 Index|Index]]
+links: [[themes/106 AC1 TOC - Random Oracle & Applications|AC1 TOC - Random Oracle & Applications]] - [[300 Modern Cryptography MOC|Modern Cryptography MOC]] - [[themes/000 Index|Index]]
 
 ---
 
@@ -34,6 +34,5 @@ links:  [[300 Modern Cryptography MOC|Modern Cryptography MOC]] - [[themes/000 I
 - released in 2015, supports 224-, 256-, 384- & 512-bit output lengths
 - also recommended
 
-
 ---
-links:  [[300 Modern Cryptography MOC|Modern Cryptography MOC]] - [[themes/000 Index|Index]]
+links: [[themes/106 AC1 TOC - Random Oracle & Applications|AC1 TOC - Random Oracle & Applications]] - [[300 Modern Cryptography MOC|Modern Cryptography MOC]] - [[themes/000 Index|Index]]

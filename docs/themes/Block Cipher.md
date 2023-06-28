@@ -2,7 +2,7 @@ tags: #symmetric
 
 # Block Cipher
 
-links:  [[300 Modern Cryptography MOC|Modern Cryptography MOC]] - [[[[108 AC1 TOC - From Symmetric Encryption to Secure Channels|AC1 TOC - From Symmetric Encryption to Secure Channels]] - [[themes/000 Index|Index]]
+links: [[108 AC1 TOC - From Symmetric Encryption to Secure Channels|AC1 TOC - From Symmetric Encryption to Secure Channels]] - [[300 Modern Cryptography MOC|Modern Cryptography MOC]] - [[themes/000 Index|Index]]
 
 ---
 ## Pseudorandom permutation / function
@@ -59,6 +59,13 @@ The assumption that block ciphers (e.g. AES) are [[CPA-Security#Pseudorandom Fun
 
 ![[ctr_mode.png]]
 
+## GCM (Galois/ counter mode)
+
+- following the *encrypt-then-authenticate*
+
+## CCM (Counter with CBC-Mac)
+
+
 ## Practical Considerations
 
 **Block length and concrete security**
@@ -84,6 +91,5 @@ A **nonce** refers to a value that is supposed to be **used once, and never repe
 
 - in settings where generating high-quality randomness is expensive or impossible, it may be much easier to use a counter as a nonce rather than to generate a nonce uniformly.
 
-
 ---
-links:  [[300 Modern Cryptography MOC|Modern Cryptography MOC]] - [[108 AC1 TOC - From Symmetric Encryption to Secure Channels|AC1 TOC - From Symmetric Encryption to Secure Channels]] - [[themes/000 Index|Index]]
+links: [[108 AC1 TOC - From Symmetric Encryption to Secure Channels|AC1 TOC - From Symmetric Encryption to Secure Channels]] - [[300 Modern Cryptography MOC|Modern Cryptography MOC]] - [[themes/000 Index|Index]]
