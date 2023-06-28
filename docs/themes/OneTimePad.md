@@ -13,7 +13,7 @@ links:  [[102 AC1 TOC - Security & Cryptography|AC1 TOC - Security & Cryptograph
 
 ## Using OneTimePad twice
 
-Adversary can learn the $XOR$ of the two messages (where they differ):
+Adversary can learn the $XOR$ of the two messages (where they differ) if a OneTimePad (key) is used twice:
 $c \oplus c' = (m \oplus k)\oplus (m' \oplus k) = m \oplus m'$
 
 ## Limitations of Perfect Secrecy
@@ -25,6 +25,12 @@ Any perfectly secret encryption scheme must have a key space that is at least as
 ## Definitions
 
 - XOR (bitwise exclusive-or): $a \oplus b$
+
+| XOR | 0 | 1 |
+|-----|----|---|
+| 0      | 0 | 1 |
+| 1       | 1 | 0 |
+
 
 ---
 links:  [[102 AC1 TOC - Security & Cryptography|AC1 TOC - Security & Cryptography]] - [[300 Modern Cryptography MOC|Modern Cryptography MOC]] - [[themes/000 Index|Index]]

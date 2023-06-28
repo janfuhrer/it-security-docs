@@ -32,11 +32,15 @@ Intended to make the relationship between the key and ciphertext as complex as p
 
 The same message with a different key should result in a strictly different ciphertext.
 
+(Confusion can be achieved by applying substitutions)
+
 **Diffusion**
 
 Refers to rearranging or spreading out the bits in the message so that any redundancy in the message is spread out over the ciphertext. 
 
 A different message with the same key should result in a strictly different ciphertext.
+
+(Diffusion can be achieved by applying permutations)
 
 **Recorrelation**
 
