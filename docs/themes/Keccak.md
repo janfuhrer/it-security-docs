@@ -85,7 +85,7 @@ Appending the results of the squeeze cycles to one another results in $1011 1011
 
 ### Building Ciphers with Keccak
 
-* Generating a One Time Pad for the required message length. This gives us as a possibility to build a Stream-Cipher. We just continue to squeeze more bits out of the XOF if needed.
+* Generating a One Time Pad for the required message length. This gives us as a possibility to build a Stream-Cipher. We just continue to squeeze more bits out of the XOF (extendable output function) if needed.
 * Keccak can also be used for a Block-Cipher. Ascon-128 is such a cipher.
 	1. Absorb-Phase: Add the key and a counter
 	2. Squeeze-Phase: Take out the length of one block
