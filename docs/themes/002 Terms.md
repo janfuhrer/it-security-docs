@@ -14,31 +14,30 @@ links: [[themes/000 Index|Index]]
 * [[Cryptographic Hash Functions#SHA-2|SHA-2]] (Merkle–Damgård construction)
 * [[Cryptographic Hash Functions#SHA-3|SHA-3]] (Sponge construction / Keccak)
 * BLAKE (Bernstein)
-* Ascon-Hash (Sponge construction)
 
 **KDF (Key Derivation Function)** 
 
 * HKDF (Using HMAC/Hash)
-* Argon2 (Password Based --> PBKDF)
+* [[Password Based Key Derivation Function (PBKDF)#PBKDF using Argon2|Argon2]] (Password Based $\rightarrow$ [[Password Based Key Derivation Function (PBKDF)|PBKDF]])
 * PBKDF2
 * scrypt
 
 **MAC (Message Authentication Code)**
 
+- [[Cryptographic MACs#CBC-MAC|CBC-MAC]] (Block cipher based)
 * [[Cryptographic MACs#HMAC (Hash-based Message Authentication Code)|HMAC]] (Hash Based)
+* [[Cryptographic MACs#Poly1305|Poly1305]] & [[Cryptographic MACs#GMAC (Galois Message Authentication Code)|GMAC]] (Universal hash family)
 * [[Cryptographic MACs#KMAC (Keccak Message Authentication Code|KMAC]] (Based on Keccak. Also usable as a regular hash function without key)
-* [[Cryptographic MACs#Poly1305|Poly1305]] (Bernstein)
 
 **AEAD (Authenticated Encryption and Associated Data)**
 
-* [[Authenticated Encryption#GCM (Galois/ counter mode)|AES-GCM]]
-* ChaCha20-Poly1305 (Bernstein)
-* Ascon-128 (Sponge construction)
+* [[Authenticated Encryption#GCM (Galois/ counter mode)|AES-GCM]] (Block cipher)
+* [[Authenticated Encryption#ChaCha20-Poly1305|ChaCha20-Poly1305]] (Bernstein)
+* [[Ascon|Ascon]] (Sponge construction)
 
 **XOF (Extended Output Function)**
 
-* SHAKE / cSHAKE (Based on Keccak)
-* Ascon-Xof (Sponge construction)
+* [[themes/SHAKE & cSHAKE|SHAKE & cSHAKE]] (Based on Keccak)
 
 **Random**
 
