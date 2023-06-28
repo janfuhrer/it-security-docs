@@ -2,7 +2,7 @@ tags: #symmetric
 
 # Authenticated Encryption
 
-links:  [[300 Modern Cryptography MOC|Modern Cryptography MOC]] - [[108 AC1 TOC - From Symmetric Encryption to Secure Channels|AC1 TOC - From Symmetric Encryption to Secure Channels]] - [[themes/000 Index|Index]]
+links:  [[300 Modern Cryptography MOC|Modern Cryptography MOC]] - [[108 AC1 TOC - From Symmetric Encryption to Secure Channels|AC1 TOC - From Symmetric Encryption to Secure Channels]] - [[themes/000 Index|Index]] - [[themes/Authenticated Encryption with Associated Data|Authenticated Encryption with Associated Data]]
 
 ---
 
@@ -12,7 +12,7 @@ Until now, we have considered how to obtain secrecy (using encryption) and integ
 
 ## Authenticated encryption with associated data
 
-Often, a message $m$ requires both secrecy and integrity but various associated data (e.g. header information) sent along with the message requires integrity only. This schemes are called *authenticated encryption with associated data (AEAD) schemes*.
+Often, a message $m$ requires both secrecy and integrity but various associated data (e.g. header information) sent along with the message requires integrity only. This schemes are called *authenticated encryption with associated data (AEAD) schemes*. For more information click [[themes/Authenticated Encryption with Associated Data|here]].
 
 ## CCA Security vs. Authenticated Encryption
 
@@ -77,4 +77,5 @@ $\rightarrow$ this attacks can be addressed using a **counter**
 $\rightarrow$ this attack can be addressed using a **directionality bit**
 
 ---
-links:  [[300 Modern Cryptography MOC|Modern Cryptography MOC]] - [[108 AC1 TOC - From Symmetric Encryption to Secure Channels|AC1 TOC - From Symmetric Encryption to Secure Channels]] - [[themes/000 Index|Index]]
+
+links:  [[300 Modern Cryptography MOC|Modern Cryptography MOC]] - [[108 AC1 TOC - From Symmetric Encryption to Secure Channels|AC1 TOC - From Symmetric Encryption to Secure Channels]] - [[themes/000 Index|Index]] - [[themes/Authenticated Encryption with Associated Data|Authenticated Encryption with Associated Data]]
