@@ -2,7 +2,7 @@ tags: #symmetric
 
 # Authenticated Encryption with Associated Data
 
-links:  [[106 AC1 TOC - AEAD|AC1 TOC - AEAD]] - [[themes/Authenticated Encryption|Authenticated Encryption]] - [[themes/000 Index|Index]]
+links: [[106 AC1 TOC - AEAD|AC1 TOC - AEAD]] - [[themes/Authenticated Encryption|Authenticated Encryption]] - [[themes/000 Index|Index]]
 
 ---
 
@@ -34,7 +34,7 @@ To decrypt and verify data using AEAD, the following inputs are required: the ci
 **AEAD Protocols**
 
 - [[Authenticated Encryption#GCM (Galois Counter Mode)|AES-GCM]] with associated Data
-- ChaCha20/[[Cryptographic MACs#Poly1305|Poly1305]]
+- [[Authenticated Encryption#ChaCha20-Poly1305|ChaCha20-Poly1305]]
 - [[Ascon]]
 
 ## Example with AES-GCM
@@ -64,4 +64,4 @@ Bob uses[[Authenticated Encryption#GCM (Galois Counter Mode)|AES-GCM]] with his 
 Bob then compares this new authentication tag with the received tag "xyz789". If they match, it verifies that the data hasn't been tampered with during transmission and is indeed from Alice. Now bob has not only confidentiality (encrypted plaintext which he can decrypt by using the shared secret key) but also integrity and authenticity (by verifying the tag using the shared secret key).
 
 --- 
-links:  [[106 AC1 TOC - AEAD|AC1 TOC - AEAD]] - [[themes/Authenticated Encryption|Authenticated Encryption]] - [[themes/000 Index|Index]]
+links: [[106 AC1 TOC - AEAD|AC1 TOC - AEAD]] - [[themes/Authenticated Encryption|Authenticated Encryption]] - [[themes/000 Index|Index]]

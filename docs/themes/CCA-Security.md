@@ -2,7 +2,7 @@ tags: #symmetric #cca #attack #attacker-model
 
 # CCA-Security
 
-links: [[107 AC1 TOC - From Symmetric Encryption to Secure Channels|AC1 TOC - From Symmetric Encryption to Secure Channels]] - [[300 Modern Cryptography MOC|Modern Cryptography MOC]]  - [[themes/000 Index|Index]]
+links: [[104 AC1 TOC - Private Key Encryption|AC1 TOC - Private Key Encryption]] - [[300 Modern Cryptography MOC|Modern Cryptography MOC]] - [[themes/000 Index|Index]]
 
 ---
 
@@ -37,4 +37,4 @@ IND-CCA itself does not provide authenticity. CCA only requires that an attacker
 > - Symmetric Encryption by Mihir Bellare and Phillip Rogaway*
 
 ---
-links: [[107 AC1 TOC - From Symmetric Encryption to Secure Channels|AC1 TOC - From Symmetric Encryption to Secure Channels]] - [[300 Modern Cryptography MOC|Modern Cryptography MOC]]  - [[themes/000 Index|Index]]
+links: [[104 AC1 TOC - Private Key Encryption|AC1 TOC - Private Key Encryption]] - [[300 Modern Cryptography MOC|Modern Cryptography MOC]] - [[themes/000 Index|Index]]

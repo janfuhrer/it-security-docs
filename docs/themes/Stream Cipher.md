@@ -2,7 +2,7 @@ tags: #symmetric
 
 # Stream Cipher
 
-links:  [[300 Modern Cryptography MOC|Modern Cryptography MOC]] - [[themes/000 Index|Index]]
+links: [[300 Modern Cryptography MOC|Modern Cryptography MOC]] - [[themes/000 Index|Index]]
 
 ---
 
@@ -36,6 +36,5 @@ Stateful encryption where the sender and receiver are required to maintain state
 
 When a stream cipher does take an IV, it can be used to construct a **stateless encryption scheme**. The main advantage here is that the encryption scheme directly handles arbitrary-length messages.
 
-
 ---
-links:  [[300 Modern Cryptography MOC|Modern Cryptography MOC]] - [[themes/000 Index|Index]]
+links: [[300 Modern Cryptography MOC|Modern Cryptography MOC]] - [[themes/000 Index|Index]]

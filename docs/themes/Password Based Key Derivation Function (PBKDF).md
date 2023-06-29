@@ -2,7 +2,7 @@ tags: #symmetric #kdf #key-derivation #pbkdf #password #password-based-key-deriv
 
 # Password Based Key Derivation Function (PBKDF)
 
-links:  [[105 AC1 TOC - Random Oracle & Applications|AC1 TOC - Random Oracle & Applications]] - [[themes/000 Index|Index]]
+links: [[105 AC1 TOC - Random Oracle & Applications|AC1 TOC - Random Oracle & Applications]] - [[themes/000 Index|Index]]
 
 ---
 
@@ -19,4 +19,4 @@ A PBKDF (password based key derivation functions) derive a key from an input. Th
 Argon2 can be parameterized by adjusting time-, memory-, and parallel-complexity. This allows fine tuning Argon2 for certain use-cases and make it harder to crack passwords by configuring the three parameter with higher values.
 
 ---
-links:  [[105 AC1 TOC - Random Oracle & Applications|AC1 TOC - Random Oracle & Applications]] - [[themes/000 Index|Index]]
+links: [[105 AC1 TOC - Random Oracle & Applications|AC1 TOC - Random Oracle & Applications]] - [[themes/000 Index|Index]]

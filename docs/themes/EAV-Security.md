@@ -1,8 +1,8 @@
-tags: #symmetric #eav
+tags: #symmetric #EAV
 
 # EAV-Security
 
-links:  [[300 Modern Cryptography MOC|Modern Cryptography MOC]] - [[themes/000 Index|Index]]
+links: [[104 AC1 TOC - Private Key Encryption|AC1 TOC - Private Key Encryption]] - [[300 Modern Cryptography MOC|Modern Cryptography MOC]] - [[themes/000 Index|Index]]
 
 ---
 
@@ -29,7 +29,7 @@ Mitigate or prevent such leakage by padding all messages before encrypting them.
 
 A semantically secure cryptosystem is one where only negligible information about the plaintext can be feasibly extracted from the ciphertext.
 
-Perfect secrecy (See [[themes/Shannons Theorem|Shannons Theorem]]) means that the ciphertext reveals no information at all about the plaintext, whereas semantic security implies that any information revealed cannot be feasibly extracted.
+Perfect secrecy (see [[themes/Shannons Theorem|Shannons Theorem]]) means that the ciphertext reveals no information at all about the plaintext, whereas semantic security implies that any information revealed cannot be feasibly extracted.
 
 ## Constructing an EAV-Secure Encryption Scheme
 
@@ -64,4 +64,4 @@ Rather than sharing this long, pseudorandom pad, the sender and receiver can ins
 ![[eav_with_prng.png]]
 
 ---
-links:  [[300 Modern Cryptography MOC|Modern Cryptography MOC]] - [[themes/000 Index|Index]]
+links: [[104 AC1 TOC - Private Key Encryption|AC1 TOC - Private Key Encryption]] - [[300 Modern Cryptography MOC|Modern Cryptography MOC]] - [[themes/000 Index|Index]]

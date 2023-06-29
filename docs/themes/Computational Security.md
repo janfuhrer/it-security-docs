@@ -2,7 +2,7 @@ tags: #symmetric
 
 # Computational Security
 
-links:  [[300 Modern Cryptography MOC|Modern Cryptography MOC]] - [[themes/000 Index|Index]]
+links: [[300 Modern Cryptography MOC|Modern Cryptography MOC]] - [[themes/000 Index|Index]]
 
 ---
 
@@ -49,4 +49,4 @@ Viewing the security parameter as the key length, this corresponds to the fact t
 - **Negligible success probability**: A negligible function is one that is asymptotically smaller than any inverse polynomial function $f(n) < \frac{1}{p(n)}$
 
 ---
-links:  [[300 Modern Cryptography MOC|Modern Cryptography MOC]] - [[themes/000 Index|Index]]
+links: [[300 Modern Cryptography MOC|Modern Cryptography MOC]] - [[themes/000 Index|Index]]

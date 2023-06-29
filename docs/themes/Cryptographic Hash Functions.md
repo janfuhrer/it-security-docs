@@ -11,7 +11,7 @@ links: [[105 AC1 TOC - Random Oracle & Applications|AC1 TOC - Random Oracle & Ap
 - applying the [[Hash Functions#Davies-Meyer|Davies-Meyer]] & [[Hash Functions#Merkle-Damgård Transform|Merkle-Damgård Transform]] construction
 - not secure anymore, a collision can be found under one minute
 - 128-bit output length
-- is prone to [[Hash-and-Mac#Length-Extension Attack|length-extension attacks]]]]
+- is prone to [[Hash-and-Mac#Length-Extension Attack|length-extension attacks]]
 
 ## SHA
 

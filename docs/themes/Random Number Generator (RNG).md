@@ -2,7 +2,7 @@ tags: #symmetric #RNG
 
 # Random Number Generator
 
-links:  [[103 AC1 TOC - Randomness|AC1 TOC - Randomness]] - [[themes/000 Index|Index]]
+links: [[103 AC1 TOC - Randomness|AC1 TOC - Randomness]] - [[themes/000 Index|Index]]
 
 ---
 
@@ -19,4 +19,4 @@ A **RNG** is an algorithm or device designed to generate a sequence of numbers t
 RNGs produce true random bits relatively slowly from analog sources, in a nondeterministic way, and with no guarantee of high entropy. In contrast, a [[Pseudorandom Number Generator (PRNG)]] (PNRG) produces random-looking bits into a long stream of reliable pseudorandom bits suitable for crypto applications.
 
 ---
-links:  [[103 AC1 TOC - Randomness|AC1 TOC - Randomness]] - [[themes/000 Index|Index]]
+links: [[103 AC1 TOC - Randomness|AC1 TOC - Randomness]] - [[themes/000 Index|Index]]

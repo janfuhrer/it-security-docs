@@ -7,6 +7,7 @@ links: [[themes/000 Index|Index]]
 **NIST Glossary**
 
 - The NIST maintains a comprehensive cybersecurity glossary: [NIST Glossary](https://csrc.nist.gov/glossary)
+- Check actual recommendations for key length on [Keylenght.com](https://www.keylength.com/)
 
 **Cryptographic Hash Functions**
 
@@ -17,6 +18,7 @@ links: [[themes/000 Index|Index]]
 
 **KDF (Key Derivation Function)** 
 
+* [[Key Derivation Function (KDF)|KDF]]
 * HKDF (Using HMAC/Hash)
 * [[Password Based Key Derivation Function (PBKDF)#PBKDF using Argon2|Argon2]] (Password Based $\rightarrow$ [[Password Based Key Derivation Function (PBKDF)|PBKDF]])
 * PBKDF2
@@ -26,7 +28,7 @@ links: [[themes/000 Index|Index]]
 
 - [[Cryptographic MACs#CBC-MAC|CBC-MAC]] (Block cipher based)
 * [[Cryptographic MACs#HMAC (Hash-based Message Authentication Code)|HMAC]] (Hash Based)
-* [[Cryptographic MACs#Poly1305|Poly1305]] & [[Cryptographic MACs#GMAC (Galois Message Authentication Code)|GMAC]] (Universal hash family)
+* [[Cryptographic MACs#Poly1305|Poly1305]] & [[Cryptographic MACs#GMAC (Galois Message Authentication Code)|GMAC]] (Based on a universal hash family)
 * [[Cryptographic MACs#KMAC (Keccak Message Authentication Code|KMAC]] (Based on Keccak. Also usable as a regular hash function without key)
 
 **AEAD (Authenticated Encryption and Associated Data)**
@@ -57,6 +59,36 @@ links: [[themes/000 Index|Index]]
 	* Some mechanism that produces random numbers
 * [[Random Number Generator (RNG)#TRNG|TRNG]] (True Random Number Generator)
 	* An RNG that is based off of some unpredictable physical process.
+
+**IND-CPA**
+
+- Randomized Encryption
+	- [[Block Cipher#Cipher Block Chaining (CBC) mode|AES-CBC]] (not [[Block Cipher#Chained CBC mode|Chained CBC mode]]!)
+	- [[Block Cipher#Output Feedback (OFB) mode|AES-OFB]]
+	- [[Block Cipher#Counter (CTR) mode|AES-CTR]]
+
+**IND-CCA**
+
+- [[Authenticated Encryption]] / [[Authenticated Encryption with Associated Data|AEAD]] $\rightarrow$ Non-Mallable
+	- [[Authenticated Encryption#GCM (Galois/ counter mode)|AES-GCM]]
+	- [[Authenticated Encryption#ChaCha20-Poly1305|ChaCha20-Poly1305]]
+	- [[Ascon|Ascon]]
+
+**Key Establishing**
+
+- [[Key Establishment#Neumann-Stubblebine|Neumann-Stubblebine]] (Broken)
+- [[Key Establishment#Denning-Sacco|Denning-Sacco]]
+- [[Key Establishment#Wide-Mouth Frog protocol|Wide-Mouth Frog protocol]]
+- [[Key Establishment#Needham-Schroeder protocol|Needham-Schroeder protocol]]
+- [[Key Establishment#Kerberos|Kerberos]]
+- [[Key Establishment#Otway-Rees protocol|Otway-Rees protocol]]
+- [[Key Establishment#Station to station key agreement protocol (STS)|STS]]
+
+**Secure Channel**
+
+- Authenticity & Repudiation!
+	- [[Secure Channels#Off-the-record (OTR) protocol|OTR]] (DSA & DH)
+	- [[Secure Channels#Triple Diffie-Hellman (3DH)|3DH]] (only DH)
 
 ---
 links: [[themes/000 Index|Index]]

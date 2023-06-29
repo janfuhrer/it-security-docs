@@ -2,7 +2,7 @@ tags: #symmetric #Randomness
 
 # Randomness
 
-links:  [[103 AC1 TOC - Randomness|AC1 TOC - Randomness]] - [[themes/000 Index|Index]]
+links: [[103 AC1 TOC - Randomness|AC1 TOC - Randomness]] - [[themes/000 Index|Index]]
 
 ---
 
@@ -43,7 +43,7 @@ The concept behind a CPU Jitter RNG is that the precise timing of CPU instructio
 Sources on Jitter entropy:
 
 - [Clearification and justification of jittering as entropy source](http://www.chronox.de/jent.html)
--  [Example implementation](https://github.com/smuellerDD/jitterentropy-library)
+- [Example implementation](https://github.com/smuellerDD/jitterentropy-library)
 
 ---
-links:  [[103 AC1 TOC - Randomness|AC1 TOC - Randomness]] - [[themes/000 Index|Index]]
+links: [[103 AC1 TOC - Randomness|AC1 TOC - Randomness]] - [[themes/000 Index|Index]]

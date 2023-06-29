@@ -2,7 +2,7 @@ tags: #AC1
 
 # Blockchain
 
-links:  [[108 AC1 TOC - Blockchain|AC1 TOC - Blockchain]] - [[themes/000 Index|Index]]
+links: [[108 AC1 TOC - Blockchain|AC1 TOC - Blockchain]] - [[themes/000 Index|Index]]
 
 ---
 
@@ -200,7 +200,7 @@ Users who might not had a bank account before get to use money on the internet w
 
 **Illicit activities**
 
-Users can use this system to do illegal activities like monay laundering or tax evasion
+Users can use this system to do illegal activities like money laundering or tax evasion
 
 **Lack of consumer protection**
 
@@ -211,4 +211,4 @@ Reversing fraudulent transactions is not possible if everything is private
 Anti-money laundering efforts can not be supported which might make this system illegal in some parts of the world
 
 ---
-links:  [[108 AC1 TOC - Blockchain|AC1 TOC - Blockchain]] - [[themes/000 Index|Index]]
+links: [[108 AC1 TOC - Blockchain|AC1 TOC - Blockchain]] - [[themes/000 Index|Index]]

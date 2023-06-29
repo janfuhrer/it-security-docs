@@ -2,7 +2,7 @@ tags: #AC1 #symmetric #attack #attacker-model
 
 # CPA vs. CCA
 
-links [[104 AC1 TOC - Private Key Encryption|AC1 TOC - Private Key Encryption]] - [[107 AC1 TOC - From Symmetric Encryption to Secure Channels|AC1 TOC - From Symmetric Encryption to Secure Channels]] - [[themes/000 Index|Index]]
+links: [[104 AC1 TOC - Private Key Encryption|AC1 TOC - Private Key Encryption]] - [[107 AC1 TOC - Secure Channels|AC1 TOC - From Symmetric Encryption to Secure Channels]] - [[themes/000 Index|Index]]
 
 ---
 
@@ -19,4 +19,4 @@ links [[104 AC1 TOC - Private Key Encryption|AC1 TOC - Private Key Encryption]] 
 - IND-CCA is a stronger security model
 
 ---
-links [[104 AC1 TOC - Private Key Encryption|AC1 TOC - Private Key Encryption]] - [[107 AC1 TOC - From Symmetric Encryption to Secure Channels|AC1 TOC - From Symmetric Encryption to Secure Channels]] - [[themes/000 Index|Index]]
+links: [[104 AC1 TOC - Private Key Encryption|AC1 TOC - Private Key Encryption]] - [[107 AC1 TOC - Secure Channels|AC1 TOC - From Symmetric Encryption to Secure Channels]] - [[themes/000 Index|Index]]

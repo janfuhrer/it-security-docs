@@ -2,7 +2,7 @@ tags: #symmetric #PUF
 
 # Physical Uncloneable Function
 
-links:  [[103 AC1 TOC - Randomness|AC1 TOC - Randomness]] - [[themes/000 Index|Index]]
+links: [[103 AC1 TOC - Randomness|AC1 TOC - Randomness]] - [[themes/000 Index|Index]]
 
 ---
 
@@ -58,4 +58,4 @@ A simple security protocol using a PUF might look like this:
 Note that the verifier must have a way to securely store and retrieve the known challenge-response pairs. This could be done, for example, by storing them in a secure database during an initial enrollment phase.
 
 ---
-links:  [[103 AC1 TOC - Randomness|AC1 TOC - Randomness]] - [[themes/000 Index|Index]]
+links: [[103 AC1 TOC - Randomness|AC1 TOC - Randomness]] - [[themes/000 Index|Index]]
