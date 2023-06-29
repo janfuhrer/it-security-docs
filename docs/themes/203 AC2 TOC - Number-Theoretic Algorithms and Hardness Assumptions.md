@@ -11,6 +11,7 @@ links:  [[200 AC2 MOC|AC2 MOC]] - [[themes/000 Index|Index]]
 - [[Algorithm of Euclid]]
 - [[Multiplicative Inverse]]
 - [[Computational Hardness Assumption]]
+- [[FACTORING & DL Algorithms]]
 - [[AC2 - Math - Exercise 3|Exercise 3]]
 
 ---
