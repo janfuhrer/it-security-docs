@@ -2,7 +2,7 @@ tags: #AC1
 
 # CBC Attack
 
-links:  [[108 AC1 TOC - From Symmetric Encryption to Secure Channels|AC1 TOC - From Symmetric Encryption to Secure Channels]] - [[themes/000 Index|Index]]
+links:  [[107 AC1 TOC - From Symmetric Encryption to Secure Channels|AC1 TOC - From Symmetric Encryption to Secure Channels]] - [[themes/000 Index|Index]]
 
 ---
 
@@ -17,4 +17,4 @@ If you guess the plaintext corresponding to _any_ ciphertext block you have se
 Extract cookies that were sent over HTTPS: [BEAST](https://crypto.stackexchange.com/a/3885)
 
 ---
-links:  [[108 AC1 TOC - From Symmetric Encryption to Secure Channels|AC1 TOC - From Symmetric Encryption to Secure Channels]] - [[themes/000 Index|Index]]
+links:  [[107 AC1 TOC - From Symmetric Encryption to Secure Channels|AC1 TOC - From Symmetric Encryption to Secure Channels]] - [[themes/000 Index|Index]]

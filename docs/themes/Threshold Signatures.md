@@ -2,7 +2,7 @@ tags: #symmetric #private-key
 
 # Threshold Signatures
 
-links:  [[110 AC1 TOC - Secret sharing|AC1 TOC - Secret sharing]] - [[themes/000 Index|Index]]
+links:  [[109 AC1 TOC - Secret sharing|AC1 TOC - Secret sharing]] - [[themes/000 Index|Index]]
 
 ---
 
@@ -35,4 +35,4 @@ Free Software implementation of the threshold signature scheme using FROST.
 - Command-Line tool to interact with FROSIX service providers
 
 ---
-links:  [[110 AC1 TOC - Secret sharing|AC1 TOC - Secret sharing]] - [[themes/000 Index|Index]]
+links:  [[109 AC1 TOC - Secret sharing|AC1 TOC - Secret sharing]] - [[themes/000 Index|Index]]

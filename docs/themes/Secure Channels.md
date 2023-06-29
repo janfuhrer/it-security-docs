@@ -2,7 +2,7 @@ tags: #symmetric #secure-channel #repudiation #non-repudiation #OTR #off-the-rec
 
 # Secure Channels
 
-links:  [[108 AC1 TOC - From Symmetric Encryption to Secure Channels|AC1 TOC - From Symmetric Encryption to Secure Channels]] - [[themes/000 Index|Index]]
+links:  [[107 AC1 TOC - From Symmetric Encryption to Secure Channels|AC1 TOC - From Symmetric Encryption to Secure Channels]] - [[themes/000 Index|Index]]
 
 ---
 
@@ -66,4 +66,4 @@ If Alice's private key $(a, T_a)$ is compromised in the 3DH protocol, the attack
 Compromising Alice's private key would not allow an attacker to decrypt past session keys, because 3DH provides forward secrecy. **Forward secrecy** is a feature of specific key agreement protocols that ensures that even if the private key is compromised, past session keys will not be compromised. Each session key is generated independently with a unique ephemeral key pair, so even if Alice's long-term private key is compromised, the session keys used for past secure communications would remain secure.
 
 ---
-links:  [[108 AC1 TOC - From Symmetric Encryption to Secure Channels|AC1 TOC - From Symmetric Encryption to Secure Channels]] - [[themes/000 Index|Index]]
+links:  [[107 AC1 TOC - From Symmetric Encryption to Secure Channels|AC1 TOC - From Symmetric Encryption to Secure Channels]] - [[themes/000 Index|Index]]

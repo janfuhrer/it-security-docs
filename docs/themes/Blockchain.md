@@ -2,7 +2,7 @@ tags: #AC1
 
 # Blockchain
 
-links:  [[109 AC1 TOC - Blockchain|AC1 TOC - Blockchain]] - [[themes/000 Index|Index]]
+links:  [[108 AC1 TOC - Blockchain|AC1 TOC - Blockchain]] - [[themes/000 Index|Index]]
 
 ---
 
@@ -202,4 +202,4 @@ Reversing fraudulent transactions is not possible if everything is private
 Anti-money laundering efforts can not be supported which might make this system illegal in some parts of the world
 
 ---
-links:  [[109 AC1 TOC - Blockchain|AC1 TOC - Blockchain]] - [[themes/000 Index|Index]]
+links:  [[108 AC1 TOC - Blockchain|AC1 TOC - Blockchain]] - [[themes/000 Index|Index]]

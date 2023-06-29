@@ -2,7 +2,7 @@ tags: #AC1
 
 # Bloom Filters & Set Unification
 
-links:  [[112 AC1 TOC - Key Revocation|AC1 TOC - Key Revocation]] - [[themes/000 Index|Index]]
+links:  [[111 AC1 TOC - Key Revocation|AC1 TOC - Key Revocation]] - [[themes/000 Index|Index]]
 
 ---
 
@@ -78,4 +78,4 @@ Unionise two sets in an efficient manner.
 	* b = $done$ ⇒ We’re done
 
 ---
-links:  [[112 AC1 TOC - Key Revocation|AC1 TOC - Key Revocation]] - [[themes/000 Index|Index]]
+links:  [[111 AC1 TOC - Key Revocation|AC1 TOC - Key Revocation]] - [[themes/000 Index|Index]]
