@@ -10,7 +10,7 @@ links: [[104 AC1 TOC - Private Key Encryption|AC1 TOC - Private Key Encryption]]
 
 - SHAKE (**S**ecure **H**ash **A**lgorithm and **KE**CCAK) is an Extendable-Output Function (or XOF)
 - It is like [[Cryptographic Hash Functions#SHA-3|SHA-3]] but with an **infinite** output
-- can be used as a [[Key Derivation Function (KDF)|KDF]], a [[Pseudorandom Number Generator|PRNG]], a [[Stream Cipher]], ...
+- can be used as a [[Key Derivation Function (KDF)|KDF]], a [[Pseudorandom Number Generator (PRNG)|PRNG]], a [[Stream Cipher]], ...
 - based on the [[Keccak]] permutation function
 
 ## cSHAKE

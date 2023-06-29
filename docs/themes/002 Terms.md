@@ -42,9 +42,9 @@ links: [[themes/000 Index|Index]]
 **Random**
 
 * PRG (Pseudo Random Generator)
-* [[Pseudorandom Number Generator|PRNG]] (Pseudo Random Number Generator)
+* [[Pseudorandom Number Generator (PRNG)|PRNG]] (Pseudo Random Number Generator)
 	* Subset of PRG. Used interchangeably.
-* [[Pseudorandom Number Generator#Other properties|CSPRNG]] (Cryptographically secure pseudorandom number generator)
+* [[Pseudorandom Number Generator (PRNG)#Other properties|CSPRNG]] (Cryptographically secure pseudorandom number generator)
 	* A PRNG that is safe for cryptographic use. (Assuming the seed is picked correctly)
 * [[CPA-Security#Pseudorandom Functions and Permutations|PRF]] (Pseudo Random Function) 
 	* [KDF > PRF > MAC](https://crypto.stackexchange.com/a/60652)

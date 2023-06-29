@@ -36,6 +36,7 @@ The assumption that block ciphers (e.g. AES) are [[CPA-Security#Pseudorandom Fun
 - last block of the previous ciphertext is used as the IV $\rightarrow$ reduces bandwith
 - **synchronized mode** (stateful)
 - not CPA secure
+- see also [[CBC Attack]]
 
 ![[cbc-chained_mode.png]]
 
