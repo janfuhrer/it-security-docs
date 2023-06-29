@@ -17,7 +17,6 @@ nav:
       - 'Secure Channels': 'themes/107 AC1 TOC - From Symmetric Encryption to Secure Channels.md'
       - 'Blockchain': 'themes/108 AC1 TOC - Blockchain.md'
       - 'Secret Sharing': 'themes/109 AC1 TOC - Secret sharing.md'
-      - 'Key Revocation': 'themes/111 AC1 TOC - Key Revocation.md'
     - 'Applied Cryptography 2':
       - 'Index': 'themes/200 AC2 MOC.md'
       - 'Intro': 'themes/201 AC2 TOC - Intro pk.md'
