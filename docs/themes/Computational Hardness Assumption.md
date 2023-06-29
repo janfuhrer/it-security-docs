@@ -2,7 +2,7 @@ tags: #AC2 #asymmetric #math
 
 # Computational Hardness Assumption
 
-links:  [[203 AC2 TOC - Number-Theoretic Algorithms and Hardness Assumptions|AC2 TOC - Number-Theoretic Algorithms and Hardness Assumptions]] - [[themes/000 Index|Index]]
+links:  [[203 AC2 TOC - Number-Theoretic Algorithms and Hardness Assumptions|AC2 TOC - Number-Theoretic Algorithms and Hardness Assumptions]] - [[RSA]]- [[themes/000 Index|Index]]
 
 ---
 
@@ -14,21 +14,13 @@ links:  [[203 AC2 TOC - Number-Theoretic Algorithms and Hardness Assumptions|AC2
 
 ![[Hardness-Assumption.png]]
 
-## The Factoring and RSA Assumptions
+## The FACTORING and RSA Assumptions
 
 ![[Factoring-RSA-Assumptions.png]]
-
-*GPT*
-- In the RSA cryptosystem, `e` and `d` are chosen such that they are coprime to `phi(n)`. They are exponents used for encryption and decryption, respectively, and are not required to be coprime to `n`. Their being coprime to `phi(n)` ensures they are multiplicative inverses of each other modulo `phi(n)`, which is a requirement for RSA to function correctly (`e * d ≡ 1 (mod phi(n))`).
-
-![[RSA-Proof.png]]
-
-- The message `m` in RSA encryption and decryption is an element of $Z_n$, the set of all integers modulo `n`. It is not required to be an element of $Z_n^*$ (the set of integers coprime to `n`), because the RSA processes involve exponentiation modulo `n` (not multiplication), and these operations don't require `m` to have a multiplicative inverse modulo `n`.
-
-- However, in practice, it can be beneficial for security reasons to ensure that `m` is coprime to `n`, particularly when `m` contains sensitive information.
+[[RSA|RSA Explanation]]
 
 
-## Discrete Logarithm Assumptions
+## Discrete Logarithm Assumptions (DL)
 
 ![[Discrete-Logarithm-Assumption.png]]
 
@@ -53,4 +45,4 @@ While these problems are related in the sense that they all involve operations i
 
 ---
 
-links:  [[203 AC2 TOC - Number-Theoretic Algorithms and Hardness Assumptions|AC2 TOC - Number-Theoretic Algorithms and Hardness Assumptions]] - [[themes/000 Index|Index]]
+links:  [[203 AC2 TOC - Number-Theoretic Algorithms and Hardness Assumptions|AC2 TOC - Number-Theoretic Algorithms and Hardness Assumptions]] - [[RSA]]- [[themes/000 Index|Index]]
