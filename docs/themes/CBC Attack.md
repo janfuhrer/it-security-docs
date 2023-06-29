@@ -1,4 +1,4 @@
-tags: #AC1 
+tags: #AC1 #CBC
 
 # CBC Attack
 
