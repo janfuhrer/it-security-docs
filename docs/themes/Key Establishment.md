@@ -2,23 +2,15 @@ tags: #symmetric
 
 # Key Establishment
 
-links: [[107 AC1 TOC - From Symmetric Encryption to Secure Channels|AC1 TOC - From Symmetric Encryption to Secure Channels]] - [[themes/000 Index|Index]]
+links: [[107 AC1 TOC - Secure Channels|AC1 TOC - From Symmetric Encryption to Secure Channels]] - [[themes/000 Index|Index]]
 
 ---
 
 ## Goals
 
-**Key secrecy**
-
-Session keys must not be known by anyone else than Alice, Bob (and maybe some trusted third party). Mallory must not learn anything about session keys.
-
-**Authenticity**
-
-One party can be assured about the identity of the other party it shares the session key with. That is, Alice knows that she has session key with Bob.
-
-**Freshness of keys**
-
-Mallory must not be able to replay old session keys.
+- **Key secrecy**: Session keys must not be known by anyone else than Alice, Bob (and maybe some trusted third party). Mallory must not learn anything about session keys.
+- **Authenticity**: One party can be assured about the identity of the other party it shares the session key with. That is, Alice knows that she has session key with Bob.
+- **Freshness of keys**: Mallory must not be able to replay old session keys.
 
 ## Protocols
 
@@ -35,13 +27,8 @@ Motivation for ephemeral keys includes the following:
 
 ## Methods
 
-**Key agreement (DH)**
-
-Parties jointly generate a secret key. This option is almost always the best solution
-
-**Key Transport**
-
-One party generates and distributes a secret key. This is needed in situations on unidirectional communication (online one party is only at a time or only one party can send and the other can only receive)
+- **Key agreement (e.g. DH)**: Parties jointly generate a secret key. This option is almost always the best solution
+- **Key Transport**: One party generates and distributes a secret key. This is needed in situations on unidirectional communication (online one party is only at a time or only one party can send and the other can only receive)
 
 ## Private channels (authentic and confidential channel)
 
@@ -115,4 +102,4 @@ Source: [Link](https://uwnthesis.wordpress.com/2014/05/06/ssl-ietf-drops-rsa-key
 - Which protocol to use depends on your performance goals and communications capabilities (all-to-all communication, trusted party, latency, bandwidth and computational constraints)
 
 ---
-links: [[107 AC1 TOC - From Symmetric Encryption to Secure Channels|AC1 TOC - From Symmetric Encryption to Secure Channels]] - [[themes/000 Index|Index]]
+links: [[107 AC1 TOC - Secure Channels|AC1 TOC - From Symmetric Encryption to Secure Channels]] - [[themes/000 Index|Index]]

@@ -2,7 +2,7 @@ tags: #symmetric #BlockCipher #Cipher #ECB #CBC #OBC #CTR #GCM #nonce
 
 # Block Cipher
 
-links: [[107 AC1 TOC - From Symmetric Encryption to Secure Channels|AC1 TOC - From Symmetric Encryption to Secure Channels]] - [[300 Modern Cryptography MOC|Modern Cryptography MOC]] - [[themes/000 Index|Index]]
+links: [[107 AC1 TOC - Secure Channels|AC1 TOC - From Symmetric Encryption to Secure Channels]] - [[300 Modern Cryptography MOC|Modern Cryptography MOC]] - [[themes/000 Index|Index]]
 
 ---
 ## Pseudorandom permutation / function
@@ -26,7 +26,7 @@ The assumption that block ciphers (e.g. AES) are [[CPA-Security#Pseudorandom Fun
 
 - randomized through IV
 - [[Stream Cipher#Unsynchronized mode|Unsynchronized mode]] (stateless)
-- [[CPA-Security|CPA]] secure
+- [[CPA-Security|CPA]] secure (random IV)
 - not parallel encryption/decryption
 
 ![[cbc_mode.png]]
@@ -35,7 +35,7 @@ The assumption that block ciphers (e.g. AES) are [[CPA-Security#Pseudorandom Fun
 
 - last block of the previous ciphertext is used as the IV $\rightarrow$ reduces bandwith
 - [[Stream Cipher#Synchronized mode|synchronized mode]] (stateful)
-- not [[CPA-Security|CPA]] secure!
+- not [[CPA-Security|CPA]] secure $\rightarrow$ see see [[CBC Attack]]!
 
 ![[cbc-chained_mode.png]]
 
@@ -54,9 +54,8 @@ The assumption that block ciphers (e.g. AES) are [[CPA-Security#Pseudorandom Fun
 - [[Stream Cipher#Unsynchronized mode|Unsynchronized mode]] (stateless)
 - Parallel encryption & decryption
 - the blocks of the pseudorandom stream can be computed independently of each other
-- [[CPA-Security|CPA]] secure
+- with *random IV* IND-[[CPA-Security|CPA]] secure, with *stateful IV* IND-[[CPA-Security|CPA]] secure (if no IV reuse)
 - Not [[CCA-Security|CCA secure]] (Attacker can flip one bit in cipher text, encrypt cipher text to get message with only one bit flipped)
-- see also [[CBC Attack]]
 
 ![[ctr_mode.png]]
 
@@ -86,4 +85,4 @@ A **nonce** refers to a value that is supposed to be **used once, and never repe
 - in settings where generating high-quality randomness is expensive or impossible, it may be much easier to use a counter as a nonce rather than to generate a nonce uniformly.
 
 ---
-links: [[107 AC1 TOC - From Symmetric Encryption to Secure Channels|AC1 TOC - From Symmetric Encryption to Secure Channels]] - [[300 Modern Cryptography MOC|Modern Cryptography MOC]] - [[themes/000 Index|Index]]
+links: [[107 AC1 TOC - Secure Channels|AC1 TOC - From Symmetric Encryption to Secure Channels]] - [[300 Modern Cryptography MOC|Modern Cryptography MOC]] - [[themes/000 Index|Index]]

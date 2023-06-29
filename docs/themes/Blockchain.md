@@ -200,7 +200,7 @@ Users who might not had a bank account before get to use money on the internet w
 
 **Illicit activities**
 
-Users can use this system to do illegal activities like monay laundering or tax evasion
+Users can use this system to do illegal activities like money laundering or tax evasion
 
 **Lack of consumer protection**
 

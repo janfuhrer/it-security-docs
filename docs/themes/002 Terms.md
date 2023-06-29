@@ -60,5 +60,35 @@ links: [[themes/000 Index|Index]]
 * [[Random Number Generator (RNG)#TRNG|TRNG]] (True Random Number Generator)
 	* An RNG that is based off of some unpredictable physical process.
 
+**IND-CPA**
+
+- Randomized Encryption
+	- [[Block Cipher#Cipher Block Chaining (CBC) mode|AES-CBC]] (not [[Block Cipher#Chained CBC mode|Chained CBC mode]]!)
+	- [[Block Cipher#Output Feedback (OFB) mode|AES-OFB]]
+	- [[Block Cipher#Counter (CTR) mode|AES-CTR]]
+
+**IND-CCA**
+
+- [[Authenticated Encryption]] / [[Authenticated Encryption with Associated Data|AEAD]] $\rightarrow$ Non-Mallable
+	- [[Authenticated Encryption#GCM (Galois/ counter mode)|AES-GCM]]
+	- [[Authenticated Encryption#ChaCha20-Poly1305|ChaCha20-Poly1305]]
+	- [[Ascon|Ascon]]
+
+**Key Establishing**
+
+- [[Key Establishment#Neumann-Stubblebine|Neumann-Stubblebine]] (Broken)
+- [[Key Establishment#Denning-Sacco|Denning-Sacco]]
+- [[Key Establishment#Wide-Mouth Frog protocol|Wide-Mouth Frog protocol]]
+- [[Key Establishment#Needham-Schroeder protocol|Needham-Schroeder protocol]]
+- [[Key Establishment#Kerberos|Kerberos]]
+- [[Key Establishment#Otway-Rees protocol|Otway-Rees protocol]]
+- [[Key Establishment#Station to station key agreement protocol (STS)|STS]]
+
+**Secure Channel**
+
+- Authenticity & Repudiation!
+	- [[Secure Channels#Off-the-record (OTR) protocol|OTR]] (DSA & DH)
+	- [[Secure Channels#Triple Diffie-Hellman (3DH)|3DH]] (only DH)
+
 ---
 links: [[themes/000 Index|Index]]
