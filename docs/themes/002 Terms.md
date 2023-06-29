@@ -39,6 +39,10 @@ links: [[themes/000 Index|Index]]
 
 * [[themes/SHAKE & cSHAKE|SHAKE & cSHAKE]] (Based on Keccak)
 
+**Networking**
+[[TLS]] (Transport Layer Security)
+[[it-security-docs/docs/themes/TLS#^dbdd19|HSTS]] (HTTP Strict Transport Security)
+
 **Random**
 
 * PRG (Pseudo Random Generator)
