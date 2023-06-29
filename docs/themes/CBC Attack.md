@@ -8,7 +8,7 @@ links:  [[107 AC1 TOC - From Symmetric Encryption to Secure Channels|AC1 TOC - F
 
 ## Attacking CBC stateful IV
 
-In a chosen plaintext attack, an attacker can choose a plaintext and observe the resulting ciphertext. In the case of a stateful IV, if the attacker can predict the IV that will be used (for example, because they know the previous ciphertext), they can choose a plaintext that, when XORed with this predicted IV, results in a specific block that they want to encrypt. This allows them to get the ciphertext for any block of their choosing.
+In a [[CPA-Security|chosen plaintext attack]], an attacker can choose a plaintext and observe the resulting ciphertext. In the case of a stateful IV, if the attacker can predict the IV that will be used (for example, because they know the previous ciphertext), they can choose a plaintext that, when XORed with this predicted IV, results in a specific block that they want to encrypt. This allows them to get the ciphertext for any block of their choosing.
 
 In other words:
 

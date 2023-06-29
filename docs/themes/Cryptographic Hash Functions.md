@@ -11,23 +11,26 @@ links: [[105 AC1 TOC - Random Oracle & Applications|AC1 TOC - Random Oracle & Ap
 - applying the [[Hash Functions#Davies-Meyer|Davies-Meyer]] & [[Hash Functions#Merkle-Damgård Transform|Merkle-Damgård Transform]] construction
 - not secure anymore, a collision can be found under one minute
 - 128-bit output length
+- is prone to [[Hash-and-Mac#Length-Extension Attack|length-extension attacks]]]]
 
 ## SHA
 
-- *Secure Hash Algorithms* (SHA) refers to a set of cryptographic hash functions standardized by NIST
+*Secure Hash Algorithms* (SHA) refers to a set of cryptographic hash functions standardized by NIST.
 
 ### SHA-1
+
 - applying the [[Hash Functions#Davies-Meyer|Davies-Meyer]] & [[Hash Functions#Merkle-Damgård Transform|Merkle-Damgård Transform]] construction
 - 160-bit output length
 - collisions was found, not recommended anymore
-- [SHAttered](https://shattered.io/)
+- see attack [SHAttered](https://shattered.io/)
+- is prone to [[Hash-and-Mac#Length-Extension Attack|length-extension attacks]]
 
 ### SHA-2
 
 - applying the [[Hash Functions#Davies-Meyer|Davies-Meyer]] & [[Hash Functions#Merkle-Damgård Transform|Merkle-Damgård Transform]] construction
-- hash family with two related hash functions: SHA-256 and SHA-512
-- 256- or 512-bit output length
-- currently appear to be save and thus recommended when collision-resistant hashing is needed
+- hash family with following hash functions: SHA-224, SHA-256, SHA-384, SHA-512, SHA-512/224, SHA-512/256
+- currently appear to be save and thus recommended when collision-resistant hashing is needed (output length 224 is not recommended anymore)
+- SHA-256 and SHA-512 are prone to [[Hash-and-Mac#Length-Extension Attack|length-extension attacks]]
 
 ### SHA-3
 

@@ -16,7 +16,7 @@ use hash (or digest) as fingerprint of a file, used e.g. for
 
 ## Password Hashing
 
-One of the most common and important uses of hash functions in computer security is for password protection. to authenticate a user, some form of the user's password has to be stored. To mitigate the risk of stolen passwords, only a hash of the password can be stored instead of the password itself. Operating systems or web services only checks whether $H(PW) \stackrel{?}{=} hpw$.
+One of the most common and important uses of hash functions in computer security is for password protection. To authenticate a user, some form of the user's password has to be stored. To mitigate the risk of stolen passwords, only a hash of the password can be stored instead of the password itself. Operating systems or web services only checks whether $H(PW) \stackrel{?}{=} hpw$.
 The hash functions should be "moderately hard to compute" when evaluated once (e.g. on a client/server side) but prohibitively expensive to evaluate tens of thousands of times (see [[Password Based Key Derivation Function (PBKDF)|PBKDF]]).
 
 **Rainbow Tables**

@@ -6,7 +6,7 @@ links:  [[106 AC1 TOC - AEAD|AC1 TOC - AEAD]] - [[themes/000 Index|Index]]
 
 ---
 
-Ascon was Submitted on May 31, 2021 to NIST. It provides authenticated encryption wit associated data (AEAD) and hashing functionality. For full information see the [NIST Submission](https://ascon.iaik.tugraz.at/files/asconv12-nist.pdf)
+Ascon was Submitted on May 31, 2021 to NIST. It provides authenticated encryption with associated data ([[Authenticated Encryption with Associated Data|AEAD]]) and hashing functionality. For full information see the [NIST Submission](https://ascon.iaik.tugraz.at/files/asconv12-nist.pdf).
 
 ## Functions
 
@@ -30,7 +30,7 @@ The Ascon suite consists of:
 
 ## Definition
 
-In this section the several parts of Ascon will be described briefly for a visualization see the images down below. For the full explanation see the [NIST Submission](https://ascon.iaik.tugraz.at/files/asconv12-nist.pdf)
+In this section the several parts of Ascon will be described briefly for a visualization see the images down below. For the full explanation see the [NIST Submission](https://ascon.iaik.tugraz.at/files/asconv12-nist.pdf).
 
 ### Initialization
 

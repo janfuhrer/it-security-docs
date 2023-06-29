@@ -29,13 +29,21 @@ Hash functions can be viewed as lying between the worlds of private- and public-
 
 ## Weaker Notions of Security
 
-**Second-preimage resistance**
+### Second-preimage resistance
 
-We have $x$ and cannot find a $x'$ which results to the same Hash $y$ for both $x$ and $x'$: $$H(x) = H(x'), x \neq x'$$
+We have $x$ and cannot find a $x'$ which results to the same Hash $y$ for both $x$ and $x'$: 
 
-**Preimage resistance**
+$$H(x) = H(x'), x \neq x'$$
 
-$H$ is one-way, if we have $y$ ($y = H(x)$) we cannot go back to find a $x'$ to compute $y$: $$H^{-1}(H(x)) = x, \textrm{let } H^{-1} \textrm{ be the inverse of } H$$
+### Preimage resistance
+
+$H$ is one-way, if we have a hash $y$ ($y = H(x)$ is known, $x$ is unknown) we cannot go back to find a $x'$ to compute $y$: 
+
+$$H^{-1}(H(x)) = x, \textrm{let } H^{-1} \textrm{ be the inverse of } H$$
+
+### Overview of Security Notions
+
+> Collision resistance implies second-preimage resistance, but does not guarantee preimage resistance $\rightarrow$ A second-preimage attack implies a collision attack.
 
 ## Compress Functions
 
