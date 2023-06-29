@@ -7,6 +7,7 @@ links: [[themes/000 Index|Index]]
 **NIST Glossary**
 
 - The NIST maintains a comprehensive cybersecurity glossary: [NIST Glossary](https://csrc.nist.gov/glossary)
+- Check actual recommendations for key length on [Keylenght.com](https://www.keylength.com/)
 
 **Cryptographic Hash Functions**
 
@@ -17,6 +18,7 @@ links: [[themes/000 Index|Index]]
 
 **KDF (Key Derivation Function)** 
 
+* [[Key Derivation Function (KDF)|KDF]]
 * HKDF (Using HMAC/Hash)
 * [[Password Based Key Derivation Function (PBKDF)#PBKDF using Argon2|Argon2]] (Password Based $\rightarrow$ [[Password Based Key Derivation Function (PBKDF)|PBKDF]])
 * PBKDF2
@@ -26,7 +28,7 @@ links: [[themes/000 Index|Index]]
 
 - [[Cryptographic MACs#CBC-MAC|CBC-MAC]] (Block cipher based)
 * [[Cryptographic MACs#HMAC (Hash-based Message Authentication Code)|HMAC]] (Hash Based)
-* [[Cryptographic MACs#Poly1305|Poly1305]] & [[Cryptographic MACs#GMAC (Galois Message Authentication Code)|GMAC]] (Universal hash family)
+* [[Cryptographic MACs#Poly1305|Poly1305]] & [[Cryptographic MACs#GMAC (Galois Message Authentication Code)|GMAC]] (Based on a universal hash family)
 * [[Cryptographic MACs#KMAC (Keccak Message Authentication Code|KMAC]] (Based on Keccak. Also usable as a regular hash function without key)
 
 **AEAD (Authenticated Encryption and Associated Data)**
