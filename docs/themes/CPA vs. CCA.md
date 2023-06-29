@@ -1,4 +1,3 @@
-
 tags: #AC1 #symmetric #attack #attacker-model 
 
 # CPA vs. CCA

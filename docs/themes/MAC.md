@@ -13,13 +13,13 @@ links: [[105 AC1 TOC - Random Oracle & Applications|AC1 TOC - Random Oracle & Ap
 
 ## Encryption vs. Message Authentication
 
-Encryption does not (in general) provide any integrity! Ciphertexts in this case are very easy to manipulate: flipping any bit in the ciphertext results in the same bit being flipped in the message that is recovered upon decryption. In fact, the same attack applies to the one-time pad encryption scheme, showing that even perfect secrecy is not sufficient to ensure the most basic level of message integrity.
+Encryption does not (in general) provide any integrity! Ciphertexts in this case are very easy to manipulate: flipping any bit in the ciphertext results in the same bit being flipped in the message that is recovered upon decryption. In fact, the same attack applies to the [[OneTimePad]] encryption scheme, showing that even perfect secrecy is not sufficient to ensure the most basic level of message integrity.
 
 ## Message Authentication Codes (MACs)
 
-Prevent an adversary from modifying a message sent by one party to another, or from injecting a new message, without the receiver detecting that the message did not originate from the intended party $\rightarrow$ both parties share a common secret
+Prevent an adversary from modifying a message sent by one party to another, or from injecting a new message, without the receiver detecting that the message did not originate from the intended party $\rightarrow$ both parties share a common secret.
 
-There are tow canonical application scenarios for MACs:
+There are two canonical application scenarios for MACs:
 
 1. ensuring integrity for two parties communicating with each other
 2. one user communicating "with himself" over time (e.g. web cookies or a user protecting the contents of his hard drive)
@@ -55,13 +55,13 @@ MAC verification should use *time-independent* string comparison that always **c
 
 ### A Fixed Length MAC
 
-- Let $F$ be a (length preserving) pseudorandom function. Define a fixed-length MAC for messages of length $n$ as follows:
+- Let $F$ be a (length preserving) [[CPA-Security#Pseudorandom Functions and Permutations|pseudorandom function]]. Define a fixed-length MAC for messages of length $n$ as follows:
 	- $Mac$: input a key $k$ and message $m$, output the tag $t := F_k(m)$
 	- $Vrfy$: input a key $k$, a message $m$ and a tag $t$, output 1 iff $t \stackrel{?}{=} F_k(m)$
 
 ### Domain Extension for MACs
 
-- how MAC handling arbitrary-length messages from any fixed-length MAC
+- how MAC handling arbitrary-length messages from any fixed-length :
 
 ![[mac_arbitrary_length.png]]
 

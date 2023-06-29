@@ -13,6 +13,7 @@ links: [[105 AC1 TOC - Random Oracle & Applications|AC1 TOC - Random Oracle & Ap
 #### CBC-MAC for fixed-length messages
 
 in compare with [[Block Cipher#Cipher Block Chaining (CBC) mode|CBC mode of operation]]:
+
 - no IV
 - only output of last tag (no intermediate output)
 
@@ -62,7 +63,7 @@ Source: [Link](https://crypto.stackexchange.com/questions/43112/poly1305-aes-vs-
 
 ![[hmac.png]]
 
-## MAC based on block cipher vs. Hash-and-MAC
+## Drawback of Hash-and-MAC Constructions
 
 > With Hash-and-MAC (like HMAC) we typically use conjecturally collision-resistant functions like SHA-256, which are orders of magnitude more expensive to compute for conjectured security that we don't even care about in this application (collision resistance).
 
@@ -72,7 +73,7 @@ Source: [Link](https://crypto.stackexchange.com/a/67639)
 
 ### KMAC (Keccak Message Authentication Code)
 
-- KMAC is a PRF and [[Hash Functions#Keyed hash functions|keyed hash function]] based on [[Keccak]]
+- KMAC is a [[CPA-Security#Pseudorandom Functions and Permutations|PRF]] and [[Hash Functions#Keyed hash functions|keyed hash function]] based on [[Keccak]]
 - It can be leveraged in [[Key Derivation Function (KDF)|KDF]]
 - two variants KMAC128 and KMAC256, built from cSHAKE128 and cSHAKE256 respectively
 - KMAC can also be used as a XOF, which mimics the behaviour of [[SHAKE & cSHAKE|cSHAKE]]

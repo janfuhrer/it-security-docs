@@ -17,16 +17,16 @@ The assumption that block ciphers (e.g. AES) are [[CPA-Security#Pseudorandom Fun
 ## Electronic Code Block (ECB) mode
 
 - direct application of the block cipher
-- ECB mode is deterministic and therefore cannot be CPA secure
-- not even EAV secure $\rightarrow$ should never be used!
+- ECB mode is deterministic and therefore cannot be [[CPA-Security|CPA secure]]
+- not even [[EAV-Security|EAV secure]] $\rightarrow$ should never be used!
 
 ![[ecb_mode.png]]
 
 ## Cipher Block Chaining (CBC) mode
 
 - randomized through IV
-- Unsynchronized mode (stateless)
-- CPA secure
+- [[Stream Cipher#Unsynchronized mode|Unsynchronized mode]] (stateless)
+- [[CPA-Security|CPA]] secure
 - not parallel encryption/decryption
 
 ![[cbc_mode.png]]
@@ -34,29 +34,29 @@ The assumption that block ciphers (e.g. AES) are [[CPA-Security#Pseudorandom Fun
 ## Chained CBC mode
 
 - last block of the previous ciphertext is used as the IV $\rightarrow$ reduces bandwith
-- **synchronized mode** (stateful)
-- not CPA secure
-- see also [[CBC Attack]]
+- [[Stream Cipher#Synchronized mode|synchronized mode]] (stateful)
+- not [[CPA-Security|CPA]] secure!
 
 ![[cbc-chained_mode.png]]
 
 ## Output Feedback (OFB) mode
 
-- Unsynchronized mode (stateless)
+- [[Stream Cipher#Unsynchronized mode|Unsynchronized mode]] (stateless)
 - Pseudorandom stream is independent
 - No need of $F_k^{-1}$
 - not necessary for the plaintext length to be a multiple of the block length $n$
-- CPA secure
+- [[CPA-Security|CPA]] secure
 
 ![[ofb_mode.png]]
 
 ## Counter (CTR) mode
 
-- Unsynchronized mode (stateless)
+- [[Stream Cipher#Unsynchronized mode|Unsynchronized mode]] (stateless)
 - Parallel encryption & decryption
 - the blocks of the pseudorandom stream can be computed independently of each other
-- CPA secure
-- Not CCA secure (Attacker can flip one bit in cipher text, encrypt cipher text to get message with only one bit flipped)
+- [[CPA-Security|CPA]] secure
+- Not [[CCA-Security|CCA secure]] (Attacker can flip one bit in cipher text, encrypt cipher text to get message with only one bit flipped)
+- see also [[CBC Attack]]
 
 ![[ctr_mode.png]]
 
