@@ -12,6 +12,15 @@ A blockchain is a distributed ledger which stores data in a series of blocks. Bl
 
 ## Advertised properties of blockchain
 
+*Buzzwords:*
+
+- Immutability
+- Transparency
+- Anonymity
+- Decentralization
+- Irreversibility
+- Autonomy
+
 ### Immutability
 
 **Claim**
@@ -116,7 +125,7 @@ Bitcoin has a maximum available supply of 21 million. Every ~4 years the block r
 
 **Conflicting blocks**
 
-It's possible that two miners mine a block at the same time. This means that one partition of the network has has Block A as latest block and the other partition has Block B as latest block. This problem is easily solved by the fact that bitcoins protocol always choses the longest chain. If a miner which has Block A as latest block mines Block C then all nodes which have Block B as latest block will notice that they are not part of the longest chain anymore and will have to either resync with the rest of the network or fork.
+It's possible that two miners mine a block at the same time. This means that one partition of the network has has Block A as latest block and the other partition has Block B as latest block. This problem is easily solved by the fact that bitcoins protocol always chooses the longest chain. If a miner which has Block A as latest block mines Block C then all nodes which have Block B as latest block will notice that they are not part of the longest chain anymore and will have to either resync with the rest of the network or fork.
 
 **Forking**
 

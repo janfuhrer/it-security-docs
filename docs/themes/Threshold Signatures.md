@@ -30,7 +30,7 @@ Flexible Round-Optimized Schnorr Threshold (FROST) is a t-out-of-n threshold sig
 Free Software implementation of the threshold signature scheme using FROST.
 
 - REST API to interact between signer and signing services
-- Configurable authentication methods to authorise creation of signature
+- Configurable authentication methods to authorize creation of signature
 - To avoid single point of failure the client should still use multiple devices
 - Command-Line tool to interact with FROSIX service providers
 

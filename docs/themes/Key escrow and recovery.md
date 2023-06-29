@@ -10,7 +10,7 @@ This chapter documents key escrow and recovery using the GNU project Anastasis a
 
 **Key escrow**: The key is shared among multiple parties. Each party receives a portion of the key.
 
-**Key recovery**: The key is reassambled using the pieces from the escrow parties.
+**Key recovery**: The key is reassembled using the pieces from the escrow parties.
 
 ## Anastasis
 
