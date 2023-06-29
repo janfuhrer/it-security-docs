@@ -2,7 +2,7 @@ tags: #symmetric
 
 # OneTimePad
 
-links:  [[102 AC1 TOC - Security & Cryptography|AC1 TOC - Security & Cryptography]] - [[300 Modern Cryptography MOC|Modern Cryptography MOC]] - [[themes/000 Index|Index]]
+links: [[102 AC1 TOC - Security & Cryptography|AC1 TOC - Security & Cryptography]] - [[300 Modern Cryptography MOC|Modern Cryptography MOC]] - [[themes/000 Index|Index]]
 
 ---
 
@@ -34,4 +34,4 @@ $c \oplus c' = (m \oplus k)\oplus (m' \oplus k) = m \oplus m'$
 
 
 ---
-links:  [[102 AC1 TOC - Security & Cryptography|AC1 TOC - Security & Cryptography]] - [[300 Modern Cryptography MOC|Modern Cryptography MOC]] - [[themes/000 Index|Index]]
+links: [[102 AC1 TOC - Security & Cryptography|AC1 TOC - Security & Cryptography]] - [[300 Modern Cryptography MOC|Modern Cryptography MOC]] - [[themes/000 Index|Index]]

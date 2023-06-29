@@ -2,7 +2,7 @@ tags: #AC1 #symmetric
 
 # AC1 TOC - Security & Cryptography
 
-links:  [[100 AC1 MOC|AC1 MOC]] - [[themes/000 Index|Index]]
+links: [[100 AC1 MOC|AC1 MOC]] - [[themes/000 Index|Index]]
 
 ---
 
@@ -15,4 +15,4 @@ links:  [[100 AC1 MOC|AC1 MOC]] - [[themes/000 Index|Index]]
 - [[themes/Cryptoanalysis|Cryptoanalysis]]
 
 ---
-links:  [[100 AC1 MOC|AC1 MOC]] - [[themes/000 Index|Index]]
+links: [[100 AC1 MOC|AC1 MOC]] - [[themes/000 Index|Index]]

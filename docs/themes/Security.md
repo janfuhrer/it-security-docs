@@ -2,7 +2,7 @@ tags: #symmetric
 
 # Security
 
-links:  [[102 AC1 TOC - Security & Cryptography|AC1 TOC - Security & Cryptography]] - [[themes/000 Index|Index]]
+links: [[102 AC1 TOC - Security & Cryptography|AC1 TOC - Security & Cryptography]] - [[themes/000 Index|Index]]
 
 ---
 
@@ -19,4 +19,4 @@ Questions to be asked to reach security:
 - **Trust** - Assumptions, borders of problem domain
 
 ---
-links:  [[102 AC1 TOC - Security & Cryptography|AC1 TOC - Security & Cryptography]] - [[themes/000 Index|Index]]
+links: [[102 AC1 TOC - Security & Cryptography|AC1 TOC - Security & Cryptography]] - [[themes/000 Index|Index]]

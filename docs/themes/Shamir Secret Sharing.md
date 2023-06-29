@@ -2,7 +2,7 @@ tags: #symmetric #private-key
 
 # Shamir Secret Sharing
 
-links:  [[109 AC1 TOC - Secret sharing|AC1 TOC - Secret sharing]] - [[themes/000 Index|Index]]
+links: [[109 AC1 TOC - Secret sharing|AC1 TOC - Secret sharing]] - [[themes/000 Index|Index]]
 
 ---
 
@@ -94,4 +94,4 @@ Other values:
 > How many people realistically participate in recovery?
 
 ---
-links:  [[109 AC1 TOC - Secret sharing|AC1 TOC - Secret sharing]] - [[themes/000 Index|Index]]
+links:[[109 AC1 TOC - Secret sharing|AC1 TOC - Secret sharing]] - [[themes/000 Index|Index]]

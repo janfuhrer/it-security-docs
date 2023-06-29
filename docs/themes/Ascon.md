@@ -2,7 +2,7 @@ tags: #symmetric #ascon #aead #sponge-construction
 
 # Ascon
 
-links:  [[106 AC1 TOC - AEAD|AC1 TOC - AEAD]] - [[themes/000 Index|Index]]
+links: [[106 AC1 TOC - AEAD|AC1 TOC - AEAD]] - [[themes/000 Index|Index]]
 
 ---
 
@@ -68,4 +68,4 @@ Decryption returns the plaintext if the computed tag value matches $T$.
 ![[Ascon_notion.png]]
 
 ---
-links:  [[106 AC1 TOC - AEAD|AC1 TOC - AEAD]] - [[themes/000 Index|Index]]
+links: [[106 AC1 TOC - AEAD|AC1 TOC - AEAD]] - [[themes/000 Index|Index]]

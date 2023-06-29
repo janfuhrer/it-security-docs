@@ -2,7 +2,7 @@ tags: #AC1 #symmetric #StreamCipher #EAV #ComputationalSecurity #private-key
 
 # Private Key Encryption
 
-links [[104 AC1 TOC - Private Key Encryption|AC1 TOC - Private Key Encryption]] - [[themes/000 Index|Index]]
+links: [[104 AC1 TOC - Private Key Encryption|AC1 TOC - Private Key Encryption]] - [[themes/000 Index|Index]]
 
 ---
 ## Private-Key Encryption Scheme
@@ -68,7 +68,7 @@ The encryption primitive initializes a [[Pseudorandom Number Generator (PRNG)|PR
 The decryption primitve initializes a [[Pseudorandom Number Generator (PRNG)|PRNG]] using the generated key `k` as seed. Then it consumes a `len(c)` bit-string of the PRNG to XOR the string with the ciphertext `c`, which results in plaintext `m`
 
 ---
-links [[104 AC1 TOC - Private Key Encryption|AC1 TOC - Private Key Encryption]] - [[themes/000 Index|Index]]
+links: [[104 AC1 TOC - Private Key Encryption|AC1 TOC - Private Key Encryption]] - [[themes/000 Index|Index]]
 
 
 

@@ -2,7 +2,7 @@ tags: #AC2
 
 # Applied Cryptography 2 MOC
 
-links:  [[themes/000 Index|Index]]
+links: [[themes/000 Index|Index]]
 
 ---
 
@@ -20,4 +20,4 @@ links:  [[themes/000 Index|Index]]
 - **Topic 12**: [[themes/Topic 12 - GNU Taler|GNU Taler]]
 
 ---
-links:  [[themes/000 Index|Index]]
+links: [[themes/000 Index|Index]]

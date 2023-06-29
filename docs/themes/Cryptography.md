@@ -2,7 +2,7 @@ tags: #symmetric #PAIN
 
 # Cryptography
 
-links:  [[102 AC1 TOC - Security & Cryptography|AC1 TOC - Security & Cryptography]] - [[themes/000 Index|Index]]
+links: [[102 AC1 TOC - Security & Cryptography|AC1 TOC - Security & Cryptography]] - [[themes/000 Index|Index]]
 
 ---
 
@@ -14,10 +14,10 @@ Dictionary definition: the art of writing or solving codes.
 
 Through cryptography we can maintain **PAIN**:
 
-- Privacy
-- Authenticity
-- Integrity
-- Nonrepudiation
+- **P**rivacy
+- **A**uthenticity
+- **I**ntegrity
+- **N**on-repudiation
 
 ---
-links:  [[102 AC1 TOC - Security & Cryptography|AC1 TOC - Security & Cryptography]] - [[themes/000 Index|Index]]
+links: [[102 AC1 TOC - Security & Cryptography|AC1 TOC - Security & Cryptography]] - [[themes/000 Index|Index]]

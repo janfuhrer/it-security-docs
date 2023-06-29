@@ -2,7 +2,7 @@ tags: #symmetric #social
 
 # Social Engineering
 
-links:  [[101 AC1 TOC - Intro|AC1 TOC - Intro]] - [[themes/000 Index|Index]]
+links: [[101 AC1 TOC - Intro|AC1 TOC - Intro]] - [[themes/000 Index|Index]]
 
 ---
 
@@ -39,4 +39,4 @@ Based on slides from Joint Threat Research and Intelligence Group (JTRIG)
 - ...
 
 ---
-links:  [[101 AC1 TOC - Intro|AC1 TOC - Intro]] - [[themes/000 Index|Index]]
+links: [[101 AC1 TOC - Intro|AC1 TOC - Intro]] - [[themes/000 Index|Index]]

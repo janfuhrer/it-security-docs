@@ -2,7 +2,7 @@ tags: #AC1
 
 # AC1 TOC - From Symmetric Encryption to Secure Channels
 
-links:  [[100 AC1 MOC|AC1 MOC]] - [[themes/000 Index|Index]]
+links: [[100 AC1 MOC|AC1 MOC]] - [[themes/000 Index|Index]]
 
 ---
 
@@ -15,4 +15,4 @@ links:  [[100 AC1 MOC|AC1 MOC]] - [[themes/000 Index|Index]]
 - [[Secure Channels]]
 
 ---
-links:  [[100 AC1 MOC|AC1 MOC]] - [[themes/000 Index|Index]]
+links: [[100 AC1 MOC|AC1 MOC]] - [[themes/000 Index|Index]]

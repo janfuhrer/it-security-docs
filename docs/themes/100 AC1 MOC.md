@@ -2,7 +2,7 @@ tags: #AC1
 
 # Applied Cryptography 1 MOC
 
-links:  [[themes/000 Index|Index]]
+links: [[themes/000 Index|Index]]
 
 ---
 

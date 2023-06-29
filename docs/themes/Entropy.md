@@ -2,7 +2,7 @@ tags: #symmetric #entropy
 
 # Entropy
 
-links:  [[103 AC1 TOC - Randomness|AC1 TOC - Randomness]] - [[themes/000 Index|Index]]
+links: [[103 AC1 TOC - Randomness|AC1 TOC - Randomness]] - [[themes/000 Index|Index]]
 
 ---
 
@@ -37,4 +37,4 @@ Entropy is better when the least amount of trust is required to get it e.g. when
 [[Anonymity - Exercises#Entropy Calculation Example|Link to an example]]
 
 ---
-links:  [[103 AC1 TOC - Randomness|AC1 TOC - Randomness]] - [[themes/000 Index|Index]]
+links: [[103 AC1 TOC - Randomness|AC1 TOC - Randomness]] - [[themes/000 Index|Index]]

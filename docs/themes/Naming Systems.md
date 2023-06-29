@@ -2,7 +2,7 @@ tags: #AC1
 
 # Naming Systems
 
-links:  [[110 AC1 TOC - Naming Systems|AC1 TOC - Naming Systems]] - [[themes/000 Index|Index]]
+links: [[110 AC1 TOC - Naming Systems|AC1 TOC - Naming Systems]] - [[themes/000 Index|Index]]
 
 ---
 
@@ -142,4 +142,4 @@ It's a new technology and potentially complex which makes it difficult to adopt
 - **Renewals:** Unlike traditional DNS, ENS names are not owned permanently. They need to be renewed regularly (currently every year), which involves sending a transaction and paying a renewal fee.
 
 ---
-links:  [[110 AC1 TOC - Naming Systems|AC1 TOC - Naming Systems]] - [[themes/000 Index|Index]]
+links: [[110 AC1 TOC - Naming Systems|AC1 TOC - Naming Systems]] - [[themes/000 Index|Index]]

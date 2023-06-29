@@ -2,7 +2,7 @@ tags: #symmetric #meta
 
 # Ethics and Law
 
-links:  [[101 AC1 TOC - Intro|AC1 TOC - Intro]] - [[themes/000 Index|Index]]
+links: [[101 AC1 TOC - Intro|AC1 TOC - Intro]] - [[themes/000 Index|Index]]
 
 ---
 
@@ -104,4 +104,4 @@ A few examples:
 - To improve the understanding by individuals and society of the capabilities and societal implications of conventional and emerging technologies, including intelligent systems
 
 ---
-links:  [[101 AC1 TOC - Intro|AC1 TOC - Intro]] - [[themes/000 Index|Index]]
+links: [[101 AC1 TOC - Intro|AC1 TOC - Intro]] - [[themes/000 Index|Index]]
