@@ -2,7 +2,7 @@ tags: #symmetric #hash
 
 # Additional Applications of Hash Functions
 
-links: [[105 AC1 TOC - Private Key Encryption|AC1 TOC - Random Oracle & Applications]] - [[300 Modern Cryptography MOC|Modern Cryptography MOC]] - [[themes/000 Index|Index]]
+links: [[105 AC1 TOC - Random Oracle & Applications|AC1 TOC - Random Oracle & Applications]] - [[300 Modern Cryptography MOC|Modern Cryptography MOC]] - [[themes/000 Index|Index]]
 
 ---
 
@@ -37,4 +37,4 @@ To mitigate the problem of rainbow tables, we can introduce a *salt*. When a use
 - see [[Cryptographic Commitment]]
 
 ---
-links: [[105 AC1 TOC - Private Key Encryption|AC1 TOC - Random Oracle & Applications]] - [[300 Modern Cryptography MOC|Modern Cryptography MOC]] - [[themes/000 Index|Index]]
+links: [[105 AC1 TOC - Random Oracle & Applications|AC1 TOC - Random Oracle & Applications]] - [[300 Modern Cryptography MOC|Modern Cryptography MOC]] - [[themes/000 Index|Index]]

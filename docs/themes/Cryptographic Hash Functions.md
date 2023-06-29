@@ -2,7 +2,7 @@ tags: #symmetric #hash
 
 # Cryptographic Hash Functions
 
-links: [[105 AC1 TOC - Private Key Encryption|AC1 TOC - Random Oracle & Applications]] - [[300 Modern Cryptography MOC|Modern Cryptography MOC]] - [[themes/000 Index|Index]]
+links: [[105 AC1 TOC - Random Oracle & Applications|AC1 TOC - Random Oracle & Applications]] - [[300 Modern Cryptography MOC|Modern Cryptography MOC]] - [[themes/000 Index|Index]]
 
 ---
 
@@ -43,4 +43,4 @@ links: [[105 AC1 TOC - Private Key Encryption|AC1 TOC - Random Oracle & Applicat
 ![[security_of_sha_functions.png]]
 
 ---
-links: [[105 AC1 TOC - Private Key Encryption|AC1 TOC - Random Oracle & Applications]] - [[300 Modern Cryptography MOC|Modern Cryptography MOC]] - [[themes/000 Index|Index]]
+links: [[105 AC1 TOC - Random Oracle & Applications|AC1 TOC - Random Oracle & Applications]] - [[300 Modern Cryptography MOC|Modern Cryptography MOC]] - [[themes/000 Index|Index]]

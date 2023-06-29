@@ -2,7 +2,7 @@ tags: #symmetric #hash
 
 # Hash Functions
 
-links: [[105 AC1 TOC - Private Key Encryption|AC1 TOC - Random Oracle & Applications]] - [[300 Modern Cryptography MOC|Modern Cryptography MOC]] - [[themes/000 Index|Index]]
+links: [[105 AC1 TOC - Random Oracle & Applications|AC1 TOC - Random Oracle & Applications]] - [[300 Modern Cryptography MOC|Modern Cryptography MOC]] - [[themes/000 Index|Index]]
 
 ---
 
@@ -74,4 +74,4 @@ $H$ is one-way, if we have $y$ ($y = H(x)$) we cannot go back to find a $x'$ to 
 Source: [Link](https://crypto.stackexchange.com/a/67639)
 
 ---
-links: [[105 AC1 TOC - Private Key Encryption|AC1 TOC - Random Oracle & Applications]] - [[300 Modern Cryptography MOC|Modern Cryptography MOC]] - [[themes/000 Index|Index]]
+links: [[105 AC1 TOC - Random Oracle & Applications|AC1 TOC - Random Oracle & Applications]] - [[300 Modern Cryptography MOC|Modern Cryptography MOC]] - [[themes/000 Index|Index]]

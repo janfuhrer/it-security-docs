@@ -2,7 +2,7 @@ tags: #symmetric #kdf #key-derivation #high-high-entropy
 
 # Key Derivation Function
 
-links:  [[105 AC1 TOC - Private Key Encryption|AC1 TOC - Random Oracle & Applications]] - [[themes/000 Index|Index]]
+links:  [[105 AC1 TOC - Random Oracle & Applications|AC1 TOC - Random Oracle & Applications]] - [[themes/000 Index|Index]]
 
 ---
 
@@ -42,4 +42,4 @@ the characters “KDF” or “KDF4X” in 8-bit ASCII" (quote of the [NIST docu
 The recommended implementation of the KDF by the NIST assume, that the final length of the derived key is always known (the assumption makes sense, since the key length directly influence the security level). But in theory it would also be possible to create variable length derived keys by using XOF KMAC which would allow this.
 
 ---
-links:  [[105 AC1 TOC - Private Key Encryption|AC1 TOC - Random Oracle & Applications]] - [[themes/000 Index|Index]]
+links:  [[105 AC1 TOC - Random Oracle & Applications|AC1 TOC - Random Oracle & Applications]] - [[themes/000 Index|Index]]
