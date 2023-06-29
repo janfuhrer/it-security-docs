@@ -2,7 +2,7 @@ tags: #symmetric #private-key
 
 # Key Management
 
-links:  [[110 AC1 TOC - Secret sharing|AC1 TOC - Secret sharing]] - [[themes/000 Index|Index]]
+links:  [[109 AC1 TOC - Secret sharing|AC1 TOC - Secret sharing]] - [[themes/000 Index|Index]]
 
 ---
 
@@ -55,4 +55,4 @@ They are designed to protect keys from:
 - Chemical attacks
 
 ---
-links: [[110 AC1 TOC - Secret sharing|AC1 TOC - Secret sharing]] , [[themes/000 Index|Index]]
+links: [[109 AC1 TOC - Secret sharing|AC1 TOC - Secret sharing]] , [[themes/000 Index|Index]]

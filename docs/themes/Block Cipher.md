@@ -2,7 +2,7 @@ tags: #symmetric #BlockCipher #Cipher #ECB #CBC #OBC #CTR #GCM #nonce
 
 # Block Cipher
 
-links: [[108 AC1 TOC - From Symmetric Encryption to Secure Channels|AC1 TOC - From Symmetric Encryption to Secure Channels]] - [[300 Modern Cryptography MOC|Modern Cryptography MOC]] - [[themes/000 Index|Index]]
+links: [[107 AC1 TOC - From Symmetric Encryption to Secure Channels|AC1 TOC - From Symmetric Encryption to Secure Channels]] - [[300 Modern Cryptography MOC|Modern Cryptography MOC]] - [[themes/000 Index|Index]]
 
 ---
 ## Pseudorandom permutation / function
@@ -85,4 +85,4 @@ A **nonce** refers to a value that is supposed to be **used once, and never repe
 - in settings where generating high-quality randomness is expensive or impossible, it may be much easier to use a counter as a nonce rather than to generate a nonce uniformly.
 
 ---
-links: [[108 AC1 TOC - From Symmetric Encryption to Secure Channels|AC1 TOC - From Symmetric Encryption to Secure Channels]] - [[300 Modern Cryptography MOC|Modern Cryptography MOC]] - [[themes/000 Index|Index]]
+links: [[107 AC1 TOC - From Symmetric Encryption to Secure Channels|AC1 TOC - From Symmetric Encryption to Secure Channels]] - [[300 Modern Cryptography MOC|Modern Cryptography MOC]] - [[themes/000 Index|Index]]

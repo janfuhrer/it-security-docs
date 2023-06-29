@@ -2,7 +2,7 @@ tags: #symmetric #GCM #AEAD #encrypt-then-authenticate
 
 # Authenticated Encryption
 
-links:  [[300 Modern Cryptography MOC|Modern Cryptography MOC]] - [[108 AC1 TOC - From Symmetric Encryption to Secure Channels|AC1 TOC - From Symmetric Encryption to Secure Channels]] - [[themes/000 Index|Index]] - [[themes/Authenticated Encryption with Associated Data|Authenticated Encryption with Associated Data]]
+links:  [[300 Modern Cryptography MOC|Modern Cryptography MOC]] - [[107 AC1 TOC - From Symmetric Encryption to Secure Channels|AC1 TOC - From Symmetric Encryption to Secure Channels]] - [[themes/000 Index|Index]] - [[themes/Authenticated Encryption with Associated Data|Authenticated Encryption with Associated Data]]
 
 ---
 
@@ -79,4 +79,4 @@ $\rightarrow$ this attack can be addressed using a **directionality bit**
 
 ---
 
-links:  [[300 Modern Cryptography MOC|Modern Cryptography MOC]] - [[108 AC1 TOC - From Symmetric Encryption to Secure Channels|AC1 TOC - From Symmetric Encryption to Secure Channels]] - [[themes/000 Index|Index]] - [[themes/Authenticated Encryption with Associated Data|Authenticated Encryption with Associated Data]]
+links:  [[300 Modern Cryptography MOC|Modern Cryptography MOC]] - [[107 AC1 TOC - From Symmetric Encryption to Secure Channels|AC1 TOC - From Symmetric Encryption to Secure Channels]] - [[themes/000 Index|Index]] - [[themes/Authenticated Encryption with Associated Data|Authenticated Encryption with Associated Data]]

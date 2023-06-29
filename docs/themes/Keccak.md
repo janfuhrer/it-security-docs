@@ -2,7 +2,7 @@ tags: #AC1 #symmetric #StreamCipher #Keccak #SHA-3
 
 # Keccak
 
-links: [[105 AC1 TOC - Private Key Encryption|AC1 TOC - Private Key Encryption]] - [[themes/000 Index|Index]]
+links: [[104 AC1 TOC - Private Key Encryption|AC1 TOC - Private Key Encryption]] - [[themes/000 Index|Index]]
 
 ---
 
@@ -10,7 +10,7 @@ links: [[105 AC1 TOC - Private Key Encryption|AC1 TOC - Private Key Encryption]]
 
 The sponge construction is a quite novel approach to design cryptographic ciphers. One can think of a sponge which absorbs water when put into water and releases the water when squeezed. This concept is used in the sponge construction. In the first phase the ciphers absorbs information (takes input). In the second phase one can squeeze out output (generates output).
 
-![](sponge_construction.png)
+![](themes/_media/book/sponge_construction.png)
 
 ### Algorithms / Building Blocks
 
@@ -25,7 +25,7 @@ The sponge construction possesses four constants which define the sizing of an i
 
 #### Unkeyed, random Permutation
 
-The most important internal is an unkeyed, random permutation. This permutation is fixed and doesn't change (can be hardcoded and be public #Kerckhoff principle).
+The most important internal is an unkeyed, random permutation. This permutation is fixed and doesn't change (can be hardcoded and be public, see [[Introduction to Modern Cryptography#Keys and Kerckhoffs' principle|Kerckhoffs' principle]]).
 
 #### Padding
 
@@ -62,10 +62,10 @@ Initially, the sponge construction is initialized to zero. This means the initia
 First cut the input in parts of length $r$. If the last block is to short apply a the padding. In our scenario this is not necessary because ${len(input) \over r} = {8 \over 4} = 2$ and therefore fits perfect without rest:
 
 1. absorb first $r$ bits (LSB): $m_1 = 0010$ 
-2. update state by XOR $m_1$ and first r bits of the state: $0010 \lor 0000 = 0010$
+2. update state by XOR $m_1$ and first $r$ bits of the state: $0010 \lor 0000 = 0010$
 3. apply $P(state)$  = $0010 0000 \lor 00000000$ = $0010 0000$
 4. absorb second $r$ bits (LSB): $m_2 = 1001$
-2. update state by XOR $m_2$ and first r bits of the state: $1001 \lor 0010 = 1011$
+2. update state by XOR $m_2$ and first $r$ bits of the state: $1001 \lor 0010 = 1011$
 5. apply $P(state) = 10110000 \lor 00000000 = 10110000$
 
 At the end of the absorbing phase the sponge construction has $state = 10110000$
@@ -87,10 +87,10 @@ Appending the results of the squeeze cycles to one another results in $1011 1011
 
 ### Building Ciphers with Keccak
 
-* Generating a One Time Pad for the required message length. This gives us as a possibility to build a Stream-Cipher. We just continue to squeeze more bits out of the XOF (extendable output function) if needed.
-* Keccak can also be used for a Block-Cipher. Ascon-128 is such a cipher.
+* Generating a [[OneTimePad]] for the required message length. This gives us as a possibility to build a [[Stream Cipher]]. We just continue to squeeze more bits out of the XOF (extendable output function) if needed.
+* Keccak can also be used for a [[Block Cipher]] [[Ascon|Ascon-128]] is such a cipher.
 	1. Absorb-Phase: Add the key and a counter
 	2. Squeeze-Phase: Take out the length of one block
 
 ---
-links: [[105 AC1 TOC - Private Key Encryption|AC1 TOC - Private Key Encryption]] - [[themes/000 Index|Index]]
+links: [[104 AC1 TOC - Private Key Encryption|AC1 TOC - Private Key Encryption]] - [[themes/000 Index|Index]]

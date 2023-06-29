@@ -2,14 +2,14 @@ tags: #symmetric #shake
 
 # SHAKE & cSHAKE
 
-links: [[105 AC1 TOC - Private Key Encryption|AC1 TOC - Private Key Encryption]] - [[themes/000 Index|Index]]
+links: [[104 AC1 TOC - Private Key Encryption|AC1 TOC - Private Key Encryption]] - [[themes/000 Index|Index]]
 
 ---
 
 ## SHAKE
 
 - SHAKE (**S**ecure **H**ash **A**lgorithm and **KE**CCAK) is an Extendable-Output Function (or XOF)
-- It is like SHA-3 but with an **infinite** output
+- It is like [[Cryptographic Hash Functions#SHA-3|SHA-3]] but with an **infinite** output
 - can be used as a [[Key Derivation Function (KDF)|KDF]], a [[Pseudorandom Number Generator|PRNG]], a [[Stream Cipher]], ...
 - based on the [[Keccak]] permutation function
 
@@ -29,4 +29,4 @@ links: [[105 AC1 TOC - Private Key Encryption|AC1 TOC - Private Key Encryption]]
 Source: [Link](https://cryptologie.net/article/388/shake-cshake-and-some-more-bit-ordering/)
 
 ---
-links: [[105 AC1 TOC - Private Key Encryption|AC1 TOC - Private Key Encryption]] - [[themes/000 Index|Index]]
+links: [[104 AC1 TOC - Private Key Encryption|AC1 TOC - Private Key Encryption]] - [[themes/000 Index|Index]]

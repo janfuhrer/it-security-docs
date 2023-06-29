@@ -2,7 +2,7 @@ tags: #symmetric #commitment #commitment-scheme
 
 # Cryptographic Commitment
 
-links:  [[106 AC1 TOC - Random Oracle & Applications|AC1 TOC - Random Oracle & Applications]] - [[themes/000 Index|Index]]
+links:  [[105 AC1 TOC - Private Key Encryption|AC1 TOC - Random Oracle & Applications]] - [[themes/000 Index|Index]]
 
 ---
 
@@ -32,4 +32,4 @@ Example of a commitment scheme based on a sponge function:
 ![[commitment_scheme_example.png]]
 
 ---
-links:  [[106 AC1 TOC - Random Oracle & Applications|AC1 TOC - Random Oracle & Applications]] - [[themes/000 Index|Index]]
+links:  [[105 AC1 TOC - Private Key Encryption|AC1 TOC - Random Oracle & Applications]] - [[themes/000 Index|Index]]
