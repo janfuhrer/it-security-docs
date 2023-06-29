@@ -10,7 +10,7 @@ links:  [[111 AC1 TOC - Key Revocation|AC1 TOC - Key Revocation]] - [[themes/000
 
 The problem to solve is that two nodes each have a sets with small differences and they want to sync up their sets so they end up with the same combined sets.
 
-The naive approach is that both nodes send their sets to the other nodes and they each compare the other nodes set and add whatever they are missing. This gives a communication cost of BigOh(|A| + |B|) which is not great. Instead of sending the actual set, hashes of the elements can be sent but that doesn't improve complexity. The ideal solution would complexity of BigOh(diff(A/B)).
+The naive approach is that both nodes send their sets to the other nodes and they each compare the other nodes set and add whatever they are missing. This gives a communication cost of $\mathcal{O}(\vert {A} \vert + \vert {B} \vert)$ which is not great. Instead of sending the actual set, hashes of the elements can be sent but that doesn't improve complexity. The ideal solution would have complexity of $\mathcal{O}(\vert diff(A, B) \vert)$.
 
 **Bloom filters**
 
@@ -21,13 +21,13 @@ Send the array to the other node. The node can check its set elements by hashing
 ![[bloom_filter_1.png]]
 ![[bloom_filter_2.png]]
 
-**Counting bloom filter**
+**Counting Bloom Filter (CBF)**
 
 Bloom filters where buckets (array fields) hold positive integers instead of only 0 and 1. This means that elements can also be removed. This leads to the possibility of false negatives. This can happen when an element, which was not previously added, is removed from the CBF. 
 
 The receiver of a CBF can subtract all the elements from its set and when the CBF ends up being negative, the CBF represents the elements that are missing in the other nodes set.
 
-**Invertible Bloom Filters**
+**Invertible Bloom Filter (IBF)** 
 
 Extension of CBF. They allow negative counts and they store XOR-sums of the elements hashes in the buckets. This allows extraction of elements from the IBF and the construction of a symmetric difference.
 https://www.youtube.com/watch?v=YNbcXlllOBQ
@@ -50,7 +50,7 @@ The advantage of IBFs is that the size of the actual set does not matter. Only t
 
 ## Set Union Protocol
 
-Unionise two sets in an efficient manner.
+Unify two sets in an efficient manner.
 
 ### Difference Estimation / Strata Estimator 
 
@@ -60,7 +60,7 @@ Unionise two sets in an efficient manner.
 
 * Stratum 1 contains $\frac{1}{2}$ of all elements
 * Stratum 2 contains $\frac{1}{4}$ of all elements
-* Stratum n contains $\frac{1}{2^n}$ all elements
+* Stratum n contains $\frac{1}{2^n}$ of all elements
 
 **Difference Estimation**: To estimate the difference between two sets, you compare the IBF in each stratum. Starting from the lowest stratum, you continue until you find a stratum where the IBFs differ. The index of this stratum gives an estimate of the size of the set difference ($δ$).
 
