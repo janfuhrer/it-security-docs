@@ -2,17 +2,17 @@ tags: #AC1
 
 # Bloom Filters & Set Unification
 
-links: [[111 AC1 TOC - Key Revocation|AC1 TOC - Key Revocation]] - [[themes/000 Index|Index]]
+links: [[108 AC1 TOC - Blockchain|AC1 TOC - Blockchain]] - [[themes/000 Index|Index]]
 
 ---
 
-## Explain efficient set union and how it can be achieved
+## Problem
 
 The problem to solve is that two nodes each have a sets with small differences and they want to sync up their sets so they end up with the same combined sets.
 
 The naive approach is that both nodes send their sets to the other nodes and they each compare the other nodes set and add whatever they are missing. This gives a communication cost of $\mathcal{O}(\vert {A} \vert + \vert {B} \vert)$ which is not great. Instead of sending the actual set, hashes of the elements can be sent but that doesn't improve complexity. The ideal solution would have complexity of $\mathcal{O}(\vert diff(A, B) \vert)$.
 
-**Bloom filters**
+## Bloom filters
 
 Take an array of 0's and the hash of the first element in the set. Flip the corresponding bits in the array. Repeat for the following elements in the set. If a bit is already flipped to 1 leave it on 1.
 
@@ -21,16 +21,17 @@ Send the array to the other node. The node can check its set elements by hashing
 ![[bloom_filter_1.png]]
 ![[bloom_filter_2.png]]
 
-**Counting Bloom Filter (CBF)**
+## Counting Bloom Filter (CBF)
 
-Bloom filters where buckets (array fields) hold positive integers instead of only 0 and 1. This means that elements can also be removed. This leads to the possibility of false negatives. This can happen when an element, which was not previously added, is removed from the CBF. 
+Bloom filters where buckets (array fields) hold positive integers instead of only 0 and 1. This means that **elements can also be removed**. This leads to the possibility of false negatives. This can happen when an element, which was not previously added, is removed from the CBF. 
 
 The receiver of a CBF can subtract all the elements from its set and when the CBF ends up being negative, the CBF represents the elements that are missing in the other nodes set.
 
-**Invertible Bloom Filter (IBF)** 
+## Invertible Bloom Filter (IBF)
 
 Extension of CBF. They allow negative counts and they store XOR-sums of the elements hashes in the buckets. This allows extraction of elements from the IBF and the construction of a symmetric difference.
-https://www.youtube.com/watch?v=YNbcXlllOBQ
+
+see [Video](https://www.youtube.com/watch?v=YNbcXlllOBQ)
 
 **Extraction**
 
@@ -72,10 +73,10 @@ Unify two sets in an efficient manner.
 4. Alice computes $IBF_{Alice}$  
 5. Alice computes $IBF_{diff} = SymDiff (IBF_{Alice}, IBF_{Bob})$
 6. Alice extracts element hashes from $IBF_{diff}$ . 
-	* b= $left$ ⇒Send element to Bob
+	* b = $left$ ⇒Send element to Bob
 	* b = $right$ ⇒ Send element request to to Bob  
 	* b = $fail$ ⇒ Send larger IBF (double the size) to Bob, go to (3.) with switched roles 
 	* b = $done$ ⇒ We’re done
 
 ---
-links: [[111 AC1 TOC - Key Revocation|AC1 TOC - Key Revocation]] - [[themes/000 Index|Index]]
+links: [[108 AC1 TOC - Blockchain|AC1 TOC - Blockchain]] - [[themes/000 Index|Index]]
