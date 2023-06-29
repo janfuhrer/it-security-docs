@@ -2,7 +2,7 @@ tags: #symmetric #mac
 
 # Cryptographic MACs
 
-links: [[105 AC1 TOC - Private Key Encryption|AC1 TOC - Random Oracle & Applications]] - [[300 Modern Cryptography MOC|Modern Cryptography MOC]] - [[themes/000 Index|Index]]
+links: [[105 AC1 TOC - Random Oracle & Applications|AC1 TOC - Random Oracle & Applications]] - [[300 Modern Cryptography MOC|Modern Cryptography MOC]] - [[themes/000 Index|Index]]
 
 ---
 
@@ -78,4 +78,4 @@ Source: [Link](https://crypto.stackexchange.com/a/67639)
 - KMAC can also be used as a XOF, which mimics the behaviour of [[SHAKE & cSHAKE|cSHAKE]]
 
 ---
-links: [[105 AC1 TOC - Private Key Encryption|AC1 TOC - Random Oracle & Applications]] - [[300 Modern Cryptography MOC|Modern Cryptography MOC]] - [[themes/000 Index|Index]]
+links: [[105 AC1 TOC - Random Oracle & Applications|AC1 TOC - Random Oracle & Applications]] - [[300 Modern Cryptography MOC|Modern Cryptography MOC]] - [[themes/000 Index|Index]]
