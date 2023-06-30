@@ -2,15 +2,15 @@ tags: #AC2 #asymmetric #math #computability-complexity
 
 # Complexity Reduction
 
-links:  [[203 AC2 TOC - Number-Theoretic Algorithms and Hardness Assumptions|AC2 TOC - Number-Theoretic Algorithms and Hardness Assumptions]] - [[themes/000 Index|Index]]
+links: [[203 AC2 TOC - Number-Theoretic Algorithms and Hardness Assumptions|AC2 TOC - Number-Theoretic Algorithms and Hardness Assumptions]] - [[themes/000 Index|Index]]
 
 ---
 
-The expression "P1 <= P2" refers to a reduction proof. This is a concept used to determine the difficulty of problems in relation to each other.
+The expression "P1 $\leftarrow$ P2" refers to a reduction proof. This is a concept used to determine the difficulty of problems in relation to each other.
 
-The statement "P1 <= P2" means that problem P1 can be reduced to problem P2 in polynomial time. In other words, if we have a solution for P2, we can use that solution to solve P1 in polynomial time.
+The statement "P1 $\leftarrow$ P2" means that problem P1 can be reduced to problem P2 in polynomial time. In other words, if we have a solution for P2, we can use that solution to solve P1 in polynomial time.
 
-Reductions are a central concept in the theory of [[Complexity Classes#NP-Complete|NP-completeness]]. If a problem P is known to be NP-complete and every other problem Q can be reduced to P in polynomial time (i.e., Q <= P), then Q is also NP-complete.
+Reductions are a central concept in the theory of [[Complexity Classes#NP-Complete|NP-completeness]]. If a problem P is known to be NP-complete and every other problem Q can be reduced to P in polynomial time (i.e., Q  $\leftarrow$ P), then Q is also NP-complete.
 
 So, we need some problem to which we can reduce to in order to prove NP-completeness. That's where the Cook-Levin theorem comes into play.
 
@@ -47,4 +47,4 @@ Visualisation of reductions to prove different NP-complete problems:
 ![[Complexity_Reduction.png]]
 
 ---
-links:  [[203 AC2 TOC - Number-Theoretic Algorithms and Hardness Assumptions|AC2 TOC - Number-Theoretic Algorithms and Hardness Assumptions]] - [[themes/000 Index|Index]]
+links: [[203 AC2 TOC - Number-Theoretic Algorithms and Hardness Assumptions|AC2 TOC - Number-Theoretic Algorithms and Hardness Assumptions]] - [[themes/000 Index|Index]]
