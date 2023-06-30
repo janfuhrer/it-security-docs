@@ -46,7 +46,7 @@ There is no reason to ever use a [[CCA-Security|CCA-secure]] scheme that is *not
 
 ### GCM (Galois Counter Mode)
 
-- follows the *encrypt-then-authenticate approach with [[Block Cipher#Counter (CTR) mode|CTR mode]] as the underlying encryption  scheme and [[Cryptographic MACs#GMAC (Galois Message Authentication Code)|GMAC]] as the underlying message authentication code.
+- follows the *encrypt-then-authenticate* approach with [[Block Cipher#Counter (CTR) mode|CTR mode]] as the underlying encryption  scheme and [[Cryptographic MACs#GMAC (Galois Message Authentication Code)|GMAC]] as the underlying message authentication code.
 - uses only one single key and the same IV for CTR-mode encryption and as the nonce for GMAC $\rightarrow$ Both these changes can be proven secure in GCM.
 - a repeated IV would fail/drop secrecy and authenticity!
 
@@ -78,4 +78,4 @@ $\rightarrow$ this attacks can be addressed using a **counter/ sequence number**
 $\rightarrow$ this attack can be addressed using a **directionality bit**
 
 ---
-links: [[themes/Authenticated Encryption with Associated Data|Authenticated Encryption with Associated Data]] - [[107 AC1 TOC - Secure Channels|AC1 TOC - From Symmetric Encryption to Secure Channels]] - [[300 Modern Cryptography MOC|Modern Cryptography MOC]] - [[themes/000 Index|Index]]]]
+links: [[themes/Authenticated Encryption with Associated Data|Authenticated Encryption with Associated Data]] - [[107 AC1 TOC - Secure Channels|AC1 TOC - From Symmetric Encryption to Secure Channels]] - [[300 Modern Cryptography MOC|Modern Cryptography MOC]] - [[themes/000 Index|Index]]

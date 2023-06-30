@@ -49,7 +49,7 @@ Alice uses [[Authenticated Encryption#GCM (Galois Counter Mode)|AES-GCM]] with t
 
 **Step 3: Alice authenticates the data**
 
-Alice uses AES-GCM with the secret key "secretkey123", the ciphertext "abc123", and the associated data "2023-06-28" to produce a unique authentication tag. Let's say the generated tag is "xyz789".
+Alice uses [[Authenticated Encryption#GCM (Galois Counter Mode)|AES-GCM]] with the secret key "secretkey123", the ciphertext "abc123", and the associated data "2023-06-28" to produce a unique authentication tag. Let's say the generated tag is "xyz789".
 
 **Step 4: Alice sends the data**
 
@@ -57,7 +57,7 @@ Alice then sends Bob the ciphertext "abc123", the associated data "2023-06-28", 
 
 **Step 5: Bob verifies the data**
 
-Bob uses[[Authenticated Encryption#GCM (Galois Counter Mode)|AES-GCM]] with his copy of the secret key "secretkey123", the received ciphertext "abc123", and the associated data "2023-06-28" to generate a new authentication tag.
+Bob uses [[Authenticated Encryption#GCM (Galois Counter Mode)|AES-GCM]] with his copy of the secret key "secretkey123", the received ciphertext "abc123", and the associated data "2023-06-28" to generate a new authentication tag.
 
 **Step 7: Bob compares the tags**
 
