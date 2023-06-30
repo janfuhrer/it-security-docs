@@ -12,7 +12,9 @@ links:  [[200 AC2 MOC|AC2 MOC]] - [[themes/000 Index|Index]]
 - [[Multiplicative Inverse]]
 - [[Computational Hardness Assumption]]
 - [[FACTORING & DL Algorithms]]
+- [[Complexity Notation]]
 - [[Complexity Classes]]
+- [[Complexity Reduction]]
 - [[AC2 - Math - Exercise 3|Exercise 3]]
 
 ---

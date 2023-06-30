@@ -15,5 +15,6 @@ The Notes are based on the [[IMF Framework]] (get familiar with the concept firs
 - 100s - #AC1 #symmetric
 - 200s - #AC2 #asymmetric #math
 - 300s - #ModernCryptography #symmetric #asymmetric 
+- Computability and Complexity - #computability-complexity 
 
 [^1]: Introduction to Modern Cryptography, Third Edition (Chapman & Hall/Crc Cryptography and Network Security) by Jonathan Katz and Yehuda Lindell (ISBN: 780815354369)
