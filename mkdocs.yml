@@ -14,12 +14,15 @@ nav:
       - 'Private Key Encryption': 'themes/104 AC1 TOC - Private Key Encryption.md'
       - 'Random Oracle & Applications': 'themes/105 AC1 TOC - Random Oracle & Applications.md'
       - 'AEAD': 'themes/106 AC1 TOC - AEAD.md'
-      - 'Secure Channels': 'themes/107 AC1 TOC - From Symmetric Encryption to Secure Channels.md'
+      - 'Secure Channels': 'themes/107 AC1 TOC - Secure Channels.md'
       - 'Blockchain': 'themes/108 AC1 TOC - Blockchain.md'
       - 'Secret Sharing': 'themes/109 AC1 TOC - Secret sharing.md'
     - 'Applied Cryptography 2':
       - 'Index': 'themes/200 AC2 MOC.md'
       - 'Intro': 'themes/201 AC2 TOC - Intro pk.md'
+      - 'Number-Theoretic Algorithms': 'themes/203 AC2 TOC - Number-Theoretic Algorithms and Hardness Assumptions.md'
+      - 'RSA and ElGamal Encryption': 'themes/204 AC2 TOC - RSA and ElGamal Encryption.md'
+      - 'Secure Messaging And Channels': 'themes/209 AC2 TOC - Secure messaging and channels.md'
       - 'Anonymity': 'themes/210 AC2 TOC - Anonymity.md'
     - 'Modern Cryptography':
       - 'Index': 'themes/300 Modern Cryptography MOC.md'
