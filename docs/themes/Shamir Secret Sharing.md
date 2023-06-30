@@ -17,13 +17,13 @@ Below are the 3 problems with a suggested solution:
 
 > If you give one person a secret key, it may get lost
 
-=> So give it to more than one Person
+$\rightarrow$ So give it to more than one Person
 
 ### Confidentiality
 
 > If you give many entities a secret, it may get disclosed
 
-=> So give them only a key share!
+$\rightarrow$ So give them only a key share!
 
 ### Scalability
 
@@ -33,9 +33,9 @@ Below are the 3 problems with a suggested solution:
 > 
 > combinations to consider
 
-=> Use Polynominals!
+$\rightarrow$ Use Polynominals!
 
-**Polynominals**
+## Polynominals
 
 A polynominal of degree $k$ is fully determined by $k + 1$ data points 
 
@@ -43,7 +43,9 @@ $$(x_0,y_0), ...,(x_j,y_j),...,(x_k,y_k)$$
 
 when given that $x_i \neq x_j$ for $i \neq j \land i,j \in 0,..,k$. (Each $x$ must be unique)
 
-**Lagrange Interpolation**
+*Example*: So we could distribute 30 points to 30 people and 10 are enough to recover a polynominal of degree 9.
+
+## Lagrange Interpolation
 
 The interpolation polynominal in the Lagrange form is:
 
@@ -58,7 +60,7 @@ $$l_j(x)= \prod_{0\le m \le k,\ m \neq j} \frac{x-x_m}{x_j-x_m}=\frac{x-x_0}{x_j
 
 With lagranges interpolation we can find one polynomial which conquers every point defined by a set of tuples $S := \{i \in 0,..,n: (x_i, f_i)\}$ (where $f_i$ is some polynomial itself). It's only possible if every $x \in S$ is unique within the set.
 
-**Case Study**
+### Case Study
 
 Say we have following polynomials:
 $$ f_0(x) = 0, f_1(x) = x^2, f_2(x) = x^3$$ 
@@ -72,13 +74,13 @@ We could also substitute $l_1, l_2, l_3$ with the respective terms of the Lagran
 
 Source: [de: Wikipedia](https://de.wikipedia.org/wiki/Polynominterpolation)
 
-**Practical Considerations**
+## Practical Considerations
 
 > Our secrets will typically be Integers. Calculations with floating points could get messy
 
-=> Use finite field arithmetic, not $\mathbb{R}$
+$\rightarrow$ Use finite field arithmetic, not $\mathbb{R}$
 
-**Real world scalability**
+### Real world scalability
 
 ![[shamir_scalability_table.png]]
 
@@ -94,4 +96,4 @@ Other values:
 > How many people realistically participate in recovery?
 
 ---
-links:[[109 AC1 TOC - Secret sharing|AC1 TOC - Secret sharing]] - [[themes/000 Index|Index]]
+links: [[109 AC1 TOC - Secret sharing|AC1 TOC - Secret sharing]] - [[themes/000 Index|Index]]

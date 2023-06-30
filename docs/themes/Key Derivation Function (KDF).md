@@ -12,11 +12,18 @@ KDF (key derivation functions) derive a key from a KDK (key derivation key). Thi
 
 NIST Recommendations on KDF: [NIST SP 800-108r1](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-108r1.pdf) 
 
+## KDF using HMAC (HKDF)
+
+HKDF is a simple KDF based on the [[Cryptographic MACs#HMAC (Hash-based Message Authentication Code)|HMAC]]. The main approach of HKDF follows the "extract-then-expand" paradigm, where the KDF logically consists of two modules.
+
+1. **HKDF-Extract**: takes "input key material" (IKM) such as a shared secret of DH, optional a salt and generates a PRK (pseudorandom key). The output is the [[Cryptographic MACs#HMAC (Hash-based Message Authentication Code)|HMAC]] with the "salt" as the key and the "IKM" as the message.
+2. **HKDF-Expand**: Takes the PRK, some "info" and a length and generates output of the length. This module act as a [[CPA-Security#Pseudorandom Functions and Permutations|pseudorandom function]] keyed on PRK.
+
 ## KDF using KMAC ([[Keccak|Keccak]])
 
 [[Cryptographic MACs#KMAC (Keccak Message Authentication Code)|KMAC]] (Keccak based Message Authentication Code) is based on the [[Keccak]] sponge construction and therefore can output an arbitrary length of output bits.
 
-The NIST defines a [[Cryptographic MACs#KMAC (Keccak Message Authentication Code)|KMAC]] based KDF as follows:
+The NIST defines a *KMAC based KDF* as follows:
 
 ```
 Input: KDK, Context, L, and Label

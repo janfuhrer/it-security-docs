@@ -6,9 +6,11 @@ links: [[109 AC1 TOC - Secret sharing|AC1 TOC - Secret sharing]] - [[themes/000 
 
 ---
 
-The Personal Security Environment (PSU) is used in information security to describe the part of a storage medium in which the secret keys are stored.
+## PSE
 
-There are 2 different types of PSU, "software based" or "hardware based".
+The Personal Security Environment (PSE) is used in information security to describe the part of a storage medium in which the secret keys are stored.
+
+There are 2 different types of PSE: "software based" or "hardware based".
 
 ## Software Based
 
@@ -20,7 +22,7 @@ PKCS#12 is the most widely used format for software PSEs. It is described as fol
 
 ## Hardware Based
 
-There are several hardware crypto tokens/cards on the market. For example, Yubikey, Smartcards, and other hardware tokens. They all have the following characteristics:
+There are several hardware crypto tokens/cards on the market (e.g. Yubikey, Smartcards). They all have the following characteristics:
 
 - Ability to be a secure container for secret data.
 - A platform for the execution of cryptographic algorithms
@@ -30,9 +32,9 @@ There are several hardware crypto tokens/cards on the market. For example, Yubik
 ### Yubikey
 
 - Provides Smart Card functionality based on the Personal Identity Verification (PIV) interface specified in NIST SP 800-73
-- Performs sign/decrypt operations using the private key stored on the token via a common interface such as PKCS#11
-- Supports RSA 2048 or ECC 256/384 key sizes
-- "Universal Smartcard Minidriver" provides smart functionality and certificate/PIN management capabilities.
+- Performs sign/ decrypt operations using the private key stored on the token via a common interface such as PKCS#11
+- Supports [[RSA]] 2048 or ECC 256/384 key sizes
+- "Universal Smartcard Minidriver" provides smart functionality and certificate/ PIN management capabilities.
 - Some "special" Yubikeys have obtained FIPS 140-2 security level certification.
 
 ### Hardware Security Modules (HSM)

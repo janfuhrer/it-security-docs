@@ -11,6 +11,7 @@ We assume the following:
 > Everything is Broken!
 
 Alice wants to create a cryptographic signature but:
+
 - No single piece of hardware is trusted
 - No single service provider is trusted
 
@@ -20,16 +21,16 @@ If we need $t$ providers we should sign up with $n$ providers initially so we ca
 
 ## FROST
 
-Flexible Round-Optimized Schnorr Threshold (FROST) is a t-out-of-n threshold signature scheme.
+Flexible Round-Optimized Schnorr Threshold (FROST) is a $t$-out-of-$n$ threshold signature scheme.
 
-- Threshold signature schemes exist to facilitate shared ownership of a private key. Using a set of participants such that a threshold number of the set must cooperate to issue a signature. 
+- Threshold signature schemes exist to facilitate **shared ownership of a private key**. Using a set of participants such that a threshold number of the set must cooperate to issue a signature. 
 - $t$ of this set of $n$ participants must work collaboratively to create the digital signature.
 
 ## FROSIX
 
 Free Software implementation of the threshold signature scheme using FROST.
 
-- REST API to interact between signer and signing services
+- RESTful API to interact between signer and signing services
 - Configurable authentication methods to authorize creation of signature
 - To avoid single point of failure the client should still use multiple devices
 - Command-Line tool to interact with FROSIX service providers

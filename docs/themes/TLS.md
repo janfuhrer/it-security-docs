@@ -2,7 +2,7 @@ tags: #AC2 #symmetric #asymmetric
 
 # TLS
 
-links:  [[209 AC2 TOC - Secure messaging and channels|AC2 TOC - Secure messaging and channels]] - [[themes/000 Index|Index]]
+links: [[209 AC2 TOC - Secure messaging and channels|AC2 TOC - Secure messaging and channels]] - [[themes/000 Index|Index]]
 
 ---
 
@@ -70,8 +70,8 @@ Abbreviated Handshake, similar to 1-RTT
 0.5 RTT Handshake in slides, name is not standardized
 
 **Problems**
+
 TLS 1.3 deprecated lots of insecure ciphers but still has downgrade attack problem. X.509 certificates are still used.
 
 ---
-
-links:  [[209 AC2 TOC - Secure messaging and channels|AC2 TOC - Secure messaging and channels]] - [[themes/000 Index|Index]]
+links: [[209 AC2 TOC - Secure messaging and channels|AC2 TOC - Secure messaging and channels]] - [[themes/000 Index|Index]]
