@@ -9,6 +9,8 @@ links: [[themes/000 Index|Index]]
 - The NIST maintains a comprehensive cybersecurity glossary: [NIST Glossary](https://csrc.nist.gov/glossary)
 - Check actual recommendations for key length on [Keylenght.com](https://www.keylength.com/)
 
+## AC1
+
 **Cryptographic Hash Functions**
 
 * [[Cryptographic Hash Functions#SHA-1|SHA-1]] (Merkle–Damgård construction)
@@ -19,7 +21,7 @@ links: [[themes/000 Index|Index]]
 **KDF (Key Derivation Function)** 
 
 * [[Key Derivation Function (KDF)|KDF]]
-* HKDF (Using HMAC/Hash)
+* [[Key Derivation Function (KDF)#KDF using HMAC (HKDF)|HKDF]] (Using HMAC)
 * [[Password Based Key Derivation Function (PBKDF)#PBKDF using Argon2|Argon2]] (Password Based $\rightarrow$ [[Password Based Key Derivation Function (PBKDF)|PBKDF]])
 * PBKDF2
 * scrypt
@@ -40,10 +42,6 @@ links: [[themes/000 Index|Index]]
 **XOF (Extended Output Function)**
 
 * [[themes/SHAKE & cSHAKE|SHAKE & cSHAKE]] (Based on Keccak)
-
-**Networking**
-[[TLS]] (Transport Layer Security)
-[[it-security-docs/docs/themes/TLS#^dbdd19|HSTS]] (HTTP Strict Transport Security)
 
 **Random**
 
@@ -74,6 +72,21 @@ links: [[themes/000 Index|Index]]
 	- [[Authenticated Encryption#ChaCha20-Poly1305|ChaCha20-Poly1305]]
 	- [[Ascon|Ascon]]
 
+**Blockchain**
+
+- ...
+
+**Naming Systems**
+
+- [[Naming Systems#Cryptography in DNS|Cryptography in DNS]] (DNSSEC / DNSCurve / DoT / DoH / RAINS)
+- [[Naming Systems#Ethereum Name System|Ethereum Name Systems]]
+
+**Secure Channel**
+
+- Authenticity & Repudiation!
+	- [[Secure Channels#Off-the-record (OTR) protocol|OTR]] (DSA & DH)
+	- [[Secure Channels#Triple Diffie-Hellman (3DH)|3DH]] (only DH)
+
 **Key Establishing**
 
 - [[Key Establishment#Neumann-Stubblebine|Neumann-Stubblebine]] (Broken)
@@ -84,11 +97,30 @@ links: [[themes/000 Index|Index]]
 - [[Key Establishment#Otway-Rees protocol|Otway-Rees protocol]]
 - [[Key Establishment#Station to station key agreement protocol (STS)|STS]]
 
-**Secure Channel**
+**Key Revocation**
 
-- Authenticity & Repudiation!
-	- [[Secure Channels#Off-the-record (OTR) protocol|OTR]] (DSA & DH)
-	- [[Secure Channels#Triple Diffie-Hellman (3DH)|3DH]] (only DH)
+- [[Key Revocation#Certificate Revocation Lists (X.509)|CRL]] (x.509)
+- [[Key Revocation#Online Certificate Status Protocol (OCSP)|OCSP]] / OCSP Stapling
+- Controlled flooding
+	- [[Bloom Filters & Set Unification#Bloom filters|Bloom Filter]] (BF / CBF / IBF)
+	- [[Bloom Filters & Set Unification#Set Union Protocol|Set Union Protocol]]
+
+**Key Management**
+
+- [[Key Management#PSE|PSE]]
+	- Software (PKCS#12)
+	- Hardware (YubiKey)
+	- [[Key Management#Hardware Security Modules (HSM)|HSM]]
+- [[Shamir Secret Sharing]] (Polynominals)
+- [[Key escrow and recovery#Anastasis|Anastasis]] (Key escrow and recovery)
+- [[Threshold Signatures]] (FROST / FROSIX)
+
+## AC2
+
+**Networking**
+
+- [[TLS]] (Transport Layer Security)
+- HSTS (HTTP Strict Transport Security)
 
 ---
 links: [[themes/000 Index|Index]]
