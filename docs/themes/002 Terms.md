@@ -16,15 +16,15 @@ links: [[themes/000 Index|Index]]
 * [[Cryptographic Hash Functions#SHA-1|SHA-1]] (Merkle–Damgård construction)
 * [[Cryptographic Hash Functions#SHA-2|SHA-2]] (Merkle–Damgård construction)
 * [[Cryptographic Hash Functions#SHA-3|SHA-3]] (Sponge construction / Keccak)
-* BLAKE (Bernstein)
+* [[Cryptographic Hash Functions#BLAKE|BLAKE]] (Bernstein)
 
 **KDF (Key Derivation Function)** 
 
 * [[Key Derivation Function (KDF)|KDF]]
 * [[Key Derivation Function (KDF)#KDF using HMAC (HKDF)|HKDF]] (Using HMAC)
 * [[Password Based Key Derivation Function (PBKDF)#PBKDF using Argon2|Argon2]] (Password Based $\rightarrow$ [[Password Based Key Derivation Function (PBKDF)|PBKDF]])
-* PBKDF2
-* scrypt
+* [[Password Based Key Derivation Function (PBKDF)#PBKDF1 & PBKDF2|PBKDF2]]
+* [[Password Based Key Derivation Function (PBKDF)#scrypt|scrypt]]
 
 **MAC (Message Authentication Code)**
 

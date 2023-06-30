@@ -41,9 +41,23 @@ links: [[105 AC1 TOC - Random Oracle & Applications|AC1 TOC - Random Oracle & Ap
 - also recommended
 
 
-## Security Strengths in Bits
+### Security Strengths in Bits
 
 ![[security_of_sha_functions.png]]
+
+## BLAKE
+
+> BLAKE is a cryptographic hash function based on Bernsteins [[Authenticated Encryption#ChaCha20-Poly1305|ChaCha]] stream cipher.
+
+There are like in the SHA family several versions of the hash function:
+
+- **BLAKE**: submitted 2008, lost in final round of SHA-3 competition to [[Keccak]]
+- **BLAKE2**: hash function based on BLAKE (2012), *BLAKE2b* is faster than MD5, SHA-1, SHA-2 & SHA-3
+- **BLAKE3**: hash function based on BLAKE2 (2020), single algorithm with many desirable features (parallelism, XOF, [[Key Derivation Function (KDF)|KDF]], [[CPA-Security#Pseudorandom Functions and Permutations|PRF]] and [[MAC]]), faster than BLAKE2
+
+- Users of BLAKE2: [[Password Based Key Derivation Function (PBKDF)#PBKDF using Argon2|Argon2]], Wireguard, ...
+
+Source [en: Wikpedia](https://en.wikipedia.org/wiki/BLAKE_(hash_function))
 
 ---
 links: [[105 AC1 TOC - Random Oracle & Applications|AC1 TOC - Random Oracle & Applications]] - [[300 Modern Cryptography MOC|Modern Cryptography MOC]] - [[themes/000 Index|Index]]

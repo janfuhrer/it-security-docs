@@ -30,11 +30,11 @@ IND-CCA itself does not provide authenticity. CCA only requires that an attacker
 
 **Example from slides**
 
-*[[Block Cipher#Counter (CTR) mode|CTR]] schemes are IND-CCA insecure:
+[[Block Cipher#Counter (CTR) mode|CTR]] schemes are IND-CCA insecure:
 
 > “Say $⟨r,C⟩$ is a ciphertext of some $l$-bit message $M$, and we flip bit i of $C$, resulting in a new ciphertext $⟨r,C′⟩$. Let $M′$ be the message obtained by decrypting the new ciphertext. Then $M′$ equals $M$ with the i-th bit flipped. Thus, by making a decryption oracle query of $⟨r,C′⟩$ one can learn $M′$ and thus $M$.”
 > 
-> - Symmetric Encryption by Mihir Bellare and Phillip Rogaway*
+> — Symmetric Encryption by Mihir Bellare and Phillip Rogaway
 
 ---
 links: [[104 AC1 TOC - Private Key Encryption|AC1 TOC - Private Key Encryption]] - [[300 Modern Cryptography MOC|Modern Cryptography MOC]] - [[themes/000 Index|Index]]
