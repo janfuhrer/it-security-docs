@@ -49,6 +49,8 @@ The symmetric difference can be calculated out of two IBFs from two nodes. It's 
 
 The advantage of IBFs is that the size of the actual set does not matter. Only the size of the diff matters. The larger the diff the larger the IBF has to be.
 
+To understand Bloom filters the [RFC about Byzantine Fault Tolerant Set Reconciliation](https://datatracker.ietf.org/doc/html/draft-summermatter-set-union) was implemented and can be found on [GitHub](https://github.com/Joel-Haeberli/bloom-filter/tree/main). The implementation is not thought to be ready to use but show the basic principles and the process. It makes simplifications and might not follow the standard perfectly due to misunderstanding or laziness.
+
 ## Set Union Protocol
 
 Unify two sets in an efficient manner.
