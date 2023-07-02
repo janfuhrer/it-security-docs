@@ -59,9 +59,16 @@ see [How OTR Works](https://robertheaton.com/otr3)
 2. The shared secret from this key exchange is used to derive a sending and receiving cipher key for each party, as well as a set of [[MAC]] keys for each party.
 3. Every transmitted message includes a [[MAC]], which the message’s recipient can verify.
 
-Since the key used to construct and verify the [[MAC]] was derived from the shared secret, and since the shared secret was derived from a key exchange that was in turn signed by the sender’s long-term identity key, the recipient can be sure that the message was really constructed by their peer in the conversation.
+OTR is essentially the same as [[Key Establishment#Station to station key agreement protocol (STS)|STS]] with the difference that the MAC is generated with the hash of the shared secret instead of the shared secret itself or the private key of the sender. The hashed secret which was used to create the MAC is published after sending the message and after communication has ended, the shared secret is deleted/forgotten by both parties.
 
-The message is “deniable,” however, because the MAC keys are derived from a _shared_ secret. Unlike PGP signatures, where the sender is the only person capable of producing the signature, the recipient of an OTR message is _also_ capable of producing a sender’s MAC. This doesn’t compromise the integrity of the conversation for its participants, but does prevent a message’s recipient from revealing the MAC’d message to a third party as proof that it was produced by the sender, since it could have just as easily been constructed by the recipient themselves.
+1. Sender and recipient agree on a secret encryption session key using Diffie-Hellman key exchange.
+2. They prove their identities to each other by signing the intermediate values in the Diffie-Hellman exchange
+3. Sender uses the encryption key from step 1 to encrypt their message and signature
+4. Sender signs their encrypted message using HMAC. They use a signing key equal to the cryptographic hash of the encryption key from step 1
+5. Sender sends the encrypted ciphertext and signature to the recipient
+6. Recipient decrypts the cipherext and verifies the accompanying signature
+7. Sender publishes the HMAC key
+8. Sender and recipient forget their session keys
 
 ### Triple Diffie-Hellman (3DH)
 

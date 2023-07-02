@@ -121,6 +121,8 @@ links: [[themes/000 Index|Index]]
 
 - [[TLS]] (Transport Layer Security)
 - HSTS (HTTP Strict Transport Security)
+- [[MIME]] (Multipurpose Internet Mail Extensions)
+- [[SMTP]] (Simple Mail Transfer Protocol)
 
 ---
 links: [[themes/000 Index|Index]]

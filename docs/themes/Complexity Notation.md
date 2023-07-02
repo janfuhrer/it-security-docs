@@ -32,6 +32,8 @@ For some function $f(n)$
 * Little omega notation: $\omega(f(n))$ - Lower bound. Best case scenario. (Strictly greater)
 * Big Theta notation: $\Theta(f(n))$ - Equal. Average case scenario.
 
+![[Big-Oh-Notation.png]]
+
 ## Master Theorem
 
 To analyse recursive function we need the Master Theorem.
@@ -58,6 +60,7 @@ $$
 
 
 ![[Master_Theorem.png]]
+![[Master-Theorem-Example.png]]
 
 ---
 links: [[203 AC2 TOC - Number-Theoretic Algorithms and Hardness Assumptions|AC2 TOC - Number-Theoretic Algorithms and Hardness Assumptions]] - [[themes/000 Index|Index]]

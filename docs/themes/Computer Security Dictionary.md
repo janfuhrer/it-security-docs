@@ -30,6 +30,10 @@ Information has monetary value. Thus we speak about information assets.
 
 Risk is value (cost of potential damage) multiplied by the probability of this damage occurring.
 
+$risk = value * probability$
+
+materialized risk = $p = 100\%$
+
 **Vulnerability**
 
 Inability of a system to withstand the effects of a hostile environment.
