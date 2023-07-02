@@ -70,6 +70,8 @@ OTR is essentially the same as [[Key Establishment#Station to station key agreem
 7. Sender publishes the HMAC key
 8. Sender and recipient forget their session keys
 
+Deniability is only achieved if both parties actually publish their MAC key and delete the shared secret. Otherwise one party can still proof that communication has taken place. 3DH can be used to avoid this problem because anyone could make up communication between any two parties.
+
 ### Triple Diffie-Hellman (3DH)
 
 Replaces the two DSA signatures from OTR and does everything with 3 DH key exchanges.
