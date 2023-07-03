@@ -22,6 +22,10 @@ From fast to slow
 * $\mathcal{O}(n!)$ - Factorial time
 * $\mathcal{O}(n^n)$ - "Crazy" exponential time
 
+From the slides:
+![[Complexity_Notation.png]]
+
+
 ## Notation
 
 For some function $f(n)$
