@@ -14,6 +14,8 @@ A **RNG** is an algorithm or device designed to generate a sequence of numbers t
 
 **TRNG** stands for True Random Number Generator. Unlike RNGs, which are often pseudorandom, TRNGs generate random numbers from a physical process, not a set algorithm.
 
+A TRNG is stateless. That mean we have one weakness. We don't know if the current Entropy output is low or not.
+
 ## RNG to PRNG
 
 RNGs produce true random bits relatively slowly from analog sources, in a nondeterministic way, and with no guarantee of high entropy. In contrast, a [[Pseudorandom Number Generator (PRNG)]] (PNRG) produces random-looking bits into a long stream of reliable pseudorandom bits suitable for crypto applications.

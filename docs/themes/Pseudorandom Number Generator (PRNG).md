@@ -51,4 +51,4 @@ A PRNG can end up in a **loop** at some point or depending on the size start aga
 If a PRNG is used for a long time without re-seeding, there's a potential risk that the output sequence could start to repeat or that an attacker could start to infer the internal state of the PRNG. To counter this we re-seed the PRNG using true randomness again from the [[Random Number Generator (RNG)#TRNG|TRNG]].
 
 ---
-links: [[103 AC1 TOC - Randomness|AC1 TOC - Randomness]] - [[themes/000 Index|Index]]]]
+links: [[103 AC1 TOC - Randomness|AC1 TOC - Randomness]] - [[themes/000 Index|Index]]

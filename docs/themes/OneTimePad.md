@@ -10,6 +10,9 @@ links: [[102 AC1 TOC - Security & Cryptography|AC1 TOC - Security & Cryptography
 
 - the key is as long as the message (and also the ciphertext has the same length)
 - the OneTimePad is only secure if used once (with a given key)
+- It provides perfect secrecy
+
+$K := M := C := \{0, 1\}^L$
 
 ## Using OneTimePad twice
 

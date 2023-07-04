@@ -20,6 +20,8 @@ Encrypt & Decrypt in detail:
 
 ![[Shannon_cipher.png]]
 
+If the Shanon Cipher is defined like in the image above it provides perfect secrecy. The Shanon Cipher does not imply that directly, it depends on how $E$ and $D$ are defined.
+
 **Decorrelation** 
 
 - Ciphertext is drawn with a uniform probability over the ciphertext space for every key / message input.

@@ -19,5 +19,7 @@ Through cryptography we can maintain **PAIN**:
 - **I**ntegrity
 - **N**on-repudiation
 
+With cryptography we can secure an already secure process in an insecure environment. It's not possible to secure an insecure process. 
+
 ---
 links: [[102 AC1 TOC - Security & Cryptography|AC1 TOC - Security & Cryptography]] - [[themes/000 Index|Index]]
