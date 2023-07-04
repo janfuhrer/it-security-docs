@@ -24,6 +24,7 @@ nav:
       - 'RSA and ElGamal Encryption': 'themes/204 AC2 TOC - RSA and ElGamal Encryption.md'
       - 'Secure Messaging And Channels': 'themes/209 AC2 TOC - Secure messaging and channels.md'
       - 'Anonymity': 'themes/210 AC2 TOC - Anonymity.md'
+      - 'DPKI': 'themes/211 AC2 TOC DPKI.md'
     - 'Modern Cryptography':
       - 'Index': 'themes/300 Modern Cryptography MOC.md'
       - 'Introduction and Classical Cryptography':
