@@ -10,7 +10,7 @@ links: [[102 AC1 TOC - Security & Cryptography|AC1 TOC - Security & Cryptography
 
 - the key is as long as the message (and also the ciphertext has the same length)
 - the OneTimePad is only secure if used once (with a given key)
-- It provides perfect secrecy
+- It provides **perfect secrecy**
 
 $K := M := C := \{0, 1\}^L$
 
@@ -34,7 +34,6 @@ $c \oplus c' = (m \oplus k)\oplus (m' \oplus k) = m \oplus m'$
 |-----|----|---|
 | 0      | 0 | 1 |
 | 1       | 1 | 0 |
-
 
 ---
 links: [[102 AC1 TOC - Security & Cryptography|AC1 TOC - Security & Cryptography]] - [[300 Modern Cryptography MOC|Modern Cryptography MOC]] - [[themes/000 Index|Index]]

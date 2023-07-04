@@ -16,7 +16,7 @@ links: [[themes/000 Index|Index]]
 * [[Cryptographic Hash Functions#SHA-1|SHA-1]] (Merkle–Damgård construction)
 * [[Cryptographic Hash Functions#SHA-2|SHA-2]] (Merkle–Damgård construction)
 * [[Cryptographic Hash Functions#SHA-3|SHA-3]] (Sponge construction / Keccak)
-* [[Cryptographic Hash Functions#BLAKE|BLAKE]] (Bernstein)
+* [[Cryptographic Hash Functions#BLAKE|BLAKE]] (ChaCha)
 
 **KDF (Key Derivation Function)** 
 
@@ -29,7 +29,7 @@ links: [[themes/000 Index|Index]]
 **MAC (Message Authentication Code)**
 
 - [[Cryptographic MACs#CBC-MAC|CBC-MAC]] (Block cipher based)
-* [[Cryptographic MACs#HMAC (Hash-based Message Authentication Code)|HMAC]] (Hash Based)
+* [[Cryptographic MACs#HMAC (Hash-based Message Authentication Code)|HMAC]] (Hash-and-Mac based)
 * [[Cryptographic MACs#Poly1305|Poly1305]] & [[Cryptographic MACs#GMAC (Galois Message Authentication Code)|GMAC]] (Based on a universal hash family)
 * [[Cryptographic MACs#KMAC (Keccak Message Authentication Code|KMAC]] (Based on Keccak. Also usable as a regular hash function without key)
 

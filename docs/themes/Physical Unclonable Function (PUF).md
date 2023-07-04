@@ -1,6 +1,6 @@
 tags: #symmetric #PUF
 
-# Physical Uncloneable Function
+# Physical Unclonable Function
 
 links: [[103 AC1 TOC - Randomness|AC1 TOC - Randomness]] - [[themes/000 Index|Index]]
 
@@ -8,7 +8,7 @@ links: [[103 AC1 TOC - Randomness|AC1 TOC - Randomness]] - [[themes/000 Index|In
 
 ## Defintion
 
-A Physical Uncloneable Function (PUF) is a physical entity that is embodied in a physical structure and is easy to evaluate but hard to predict. It is a type of hardware that provides a unique identifier for devices and relies on the inherent uniqueness in physical microstructures to provide a set of unique and unpredictable responses to challenges. Because of their physical nature, PUFs are extremely difficult to clone, even with physical access to the device.
+A Physical Unclonable Function (PUF) is a physical entity that is embodied in a physical structure and is easy to evaluate but hard to predict. It is a type of hardware that provides a unique identifier for devices and relies on the inherent uniqueness in physical microstructures to provide a set of unique and unpredictable responses to challenges. Because of their physical nature, PUFs are extremely difficult to clone, even with physical access to the device.
 
 ## Usage (Challenge Response)
 

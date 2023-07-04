@@ -58,7 +58,7 @@ Source: [Link](https://crypto.stackexchange.com/questions/43112/poly1305-aes-vs-
 - Avoids the [[Hash-and-Mac#Length-Extension Attack|Length-Extension Attack]]
 - uses the [[Hash Functions#Merkle-Damgård Transform|Merkle-Damgård]] transform to compress arbitrary-length messages
 - there is an "inner" and an "outer" hash evaluation with some fixed constants (ipad/opad)
-- **Definition**: "*HMAC-Hash*"" (e.g. HMAC-SHA-256, HAMC-SHA3-512)
+- **Definition**: "*HMAC-Hash*"" (e.g. HMAC-SHA-256, HMAC-SHA3-512)
 - **Security**: HMAC is secure as long as you choose a secure hash algorithm (e.g. HMAC-SHA3-256)
 
 ![[hmac.png]]

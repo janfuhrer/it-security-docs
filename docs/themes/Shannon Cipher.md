@@ -1,4 +1,4 @@
-tags: #symmetric 
+tags: #symmetric #perfect-secrecy #shannon
 
 # Shannon Cipher
 

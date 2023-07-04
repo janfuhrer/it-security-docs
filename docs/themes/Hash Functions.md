@@ -55,7 +55,7 @@ $$H^{-1}(H(x)) = x, \textrm{let } H^{-1} \textrm{ be the inverse of } H$$
 
 ### Davies-Meyer
 
-- Davies-Meyer is a compress function from a block cipher
+- Davies-Meyer is a compress function from a [[Block Cipher|block cipher]]
 - $F$ is a strong pseudorandom permutation
 
 ![[davies_meyer-construction.png]]
@@ -70,6 +70,15 @@ $$H^{-1}(H(x)) = x, \textrm{let } H^{-1} \textrm{ be the inverse of } H$$
 - if $q$ people are in a room, what is the probability that some two of them share a birthday? $\rightarrow$ matching birthdays correspond to collisions
 - if $H$ has an output length of $l$, $q = \Theta(2^{l/2}) \rightarrow$ **yields a collision with probability roughly $1/2$** 
 
+### Rho Method
+
+- algorithm for finding collisions
+- unlike the birthday attack, requires only a small amount of memory
+- *Method*: start with a random value $x$, calculate $H_1(x)$, then compute $H_2(H_1)$, then $H_3(H_2)$, ...
+- *Aim*: find a cycle/ collision in the evaluation
+
+![[rho-method.png]]
+
 ## Universal Hash Function
 
 > Universal hashes can be extremely cheap to evaluate - much cheaper than block ciphers, pseudorandom functions, and especially collision-resistant hashes.
@@ -77,7 +86,7 @@ $$H^{-1}(H(x)) = x, \textrm{let } H^{-1} \textrm{ be the inverse of } H$$
 > Universal hashing gives us strong guarantees with extremely cheap options
 
 - selecting a hash function at random from a family of hash functions with a certain mathematical property
-- Example of universal hash families: [[Cryptographic MACs#GMAC (Galois Message Authentication Code)|GMAC]] or [[Cryptographic MACs#Poly1305|Poly1305]]
+- Example of universal hash families: GHASH (used in [[Cryptographic MACs#GMAC (Galois Message Authentication Code)|GMAC]]) or [[Cryptographic MACs#Poly1305|Poly1305]]
 
 Source: [Link](https://crypto.stackexchange.com/a/67639)
 
