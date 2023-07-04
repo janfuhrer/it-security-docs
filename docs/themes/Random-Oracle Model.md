@@ -8,7 +8,7 @@ links: [[105 AC1 TOC - Random Oracle & Applications|AC1 TOC - Random Oracle & Ap
 
 ## Idealized Model
 
-An approach that has been hugely successful in practice, and which offers a "middle ground" between a fully rigorous proof of security on the one hand and no proof whatsoever on the other, is to introduce an *idealized model* in which to prove the security of cryptographic schemes. A popular example of this approach is the *random-oracle model*, which treats a cryptographic hash function as a truly random function.
+An approach that has been hugely successful in practice, and which offers a "middle ground" between a fully rigorous proof of security on the one hand and no proof whatsoever on the other, is to introduce an *idealized model* in which to prove the security of cryptographic schemes. A popular example of this approach is the *random-oracle model*, which treats a cryptographic hash function as a **truly random function**.
 
 ## The Random Oracle Model / Global Random Oracle
 

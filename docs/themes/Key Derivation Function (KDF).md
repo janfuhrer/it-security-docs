@@ -43,7 +43,7 @@ Where the error condition $L > 2^{1040-1}$ is a limitation by [[Cryptographic MA
 - **Context**: Context information for the derived key
 - **L**: The desired length of the derived key
 - **Label**: "Label can be an encoding of
-- 
+
 the characters “KDF” or “KDF4X” in 8-bit ASCII" (quote of the [NIST document](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-108r1.pdf#%5B%7B%22num%22%3A139%2C%22gen%22%3A0%7D%2C%7B%22name%22%3A%22XYZ%22%7D%2C70%2C366%2C0%5D))
 
 ### Limitations

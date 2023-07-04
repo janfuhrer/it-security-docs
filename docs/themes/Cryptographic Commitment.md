@@ -20,6 +20,10 @@ A *commitment scheme* allows one party to "commit" to a value $m$ by sending a c
 - **Perfect binding**: The commitment can only be opened/ revealed to a single $m$. The committed value is perfectly secure against any type of change-attack, including those using unbounded computational power. It is impossible to change it without being detected.
 - **Conditional binding**: The commitment is hard to be changed without being detected. The committed value is bound in such a way that an adversary with limited computational resources cannot change the value without being detected.
 
+**Can you achieve perfect hiding and binding at the same time?**
+
+The reason a scheme can't be both perfectly hiding and perfectly binding is essentially due to an information-theoretic argument. If it's perfectly hiding, an attacker with unbounded computational power could try every possible value until they found one that matched the commitment, thereby breaking the binding. On the other hand, if it's perfectly binding, then it must be possible, in theory, to extract the committed value from the commitment, thereby breaking the hiding property.
+
 ### Example
 
 Example of a commitment scheme based on a sponge function:

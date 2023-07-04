@@ -32,7 +32,7 @@ Nature / Physics is the source we use for Randomness.
 
 Askew events refer to events that are slightly off from the norm, unpredictable, or irregular.
 
-Hardware sources mentioned above are an example of askew events. Another example is CPU Jitter
+Hardware sources mentioned above are an example of askew events. Another example is CPU Jitter.
 
 ## CPU Jitter
 

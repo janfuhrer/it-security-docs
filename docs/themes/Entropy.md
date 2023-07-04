@@ -12,7 +12,7 @@ Entropy is the measure of uncertainty, or disorder in a system.
 
 In the context of information theory, entropy is a measure of uncertainty, randomness, or disorder in a set of data. It's used to quantify the amount of information in a message (measurement of information). A message with high entropy can't be compressed well.
 
-Entropy itself isn't something you can physically capture or contain, it's a property or characteristic of a system or dataset that you can measure or calculate.
+Entropy itself isn't something you can physically capture or contain, it's a property or **characteristic** of a system or dataset that you can measure or calculate.
 
 ## Shannon Entropy
 

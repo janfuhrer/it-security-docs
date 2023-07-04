@@ -34,8 +34,5 @@ Ca. 16 times all the sand grains on planet earth are in one cup^^ (in regards to
 
 $36! = 2^{138}$
 
-
-
-
 ---
 links: [[103 AC1 TOC - Randomness|AC1 TOC - Randomness]] - [[themes/000 Index|Index]]

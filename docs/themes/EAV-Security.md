@@ -10,7 +10,7 @@ links: [[104 AC1 TOC - Private Key Encryption|AC1 TOC - Private Key Encryption]]
 
 EAV-security implies that ciphertexts leak no information about individual bits of the plaintext.
 
-> A private-key encryption scheme has *indistinguishable encryptions in the presence of an eavesdropper*, or is is **EAV-Secure**, iff it is **semantically secure** in the presence of an eavesdropper.
+> A private-key encryption scheme has *indistinguishable encryptions in the presence of an eavesdropper*, or it is **EAV-Secure**, iff it is **semantically secure** in the presence of an eavesdropper.
 
 **Leaking the plaintext length**
 
@@ -27,7 +27,7 @@ Mitigate or prevent such leakage by padding all messages before encrypting them.
 - allows messages of varying lengths
 - assumes the message length is revealed
 
-A semantically secure cryptosystem (RSA, ElGamal) is one where only negligible information about the plaintext can be feasibly extracted from the ciphertext.
+A semantically secure cryptosystem ([[RSA]], [[ElGamal]]) is one where only negligible information about the plaintext can be feasibly extracted from the ciphertext.
 
 Perfect secrecy (see [[themes/Shannons Theorem|Shannons Theorem]]) means that the ciphertext reveals no information at all about the plaintext, whereas semantic security implies that any information revealed cannot be feasibly extracted.
 
