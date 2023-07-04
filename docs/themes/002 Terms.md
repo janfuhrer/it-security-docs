@@ -45,7 +45,7 @@ links: [[themes/000 Index|Index]]
 
 **Random**
 
-* PRG (Pseudo Random Generator)
+* [[Pseudorandom Number Generator (PRNG)#Construct PRG (Pseudo Random Generator) from PRF (Pseudo Random Function)|PRG]] (Pseudo Random Generator)
 * [[Pseudorandom Number Generator (PRNG)|PRNG]] (Pseudo Random Number Generator)
 	* Subset of PRG. Used interchangeably.
 * [[Pseudorandom Number Generator (PRNG)#Other properties|CSPRNG]] (Cryptographically secure pseudorandom number generator)
@@ -71,10 +71,6 @@ links: [[themes/000 Index|Index]]
 	- [[Authenticated Encryption#GCM (Galois/ counter mode)|AES-GCM]]
 	- [[Authenticated Encryption#ChaCha20-Poly1305|ChaCha20-Poly1305]]
 	- [[Ascon|Ascon]]
-
-**Blockchain**
-
-- ...
 
 **Naming Systems**
 
@@ -108,7 +104,7 @@ links: [[themes/000 Index|Index]]
 **Key Management**
 
 - [[Key Management#PSE|PSE]]
-	- Software (PKCS#12)
+	- Software ([[PKCS]]#12)
 	- Hardware (YubiKey)
 	- [[Key Management#Hardware Security Modules (HSM)|HSM]]
 - [[Shamir Secret Sharing]] (Polynominals)
