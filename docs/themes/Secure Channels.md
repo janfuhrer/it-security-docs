@@ -67,6 +67,20 @@ The message is “deniable,” however, because the MAC keys are derived from a�
 
 Replaces the two DSA signatures from OTR and does everything with 3 DH key exchanges.
 
+* A: Public Identity (Key) Alice
+* B: Public Identity (Key) Bob
+* a: Ephemeral key Alice
+* b: Ephemeral key Bob
+
+
+![[3DH.png]]
+
+**But wait how is there authenticity? -- There is not**
+
+Before or after an X3DH key agreement, the parties may compare their identity public keys A and B through some authenticated channel. For example, they may compare public key fingerprints manually, or by scanning a QR code. _Methods for doing this are outside the scope of this document._
+
+_If authentication is not performed, the parties receive no cryptographic guarantee as to who they are communicating with._ [Signal Documentation](https://signal.org/docs/specifications/x3dh/)
+
 **Advantages**
 
 - **Reduced Algorithmic Complexity**: eliminated DSA, only DH now
