@@ -1,4 +1,4 @@
-tags: #asymmetric 
+tags: #asymmetric #WebOfTrust
 
 # Fog of Trust
 
@@ -10,6 +10,7 @@ links: [[211 AC2 TOC DPKI|AC2 TOC DPKI]] - [[themes/000 Index|Index]]
 
 - publishing who certified whom exposes the social graph
 - **Solution**: do not publish the graph, use "secure multi-part computation" (SMC) protocol for private set intersection cardinality with signatures.
+	- We will only consider paths with **one** intermediary
 
 ## Straw-man protocol
 

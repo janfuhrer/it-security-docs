@@ -1,4 +1,4 @@
-tags: #asymmetric 
+tags: #asymmetric #ParingBasedCryptography
 
 # Advanced Cryptographic Primitives
 
@@ -44,6 +44,8 @@ $$
 - Known cryptosystems: Brakerski-Gentry-Vaikuntanathan (BGV), NTRU, Gentry-Sahai-Waters (GSW)
 
 ## Pairing-based cryptography
+
+*Hint for Exam: this is a simple Signature Scheme*
 
 - Pairing-based cryptography is based on pairing functions that map pairs of points on an elliptic curve into a finite field
 - if constructed properly, they can produce finite fields that are large enough to make the discrete logarithm problem hard to compute, but small enough to make computations efficient

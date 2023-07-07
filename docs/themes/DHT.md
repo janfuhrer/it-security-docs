@@ -1,4 +1,4 @@
-tags: #asymmetric 
+tags: #asymmetric #DHT
 
 # Distributed Hash Tables (DHTs)
 
@@ -12,7 +12,9 @@ DHTs are decentralized, so all nodes form the collective system without any cent
 
 Nodes can be easily be added or removed without forcing a significant amount of re-balancing of the data in the cluster. Cluster rebalancing, especially for large data sets, can often be a time-consuming task that also impacts performance.
 
-Source: [en: Hazelcast.com](https://hazelcast.com/glossary/distributed-hash-table/)
+DHTs are the foundation of many **large-scale peer-to-peer (P2P) networks** and are used in applications such as file-sharing systems, content distribution networks and domain name systems.
+
+Source: [en: Hazelcast.com](https://hazelcast.com/glossary/distributed-hash-table/) & [en: Medium](https://medium.com/@luishrsoares/kademlia-chord-and-pastry-understanding-distributed-hash-table-algorithms-ec973585d102)
 
 - **Distributed index**
 - Trade-off between `GET/PUT` and `JOIN/LEAVE` costs
@@ -47,10 +49,12 @@ Source: [en: Hazelcast.com](https://hazelcast.com/glossary/distributed-hash-tabl
 
 ### Content Addressable Network (CAN)
 
-- *routing table*: neighbours in $d$-dimensional torus space $\rightarrow O(d)$
+- *routing table*: neighbours in $d$-dimensional torus space $\rightarrow 2d = O(d)$
 - *lookup*: forward to closest peer $\rightarrow O(d \sqrt[d]{n})$
 - *join*: lookup own peer identity to find join position, split quadrant (data areas) with existing peer
 - *leave*: assign quadrant space to neighbour(s) $\rightarrow O(d)$
+
+![[dht_can.png]]
 
 ### Chord
 
@@ -59,6 +63,8 @@ Source: [en: Hazelcast.com](https://hazelcast.com/glossary/distributed-hash-tabl
 - *join*: lookup own peer identity to find join position, use neighbour to establish finger table, migrate data form respective neighbour $\rightarrow O((log_2(n))^2)$
 - *leave*: join predecessor with successor, migrate data to respective neighbour, periodic stabilization protocol takes care of finger updates $\rightarrow O(1)$
 
+![[dht_chord.png]]{width="200"}
+
 ### Kademlia
 
 - *routing table*: $2^{160}$ buckets with $k$ peers at XOR distance $2^i$
@@ -66,6 +72,18 @@ Source: [en: Hazelcast.com](https://hazelcast.com/glossary/distributed-hash-tabl
 - *join*: lookup own peer identity, populate table with peers form iteration
 - *maintenance*: when interacting with a peer, add to bucket if not full; if bucket full, check if longest-not-seen peer is live first
 - *leave*: just drop out
+
+![[dht_kademlia.png]]
+
+**Properties**
+
+- XOR is a symmetric metric: connections are used in both directions
+- Iterative lookup gives initiator much control
+- Lookup helps with routing table maintenance
+- Bucket size trade-off between routing speed and table size
+- Iterative lookup is a trade off:
+	- good UDP
+	- bad with TCP (large number of connections)
 
 ---
 links: [[211 AC2 TOC DPKI|AC2 TOC DPKI]] - [[themes/000 Index|Index]]
