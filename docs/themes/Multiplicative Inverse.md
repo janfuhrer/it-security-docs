@@ -8,7 +8,7 @@ links:  [[203 AC2 TOC - Number-Theoretic Algorithms and Hardness Assumptions|AC2
 
 ## Multiplicate Inverse in $Z_n^*$
 
-![[Multiplicative-Inverse-In-Zn*.png]]
+![[Multiplicative-Inverse-In-ZnStar.png]]
 
 [[AC2 - Math - Exercise 3|Example in Exercise 3]]
 
