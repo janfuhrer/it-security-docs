@@ -14,11 +14,11 @@ There are 2 different types of PSE: "software based" or "hardware based".
 
 ## Software Based
 
-PKCS#12 is the most widely used format for software PSEs. It is described as follows:
+[[PKCS|PKCS#12]] is the most widely used format for software PSEs. It is described as follows:
 
 - File container format used to store and transport private keys
 - Content (data) is protected with a private key, e.g. a password.
-- The security of PKCS#12 is based solely on the strength of the password.
+- The security of [[PKCS|PKCS#12]] is based solely on the strength of the password.
 
 ## Hardware Based
 
@@ -32,7 +32,7 @@ There are several hardware crypto tokens/cards on the market (e.g. Yubikey, Smar
 ### Yubikey
 
 - Provides Smart Card functionality based on the Personal Identity Verification (PIV) interface specified in NIST SP 800-73
-- Performs sign/ decrypt operations using the private key stored on the token via a common interface such as PKCS#11
+- Performs sign/ decrypt operations using the private key stored on the token via a common interface such as [[PKCS|PKCS#11]]
 - Supports [[RSA]] 2048 or ECC 256/384 key sizes
 - "Universal Smartcard Minidriver" provides smart functionality and certificate/ PIN management capabilities.
 - Some "special" Yubikeys have obtained FIPS 140-2 security level certification.
