@@ -1,8 +1,10 @@
 tags: #asymmetric 
-links:  [[210 AC2 TOC - Anonymity]], [[themes/000 Index|Index]]
+
+# TOR
+
+links:  [[210 AC2 TOC - Anonymity|AC2 TOC - Anonymity]] - [[themes/000 Index|Index]]
 
 ---
-# TOR
 
 ## What is tor
 
@@ -17,12 +19,15 @@ P2P network of low-latency mixes which are used to provide anonymous communicati
 - Repeat until user has a key for every mix server
 - Encrypt message with all symmetric keys $(K_{S_1}(K_{S_2}(m)))$ and send message to first mix server
 - First mix server decrypts the message and sends the message to the next mix server until destination is reached.
+
 ![[tor_routing_1.png]]
 
-Just like in [[Anonymity - Mixing#What is Mixminion?|mixminion]], there are directory servers which keep track of contact information, public keys and statistics. Clients use directory servers to chose servers based on bandwidth and update. Circuits / Routes are of length three. 
+Just like in [[Anonymity - Mixing#What is Mixminion?|mixminion]], there are directory servers which keep track of contact information, public keys and statistics. Clients use directory servers to chose servers based on bandwidth and update. Circuits / Routes are of length three.
+
 ![[tor_routing_2.png]]
 
-In the example above
+In the example above:
+
 - Tor Node 1 is the **Entry node / Guard**
 	- Generally long lived "good" nodes
 	- Client (User) has to trust this node since it directly communicates with it
@@ -53,20 +58,26 @@ Slides page 51
 
 
 ## What types of attacks on tor are possible?
+
 **Listening to traffic on exit servers**
+
 It might be possible to see http traffic if tls isn't used. The source of the request stays hidden though
 
 **Website fingerprinting**
+
 An adversary could potentially monitor the entry node and use the patterns of data entering the Tor network to infer which sites are being visited. Even though the data is encrypted, the size and timing of packets could provide clues, as different sites will tend to generate characteristic traffic patterns.
 
 **Traffic analysis**
+
 A global passive adversary observing multiple nodes could correlate the timing and volume of traffic entering and leaving the Tor network to de-anonymize users. This requires extensive resources and is difficult to execute, but could theoretically compromise anonymity.
 
 **Intersection Attack**
+
 Over time, an adversary could observe when a user is active on the Tor network and correlate this with activity on a certain website or service. This is more a long-term statistical attack and could potentially reveal patterns of usage or, given enough data and time, de-anonymize a user.
 
 **DoS**
+
 An attacker could flood the Tor network, or specific nodes within the network, with an overwhelming amount of traffic, making it unusable for legitimate users. This doesn't compromise anonymity directly, but it disrupts the operation of the network.
 
 ---
-links:  [[210 AC2 TOC - Anonymity]], [[themes/000 Index|Index]]
+links:  [[210 AC2 TOC - Anonymity|AC2 TOC - Anonymity]] - [[themes/000 Index|Index]]
