@@ -1,8 +1,10 @@
 tags: #asymmetric 
-links:  [[210 AC2 TOC - Anonymity]], [[themes/000 Index|Index]]
+
+# Distributed Computing
+
+links:  [[210 AC2 TOC - Anonymity|AC2 TOC - Anonymity]] - [[themes/000 Index|Index]]
 
 ---
-# Distributed Computing
 
 ## What are the 8 Fallacies of Distributed Computing?
 
@@ -36,7 +38,6 @@ Consider Alice wants to send a secure message to Bob, but they have never met, a
 
 Alice can securely give Charlie an encryption key (since she trusts him). Charlie can then pass this key to Bob (since Bob trusts him). Now, Bob has the encryption key, and he can use it to decrypt any messages that Alice sends him. Even though Alice and Bob have never met, they can still communicate securely because of the chain of trust involving Charlie.
 
-
 ## Explain Zfone Authentication (ZRTP)
 
 1. **Diffie-Hellman exchange**: Alice and Bob perform a Diffie-Hellman key exchange, which allows them to both arrive at the same secret key, without ever having to send the key itself over the network. This establishes the initial secure communication channel, tying into Boyd's Theorem I, where a secure communication channel must exist in all states.
@@ -61,7 +62,6 @@ Self-stabilization allows a distributed system to recover from transient faults,
 **Example - Spanning-tree Protocol**
 This is a networking protocol that prevents loops in a network of connected nodes by creating a spanning tree. If a loop or other fault occurs, the protocol automatically recalculates the tree to remove the fault, demonstrating self-stabilization. It starts from any state, figures out the correct configuration (convergence), and maintains this correct configuration unless a change in the network occurs (closure).
 
-
 ## What is Secure Multiparty Computation?
   
 Secure Multiparty Computation (SMC) is a subfield of cryptography that focuses on enabling multiple parties to jointly compute a function over their inputs while keeping those inputs private. This is a powerful tool when dealing with confidential data that shouldn't be revealed to other participants.
@@ -81,4 +81,4 @@ Secure Multiparty Computation can be applied to more complex situations as well.
 SMC can be quite complex and requires careful implementation to ensure privacy and correctness. Its security is based on various cryptographic techniques like homomorphic encryption, secret sharing, and zero-knowledge proofs.
 
 ---
-links:  [[210 AC2 TOC - Anonymity]], [[themes/000 Index|Index]]
+links:  [[210 AC2 TOC - Anonymity|AC2 TOC - Anonymity]] - [[themes/000 Index|Index]]

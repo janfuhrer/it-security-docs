@@ -63,7 +63,7 @@ Source: [en: Hazelcast.com](https://hazelcast.com/glossary/distributed-hash-tabl
 - *join*: lookup own peer identity to find join position, use neighbour to establish finger table, migrate data form respective neighbour $\rightarrow O((log_2(n))^2)$
 - *leave*: join predecessor with successor, migrate data to respective neighbour, periodic stabilization protocol takes care of finger updates $\rightarrow O(1)$
 
-![[dht_chord.png]]{width="200"}
+![[dht_chord.png]]{width="300"}
 
 ### Kademlia
 
