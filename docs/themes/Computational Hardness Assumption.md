@@ -37,11 +37,11 @@ While these problems are related in the sense that they all involve operations i
 
 **RSA $\propto$ FACTORING**
 
-![[RSA<Factoring.png]]
+![[RSA_FACTORING.png]]
 
 **DDH $\propto$ CDH $\propto$ DL**
 
-![[DDH<CDH<DL.png]]
+![[DDH_CDH_DL.png]]
 
 ---
 

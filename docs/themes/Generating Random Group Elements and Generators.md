@@ -27,7 +27,7 @@ We write $r \leftarrow randBits(k)$ to denote the integer $r= \displaystyle\sum_
 
 ## Generating Random Elements of $Z_n^*$
 
-![[Generating-Random-Elements-Of-Zn*.png]]
+![[Generating-Random-Elements-Of-ZnStar.png]]
 
 - $Z_n^*$ = multiplicative group of integers modulo n and set of numbers coprime with n
 - $r$ can only be part of $Z_n^*$ if it is coprime to $n$ ($gcd(r,n) = 1$). Every element of the group needs to have a multiplicative inverse $b \in Z_n^*$ such that $(a*b) \mod n = 1$. Being coprime to $n$ guarantees that the number $r$ has a multiplicative inverse modulo $n$.
