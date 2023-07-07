@@ -16,6 +16,8 @@ links: [[themes/000 Index|Index]]
 	*  Regional Internet registry (RIR) for Europe, the Middle East and parts of Central Asia.
 * **W3C** (World Wide Web Consortium)
 	* An international community that develops open standards to ensure the long-term growth of the Web. While their focus is broader than just domain names and IP addresses, they play a key role in the standardisation of Web technologies.
+* **ITU** (International Telecommunication Union) ^1776b5
+	* Agency of the UN. X.509.
 * Some DNS Root Server Organisations
 	* Verisign, NASA, US Department of Defence, US Army, RIPE NCC, ICANN...
 * Big Certification Authorities
