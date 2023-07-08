@@ -8,6 +8,8 @@ links: [[209 AC2 TOC - Secure messaging and channels|AC2 TOC - Secure messaging 
 
 ## What is TLS?
 
+Demo: [See this page fetch itself, byte by byte, over TLS](https://subtls.pages.dev/)
+
 Transport Layer Security (TLS) is a cryptographic protocol designed to provide secure communication over a computer network. This protocol uses asymmetric cryptography to authenticate the communication parties, symmetric encryption to maintain privacy of the transmitted data, and message authentication codes for message integrity. Before TLS there was Secure Socket Layer (SSL). TLS is a successor protocol of SSL.
 
 ![[TLS.png]]
