@@ -6,7 +6,7 @@ links: [[themes/000 Index|Index]]
 
 ---
 
-- **Topic 1**: [[201 AC2 TOC - Intro pk|Introduction public-key cryptography]]
+- **Topic 1**: [[201 AC2 TOC - Intro Public Key Encryption|Introduction public-key cryptography]]
 - **Topic 2**: [[themes/Topic 2 - Maths|Modular Arithmetic and Group Theory]]
 - **Topic 3**: [[203 AC2 TOC - Number-Theoretic Algorithms and Hardness Assumptions|Number-Theoretic Algorithms and Hardness Assumptions]]
 - **Topic 4**: [[204 AC2 TOC - RSA and ElGamal Encryption|RSA and ElGamal Encryption]]
