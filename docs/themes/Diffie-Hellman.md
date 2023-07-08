@@ -10,7 +10,7 @@ The Diffie-Hellman key exchange, invented in 1976 by W. Diffie and M. Hellman (a
 
 ## One-Way Function
 
-The Diffie-Hellman key exchange is based on the following one-way function, where $p$ (large prime) and $g$ (primitive root modulo $p$, see [[themes/Topic 2 - Maths|Modular Arithmetic and Group Theory]]) are public parameter.
+The Diffie-Hellman key exchange is based on the following one-way function, where $p$ (large prime, usually 2048 or 4096 bit) and $g$ (primitive root modulo $p$, see [[themes/Topic 2 - Maths|Modular Arithmetic and Group Theory]]) are public parameter.
 
 - Exponentiation (easy):
 
