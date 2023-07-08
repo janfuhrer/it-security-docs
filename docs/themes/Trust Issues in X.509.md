@@ -48,9 +48,9 @@ What is a CA liable for?
 ## Domain Validation via E-Mail
 
 - CA sends mail to defined aliases (admin, administrator, webmaster, hostmaster, postmaster, see [[Public Key Infrastructure#Certification Authority (CA)|Baseline Requirements]])
-- If you offer E-Mail you **must** make sure that nobody can register such an address
-- One could argue if this is a sane system but it is documented in Baseline Requirements
-- live.fi / xs4all.nl issues caused by this validation method
+- If you (EE) offer E-Mail you **must** make sure that nobody can register such an address
+- One could argue if this is a sane system or not but it is documented in Baseline Requirements
+- live.fi / xs4all.nl issues were caused by this validation method
 
 
 ## Certificate Revocation
@@ -64,7 +64,7 @@ What is a CA liable for?
 
 **In practice**
 - Browsers use insecure soft-fail mode
-	- *GPT*: This means that if a browser couldn't retrieve the CRL or get an OCSP response, it would consider the certificate as valid and continue the connection. This was primarily designed to prioritize usability over security. The idea was to prevent users from being unable to access websites due to intermittent network issues or problems with the CA's servers.
+	- *GPT: This means that if a browser couldn't retrieve the CRL or get an OCSP response, it would consider the certificate as valid and continue the connection. This was primarily designed to prioritize usability over security. The idea was to prevent users from being unable to access websites due to intermittent network issues or problems with the CA's servers.*
 - Chrome and Firefox distribute their own blocklists, but they don't scale
 - [[Trust Issues in X.509#OCSP Stapling in TLS|OCSP stapling]] could help, but needs a mechanism to indicate its use ([muststaple draft](https://blog.apnic.net/2019/01/15/is-the-web-ready-for-ocsp-must-staple/))
 
@@ -88,7 +88,7 @@ Revocation reasons
 Check certificate status online by a OCSP Responder. Client can ask for status of multiple certificates per query
 
 **Responder**
-Replies witha signed message using a certificate with extension: extendedKeyUsage = OCSPSigning. Both messages are sent over port 80
+Replies with a signed message using a certificate with extension: extendedKeyUsage = OCSPSigning. Both messages are sent over port 80
 
 **Information about certificate in response**
 - good
@@ -101,9 +101,9 @@ The signed responses can be stored / cached by the client
 - Performance and resource issues
 	- OCSP may provide significant cost to a CA
 		- High traffic website may generate huge volume of OCSP requests
-		- OCSP slows down browsing, since it requires the lcient ot contact a third party (the CA) to confirm the validity of each certificate that it encounters
+		- OCSP slows down browsing, since it requires the client to contact a third party (the CA) to confirm the validity of each certificate that it encounters
 - Privacy
-	- OCSP checking potentiallyleaks user privacy information to third party online OCSP service
+	- OCSP checking potentially leaks user privacy information to third party online OCSP service
 - User (in)decision
 	- If OCSP response fails, user often is challenged by incomprehensible options
 
@@ -124,7 +124,7 @@ Created a TLS man in the middle proxy, private key was static and part of the so
 **[Privdog](https://www.heise.de/news/PrivDog-torpediert-die-Web-Sicherheit-im-Namen-der-Privatsphaere-2557756.html)**
 Just disabled TLS verification completely (Privdog is founded by the CEO of Comodo)
 
-Several Antiviruses do the same. Not fully broken, but all decrease the security of TLS. This is only an indirect problem of CAs and TLS. It should not be possible to undermine / bypass the security.
+Several Antiviruses do the same. Not fully broken, but all this decreases the security of TLS. This is only an indirect problem of CAs and TLS. It should not be possible to undermine / bypass the security.
 
 ---
 
