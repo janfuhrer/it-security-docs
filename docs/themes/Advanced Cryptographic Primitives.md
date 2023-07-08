@@ -67,6 +67,13 @@ $$
 
 - cryptographic signature scheme with allows a user to verify that a signer is **authentic**
 - scheme uses a *bilinear pairing* for verification, signatures are elements of an elliptic curve group (provides some defense against index calculus attacks)
+- (Index calculus attacks exploit the algebraic structure of finite fields or elliptic curves to solve the discrete logarithm problem efficiently. The key idea behind index calculus attacks is to build a system of equations involving the unknown exponent "x" and then solve these equations using linear algebra or other mathematical techniques.)
+
+* $x$: private key
+* $g^x$: public key
+* $\sigma$: signature
+* $h$: hash
+* g: generator
 
 ![[bls_1.png]]
 
