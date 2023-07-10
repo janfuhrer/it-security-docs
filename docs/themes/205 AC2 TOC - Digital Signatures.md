@@ -1,6 +1,6 @@
 tags: #AC2
 
-# AC2 TOC -Digital Signatures
+# AC2 TOC - Digital Signatures
 
 links: [[200 AC2 MOC|AC2 MOC]] - [[themes/000 Index|Index]]
 
