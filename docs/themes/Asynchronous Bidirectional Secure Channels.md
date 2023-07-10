@@ -17,12 +17,14 @@ Forward secrecy is a property of secure communication protocols where the compro
 *GPT*
 Future secrecy is a property that ensures that if a session key is compromised, it doesn't affect the security of future session keys. Session keys, also known as ephemeral keys, are temporary keys used for a single session and discarded afterward. If an attacker manages to compromise a session key (for instance, by exploiting a vulnerability in the system or through some form of side-channel attack), they would be able to decrypt the contents of that particular session. However, with future secrecy, this compromise doesn't allow them to compromise any future sessions, even if the long-term private key remains the same. This is because future session keys are generated involving fresh randomness, making them independent of the compromised session key.
 
-## **Silent Circle Instant Message Protocol** (SCIMP)
+## Silent Circle Instant Message Protocol (SCIMP)
 
 Protocol which uses hashes of the private key to encrypt data instead of using the actual key. This leads to forward secrecy because if the current key ($h_3(h_2(h_1(k)))$) gets leaked the attacker can't go back to previous hashes of the key. Past encryptions stay secure.
 
 
 ## Axolotl / Signal Protocol
+
+The protocol combines the Double Ratchet algorithm, prekeys, and a triple Elliptic-curve Diffie–Hellman (3-DH) handshake, and uses Curve25519, AES-256, and HMAC-SHA256 as primitives.
 
 ![[Axolotl-Signal-Protocol.png]]
 

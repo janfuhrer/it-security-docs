@@ -6,13 +6,13 @@ links: [[211 AC2 TOC - DPKI|AC2 TOC DPKI]] - [[themes/000 Index|Index]]
 
 ---
 
-## PGP
+## PGP (Pretty Good Privacy)
 
 - can be used to encrypt and digitally sign files and e-mails
 - Data is at rest or transmitted unidirectionally $\rightarrow$ no secure channel!
 - PGP certificates are **public key certificates** with one or more identity labels tied to it
 
-## GnuPG (GPG)
+## GnuPG (GPG, GNU Privacy Guard)
 
 - free version of PGP, with library (libgcrypt)
 - provides common cryptographic primitives & implementation of OpenPGP

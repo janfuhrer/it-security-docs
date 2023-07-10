@@ -113,14 +113,27 @@ links: [[themes/000 Index|Index]]
 
 ## AC2
 
-**Networking**
-
-- [[TLS]] (Transport Layer Security)
-- [[X.509 CA Alternatives#Alternative 5 HTTP Strict Transport Security (HSTS)|HSTS]] (HTTP Strict Transport Security)
-
 **Math**
 
-* [[Group, Ring and Field]]
+* [[Modular Arithmetic#Greatest Common Divisor|GCD]] (Greatest common divisor)
+* [[Modular Arithmetic#Euler's Totient Function $ phi$|Euler's Totient Function]] ($\phi$)
+* [[Modular Arithmetic#Fermat's (Little) Theorem|Fermat's Little Theorem]] ($a^{p-1}\equiv 1 \quad (mod\; p)$)
+* [[Modular Arithmetic#Euler's Theorem|Euler's Theorem]] ($a^{\phi(n)}\equiv 1 \;(mod \; n)$)
+* [[Modular Arithmetic#Primitive Root Modulo $n$|Primitive Root]]
+* [[Modular Arithmetic#Multiplicative Inverse Modulo n|Multiplicative Inverse]]
+* [[Modular Arithmetic#Co-prime|Co-prime]]
+* [[Prime Numbers#Safe prime|Safe prime]] ($p = 2q+1$)
+* [[Group Theory#Subgroups|Lagrange's Theorem]] (For sub groups)
+* [[Generating (Random) Primes#Miller-Rabin|Miller-Rabin]] (Primality test)
+* [[Algorithm of Euclid]] (Standard and extended)
+* [[Modular Exponentiation#Square-and-Multiply Algorithm|Square and Multiply]]
+* [[Computational Hardness Assumption|Hardness Assumptions for Cryptography]]
+* [[FACTORING & DL Algorithms#Baby-Step-Giant-Step Algorithm|BSGS]] (Baby-Step-Giant-Step + Pollard's rho)
+* [[Group, Ring and Field]] (differences)
+* [[Elliptic Curves in Crypto#Embedding Degree|Embedding Degree]]
+* [[Elliptic Curves in Crypto#(Asymmetric) Pairing|Pairing]]
+* [[Advanced Cryptographic Primitives#Pairing-based cryptography|Pairing-based cryptography]]
+* [[Advanced Cryptographic Primitives#Homomorphic Encryption|Homomorphic Encryption]] (Make calculations on the ciphertext)
 
 | Notation | Description |
 |----------|-------------|
@@ -131,6 +144,71 @@ links: [[themes/000 Index|Index]]
 |$G$ / $\mathcal{G}$ |Group notation $\mathcal{G} =(G,◦,inv,e)$|
 |$F$ / $\mathcal{F}$ |Field notation $\mathcal{F} = (F,+,−,0,×,^{−1} ,1)$|
 |$E_{a,b}(F)$|Elliptic curve over a field with curve parameters $a$ and $b$|
+
+
+**Public-key cryptosystems**
+
+* [[Diffie-Hellman|DH]] (Key exchange)
+* [[ElGamal]] (encryption)
+* [[RSA]] (encryption)
+* [[RSA Signature Scheme|RSA]] (signature)
+* [[Blind Signatures (RSA)|Blind Signatures]] (with RSA)
+* [[Schnorr Signatures|Schnorr]] (signature)
+* [[DSA Signature Scheme|DSA]] (signature)
+* [[Elliptic Curves in Crypto#BLS Signature Scheme|BLS]] (signature)
+
+**Certificates**
+
+- [[X.509 Certificates|X.509]] (Format of public key certificates)
+- [[Public Key Infrastructure#Certification Authority (CA)|CA]] (Certification Authority)
+- [[Trust Issues in X.509#Online Certificate Status Protocol (OCSP)|OCSP]] (Online Certificate Status Protocol)
+- [[X.509 CA Alternatives#Alternative 1 [DNSSEC / DANE](https //tools.ietf.org/html/rfc6698)|DANE]] (DNS-Based Authentication of Named Entities)
+- [[X.509 CA Alternatives#Alternative 1 [DNSSEC / DANE](https //tools.ietf.org/html/rfc6698)|DNSSEC]]
+- [[X.509 CA Alternatives#Alternative 2 [HTTP PublicKEy Pinning (HPKP)](https //www.owasp.org/index.php/Certificate_and_Public_Key_Pinning)|HPKP]] (HTTP Public Key Pinning)
+- [[X.509 CA Alternatives#Alternative 5 HTTP Strict Transport Security (HSTS)|HSTS]] (HTTP Strict Transport Security)
+
+**Secure Channels / Messaging**
+
+- [[TLS]] (Transport Layer Security)
+- [[SMTP]] (Simple Mail Transfer Protocol)
+- [[MIME#MIME|MIME]] (Multipurpose Internet Mail Extensions)
+- [[MIME#S/MIME|S/MIME]] (Secure/Multipurpose Internet Mail Extensions)
+- [[Asynchronous Bidirectional Secure Channels#Forward secrecy|Forward secrecy]] (past stays secret)
+- [[Asynchronous Bidirectional Secure Channels#Future secrecy|Future secrecy]] (future will stay secret)
+- [[Asynchronous Bidirectional Secure Channels#Silent Circle Instant Message Protocol (SCIMP)|SCIMP]] (Silent Circle Instant Message Protocol)
+- [[Asynchronous Bidirectional Secure Channels#Axolotl / Signal Protocol|Signal Protocol]]
+
+**Anonymity**
+
+- [[Anonymity]] (Different aspects of anonymity) 
+- [[Anonymity - Trilemmas|Trilemmas]] (achieve 2 out of 3 goals)
+- [[Anonymity - Attacks#What is a Sybil attack and how can it be mitigated|Sybil attack]] (many fake identities)
+- [[Anonymity - Attacks#What is an eclipse attack and how can it be mitigated?|Eclipse attack]](separate nodes from each other)
+- [[Anonymity - Attacks#What is a poisoning attack and how can it be mitigated?|Poisoning attack]] (nodes provide false information)
+- [[Anonymity - Attacks#What is a timing attack and how can it be mitigated?|Timing attack]] (latency, delay, timestamps)
+- [[Distributed Computing#Explain Boyd's Theorem I and II|Boyd's Theorems]] (about secure communication)
+- [[Distributed Computing#Explain Zfone Authentication (ZRTP)|Zfone Authentication]] (extend DH stuff and call each other)
+- [[Distributed Computing#Explain self stabilisation|Self stabilisation]] (system that recovers it self)
+- [[Distributed Computing#What is Secure Multiparty Computation?|SMC]] (Secure Multiparty Computation. Jointly compute something but private)
+- [[Anonymity - TOR|TOR]]
+
+**Decentralisation**
+
+* [[GnuPG|GPG]] (GNU Privacy Guard)
+* [[Trust Model]] (TOFU, Web of Trust, Hierarchical Trust)
+* [[Fog of Trust]] (Secure Web of Trust)
+* [[DHT]] (Distributed Hash Tables and different approaches)
+* [[GNS]] (GNU Name System)
+* [[GNUnet]]
+
+**Taler**
+
+* [[Cut-and-choose zero-knowledge proof|Cut-and-choose]] (Zero knowledge proof)
+* [[GNU Taler Overview|GNU Taler]] (Overview)
+* [[Credit Card Surveillance|Credit Card Surveillance]]
+* [[GNU Taler Details#Double Spending Problem|Double Spending Problem]]
+* [[Payto]] (Similar to mailto)
+
 
 ---
 links: [[themes/000 Index|Index]]

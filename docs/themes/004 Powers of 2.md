@@ -4,6 +4,8 @@ links: [[themes/000 Index|Index]]
 
 ---
 
+[[Big Numbers in Context]]
+
 | Exponent | Result        |
 | -------- | ------------- |
 | 0        | 1             |
