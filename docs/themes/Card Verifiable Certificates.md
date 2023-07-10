@@ -16,8 +16,8 @@ Due to the reduced storage and memory resources of a smartcard, X.509 certificat
 
 The minimal set of attributes is: 
 
-- Issuer 
-- Subject  
+- Issuer
+- Subject
 - Public key
 - Access rights
 - Validity period
