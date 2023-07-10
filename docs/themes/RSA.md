@@ -5,7 +5,6 @@ tags: #AC2 #math
 links:  [[204 AC2 TOC - RSA and ElGamal Encryption|AC2 TOC - RSA and ElGamal Encryption]] - [[themes/000 Index|Index]]
 
 ---
-
 ## RSA Basic Idea
 
 ![[RSA.png]]
@@ -23,26 +22,32 @@ links:  [[204 AC2 TOC - RSA and ElGamal Encryption|AC2 TOC - RSA and ElGamal Enc
 
 
 ## RSA Key Generation
+The key generation in RSA starts by picking two *different* random Primes $p$ and $q$ which shall be equally large (half of the input parameter $k$). The found $p$ and $q$ are then multiplied to form $n$. First the public key $e$ is calculated by choosing a random relative prime in the group defined by the Euler phi function $\phi(n) = (p-1)(q-1)$, which counts the number of all elements in the multiplicative group $\mathbb{Z}_{\phi(n)}^{*}$ (all elements which generate the group $\mathbb{Z}_{\phi(n)}$ and therefore are relative prime). Given the public key $e$, now the private key $d$ is calculated by calculating the multiplicative inverse of $e$ in $\mathbb{Z}_{\phi(n)}^{*}$. Then resulting key pair consists of the value $n$ and the respective key $e$ (public) or $d$ (private) -> (n,e), (n, d) -> public-key, private-key
 
 ![[RSA-Key-Generation.png]]
 
 
 ## Textbook RSA
+Textbook RSA leverages and heavily relies on modular exponentiation as internal driver. Given a message $m$ it calculates the ciphertext $c$ by simply applying modular exponentiation to the message using the public key $e$ of the receiving party. $c$ is calculated within the group $\mathbb{Z}_n^{*}$. Therefore $n$ (which is part of the public key) is supplied as parameter to the modular exponentiation algorithm. Since the private key $d$ is the multiplicative inverse of $e$ we can easily decrypt the message by applying modular exponentiation to the ciphertext $c$ using the private key $(n, d)$ as parameter of the algorithm.
 
 ![[Textbook-RSA.png]]
 ![[Textbook-RSA-Example.png]]https://www.youtube.com/watch?v=M7kEpw1tn50
 ![[Textbook-RSA-Security.png]]
+
+**Textbook RSA is insecure (!)**:
+
 - Not IND-CPA because encrypting the same input with the same public key always results in the same output.
 - Malleable because an attacker who knows $c$ for some plaintext $m$ can create a ciphertext for $2m$ without knowing $m$.
 
 
 ## RSA-OAEP (Feistel network)
+Textbook RSA is insecure because its to easy to brute-force and crack the key using only the process specified in Textbook-RSA. For this reason RSA-OAEP was invented as extension of Textbook-RSA. RSA-OAEP basically just adds a randomized padding to the message leveraging a two-round Feistel network which uses two different hash functions internally. The padded plaintext is encrypted and not the plaintext itself. After decryption, the padding is reversed and the plaintext is revealed.
 
 ![[RSA-OAEP-Pseudocode.png]]
 ![[RSA-OAEP-Padding.png]]
 ![[RSA-OAEP-Padding-Pseudocode.png]]
 ![[RSA-OAEP-Unpadding-Pseudocode.png]]
-- Instead of encrypting $m$ ($modExp(m)$) a randomized m* is calculated which is then encrypted
+- Instead of encrypting $m$ ($modExp(m)$) a randomized padded $m'$ is calculated which is then encrypted
 - https://www.youtube.com/watch?v=WISyWBimSFY
 
 [[Computational Hardness Assumption#The FACTORING and RSA Assumptions|Additional information about hardness assumption]]
