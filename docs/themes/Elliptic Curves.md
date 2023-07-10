@@ -7,14 +7,8 @@ links: [[206 AC2 TOC - Elliptic Curves|AC2 TOC - Elliptic Curves]] - [[themes/00
 ---
 
 * An elliptic curve is a set of points $(x, y)$ satisfying the equation $y^2 = x^3 + ax + b$
-* The variables $x$ and $y$ and the curve parameters $a$ and $b$ take values from a field $F = (F,+,−,0,×,^{−1} ,1)$
+* The variables $x$ and $y$ and the curve parameters $a$ and $b$ take values from a field $\mathcal{F} = (F,+,−,0,×,^{−1} ,1)$
 * The special element $\mathcal{O} \in E_{a,b}(F)$ is called **point of infinity**
-
-## Difference Field & Group
-
-Every field is a group under both addition and multiplication (ignoring the zero element for multiplication), but not every group can be extended to a field.
-
-While both groups and fields are fundamental objects in abstract algebra, fields have additional structure and requirements. You can think of a field as having two group structures that interact with each other in a specific way, while a group has only one such structure. 
 
 ## Curve Point Operations
 

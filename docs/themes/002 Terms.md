@@ -116,7 +116,21 @@ links: [[themes/000 Index|Index]]
 **Networking**
 
 - [[TLS]] (Transport Layer Security)
-- HSTS (HTTP Strict Transport Security)
+- [[X.509 CA Alternatives#Alternative 5 HTTP Strict Transport Security (HSTS)|HSTS]] (HTTP Strict Transport Security)
+
+**Math**
+
+* [[Group, Ring and Field]]
+
+| Notation | Description |
+|----------|-------------|
+|$\mathbb{Z}_n$|Set of integers modulo n, called the ring of integers modulo $n$. Consists of the integers $\{0, 1, 2, ..., n-1\}$|
+||Additive group $(\mathbb{Z}_n, +_n, −_n, 0)$|
+|$\mathbb{Z}_n^*$ |Multiplicative group $(Z^∗_n, \times_n,^{−1} ,1)$|
+|$G_q ⊂ Z^∗_p$ |Subgroup $G_q$ (If $p$ and $q$ are used prime numbers are implied)|
+|$G$ / $\mathcal{G}$ |Group notation $\mathcal{G} =(G,◦,inv,e)$|
+|$F$ / $\mathcal{F}$ |Field notation $\mathcal{F} = (F,+,−,0,×,^{−1} ,1)$|
+|$E_{a,b}(F)$|Elliptic curve over a field with curve parameters $a$ and $b$|
 
 ---
 links: [[themes/000 Index|Index]]
