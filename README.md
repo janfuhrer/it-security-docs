@@ -2,7 +2,7 @@
 
 ## About
 
-This repository contains a summary of our topics in the IT security specialisation at the [Bern University of Applied Sciences](https://www.bfh.ch/en/).
+This repository contains a summary of our topics in the IT security specialization at the [Bern University of Applied Sciences](https://www.bfh.ch/en/).
 
 ## Browse docs online
 
