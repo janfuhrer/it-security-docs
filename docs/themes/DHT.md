@@ -2,7 +2,7 @@ tags: #asymmetric #DHT
 
 # Distributed Hash Tables (DHTs)
 
-links: [[211 AC2 TOC DPKI|AC2 TOC DPKI]] - [[themes/000 Index|Index]]
+links: [[211 AC2 TOC - DPKI|AC2 TOC DPKI]] - [[themes/000 Index|Index]]
 
 ---
 
@@ -86,4 +86,4 @@ Source: [en: Hazelcast.com](https://hazelcast.com/glossary/distributed-hash-tabl
 	- bad with TCP (large number of connections)
 
 ---
-links: [[211 AC2 TOC DPKI|AC2 TOC DPKI]] - [[themes/000 Index|Index]]
+links: [[211 AC2 TOC - DPKI|AC2 TOC DPKI]] - [[themes/000 Index|Index]]

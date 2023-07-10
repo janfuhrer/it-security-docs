@@ -2,15 +2,18 @@ tags: #AC2
 
 # AC2 TOC - Secure messaging and channels
 
-links:  [[200 AC2 MOC|AC2 MOC]] - [[themes/000 Index|Index]]
+links: [[200 AC2 MOC|AC2 MOC]] - [[themes/000 Index|Index]]
 
 ---
 
 - [[TLS]]
-- [[WEP Insecurity|WEB Insecurity Exercise]]
 - [[SMTP]]
 - [[MIME|MIME & S/MIME]]
 - [[Asynchronous Bidirectional Secure Channels]]
 
+**Exercises**
+
+- [[WEP Insecurity|WEB Insecurity]]
+
 ---
-links:  [[200 AC2 MOC|AC2 MOC]] - [[themes/000 Index|Index]]
+links: [[200 AC2 MOC|AC2 MOC]] - [[themes/000 Index|Index]]

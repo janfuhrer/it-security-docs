@@ -2,7 +2,7 @@ tags: #AC2
 
 # SMTP
 
-links:  [[209 AC2 TOC - Secure messaging and channels|AC2 TOC - Secure messaging and channels]] - [[themes/000 Index|Index]]
+links: [[209 AC2 TOC - Secure messaging and channels|AC2 TOC - Secure messaging and channels]] - [[themes/000 Index|Index]]
 
 ---
 
@@ -31,5 +31,4 @@ Delivery path of messages can be traced back due to the Received header informat
 ![[Received-Header-Info.png]]
 
 ---
-
-links:  [[209 AC2 TOC - Secure messaging and channels|AC2 TOC - Secure messaging and channels]] - [[themes/000 Index|Index]]
+links: [[209 AC2 TOC - Secure messaging and channels|AC2 TOC - Secure messaging and channels]] - [[themes/000 Index|Index]]

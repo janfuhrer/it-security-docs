@@ -2,7 +2,7 @@ tags: #asymmetric
 
 # Schnorr Signatures
 
-links: [[212 AC2 TOC GNU Taler|AC2 TOC GNU Taler]] - [[205 AC2 TOC - Digital Signatures|AC2 TOC Digital Signatures]] - [[themes/000 Index|Index]]
+links: [[212 AC2 TOC - GNU Taler|AC2 TOC - GNU Taler]] - [[205 AC2 TOC - Digital Signatures|AC2 TOC - Digital Signatures]] - [[themes/000 Index|Index]]
 
 ---
 
@@ -48,4 +48,4 @@ Schnorr signatures have several appealing properties, including:
 - **Linearity**: Schnorr signatures have a linear structure, which allows for multi-signature (group of signers signs a message) and threshold signature schemes.
 
 ---
-links: [[212 AC2 TOC GNU Taler|AC2 TOC GNU Taler]] - [[205 AC2 TOC - Digital Signatures|AC2 TOC Digital Signatures]] - [[themes/000 Index|Index]]
+links: [[212 AC2 TOC - GNU Taler|AC2 TOC - GNU Taler]] - [[205 AC2 TOC - Digital Signatures|AC2 TOC - Digital Signatures]] - [[themes/000 Index|Index]]

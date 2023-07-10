@@ -2,7 +2,7 @@ tags: #AC2 #asymmetric #math
 
 # Generating Random Group Elements and Generators
 
-links:  [[203 AC2 TOC - Number-Theoretic Algorithms and Hardness Assumptions|AC2 TOC - Number-Theoretic Algorithms and Hardness Assumptions]] - [[themes/000 Index|Index]]
+links: [[203 AC2 TOC - Number-Theoretic Algorithms and Hardness Assumptions|AC2 TOC - Number-Theoretic Algorithms and Hardness Assumptions]] - [[themes/000 Index|Index]]
 
 ---
 
@@ -20,7 +20,7 @@ We write $r \leftarrow randBits(k)$ to denote the integer $r= \displaystyle\sum_
 - $randBits(k) \mod n$ is not a proper solution because this would cause some numbers to be more likely to appear than others. 
 
 
-## Generating Random Elements of $Z_{ub} \textbackslash Z_{lb}$
+## Generating Random Elements of $Z_{ub} \setminus Z_{lb}$
 
 ![[Generating-Random-Elements-Of-Zub-Zlb.png]]
 
@@ -40,16 +40,17 @@ We write $r \leftarrow randBits(k)$ to denote the integer $r= \displaystyle\sum_
 - $p$ is a safe prime if $p = 2q + 1$ where $q$ is also prime
 
 **Quadratic residue**
-A quadratic residue modulo p is a number that can be represented as a perfect square mod p. For example, if p=7, the quadratic residues are the remainders when the squares of the numbers {1, 2, ..., 6} are divided by 7.
 
-1. 1^2 mod 7 = 1
-2. 2^2 mod 7 = 4
-3. 3^2 mod 7 = 2
-4. 4^2 mod 7 = 2
-5. 5^2 mod 7 = 4
-6. 6^2 mod 7 = 1
+A quadratic residue modulo p is a number that can be represented as a perfect square mod p. For example, if $p = 7$, the quadratic residues are the remainders when the squares of the numbers $\{1, 2, ..., 6\}$ are divided by $7$.
 
-So, the quadratic residues modulo 7 are {1, 2, 4}.
+1. $1^2 \mod 7 = 1$
+2. $2^2 \mod 7 = 4$
+3. $3^2 \mod 7 = 2$
+4. $4^2 \mod 7 = 2$
+5. $5^2 \mod 7 = 4$
+6. $6^2 \mod 7 = 1$
+
+So, the quadratic residues modulo $7$ are $\{1, 2, 4\}$.
 
 
 ## Generating Random Group Elements
@@ -57,13 +58,15 @@ So, the quadratic residues modulo 7 are {1, 2, 4}.
 ![[Generating-Random-Group-Elements.png]]
 
 - Given $g \in G$ and $q = |G|$, $g$ is a generator of $G$ if for every element $h$ in $G$, there exists an integer $i$ such that $g^i = h$ ("modulo" the operation of the group).
+- avoid exponential function $\rightarrow$ **expensive**
 
 
 ## Testing for Generator
 
 ![[Testing-For-Generator.png]]
 
-*GPT*
+*Algorithm is not part of the exam*
+
 In a cyclic group $G$ of order $q$, an element $g$ is a generator if and only if it can generate every other element in the group via repeated application of the group operation. In the case of a multiplicative group, this means for every element $h$ in $G$, there is an integer $i$ such that $g^i = h$.
 
 The order of an element $g$ in $G$, denoted $ord(g)$, is the smallest positive integer $i$ such that $g^i$ equals the identity element of the group (usually denoted 1 in a multiplicative group). According to Lagrange's theorem from group theory, the order of any element divides the order of the group. Therefore, if $g$ is a generator of $G$, then $ord(g) = |G| = q$.
@@ -75,5 +78,4 @@ Here's the reasoning: if $g$ is a generator of $G$, then $g^q$ should be equal t
 In summary, knowing the prime factorization of $q$ is necessary to efficiently test whether a given element is a generator of a cyclic group $G$ of order $q$.
 
 ---
-
-links:  [[203 AC2 TOC - Number-Theoretic Algorithms and Hardness Assumptions|AC2 TOC - Number-Theoretic Algorithms and Hardness Assumptions]] - [[themes/000 Index|Index]]
+links: [[203 AC2 TOC - Number-Theoretic Algorithms and Hardness Assumptions|AC2 TOC - Number-Theoretic Algorithms and Hardness Assumptions]] - [[themes/000 Index|Index]]

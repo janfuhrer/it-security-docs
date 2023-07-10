@@ -2,7 +2,7 @@ tags: #AC2 #math
 
 # ElGamal
 
-links:  [[204 AC2 TOC - RSA and ElGamal Encryption|AC2 TOC - RSA and ElGamal Encryption]] - [[themes/000 Index|Index]]
+links: [[204 AC2 TOC - RSA and ElGamal Encryption|AC2 TOC - RSA and ElGamal Encryption]] - [[themes/000 Index|Index]]
 
 ---
 
@@ -12,12 +12,10 @@ links:  [[204 AC2 TOC - RSA and ElGamal Encryption|AC2 TOC - RSA and ElGamal Enc
 
 - Security is based on the hardness of the DL (Discrete Logarithm) problem
 
-
 ## ElGamal Key Generation
 The key generation of ElGamal takes a random secret key `sk` which is a random number in the range between `1` and a given prime `q`. The public key is then calculated by exponentiation of the generator `g` as base with the private key `sk` as exponent:
 
 ![[ElGamal-Key-Generation.png]]
-
 
 ## ElGamal Encryption and Decryption
 Encryption and Decryption with ElGamal can be done pretty sweet. For encryption we first calculate some random `r` in the additive group $\mathbb{Z}_q$. Then we calculate two return values `a` and `b`. `a` is the generator `g` potentiated with the random `r` and  `b` is the public key of the receiving party potentiated with random `r` multiplied with the message `m`. Then `a` and `b` are returned.
@@ -35,9 +33,7 @@ Resolution in detail:
 
 ![[ElGamal-Encryption-Decryption.png]]
 
-
 ![[ElGamal-Numerical-Example.png]]
-
 
 ## ElGamal Properties
 
@@ -57,5 +53,4 @@ On the other hand, if we consider a subgroup `G_q` of `Z_p^*`, where `p = 2q + 1
 To summarize, the DDH problem is easier to solve in the full group `Z_p^*` (thus the DDH assumption does not hold), but is believed to be hard in the specific subgroup `G_q` (thus the DDH assumption is considered to hold). This difference arises due to the mathematical properties of these groups and the specific structure of the DDH problem.
 
 ---
-
-links:  [[204 AC2 TOC - RSA and ElGamal Encryption|AC2 TOC - RSA and ElGamal Encryption]] - [[themes/000 Index|Index]]
+links: [[204 AC2 TOC - RSA and ElGamal Encryption|AC2 TOC - RSA and ElGamal Encryption]] - [[themes/000 Index|Index]]

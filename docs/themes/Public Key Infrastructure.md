@@ -5,6 +5,7 @@ tags: #AC2 #asymmetric
 links: [[208 AC2 TOC - Centralized public-key infrastructures|AC2 TOC - Centralized public-key infrastructures]] - [[Key Revocation]] - [[Trust Issues in X.509]] - [[themes/000 Index|Index]]
 
 ---
+
 ## Public Key Infrastructure
 
 **Core questions**
@@ -224,7 +225,6 @@ ACME allows setting up a HTTPS server and automatically obtain a browser-trusted
 -> **We assume software vendors can establish trustworthy CAs**
 
 ---
-
 links: [[208 AC2 TOC - Centralized public-key infrastructures|AC2 TOC - Centralized public-key infrastructures]] - [[Key Revocation]] - [[Trust Issues in X.509]] - [[themes/000 Index|Index]]
 
 

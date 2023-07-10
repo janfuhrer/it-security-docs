@@ -2,7 +2,7 @@ tags: #AC2
 
 # Group Theory
 
-links:  [[202 AC2 TOC - Modular Arithmetic and Group Theory|TOC - Modular Arithmetic and Group Theory]] - [[themes/000 Index|Index]]
+links: [[202 AC2 TOC - Modular Arithmetic and Group Theory|AC2 TOC - Modular Arithmetic and Group Theory]] - [[themes/000 Index|Index]]
 
 ---
 
@@ -40,7 +40,7 @@ $$ord(G) = |G| $$
 - Multiplicative Group of Integers modulo $n$: ($\mathbb{Z}^*_n$ , $\times _n$ , $^{-1}$ , 1 )
 	- $\mathbb{Z}^*_n$ is used to refer to the corresponding multiplicative group ($\mathbb{Z}^*_n$ , $\times _n$ , $^{-1}$ , 1 )
 	- Many cryptographic schemes are based on such groups
-		- $\mathbb{Z}^*_p$ where p is a prime is used in e.g Diffie-Hellman
+		- $\mathbb{Z}^*_p$ where p is a prime is used in e.g [[Diffie-Hellman]]
 		- $\mathbb{Z}^*_n$ where $n=pq$ is used in e.g RSA
 	- $\mathbb{Z}^*_2$ = {1}
 	- $\mathbb{Z}^*_{11}$ = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10}
@@ -48,8 +48,7 @@ $$ord(G) = |G| $$
 
 ![[Group Theory multiplication table.png]]
 
-- Eliptic curve over prime order field: ($E_{a,b}(\mathbb{Z}_p)$, $+$, $-$, $\mathcal{O}$)
-
+- Elliptic curve over prime order field: ($E_{a,b}(\mathbb{Z}_p)$, $+$, $-$, $\mathcal{O}$)
 
 ## Order of a Group element
 
@@ -98,5 +97,4 @@ $$ord(G) = |G| $$
 	- $\mathbb{G}_{10}$ = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10} = $\mathbb{Z}^*_{11}$
 
 ---
-
-links:  [[202 AC2 TOC - Modular Arithmetic and Group Theory|TOC - Modular Arithmetic and Group Theory]] - [[themes/000 Index|Index]]
+links: [[202 AC2 TOC - Modular Arithmetic and Group Theory|AC2 TOC - Modular Arithmetic and Group Theory]] - [[themes/000 Index|Index]]

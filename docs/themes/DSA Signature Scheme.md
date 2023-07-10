@@ -2,7 +2,7 @@ tags: #asymmetric
 
 # DSA Signature Scheme
 
-links: [[205 AC2 TOC - Digital Signatures|AC2 TOC Digital Signatures]] - [[themes/000 Index|Index]]
+links: [[205 AC2 TOC - Digital Signatures|AC2 TOC - Digital Signatures]] - [[themes/000 Index|Index]]
 
 ---
 
@@ -47,4 +47,4 @@ Let $(G_q,\times,−1 ,1)$ be a group of order $q$ and $g \in G_q$ a generator
 	* Note that 256 bits for $q$ fits well with SHA-256
 
 ---
-links: [[205 AC2 TOC - Digital Signatures|AC2 TOC Digital Signatures]] - [[themes/000 Index|Index]]
+links: [[205 AC2 TOC - Digital Signatures|AC2 TOC - Digital Signatures]] - [[themes/000 Index|Index]]

@@ -2,7 +2,7 @@ tags: #AC2
 
 # Certificate Standards
 
-links:  [[207 AC2 TOC - X.509|AC2 TOC - X.509]] - [[themes/000 Index|Index]]
+links: [[207 AC2 TOC - X.509|AC2 TOC - X.509]] - [[themes/000 Index|Index]]
 
 ---
 
@@ -85,5 +85,4 @@ Provides the advantage to have a unique way of encoding each ASN.1 value.
 - Used to sign CA tree roots
 
 ---
-
-links:  [[207 AC2 TOC - X.509|AC2 TOC - X.509]] - [[themes/000 Index|Index]]
+links: [[207 AC2 TOC - X.509|AC2 TOC - X.509]] - [[themes/000 Index|Index]]

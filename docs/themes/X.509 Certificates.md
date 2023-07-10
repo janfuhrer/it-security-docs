@@ -2,7 +2,7 @@ tags: #AC2
 
 # X.509 Certificates
 
-links:  [[207 AC2 TOC - X.509|AC2 TOC - X.509]] - [[themes/000 Index|Index]]
+links: [[207 AC2 TOC - X.509|AC2 TOC - X.509]] - [[themes/000 Index|Index]]
 
 ---
 
@@ -189,5 +189,4 @@ A private extension present in end-entity and CA certificates, indicates how inf
 - Time stamping: The Time-Stamping access method indicates that the subject identified in the certificate offers a time stamping service
 
 ---
-
-links:  [[207 AC2 TOC - X.509|AC2 TOC - X.509]] - [[themes/000 Index|Index]]
+links: [[207 AC2 TOC - X.509|AC2 TOC - X.509]] - [[themes/000 Index|Index]]

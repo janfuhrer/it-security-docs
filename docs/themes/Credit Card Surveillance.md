@@ -2,7 +2,7 @@ tags: #asymmetric
 
 # Credit Card Surveillance
 
-links: [[212 AC2 TOC GNU Taler|AC2 TOC GNU Taler]] - [[themes/000 Index|Index]]
+links: [[212 AC2 TOC - GNU Taler|AC2 TOC GNU Taler]] - [[themes/000 Index|Index]]
 
 ---
 
@@ -31,4 +31,4 @@ A nightmare. (Complicated, no privacy, customer is liable, exclusion of vendors)
 - Emergency Act Canada (Freeze bank accounts)
 
 ---
-links: [[212 AC2 TOC GNU Taler|AC2 TOC GNU Taler]] - [[themes/000 Index|Index]]
+links: [[212 AC2 TOC - GNU Taler|AC2 TOC GNU Taler]] - [[themes/000 Index|Index]]

@@ -2,7 +2,7 @@ tags: #AC2 #asymmetric #math
 
 # Modular Exponentiation
 
-links:  [[203 AC2 TOC - Number-Theoretic Algorithms and Hardness Assumptions|AC2 TOC - Number-Theoretic Algorithms and Hardness Assumptions]] - [[themes/000 Index|Index]]
+links: [[203 AC2 TOC - Number-Theoretic Algorithms and Hardness Assumptions|AC2 TOC - Number-Theoretic Algorithms and Hardness Assumptions]] - [[themes/000 Index|Index]]
 
 ---
 
@@ -13,7 +13,8 @@ links:  [[203 AC2 TOC - Number-Theoretic Algorithms and Hardness Assumptions|AC2
 ## Square-and-Multiply Algorithm
 
 ![[Square-and-Multiply.png]]
-![[Square-and-Multiply-Example.png]]
----
 
-links:  [[203 AC2 TOC - Number-Theoretic Algorithms and Hardness Assumptions|AC2 TOC - Number-Theoretic Algorithms and Hardness Assumptions]] - [[themes/000 Index|Index]]
+![[Square-and-Multiply-Example.png]]
+
+---
+links: [[203 AC2 TOC - Number-Theoretic Algorithms and Hardness Assumptions|AC2 TOC - Number-Theoretic Algorithms and Hardness Assumptions]] - [[themes/000 Index|Index]]

@@ -2,7 +2,7 @@ tags: #AC2
 
 # Card Verifiable Certificates
 
-links:  [[207 AC2 TOC - X.509|AC2 TOC - X.509]] - [[themes/000 Index|Index]]
+links: [[207 AC2 TOC - X.509|AC2 TOC - X.509]] - [[themes/000 Index|Index]]
 
 ---
 
@@ -30,5 +30,4 @@ This is realised according to the ISO 9796 signature scheme with message recover
 - In other words: the message is stored/transmitted “encrypted” with the private key and can be decrypted using the public key.
 
 ---
-
-links:  [[207 AC2 TOC - X.509|AC2 TOC - X.509]] - [[themes/000 Index|Index]]
+links: [[207 AC2 TOC - X.509|AC2 TOC - X.509]] - [[themes/000 Index|Index]]

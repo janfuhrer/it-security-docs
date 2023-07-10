@@ -127,5 +127,4 @@ Just disabled TLS verification completely (Privdog is founded by the CEO of Como
 Several Antiviruses do the same. Not fully broken, but all this decreases the security of TLS. This is only an indirect problem of CAs and TLS. It should not be possible to undermine / bypass the security.
 
 ---
-
 links: [[208 AC2 TOC - Centralized public-key infrastructures|AC2 TOC - Centralized public-key infrastructures]] - [[Public Key Infrastructure]] - [[themes/000 Index|Index]]

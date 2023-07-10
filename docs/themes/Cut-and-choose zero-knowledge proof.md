@@ -2,7 +2,7 @@ tags: #asymmetric
 
 # Cut-and-choose zero-knowledge proof
 
-links: [[212 AC2 TOC GNU Taler|AC2 TOC GNU Taler]] - [[themes/000 Index|Index]]
+links: [[212 AC2 TOC - GNU Taler|AC2 TOC GNU Taler]] - [[themes/000 Index|Index]]
 
 ---
 
@@ -17,4 +17,4 @@ A cut-and-choose proof does not guarantee to 100% that you counterpart did not l
 In Taler for example your money is taken in case you are caught lying. So it's not economical to lie as you will always loose money in the long term.
 
 ---
-links: [[212 AC2 TOC GNU Taler|AC2 TOC GNU Taler]] - [[themes/000 Index|Index]]
+links: [[212 AC2 TOC - GNU Taler|AC2 TOC GNU Taler]] - [[themes/000 Index|Index]]

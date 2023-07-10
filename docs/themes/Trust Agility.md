@@ -45,5 +45,4 @@ Alles GPT (ma nüm):
     - It does not provide a way to verify the identity of a server the first time a client connects to it. The Perspectives model is about consistency of observations over time, but if a client has no previous information about a server, the Notaries cannot provide a definitive validation of the server's certificate.
 
 ---
-
 links: [[208 AC2 TOC - Centralized public-key infrastructures|AC2 TOC - Centralized public-key infrastructures]] - [[Public Key Infrastructure]] - [[themes/000 Index|Index]]
