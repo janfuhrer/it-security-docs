@@ -28,7 +28,7 @@ Advantage of DL-based signature schemes:
 
 ## Math
 
-Ugly, involves two hashes, relative prime and multiplicative inverse.
+Ugly beautiful, involves two hashes, relative primes and multiplicative inverse.
 
 Key generation is simple:
 
@@ -42,7 +42,7 @@ Let $(G_q,\times,−1 ,1)$ be a group of order $q$ and $g \in G_q$ a generator
 * The DSA and ECDSA signature schemes are EUF-CMA secure under the DL assumption (provided that the hashes have the properties of a random oracle)
 * Security is still unproven as one of the hash functions is not standardised.
 * DSA works also in a subgroups $G_q ⊂ Z^∗_p$ of much smaller order q, which then leads to much smaller signatures
-* For example, if $p$ is a 3072-bits prime and $q$ is a 256-bits prime, then the signature size is 2·256=512 bits (signature consists of $s = (s_1, s_2)$ where $s_1$ and $s_2$ are 256-bits)
+* For example, if $p$ is a 3072-bits prime and $q$ is a 256-bits prime, then the signature size is $2 \cdot 256 = 512$ bits (signature consists of $s = (s_1, s_2)$ where $s_1$ and $s_2$ are 256-bits)
 	* ̈The combination of 3072/256 bits for $p$ and $q$ corresponds to security strength $s = 128$
 	* Note that 256 bits for $q$ fits well with SHA-256
 

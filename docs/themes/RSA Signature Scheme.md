@@ -1,4 +1,4 @@
-tags: #asymmetric 
+tags: #asymmetric #RSA-PSS #Sign #Verify #Signature
 
 # RSA Signature Scheme
 
@@ -11,6 +11,8 @@ See [[RSA]] to understand the basics.
 Let $pk=(n,e)$ and $sk=(n,d)$ be ordinary RSA keys and $M=S=\mathbb{Z}_n^*$
 
 ![[RSA Signature.png]]
+
+Again as in the encrypt-decrypt cycle in [[RSA]], the signature and verify cycle relies on the inverse feature of the two keys leveraged. Signing is done by applying a modular exponentiation to the message using the senders private key $(d,n)$. The verification is done by applying the modular exponentiation to the signature received using the senders public key $(e,n)$. The result of the modular exponentiation must be equal to the received signature (which indicates a valid signature).
 
 ## Security
 
