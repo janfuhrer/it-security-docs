@@ -111,8 +111,7 @@ $e(B,C)^a =e(A,C)^b =e(A,B)^c =e(P,P)^{abc}$
 See more details [[Advanced Cryptographic Primitives#Boneh–Lynn–Shacham (BLS) signatures|here]].
 
 * BLS signatures are deterministic (other than RSA, DSA, etc.)
-* Scheme proven to be EUF-CMA secure under the CDH assumption in the random oracle model
-	* ToDo move to signatures: Existentially unforgeability under chosen- message attack (standard security model for digital signatures)
+* Scheme proven to be [[Digital Signatures#^7418da|EUF-CMA]] secure under the CDH assumption in the random oracle model
 * Multiple signatures $S_1, . . . , S_n$ can be aggregated into a single short signature $S = S_1 + · · · + S_n$, which can be verified step by step using: $e(hash(m_n), PK_n)$
 	* (note that aggregated signatures are insecure due to the **rogue public-key attack**, but there are several defense strategies)
 
