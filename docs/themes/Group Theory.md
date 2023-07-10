@@ -6,63 +6,74 @@ links: [[202 AC2 TOC - Modular Arithmetic and Group Theory|AC2 TOC - Modular Ari
 
 ---
 
+## Group definition
+
 A group $G$ is defined as follows: $G$ = ($G$, $\circ$, $inv$, $e$) where
+
 - binary operation $\circ : G \times G \rightarrow G$
 - unary operation $inv : G \rightarrow G$ 
-- identity element $e \; \epsilon \; G$
+- identity element $e \in G$
 
 All satisfying:
-- **Associativity**: $x \circ (y\circ z) = (x\circ y) \circ z$ where $\forall x,y,z \; \epsilon \; G$
-- **Identity**: $e \circ x = x \circ e = x$ where $\forall x \; \epsilon \; G$
-- **Inverse**: $x\circ inv(x) = inv(x) \circ x = e$ where $\forall x \; \epsilon \; G$
 
-A group $G$ is called **commutative** if $x\circ y = y \circ x$ where $\forall x,y \; \epsilon \; G$
+- **Associativity**: $x \circ (y\circ z) = (x\circ y) \circ z$ where $\forall x,y,z \in G$
+- **Identity**: $e \circ x = x \circ e = x$ where $\forall x \in G$
+- **Inverse**: $x\circ inv(x) = inv(x) \circ x = e$ where $\forall x \in G$
+
+A group $G$ is called **commutative** (or **abelian**) if $x\circ y = y \circ x$ where $\forall x,y \in G$
 
 The **order** $ord(G)$ of the group $G$ is the number of elements of $G$:
 
 $$ord(G) = |G| $$
 
-## Group Examples
+### Group Examples
 
 - Integers ($\mathbb{Z}$, $+$, $-$, $0$)
 - Rational numbers: ($\mathbb{Q}$, $+$, $-$, 0)
 - Non-zero rational numbers: ($\mathbb{Q} \backslash \{ 0 \}$, $\times$, $^{-1}$, $1$)
 
-### Relevant Groups in Cryptography
+## Relevant Groups in Cryptography
 
-- Additive Group of Integers modulo $n$: ($\mathbb{Z}_n$ , $+_n$ , $-_n$ , 0)
-	- $\mathbb{Z}_n$ is used to refer to the corresponding additive group ($\mathbb{Z}_n$ , $+_n$ , $-_n$ , 0)
-	- $\mathbb{Z}_1$ = {0}
-	- $\mathbb{Z}_{11}$ = {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10}
+- **Additive Group of Integers modulo $n$**: ($\mathbb{Z}_n$ , $+_n$ , $-_n$ , $0$)
+	- $\mathbb{Z}_n$ is used to refer to the corresponding additive group ($\mathbb{Z}_n$ , $+_n$ , $-_n$ , $0$)
+	- inverse element: $-_n a = n - a$ for all $a \in \mathbb{Z}_n \backslash \{0\}$ and $-_n 0 = 0$
+	- $\mathbb{Z}_1$ = {$0$}
+	- $\mathbb{Z}_{11}$ = {$0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10$}
 
 ![[Group Theory addition Table.png]]
 
-- Multiplicative Group of Integers modulo $n$: ($\mathbb{Z}^*_n$ , $\times _n$ , $^{-1}$ , 1 )
-	- $\mathbb{Z}^*_n$ is used to refer to the corresponding multiplicative group ($\mathbb{Z}^*_n$ , $\times _n$ , $^{-1}$ , 1 )
+- **Multiplicative Group of Integers modulo $n$**: ($\mathbb{Z}^*_n$ , $\times _n$ , $^{-1}$ , $1$ )
+	- for $n \gt 1$, let $\mathbb{Z}_n^* = \{a \in \mathbb{Z}_n \backslash \{0\} : gcd(a,n) = 1\}$
+	- $\mathbb{Z}^*_n$ is used to refer to the corresponding multiplicative group ($\mathbb{Z}^*_n$ , $\times _n$ , $^{-1}$ , $1$ ) with order $|\mathbb{Z}_n^*| = \phi (n)$
 	- Many cryptographic schemes are based on such groups
 		- $\mathbb{Z}^*_p$ where p is a prime is used in e.g [[Diffie-Hellman]]
-		- $\mathbb{Z}^*_n$ where $n=pq$ is used in e.g RSA
-	- $\mathbb{Z}^*_2$ = {1}
-	- $\mathbb{Z}^*_{11}$ = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10}
-	- $\mathbb{Z}^*_{15}$ = {1, 2, 4, 7, 8, 11, 13, 14}
+		- $\mathbb{Z}^*_n$ where $n=pq$ is used in e.g [[RSA]]
+	- $\mathbb{Z}^*_2$ = {$1$}
+	- $\mathbb{Z}^*_{11}$ = {$1, 2, 3, 4, 5, 6, 7, 8, 9, 10$} $\rightarrow$ candiate for DH ($p=11$)
+	- $\mathbb{Z}^*_{15}$ = {$1, 2, 4, 7, 8, 11, 13, 14$} $\rightarrow$ candidate for RSA ($15 = 3 * 5$)
 
 ![[Group Theory multiplication table.png]]
 
-- Elliptic curve over prime order field: ($E_{a,b}(\mathbb{Z}_p)$, $+$, $-$, $\mathcal{O}$)
+- **Elliptic curve over prime order field**: ($E_{a,b}(\mathbb{Z}_p)$, $+$, $-$, $\mathcal{O}$)
 
 ## Order of a Group element
 
 - $ord(x)$ is the smallest $k>0$ such that $x^k=1$
-- $ord(x)$ divides the group order $ord(\mathcal{G}$) = |$G$| for every $x \; \epsilon \; G$
+- $ord(x)$ divides the group order $ord(\mathcal{G}$) = |$G$| for every $x \in G$
 - Example for $\mathbb{Z}^*_{15}$:
 
 ![[Group Theory order of element.png]]
 
+- e.g. $ord(2) \rightarrow 2^4 \mod 15 = 1$
+
 ## Generators
+
+> Note: arithmetic "primitive root modulo n" is equivalent to a generator in group theory!
 
 - An element is called generator of $\mathcal{G}$, if $ord(g)$ = $ord(\mathcal{G}$)
 	- $\langle g \rangle$ = {$g,g^2,...,g^{|G|}$} = $G$
-- Example: 2 is a generator but 3 is not a generator of $\mathbb{Z}^*_{11}$
+- $G$ is a **cyclic group**, if at least one $g \in G$ is a generator
+- Example: $2$ is a generator but $3$ is not a generator of $\mathbb{Z}^*_{11}$
 
 ![[Group Theory generator table.png]]
 
@@ -70,32 +81,32 @@ $$ord(G) = |G| $$
 
 - $H\subseteq G$ forms a subgroup of ($G$, $\circ$, $inv$, $e$), if ($H$, $\circ$, $inv$, $e$) satisfies all properties of a group
 - Every group ($G$, $\circ$, $inv$, $e$) has two trivial subgroups {$e$} and $G$
-- Lagrange's Theorem: If  $H\subseteq G$ forms a subgroup, then $|H|$ divides $|G|$
-- Examples
+- **Lagrange's Theorem**: If  $H\subseteq G$ forms a subgroup, then $|H|$ divides $|G|$
+- Examples:
 	- Subgroups of ($\mathbb{Z}_{12}$ , $+_n$ , $-_n$ , 0)
-		- {0}, {0, 6}, {0, 4, 8}, {0, 2, 4, 6, 8, 10}, $\mathbb{Z}_{12}$
+		- {$0$}, {$0, 6$}, {$0, 4, 8$}, {$0, 2, 4, 6, 8, 10$}, $\mathbb{Z}_{12}$
 	- Subgroups of ($\mathbb{Z}^*_{15}$ , $\times _n$ , $^{-1}$ , 1 )
-		- {1}, {1, 4}, {1, 14}, {1, 4, 7, 13}, $\mathbb{Z}^*_{15}$
+		- {$1$}, {$1, 4$}, {$1, 14$}, {$1, 4, 7, 13$}, $\mathbb{Z}^*_{15}$
 
 ### Generators of Subgroups
 
-- Every Set $\langle h \rangle$ = {$h,h^2,...,h^{|G|}\subseteq G$ generated by some $h \; \epsilon \; G$ forms a subgroup of ($G$, $\times$, $^{-1}$, $1$)
-- Examples: $\mathbb{Z}_{11}^*$ = {1, 2, .... , 10}
+- Every Set $\langle h \rangle$ = {$h,h^2,...,h^{|G|}\in G$ generated by some $h \in G$ forms a subgroup of ($G$, $\times$, $^{-1}$, $1$)
+- Examples: $\mathbb{Z}_{11}^*$ = {$1, 2, ... , 10$}
 	- $\langle 1 \rangle = \{ 1 \}$
 	- $\langle 10 \rangle = \{ 1, 10 \}$
 	- $\langle 3 \rangle = \langle 4 \rangle = \langle 5 \rangle = \langle 9 \rangle = \{ 1,3,4,5,9 \}$
-- Every  $g \; \epsilon \; \mathbb{Z}_p^* \backslash \{ 1, p-1 \}$ is either a generator for $\mathbb{G}_q$ (if $g^q = 1$) or for $\mathbb{Z}_p^*$ (if $g^q \neq 1$)
+- Every  $g \in \mathbb{Z}_p^* \backslash \{ 1, p-1 \}$ is either a generator for $\mathbb{G}_q$ (if $g^q = 1$) or for $\mathbb{Z}_p^*$ (if $g^q \neq 1$)
 
 ## Group of Integers Modulo a Safe Prime
 
 - For a safe prime $p = 2q+1$ we get $|\mathbb{Z}^*_{p}| = 2q$
-- Therefore, in regard of Lagrange's theorem, we know that $\mathbb{Z}^*_{p}$ has exactly 4 subgroups of order $1$, $2$, $q$ and $2q$
-- Cryoptographic schemes e.g ElGamal are based on such a subgroup $\mathbb{G}_q \subset \mathbb{Z}^*_{p}$ of prime order q
+- Therefore, in regard of Lagrange's theorem, we know that $\mathbb{Z}^*_{p}$ has exactly $4$ subgroups of order $1$, $2$, $q$ and $2q$
+- Cryptographic schemes e.g [[ElGamal]] are based on such a subgroup $\mathbb{G}_q \subset \mathbb{Z}^*_{p}$ of prime order $q$
 - Example: $p=11$, $q=5$
-	- $\mathbb{G}_{1}$ = {1}
-	- $\mathbb{G}_{2}$ = {1, 10}
-	- $\mathbb{G}_{5}$ = {1, 3, 4, 5, 9}
-	- $\mathbb{G}_{10}$ = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10} = $\mathbb{Z}^*_{11}$
+	- $\mathbb{G}_{1}$ = {$1$}
+	- $\mathbb{G}_{2}$ = {$1, 10$}
+	- $\mathbb{G}_{5}$ = {$1, 3, 4, 5, 9$}
+	- $\mathbb{G}_{10}$ = {$1, 2, 3, 4, 5, 6, 7, 8, 9, 10$} = $\mathbb{Z}^*_{11}$
 
 ---
 links: [[202 AC2 TOC - Modular Arithmetic and Group Theory|AC2 TOC - Modular Arithmetic and Group Theory]] - [[themes/000 Index|Index]]

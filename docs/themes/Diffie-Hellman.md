@@ -48,9 +48,9 @@ It is an open question whether DL is harder than or equal to CDH. However, it is
 
 The CDH assumption is stronger than the DL assumption.
 
-- $a := DL-Solver(A)$
-- $b := DL-Solver(B)$
-- $k := CDH-Solver(A,B) \rightarrow$ get solution directly without solving the discrete algorithm
+- $a :=$ DL-Solver($A$)
+- $b :=$ DL-Solver($B$)
+- $k :=$ CDH-Solver($A,B$)
 
 ## Active Attack
 
@@ -80,7 +80,7 @@ Standardised in:
 Applications in crypto protocols:
 
 - SSH (Secure shell)
-- TLS (Transport Layer Security), formerly known as SSL (Secure Sockets Layer)
+- [[TLS]] (Transport Layer Security), formerly known as SSL (Secure Sockets Layer)
 - IPSec (Internet Protocol Security)
 
 ---
