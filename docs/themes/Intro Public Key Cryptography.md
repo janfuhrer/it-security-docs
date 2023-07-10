@@ -39,7 +39,7 @@ Each of the $N$ parties needs to store $N-1$ keys, and the keys should be renewe
 - In any communication based on symmetric key encryption, the key is known to at least two parties.
 - After sending the ciphertext $c$ to Bob, Alice could deny being the author of $m$ because Bob could have created it himself.
 - Using only symmetric key cryptography (encryption, MAC), non-repudiation can't be archived.
-- Non-repudiation is essential for digital contracts.
+- Non-repudiation is essential for [[Digital Signatures#Applications|digital contracts]].
 
 ---
 links: [[201 AC2 TOC - Intro Public Key Encryption|AC2 TOC - Intro Public Key Encryption]] - [[themes/000 Index|Index]]
