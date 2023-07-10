@@ -54,7 +54,7 @@ $$ord(G) = |G| $$
 
 ![[Group Theory multiplication table.png]]
 
-- **Elliptic curve over prime order field**: ($E_{a,b}(\mathbb{Z}_p)$, $+$, $-$, $\mathcal{O}$)
+- [[Elliptic Curves#Elliptic Curves over $ mathbb{Z}_p$|Elliptic curve]]: ($E_{a,b}(\mathbb{Z}_p)$, $+$, $-$, $\mathcal{O}$)
 
 ## Order of a Group element
 
