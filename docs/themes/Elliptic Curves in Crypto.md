@@ -21,9 +21,9 @@ The fastest general ECDL algorithm is **Pollard’s rho** algorithm with an expe
 
 ## Elliptic Curve Cryptography (ECC)
 
-- Elliptic curve Diffie-Hellman key exchange (ECDH)  
-- Elliptic curve ElGamal encryption scheme (EC-ElGamal)
-- Elliptic curve DSA signature scheme (ECDSA)
+- Elliptic curve [[Diffie-Hellman]] key exchange (ECDH)  
+- Elliptic curve [[ElGamal]] encryption scheme (EC-ElGamal)
+- Elliptic curve [[DSA Signature Scheme]] (ECDSA)
 
 We need algorithms to encode and decode messages into curve points. Those exist and are efficient.
 
@@ -74,7 +74,7 @@ Such a mapping is called **bilinear map**, if the following two properties hold:
 * Bilinearity: $e(xP,yQ)=e(P,Q)^{xy}$, for all $(P,Q)∈G_1 \times G_2$
 * Non-degeneracy: for all $P ∈ G_1$ there is a $Q ∈ G_2$ such that $e(P, Q) \neq 1$, and vice versa
 
-A bilinear map is called **pairing**, if e is computable in an efficient manner and hard to invert
+A bilinear map is called **pairing**, if $e$ is computable in an efficient manner and hard to invert
 
 ### Symmetric Pairing
 
@@ -104,7 +104,9 @@ Using pairing-based cryptography, a single communication round is sufficient:
 3. Chris send $C = cP$ to Alice and Bob 
 4. All can compute $k = e(P, P)^{abc}$, since
 
-$e(B,C)^a =e(A,C)^b =e(A,B)^c =e(P,P)^{abc}$
+$$
+e(B,C)^a =e(A,C)^b =e(A,B)^c =e(P,P)^{abc}
+$$
 
 ### BLS Signature Scheme
 
