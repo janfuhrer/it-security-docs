@@ -28,7 +28,7 @@ A group is a set, $G$, together with an operation $\circ$ (often interpreted as 
 
 ## Ring
 
-A ring is a set equipped with two binary operations, usually referred to as addition and multiplication, that generalises the arithmetic operations on integers. It's an additive group, but with extra structure. A ring satisfies the properties of a group under addition and has two additional properties related to the second operation (multiplication):
+A ring is a set equipped with two binary operations, usually referred to as addition and multiplication, that generalizes the arithmetic operations on integers. It's an additive group, but with extra structure. A ring satisfies the properties of a group under addition and has two additional properties related to the second operation (multiplication):
 
 - **Multiplicative associativity**: For all $a$, $b$ and $c$ in the ring, $(a \times b) \times c$ equals $a \times (b \times c)$
 - **Distributivity**: For all $a$, $b$, and $c$ in the ring, $a \times (b+c) = a \times b + a \times c$ and $(b+c) \times a = b \times a + c \times a$

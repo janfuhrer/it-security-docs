@@ -38,7 +38,7 @@ Use standardised curves but be careful of magic numbers and whom you trust.
 * P-256, P384 (NIST)
 * Brainpool curves
 
-## Advances topics
+## Advanced topics
 
 ### Embedding Degree
 
@@ -74,7 +74,7 @@ Such a mapping is called **bilinear map**, if the following two properties hold:
 * Bilinearity: $e(xP,yQ)=e(P,Q)^{xy}$, for all $(P,Q)∈G_1 \times G_2$
 * Non-degeneracy: for all $P ∈ G_1$ there is a $Q ∈ G_2$ such that $e(P, Q) \neq 1$, and vice versa
 
-A bilinear map is call **pairing**, if e is computable in an efficient manner and hard to invert
+A bilinear map is called **pairing**, if e is computable in an efficient manner and hard to invert
 
 ### Symmetric Pairing
 
@@ -84,7 +84,7 @@ $$e : G \times G → G_T$$
 
 - If a symmetric pairing exists for a given group $G$, then DDH can be solved efficiently.
 - Therefore, such a group G can not be used in a cryptographic scheme relying on DDH
-- Note it is unknown how to solve CDH or DL using a pairing
+- Note that it is unknown how to solve CDH or DL using a pairing
 
 ### Pairing-Based Cryptography
 

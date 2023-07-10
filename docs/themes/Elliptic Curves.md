@@ -17,7 +17,7 @@ Elliptic curves have the property that a line intersecting the curve in two poin
 * $P + P$: Just draw a tangent trough point P
 * $P + (-P)$: Results in a vertical line which is $\mathcal{O}$
 
-Through those rules we get a additive group $\mathcal{G} = (E_{a,b}(F),+,-,\mathcal{O})$
+Through those rules we get an additive group $\mathcal{G} = (E_{a,b}(F),+,-,\mathcal{O})$
 
 Inverse of a point:
 
@@ -49,9 +49,9 @@ The number of points is around $p$
 
 $P = (x_1,y_1), Q = (x_2,y_2)$
 
-$m = \begin{cases} \frac{y_2-y_1}{x2_x1}, & \text{if } P \neq Q, \\ \frac{3x^2_1 + a}{2y_1}, & \text{if } P = Q \end{cases}$
+$m = \begin{cases} \frac{y_2-y_1}{x_2-x_1}, & \text{if } P \neq Q, \\ \frac{3x^2_1 + a}{2y_1}, & \text{if } P = Q \end{cases}$
 
-$P + Q=(x,y)=(m^2 − x_1 − x_2,\quad m * (x_1 − x)− y_1)$
+$P + Q=(x,y)=(m^2 − x_1 − x_2, m \cdot (x_1 − x)− y_1)$
 
 ---
 links: [[206 AC2 TOC - Elliptic Curves|AC2 TOC - Elliptic Curves]] - [[themes/000 Index|Index]]
