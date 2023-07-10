@@ -59,11 +59,9 @@ theme:
   favicon: assets/favicon.png
 
   features:
-    # enable instant loading (XHR)
+    # enable instant loading (XHR) -> won't work well with latex math
     #- navigation.instant
-    # enable back-to-top button
     - navigation.top
-    # search highlighting
     - search.highlight
     - navigation.indexes
     - navigation.tabs
