@@ -14,18 +14,27 @@ links:  [[204 AC2 TOC - RSA and ElGamal Encryption|AC2 TOC - RSA and ElGamal Enc
 
 
 ## ElGamal Key Generation
+The key generation of ElGamal takes a random secret key `sk` which is a random number in the range between `1` and a given prime `q`. The public key is then calculated by exponentiation of the generator `g` as base with the private key `sk` as exponent:
 
 ![[ElGamal-Key-Generation.png]]
 
 
 ## ElGamal Encryption and Decryption
+Encryption and Decryption with ElGamal can be done pretty sweet. For encryption we first calculate some random `r` in the additive group $\mathbb{Z}_q$. Then we calculate two return values `a` and `b`. `a` is the generator `g` potentiated with the random `r` and  `b` is the public key of the receiving party potentiated with random `r` multiplied with the message `m`. Then `a` and `b` are returned.
 
-![[ElGamal-Encryption-Decryption.png]]
+Decryption is done by reverting the calculation using the private key of the receiving party. Therefore `a` is potentiated with the negative value of the secret key. Then is multiplied with the received ciphertext `b`. This leads to the resolution of all factors until only the plaintext `m` is left. 
+
+**Important**: Each single operation is done inside the publicly known group $\mathbb{G}_q$, which means each operation is calculated like $operation\mod q$.
+
+Resolution in detail:
 
 - $pk = g^{sk}$
 - $a = g^r$
 - $b = m*pk^r = m*g^{sk*r}$
 - $m = b*a^{-sk} = b*g^{-(sk*r)} = b*{\dfrac{1}{g^{sk*r}}} = m * {\dfrac{g^{sk*r}}{g^{sk*r}}} = m$
+
+![[ElGamal-Encryption-Decryption.png]]
+
 
 ![[ElGamal-Numerical-Example.png]]
 

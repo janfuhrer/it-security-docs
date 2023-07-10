@@ -5,7 +5,6 @@ tags: #AC2 #math
 links:  [[204 AC2 TOC - RSA and ElGamal Encryption|AC2 TOC - RSA and ElGamal Encryption]] - [[themes/000 Index|Index]]
 
 ---
-
 ## RSA Basic Idea
 
 ![[RSA.png]]
@@ -37,6 +36,7 @@ links:  [[204 AC2 TOC - RSA and ElGamal Encryption|AC2 TOC - RSA and ElGamal Enc
 
 
 ## RSA-OAEP (Feistel network)
+Textbook RSA is insecure because its to easy to brute-force and crack the key using only the process specified in Textbook-RSA. For this reason RSA-OAEP was invented as extension of Textbook-RSA. RSA-OAEP basically just adds a randomized padding to the message leveraging a two-round Feistel network which uses two different hash functions internally. The padded plaintext is encrypted and not the plaintext itself. After decryption, the padding is reversed and the plaintext is revealed.
 
 ![[RSA-OAEP-Pseudocode.png]]
 ![[RSA-OAEP-Padding.png]]
