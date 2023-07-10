@@ -17,11 +17,11 @@ nav:
     - 'Secret Sharing': 'themes/109 AC1 TOC - Secret sharing.md'
   - 'Applied Cryptography 2':
     - 'Index': 'themes/200 AC2 MOC.md'
-    - 'Intro': 'themes/201 AC2 TOC - Intro pk.md'
+    - 'Intro': 'themes/201 AC2 TOC - Intro Public Key Encryption.md'
     - 'Modular Arithmetic and Group Theory': 'themes/202 AC2 TOC - Modular Arithmetic and Group Theory.md'
     - 'Number-Theoretic Algorithms': 'themes/203 AC2 TOC - Number-Theoretic Algorithms and Hardness Assumptions.md'
     - 'RSA and ElGamal Encryption': 'themes/204 AC2 TOC - RSA and ElGamal Encryption.md'
-    #- 'Digital Signatures': 'themes/'
+    - 'Digital Signatures': 'themes/205 AC2 TOC - Digital Signatures.md'
     - 'Elliptic curves': 'themes/206 AC2 TOC - Elliptic curves.md'
     - 'X.509': 'themes/207 AC2 TOC - X.509.md'
     - 'Centralized PKI': 'themes/208 AC2 TOC - Centralized public-key infrastructures.md'
