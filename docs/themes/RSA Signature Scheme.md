@@ -2,7 +2,7 @@ tags: #asymmetric
 
 # RSA Signature Scheme
 
-links: [[205 AC2 TOC - Digital Signatures|AC2 TOC Digital Signatures]] - [[themes/000 Index|Index]]
+links: [[205 AC2 TOC - Digital Signatures|AC2 TOC - Digital Signatures]] - [[themes/000 Index|Index]]
 
 ---
 
@@ -39,4 +39,4 @@ EUF-CMA secure under RSA assumption (provided that $hash(·)$ has the properties
 See more details here: [[Blind Signatures (RSA)#Full Domain Hash (FDH)|FDH]]
 
 ---
-links: [[205 AC2 TOC - Digital Signatures|AC2 TOC Digital Signatures]] - [[themes/000 Index|Index]]
+links: [[205 AC2 TOC - Digital Signatures|AC2 TOC - Digital Signatures]] - [[themes/000 Index|Index]]

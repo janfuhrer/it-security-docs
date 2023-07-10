@@ -2,7 +2,7 @@ tags: #AC2
 
 # Attribute Certificates
 
-links:  [[207 AC2 TOC - X.509|AC2 TOC - X.509]] - [[themes/000 Index|Index]]
+links: [[207 AC2 TOC - X.509|AC2 TOC - X.509]] - [[themes/000 Index|Index]]
 
 ---
 
@@ -27,5 +27,4 @@ Individuals can hold several attribute certificates:
 - and use them selectively according to the resource or service being accessed
 
 ---
-
-links:  [[207 AC2 TOC - X.509|AC2 TOC - X.509]] - [[themes/000 Index|Index]]
+links: [[207 AC2 TOC - X.509|AC2 TOC - X.509]] - [[themes/000 Index|Index]]

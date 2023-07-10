@@ -2,7 +2,7 @@ tags: #asymmetric
 
 # GNU Taler Overview
 
-links: [[212 AC2 TOC GNU Taler|AC2 TOC GNU Taler]] - [[themes/000 Index|Index]]
+links: [[212 AC2 TOC - GNU Taler|AC2 TOC GNU Taler]] - [[themes/000 Index|Index]]
 
 ---
 
@@ -91,4 +91,4 @@ Integrated into our banking system:
 ![[Taler in Detail.png]]
 
 ---
-links: [[212 AC2 TOC GNU Taler|AC2 TOC GNU Taler]] - [[themes/000 Index|Index]]
+links: [[212 AC2 TOC - GNU Taler|AC2 TOC GNU Taler]] - [[themes/000 Index|Index]]

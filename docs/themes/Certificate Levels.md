@@ -2,7 +2,7 @@ tags: #AC2
 
 # Certificate Levels
 
-links:  [[207 AC2 TOC - X.509|AC2 TOC - X.509]] - [[themes/000 Index|Index]]
+links: [[207 AC2 TOC - X.509|AC2 TOC - X.509]] - [[themes/000 Index|Index]]
 
 ---
 
@@ -24,5 +24,4 @@ links:  [[207 AC2 TOC - X.509|AC2 TOC - X.509]] - [[themes/000 Index|Index]]
 The CAB forum is a voluntary group of CA’s and Browser suppliers with the goal to establish and enforce standards for certificate issuance and processing.
 
 ---
-
-links:  [[207 AC2 TOC - X.509|AC2 TOC - X.509]] - [[themes/000 Index|Index]]
+links: [[207 AC2 TOC - X.509|AC2 TOC - X.509]] - [[themes/000 Index|Index]]

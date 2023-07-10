@@ -25,7 +25,6 @@ From fast to slow
 From the slides:
 ![[Complexity_Notation.png]]
 
-
 ## Notation
 
 For some function $f(n)$

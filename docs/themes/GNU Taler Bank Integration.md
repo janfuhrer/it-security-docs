@@ -2,7 +2,7 @@ tags: #asymmetric
 
 # GNU Taler Bank Integration
 
-links: [[212 AC2 TOC GNU Taler|AC2 TOC GNU Taler]] - [[themes/000 Index|Index]]
+links: [[212 AC2 TOC - GNU Taler|AC2 TOC GNU Taler]] - [[themes/000 Index|Index]]
 
 ---
 
@@ -26,4 +26,4 @@ The Taler exchange needs to communicate with the core banking system ...
 * to initiate payments of aggregated Taler deposits to merchants
 
 ---
-links: [[212 AC2 TOC GNU Taler|AC2 TOC GNU Taler]] - [[themes/000 Index|Index]]
+links: [[212 AC2 TOC - GNU Taler|AC2 TOC GNU Taler]] - [[themes/000 Index|Index]]

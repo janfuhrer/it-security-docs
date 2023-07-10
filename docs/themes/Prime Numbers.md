@@ -2,7 +2,7 @@ tags: #AC2
 
 # Prime Numbers
 
-links:  [[202 AC2 TOC - Modular Arithmetic and Group Theory|TOC - Modular Arithmetic and Group Theory]] - [[themes/000 Index|Index]]
+links: [[202 AC2 TOC - Modular Arithmetic and Group Theory|AC2 TOC - Modular Arithmetic and Group Theory]] - [[themes/000 Index|Index]]
 
 ---
 
@@ -24,5 +24,4 @@ A prime $p$ is called safe prime, if $q = \frac{p-1}{2}$ is also prime. So $p = 
 Examples: 5, 7, 11, 23, 47, 59. 83, ....
 
 ---
-
-links:  [[202 AC2 TOC - Modular Arithmetic and Group Theory|TOC - Modular Arithmetic and Group Theory]] - [[themes/000 Index|Index]]
+links: [[202 AC2 TOC - Modular Arithmetic and Group Theory|AC2 TOC - Modular Arithmetic and Group Theory]] - [[themes/000 Index|Index]]

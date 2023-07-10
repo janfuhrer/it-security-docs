@@ -2,7 +2,7 @@ tags: #asymmetric #GNS #GNU #DHT
 
 # GNU Name System (GNS)
 
-links: [[211 AC2 TOC DPKI|AC2 TOC DPKI]] - [[themes/000 Index|Index]]
+links: [[211 AC2 TOC - DPKI|AC2 TOC DPKI]] - [[themes/000 Index|Index]]
 
 ---
 
@@ -65,4 +65,4 @@ links: [[211 AC2 TOC DPKI|AC2 TOC DPKI]] - [[themes/000 Index|Index]]
 - GNS - anarchist
 
 ---
-links: [[211 AC2 TOC DPKI|AC2 TOC DPKI]] - [[themes/000 Index|Index]]
+links: [[211 AC2 TOC - DPKI|AC2 TOC DPKI]] - [[themes/000 Index|Index]]

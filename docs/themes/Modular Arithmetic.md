@@ -2,7 +2,7 @@ tags: #AC2
 
 # Modular Arithmetic
 
-links:  [[202 AC2 TOC - Modular Arithmetic and Group Theory|TOC - Modular Arithmetic and Group Theory]] - [[themes/000 Index|Index]]
+links: [[202 AC2 TOC - Modular Arithmetic and Group Theory|AC2 TOC - Modular Arithmetic and Group Theory]] - [[themes/000 Index|Index]]
 
 ---
 
@@ -68,5 +68,4 @@ $$a\cdot a^{-1} \equiv 1 \; (mod \;n)$$
 The multiplicative inverse of a modulo n exists iff gcd(a, n) = 1
 
 ---
-
-links:  [[202 AC2 TOC - Modular Arithmetic and Group Theory|TOC - Modular Arithmetic and Group Theory]] - [[themes/000 Index|Index]]
+links: [[202 AC2 TOC - Modular Arithmetic and Group Theory|AC2 TOC - Modular Arithmetic and Group Theory]] - [[themes/000 Index|Index]]

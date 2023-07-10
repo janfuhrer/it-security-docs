@@ -90,5 +90,4 @@ Since DANE is building on top of DNSSEC functionality it can't work until DNSSEC
 - NTP provides no security (solutions: tlsdate, openntpd)
 
 ---
-
 links: [[208 AC2 TOC - Centralized public-key infrastructures|AC2 TOC - Centralized public-key infrastructures]] - [[themes/000 Index|Index]]

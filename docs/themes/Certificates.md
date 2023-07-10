@@ -2,7 +2,7 @@ tags: #AC2
 
 # Certificates
 
-links:  [[207 AC2 TOC - X.509|AC2 TOC - X.509]] - [[themes/000 Index|Index]]
+links: [[207 AC2 TOC - X.509|AC2 TOC - X.509]] - [[themes/000 Index|Index]]
 
 ---
 
@@ -20,5 +20,4 @@ The certificate contains primarily:
 * **Signature** from an issuer, covering all certificate content. (Tamper resistance)
 
 ---
-
-links:  [[207 AC2 TOC - X.509|AC2 TOC - X.509]] - [[themes/000 Index|Index]]
+links: [[207 AC2 TOC - X.509|AC2 TOC - X.509]] - [[themes/000 Index|Index]]

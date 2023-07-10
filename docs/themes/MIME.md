@@ -2,7 +2,7 @@ tags: #AC2
 
 # MIME
 
-links:  [[209 AC2 TOC - Secure messaging and channels|AC2 TOC - Secure messaging and channels]] - [[themes/000 Index|Index]]
+links: [[209 AC2 TOC - Secure messaging and channels|AC2 TOC - Secure messaging and channels]] - [[themes/000 Index|Index]]
 
 ---
 
@@ -106,4 +106,4 @@ Thus, Efail's direct exfiltration attack can lead to the unintended exposure of 
 
 ---
 
-links:  [[209 AC2 TOC - Secure messaging and channels|AC2 TOC - Secure messaging and channels]] - [[themes/000 Index|Index]]
+links: [[209 AC2 TOC - Secure messaging and channels|AC2 TOC - Secure messaging and channels]] - [[themes/000 Index|Index]]

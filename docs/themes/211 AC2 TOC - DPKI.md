@@ -2,7 +2,7 @@ tags: #AC2
 
 # AC2 TOC - Decentralized Public Key Infrastructures (DPKI)
 
-links:  [[200 AC2 MOC|AC2 MOC]] - [[themes/000 Index|Index]]
+links: [[200 AC2 MOC|AC2 MOC]] - [[themes/000 Index|Index]]
 
 ---
 
@@ -15,4 +15,4 @@ links:  [[200 AC2 MOC|AC2 MOC]] - [[themes/000 Index|Index]]
 - [[themes/GNUnet|GNUnet]]
 
 ---
-links:  [[200 AC2 MOC|AC2 MOC]] - [[themes/000 Index|Index]]
+links: [[200 AC2 MOC|AC2 MOC]] - [[themes/000 Index|Index]]

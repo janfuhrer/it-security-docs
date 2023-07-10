@@ -2,7 +2,7 @@ tags: #asymmetric
 
 # Blind Signatures (RSA)
 
-links: [[212 AC2 TOC GNU Taler|AC2 TOC GNU Taler]] - [[205 AC2 TOC - Digital Signatures|AC2 TOC Digital Signatures]] - [[themes/000 Index|Index]]
+links: [[212 AC2 TOC - GNU Taler|AC2 TOC - GNU Taler]] - [[205 AC2 TOC - Digital Signatures|AC2 TOC - Digital Signatures]] - [[themes/000 Index|Index]]
 
 ---
 
@@ -31,4 +31,4 @@ FDH is an RSA-based signature scheme that follows the hash-and-sign paradigm. FD
 2. Unblind: $s := s'r^{-1} \mod n$
 
 ---
-links: [[212 AC2 TOC GNU Taler|AC2 TOC GNU Taler]] - [[205 AC2 TOC - Digital Signatures|AC2 TOC Digital Signatures]] - [[themes/000 Index|Index]]
+links: [[212 AC2 TOC - GNU Taler|AC2 TOC - GNU Taler]] - [[205 AC2 TOC - Digital Signatures|AC2 TOC - Digital Signatures]] - [[themes/000 Index|Index]]

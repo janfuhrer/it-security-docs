@@ -16,8 +16,8 @@ links: [[themes/000 Index|Index]]
 - **Topic 8**: [[208 AC2 TOC - Centralized public-key infrastructures|Centralized public-key infrastructures]]
 - **Topic 9**: [[209 AC2 TOC - Secure messaging and channels|Secure messaging and channels]]
 - **Topic 10**: [[210 AC2 TOC - Anonymity|Anonymity]]
-- **Topic 11**: [[211 AC2 TOC DPKI|Decentralized Public Key Infrastructures]]
-- **Topic 12**: [[themes/212 AC2 TOC GNU Taler|GNU Taler]]
+- **Topic 11**: [[211 AC2 TOC - DPKI|Decentralized Public Key Infrastructures]]
+- **Topic 12**: [[212 AC2 TOC - GNU Taler|GNU Taler]]
 
 ---
 links: [[themes/000 Index|Index]]

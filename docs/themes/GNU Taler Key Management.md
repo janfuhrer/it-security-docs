@@ -2,7 +2,7 @@ tags: #asymmetric
 
 # GNU Taler Key Management
 
-links: [[212 AC2 TOC GNU Taler|AC2 TOC GNU Taler]] - [[themes/000 Index|Index]]
+links: [[212 AC2 TOC - GNU Taler|AC2 TOC GNU Taler]] - [[themes/000 Index|Index]]
 
 ---
 
@@ -36,4 +36,4 @@ The public keys are certified using Taler’s public key infrastructure (which u
 Compartmentalise where possible. Different processes are used that have limited access to the keys. Minimal permissions given everywhere.
 
 ---
-links: [[212 AC2 TOC GNU Taler|AC2 TOC GNU Taler]] - [[themes/000 Index|Index]]
+links: [[212 AC2 TOC - GNU Taler|AC2 TOC GNU Taler]] - [[themes/000 Index|Index]]

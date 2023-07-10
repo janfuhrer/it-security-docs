@@ -2,7 +2,7 @@ tags: #asymmetric
 
 # Payto
 
-links: [[212 AC2 TOC GNU Taler|AC2 TOC GNU Taler]] - [[themes/000 Index|Index]]
+links: [[212 AC2 TOC - GNU Taler|AC2 TOC GNU Taler]] - [[themes/000 Index|Index]]
 
 ---
 
@@ -19,4 +19,4 @@ payto://<PAYMENT-METHOD>/<ACCOUNT-NR>
 Payment methods (such as IBAN, ACH, Bitcoin) are registered with IANA and allow extra options
 
 ---
-links: [[212 AC2 TOC GNU Taler|AC2 TOC GNU Taler]] - [[themes/000 Index|Index]]
+links: [[212 AC2 TOC - GNU Taler|AC2 TOC GNU Taler]] - [[themes/000 Index|Index]]

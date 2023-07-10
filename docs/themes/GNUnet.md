@@ -2,7 +2,7 @@ tags: #asymmetric #GNU
 
 # GNUnet
 
-links: [[211 AC2 TOC DPKI|AC2 TOC DPKI]] - [[themes/000 Index|Index]]
+links: [[211 AC2 TOC - DPKI|AC2 TOC DPKI]] - [[themes/000 Index|Index]]
 
 ---
 
@@ -41,4 +41,4 @@ links: [[211 AC2 TOC DPKI|AC2 TOC DPKI]] - [[themes/000 Index|Index]]
 10. **The GNUnet must provide incentives for peers to contribute more resources than they consume.**
 
 ---
-links: [[211 AC2 TOC DPKI|AC2 TOC DPKI]] - [[themes/000 Index|Index]]
+links: [[211 AC2 TOC - DPKI|AC2 TOC DPKI]] - [[themes/000 Index|Index]]

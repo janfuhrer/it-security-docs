@@ -2,7 +2,7 @@ tags: #AC2
 
 # Intro Public Key Cryptography
 
-links:  [[201 AC2 TOC - Intro Public Key Encryption|TOC - Intro Public Key Encryption]] - [[themes/000 Index|Index]]
+links: [[201 AC2 TOC - Intro Public Key Encryption|AC2 TOC - Intro Public Key Encryption]] - [[themes/000 Index|Index]]
 
 ---
 
@@ -42,5 +42,4 @@ Each of the $N$ parties needs to store $N-1$ keys, and the keys should be renewe
 - Non-repudiation is essential for digital contracts.
 
 ---
-
-links:  [[201 AC2 TOC - Intro Public Key Encryption|TOC - Intro Public Key Encryption]] - [[themes/000 Index|Index]]
+links: [[201 AC2 TOC - Intro Public Key Encryption|AC2 TOC - Intro Public Key Encryption]] - [[themes/000 Index|Index]]

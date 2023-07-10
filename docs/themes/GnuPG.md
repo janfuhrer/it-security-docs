@@ -2,7 +2,7 @@ tags: #asymmetric
 
 # GnuPG
 
-links: [[211 AC2 TOC DPKI|AC2 TOC DPKI]] - [[themes/000 Index|Index]]
+links: [[211 AC2 TOC - DPKI|AC2 TOC DPKI]] - [[themes/000 Index|Index]]
 
 ---
 
@@ -63,4 +63,4 @@ links: [[211 AC2 TOC DPKI|AC2 TOC DPKI]] - [[themes/000 Index|Index]]
 - otherwise, a weighted sum of the signature trust values is computed (*always trusted* signature have more weight as *usually trusted*)
 
 ---
-links: [[211 AC2 TOC DPKI|AC2 TOC DPKI]] - [[themes/000 Index|Index]]
+links: [[211 AC2 TOC - DPKI|AC2 TOC DPKI]] - [[themes/000 Index|Index]]

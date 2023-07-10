@@ -2,7 +2,7 @@ tags: #asymmetric #WebOfTrust
 
 # Fog of Trust
 
-links: [[211 AC2 TOC DPKI|AC2 TOC DPKI]] - [[themes/000 Index|Index]]
+links: [[211 AC2 TOC - DPKI|AC2 TOC DPKI]] - [[themes/000 Index|Index]]
 
 ---
 
@@ -53,4 +53,4 @@ links: [[211 AC2 TOC DPKI|AC2 TOC DPKI]] - [[themes/000 Index|Index]]
 - Costs are linear in set size, unlike prior work this **needs no CA**
 
 ---
-links: [[211 AC2 TOC DPKI|AC2 TOC DPKI]] - [[themes/000 Index|Index]]
+links: [[211 AC2 TOC - DPKI|AC2 TOC DPKI]] - [[themes/000 Index|Index]]

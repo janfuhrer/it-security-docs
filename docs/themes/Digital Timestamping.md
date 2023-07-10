@@ -17,5 +17,4 @@ If the content of a document is additionally digitally time-stamped by a trustwo
 ![[Timestamp-Protocol.png]]
 
 ---
-
 links: [[208 AC2 TOC - Centralized public-key infrastructures|AC2 TOC - Centralized public-key infrastructures]] - [[themes/000 Index|Index]]
