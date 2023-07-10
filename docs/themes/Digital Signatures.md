@@ -13,7 +13,7 @@ Digital signatures solve the problem of **authenticated communication** between 
 - For **signing** a message, Alice uses her **private key**  
 - For **verifying** a signed message, Bob uses Alice’s **public key**
 
-I If the verification succeeds, and provided that 
+If the verification succeeds, and provided that 
 
 - only Alice knows her private key
 - Bob uses Alice’s public key  
@@ -62,7 +62,7 @@ If Alice does the following:
 * $c \leftarrow enc_{pkB}(m)$
 * $s \leftarrow sign_{skA}(m)$
 
-The message $m$ can be leaked as a signature has [[Digital Signatures#Basics|different security requirement]] than I ciphertext. It could be possible to learn $m$ from $s$.
+The message $m$ can be leaked as a signature has [[Digital Signatures#Basics|different security requirement]] than a ciphertext. It could be possible to learn $m$ from $s$.
 
 See here: [[Authenticated Encryption#Authenticated Encryption Schemes|Authenticated Encryption Schemes]]
 
