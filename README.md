@@ -3,26 +3,19 @@
 ## About
 
 This repository contains a summary of our topics in the IT security specialisation at the [Bern University of Applied Sciences](https://www.bfh.ch/en/).
-Feel free to have a look, open Issues or create PRs.
 
-## Open Docs
+## Browse docs online
 
-Open the vault local in [Obsidian](https://obsidian.md) (open the `docs` folder) or browse it at [janfuhrer.github.io/it-security-docs](https://janfuhrer.github.io/it-security-docs/).
+- open the link: [janfuhrer.github.io/it-security-docs](https://janfuhrer.github.io/it-security-docs/)
+
+
+The documentation is automatically generated each time new changes are merged into the `main` branch. The workflow is based on [MkDocs](https://www.mkdocs.org/) with the [Material](https://squidfunk.github.io/mkdocs-material/) theme and then published by [Github-Pages](https://pages.github.com/)
+
+## Open in Obsidian
+
+1. Clone this repository
+2. Open the `docs` folder in [Obsidian](https://obsidian.md)
 
 ## Contribution guidelines
 
-- only gpg signed commits are allowed
-- please install `pre-commit` to enforce some checks before commiting
-- create commit messages according to [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/)
-
-### Pre-commit
-
-We use pre-commit to enforce some checks before commiting. Pre-commit must be installed on the client:
-
-* [https://pre-commit.com/](https://pre-commit.com/)
-
-The hook must still be installed in the repository in each case:
-
-```bash 
-pre-commit install
-```
+See our [Contribution guidelines](CONTRIBUTING.md)
