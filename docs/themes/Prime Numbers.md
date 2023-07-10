@@ -17,6 +17,12 @@ links:  [[202 AC2 TOC - Modular Arithmetic and Group Theory|TOC - Modular Arithm
 
 In other words, when $n$ is large, then the probability that $n$ is prime is approximately: $\frac{1}{\ln n} = \frac{\log e}{\log n}= \frac{1.44}{\log n}\approx \frac{1}{\log n}$
 
+## Safe prime
+
+A prime $p$ is called safe prime, if $q = \frac{p-1}{2}$ is also prime. So $p = 2q+1$.
+
+Examples: 5, 7, 11, 23, 47, 59. 83, ....
+
 ---
 
 links:  [[202 AC2 TOC - Modular Arithmetic and Group Theory|TOC - Modular Arithmetic and Group Theory]] - [[themes/000 Index|Index]]
