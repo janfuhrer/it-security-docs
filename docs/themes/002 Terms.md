@@ -145,6 +145,15 @@ links: [[themes/000 Index|Index]]
 |$F$ / $\mathcal{F}$ |Field notation $\mathcal{F} = (F,+,−,0,×,^{−1} ,1)$|
 |$E_{a,b}(F)$|Elliptic curve over a field with curve parameters $a$ and $b$|
 
+- **Generators**: {$3,4,9,16$} are always a generator
+
+**Adversary Model / Security Model**
+
+- in Public-Key cryptography, [[CPA-Security]] is the minimum (PK is public!)
+	- CCA1 (non-adaptive): adversary gets $c$ *after* asking oracle
+	- CCA2 (adaptive): adversary get $c$ *before* asking oracle
+
+![[pk-security-models.png]]
 
 **Public-key cryptosystems**
 
@@ -208,7 +217,6 @@ links: [[themes/000 Index|Index]]
 * [[Credit Card Surveillance|Credit Card Surveillance]]
 * [[GNU Taler Details#Double Spending Problem|Double Spending Problem]]
 * [[Payto]] (Similar to mailto)
-
 
 ---
 links: [[themes/000 Index|Index]]

@@ -12,7 +12,7 @@ Like this a certain degree of anonymity can be established by allowing an interm
 
 ## Full Domain Hash (FDH)
 
-FDH is an RSA-based signature scheme that follows the hash-and-sign paradigm. FDH involves hashing a message using a function whose image size equals the size of the RSA modulus, and then raising the result to the secret RSA exponent.
+FDH is an [[RSA]]-based signature scheme that follows the [[RSA Signature Scheme#Hash-and-Sign|hash-and-sign]] paradigm. FDH involves hashing a message using a function whose image size equals the size of the RSA modulus, and then raising the result to the secret RSA exponent.
 
 ## Blinding
 

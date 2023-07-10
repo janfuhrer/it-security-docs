@@ -1,10 +1,11 @@
-tags: #AC2 #math #RSA-AOEP #encrypt
+tags: #AC2 #math #RSA-OAEP #RSA
 
 # RSA
 
 links: [[204 AC2 TOC - RSA and ElGamal Encryption|AC2 TOC - RSA and ElGamal Encryption]] - [[themes/000 Index|Index]]
 
 ---
+
 ## RSA Basic Idea
 
 ![[RSA.png]]
@@ -12,17 +13,18 @@ links: [[204 AC2 TOC - RSA and ElGamal Encryption|AC2 TOC - RSA and ElGamal Encr
 - Security is based on the hardness of the FACTORING problem
 
 *GPT*
-- In the RSA cryptosystem, `e` and `d` are chosen such that they are coprime to `phi(n)`. They are exponents used for encryption and decryption, respectively, and are not required to be coprime to `n`. Their being coprime to `phi(n)` ensures they are multiplicative inverses of each other modulo `phi(n)`, which is a requirement for RSA to function correctly (`e * d ≡ 1 (mod phi(n))`).
+
+- In the RSA cryptosystem, `e` and `d` are chosen such that they are co-prime to $\phi(n)$. They are exponents used for encryption and decryption, respectively, and are not required to be co-prime to $n$. Their being co-prime to $\phi(n)$ ensures they are multiplicative inverses of each other modulo $\phi(n)$, which is a requirement for RSA to function correctly ($e * d \equiv 1 (mod \; \phi(n))$).
 
 ![[RSA-Proof.png]]
 
-- The message `m` in RSA encryption and decryption is an element of $Z_n$, the set of all integers modulo `n`. It is not required to be an element of $Z_n^*$ (the set of integers coprime to `n`), because the RSA processes involve exponentiation modulo `n` (not multiplication), and these operations don't require `m` to have a multiplicative inverse modulo `n`.
+- The message $m$ in RSA encryption and decryption is an element of $\mathbb{Z}_n$, the set of all integers modulo $n$. It is not required to be an element of $\mathbb{Z}_n^*$ (the set of integers co-prime to $n$), because the RSA processes involve exponentiation modulo $n$ (not multiplication), and these operations don't require $m$ to have a multiplicative inverse modulo $n$.
 
-- However, in practice, it can be beneficial for security reasons to ensure that `m` is coprime to `n`, particularly when `m` contains sensitive information.
+- However, in practice, it can be beneficial for security reasons to ensure that $m$ is co-prime to $n$, particularly when $m$ contains sensitive information.
 
 ## RSA Key Generation
 
-The key generation in RSA starts by picking two *different* random Primes $p$ and $q$ which shall be equally large (half of the input parameter $k$). The found $p$ and $q$ are then multiplied to form $n$. First the public key $e$ is calculated by choosing a random relative prime in the group defined by the Euler phi function $\phi(n) = (p-1)(q-1)$, which counts the number of all elements in the multiplicative group $\mathbb{Z}_{\phi(n)}^{*}$ (all elements which generate the group $\mathbb{Z}_{\phi(n)}$ and therefore are relative prime). Given the public key $e$, now the private key $d$ is calculated by calculating the multiplicative inverse of $e$ in $\mathbb{Z}_{\phi(n)}^{*}$. Then resulting key pair consists of the value $n$ and the respective key $e$ (public) or $d$ (private) -> (n,e), (n, d) -> public-key, private-key
+The key generation in RSA starts by picking two *different* random Primes $p$ and $q$ which shall be equally large (half of the input parameter $k$). The found $p$ and $q$ are then multiplied to form $n$. First the public key $e$ is calculated by choosing a random relative prime in the group defined by the Euler phi function $\phi(n) = (p-1)(q-1)$, which counts the number of all elements in the multiplicative group $\mathbb{Z}_{\phi(n)}^{*}$ (all elements which generate the group $\mathbb{Z}_{\phi(n)}$ and therefore are relative prime). Given the public key $e$, now the private key $d$ is calculated by calculating the multiplicative inverse of $e$ in $\mathbb{Z}_{\phi(n)}^{*}$. Then resulting key pair consists of the value $n$ and the respective key $e$ (public) or $d$ (private).
 
 ![[RSA-Key-Generation.png]]
 
@@ -32,25 +34,34 @@ Textbook RSA leverages and heavily relies on modular exponentiation as internal 
 
 ![[Textbook-RSA.png]]
 
+### Example
+
 ![[Textbook-RSA-Example.png]]
+
+### Conclusion
 
 ![[Textbook-RSA-Security.png]]
 
 **Textbook RSA is insecure (!)**:
 
-- It's completely deterministic -> never a good thing for encryption
-- Not IND-CPA because encrypting the same input with the same public key always results in the same output.
+- It's completely deterministic $\rightarrow$ never a good thing for encryption
+- Not [[CPA-Security|IND-CPA]] because encrypting the same input with the same public key always results in the same output.
 - Malleable because an attacker who knows $c$ for some plaintext $m$ can create a ciphertext for $2m$ without knowing $m$.
 - see video: [en: Youtube](https://www.youtube.com/watch?v=M7kEpw1tn50)
 
 ## RSA-OAEP (Feistel network)
-Textbook RSA is insecure because its to easy to brute-force and crack the key using only the process specified in Textbook-RSA due to its deterministic nature. For this reason RSA-OAEP was invented as extension of Textbook-RSA. RSA-OAEP basically just adds a randomized padding to the message leveraging a two-round Feistel network which uses two different hash functions internally. The padded plaintext is encrypted and not the plaintext itself. After decryption, the padding is reversed and the plaintext is revealed.
+
+Textbook RSA is insecure because its to easy to brute-force and crack the key using only the process specified in Textbook-RSA due to its deterministic nature. For this reason RSA-OAEP was invented as extension of Textbook-RSA (Standardized in [[PKCS]]#1). RSA-OAEP basically just adds a randomized padding to the message leveraging a two-round Feistel network which uses two different hash functions internally. The padded plaintext is encrypted and not the plaintext itself. After decryption, the padding is reversed and the plaintext is revealed.
 
 ![[RSA-OAEP-Pseudocode.png]]
 
 ![[RSA-OAEP-Padding.png]]
 
+### OAEP Padding
+
 ![[RSA-OAEP-Padding-Pseudocode.png]]
+
+### OAEP Unpadding
 
 ![[RSA-OAEP-Unpadding-Pseudocode.png]]
 
