@@ -32,6 +32,8 @@ The key generation in RSA starts by picking two *different* random Primes $p$ an
 
 Textbook RSA leverages and heavily relies on modular exponentiation as internal driver. Given a message $m$ it calculates the ciphertext $c$ by simply applying modular exponentiation to the message using the public key $e$ of the receiving party. $c$ is calculated within the group $\mathbb{Z}_n^{*}$. Therefore $n$ (which is part of the public key) is supplied as parameter to the modular exponentiation algorithm. Since the private key $d$ is the multiplicative inverse of $e$ we can easily decrypt the message by applying modular exponentiation to the ciphertext $c$ using the private key $(n, d)$ as parameter of the algorithm.
 
+Does $m$  need to be in $\mathbb{Z}_n^*$? Probably not: [Link](https://crypto.stackexchange.com/questions/1004/does-rsa-work-for-any-message-m)
+
 ![[Textbook-RSA.png]]
 
 ### Example
