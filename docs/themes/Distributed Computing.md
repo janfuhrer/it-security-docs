@@ -62,7 +62,9 @@ Self-stabilization allows a distributed system to recover from transient faults,
 **Example - Spanning-tree Protocol**
 This is a networking protocol that prevents loops in a network of connected nodes by creating a spanning tree. If a loop or other fault occurs, the protocol automatically recalculates the tree to remove the fault, demonstrating self-stabilization. It starts from any state, figures out the correct configuration (convergence), and maintains this correct configuration unless a change in the network occurs (closure).
 
-## What is Secure Multiparty Computation?
+## What is Secure Multiparty Computation? ^490099
+
+**in short**: compute result in distributed manner without revealing what exactly is computed
   
 Secure Multiparty Computation (SMC) is a subfield of cryptography that focuses on enabling multiple parties to jointly compute a function over their inputs while keeping those inputs private. This is a powerful tool when dealing with confidential data that shouldn't be revealed to other participants.
 

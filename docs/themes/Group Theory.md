@@ -66,6 +66,9 @@ $$ord(G) = |G| $$
 
 - e.g. $ord(2) \rightarrow 2^4 \mod 15 = 1$
 
+## Order of a Group
+
+If a group $G$ is *not* finite then the order of the group equals the number of its elements: $$ord(G) = |G| = o_G, o_G \neq \infty$$
 ## Generators
 
 > Note: arithmetic "primitive root modulo n" is equivalent to a generator in group theory!
@@ -107,6 +110,12 @@ $$ord(G) = |G| $$
 	- $\mathbb{G}_{2}$ = {$1, 10$}
 	- $\mathbb{G}_{5}$ = {$1, 3, 4, 5, 9$}
 	- $\mathbb{G}_{10}$ = {$1, 2, 3, 4, 5, 6, 7, 8, 9, 10$} = $\mathbb{Z}^*_{11}$
+
+## Homomorphisms
+
+Two groups $(G, ○)$ and $(H, ●)$ are homomorphic if there exists a function $f: G \rightarrow H$ for which all $a, b \in G$: $$f(a \ ○ \ b) = f(a) ● f(b) $$ where the left side indicates that $a,b$ was calculated within the group $G$ using $G$'s operation $○$ and the right side was calculated on the respective images of $a,b$ using the operation $●$ of the group $H$. The idea is that if you can calculate a value in $G$ you can get the correct image in $H$ using the function $f$. This allows to compute values in one group without knowing the original values in the other group, but still receive the correct result (this technique is used in homomorphic encryption schemes or multiparty computation like [[ElGamal]] or [[Distributed Computing#^490099|Secure Multiparty Computation]])
+
+Fun fact: if the relation $f$ is bijective, the groups are even *isomorphic*. Isomorphisms are groups which are structurally identical. This means you can do calculation in one group and transform the result into the other groups respective value (using $f$), then calculate some stuff in this group and map this result back into the original group (using the inverse $f^{-1}$ -> since $f$ is bijective, $f^{-1}$ will always exist) and you will still have the correct result (so cool).
 
 ---
 links: [[202 AC2 TOC - Modular Arithmetic and Group Theory|AC2 TOC - Modular Arithmetic and Group Theory]] - [[themes/000 Index|Index]]
