@@ -7,7 +7,7 @@ links:  [[210 AC2 TOC - Anonymity|AC2 TOC - Anonymity]] - [[themes/000 Index|Ind
 ---
 
 ## What is mixing and how does it work?
-A cryptographic protocol used to provide anonymity for network communications. This approach to maintaining privacy is implemented by a mix network, owhich uses a chain of mix nodes.
+A cryptographic protocol used to provide anonymity for network communications. This approach to maintaining privacy is implemented by a mix network, which uses a chain of mix nodes.
 
 **Example**
 

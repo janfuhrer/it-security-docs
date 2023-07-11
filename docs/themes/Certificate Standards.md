@@ -25,8 +25,8 @@ Used in:
 X.509 is an ITU standard — but also:
 
 - TLS servers (and sometimes clients) are identified by public key
-- Public keys are certified by certificate authorities  
-- X.509 certificates are the format used for certificates  
+- Public keys are certified by certificate authorities
+- X.509 certificates are the format used for certificates 
 - Any certificate authority can certify keys for any domain (Not in DNSsec)
 
 Also used by [[MIME#S/MIME|S/MIME]]

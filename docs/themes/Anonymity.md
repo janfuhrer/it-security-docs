@@ -43,13 +43,13 @@ Actions:
 - speach
 - participation
 - in demonstration
-- puchase in a store
+- purchase in a store
 - walking across the street
 
 
 ## What is the difference between Sender Anonymity and Reciever Anonymity?
 
-- Sender anonymity is when the sender's identity is hidden during message transmission. However, potential traces like IP addresses or metadata may provide a path back to the sender. R
+- Sender anonymity is when the sender's identity is hidden during message transmission. However, potential traces like IP addresses or metadata may provide a path back to the sender.
 - Receiver anonymity allows the recipient to receive messages without revealing their identity. Since the receiver is not generating traffic, the chance of tracing back to them is less, unless the system logs incoming connections. The level of anonymity depends on the system and protocols used.
 
 
@@ -57,7 +57,7 @@ Actions:
 
 - number of known attacks
 - lowest complexity of successful attacks
-- informationleaked through messages and maintenance procedures
+- information leaked through messages and maintenance procedures
 - number of users
 
 
