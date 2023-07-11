@@ -8,6 +8,8 @@ links: [[211 AC2 TOC - DPKI|AC2 TOC DPKI]] - [[themes/000 Index|Index]]
 
 ## Homomorphic Encryption
 
+see [[Group Theory#^0078b7|Homomorphic Groups]]
+
 $$
 E(x_1 \oplus x_2) = E(x_1) \otimes E(x_2)
 $$

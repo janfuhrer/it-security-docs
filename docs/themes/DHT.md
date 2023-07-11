@@ -23,17 +23,26 @@ Source: [en: Hazelcast.com](https://hazelcast.com/glossary/distributed-hash-tabl
 - typically use exact match on cryptographic hash for lookup
 - typically require overlay to establish particular connections
 
-## Key Properties
+## Key Properties of DHT
 
 - routing table structure
+	- The routing table defines how easy / hard it is to find a route to a given destination / target
 - lookup procedure
+	- The lookup procedure defines the way a value can be found in a DHT
 - join operation process
+	- The join operation process defines how a new node is integrated into the DHT
 - leave operation process
+	- The leave operation is the opposite of the join operation which means it defines how a node can leave the DHT
 - cost (complexity) for each operation
+	- The cost / complexity give an estimate on how good a specific procedure performs in a specific DHT.
 
-## DHTs
+## Various DHT
 
 ### The Clique
+
+Everyone knows everyone
+
+![[dht_clique.png]]
 
 - *routing table*: hash map of all peers $\rightarrow O(n)$
 - *lookup*: forward to closest peer in routing table $\rightarrow O(1)$
@@ -42,6 +51,11 @@ Source: [en: Hazelcast.com](https://hazelcast.com/glossary/distributed-hash-tabl
 
 ### The Circle
 
+Nodes are aligned in a circle and each node is connected with the two nearest neighbours.
+
+![[dht_ring.png]]
+
+
 - *routing table*: left and right neighbour in cyclic identifier space $\rightarrow O(1)$
 - *lookup*: forward to closest peer (left or right) $\rightarrow O(n)$ 
 - *join*: lookup own peer identity to find position, transfer data from neighbour for keys we are closer to $\rightarrow O(n)$
@@ -49,12 +63,12 @@ Source: [en: Hazelcast.com](https://hazelcast.com/glossary/distributed-hash-tabl
 
 ### Content Addressable Network (CAN)
 
+![[dht_can.png]]
+
 - *routing table*: neighbours in $d$-dimensional torus space $\rightarrow 2d = O(d)$
 - *lookup*: forward to closest peer $\rightarrow O(d \sqrt[d]{n})$
 - *join*: lookup own peer identity to find join position, split quadrant (data areas) with existing peer
 - *leave*: assign quadrant space to neighbour(s) $\rightarrow O(d)$
-
-![[dht_can.png]]
 
 ### Chord
 
