@@ -18,8 +18,8 @@ links: [[211 AC2 TOC - DPKI|AC2 TOC DPKI]] - [[themes/000 Index|Index]]
 - **censorship-resistant**
 - reliable revocation using flooding with proof-of-work
 - provides alternative public key infrastructure
-	- Trust paths explicit, trust agility
-	- Simplified key exchange compared to [[Trust Model#The Web of Trust|Web of Trust]
+	- Trust paths explicit, [[trust agility]]
+	- Simplified key exchange compared to [[Trust Model#The Web of Trust|Web of Trust]]
 
 ![[gns.png]]
 
@@ -59,7 +59,7 @@ links: [[211 AC2 TOC - DPKI|AC2 TOC DPKI]] - [[themes/000 Index|Index]]
 **Conclusion**
 
 - DNS - globalist
-- DNSSEC - authoritarian
+- [[X.509 CA Alternatives#Alternative 1 [DNSSEC / DANE](https //tools.ietf.org/html/rfc6698)|DNSSEC]] - authoritarian
 - Namecoin - libertarian (US)
 - RAINS - nationalist
 - GNS - anarchist

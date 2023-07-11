@@ -2,7 +2,7 @@ tags: #asymmetric #exercise
 
 # Anonymity - Exercises
 
-links:  [[210 AC2 TOC - Anonymity|AC2 TOC - Anonymity]] - [[themes/000 Index|Index]]
+links: [[210 AC2 TOC - Anonymity|AC2 TOC - Anonymity]] - [[themes/000 Index|Index]]
 
 ---
 
@@ -32,4 +32,4 @@ Finally the revealed results are XORed aswell
 - If the result is 0 then the NSA payed (someone who is not part of the group payed / did the action)
 
 ---
-links:  [[210 AC2 TOC - Anonymity|AC2 TOC - Anonymity]] - [[themes/000 Index|Index]]
+links: [[210 AC2 TOC - Anonymity|AC2 TOC - Anonymity]] - [[themes/000 Index|Index]]
