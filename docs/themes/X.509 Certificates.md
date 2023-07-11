@@ -19,7 +19,18 @@ links: [[207 AC2 TOC - X.509|AC2 TOC - X.509]] - [[themes/000 Index|Index]]
 * Auxiliary information (identity address, alternative names $\rightarrow$ [[X.509 Certificates#X.509v3 subjectAltNames (SAN)|SAN]])
 * The digital signature
 
+**Size**
+
 A typical X.509 certificate size can range from a **few hundred bytes to a few kilobytes**.
+
+Maybe between 2 and 8 kilobytes.
+
+- Public key (32-512 byte)
+- Signature (32-64 byte)
+- Timestamps, subject, issuer, protocol basics (many characters)
+- ASN.1 and DER (structure, encoding)
+
+Be aware that we have multiple X.509 certificates in a chain.
 
 ![[X.509.png]]
 

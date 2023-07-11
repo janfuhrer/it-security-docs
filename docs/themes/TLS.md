@@ -73,6 +73,13 @@ TLS 1.3 is trying to break away from the attack-patch-attack-patch design cycle 
 
 ![[0.5-RTT-Handshake.png]]
 
+**Size**
+
+- Client Hello (256 byte for EC)
+- Server response 1 (unencrypted) (155 byte)
+- Server response 2 (encrypted) (2480 byte)
+- Client Finish (50 byte)
+
 ### Problems
 
 TLS 1.3 deprecated lots of insecure ciphers but still has downgrade attack problem. X.509 certificates are still used.
