@@ -11,15 +11,15 @@ links: [[207 AC2 TOC - X.509|AC2 TOC - X.509]] - [[themes/000 Index|Index]]
 * X.509 version (Integer)
 * CA serial number (Integer)
 * A digital signature algorithm identifier ([[Certificate Standards#Object Identifiers (OIDs)|OID]])
-* The identity of the signer / Issuer (Distinguished Name)
+* The identity of the signer / issuer (Distinguished Name)
 * Validity period (DateTime Not Before, Not After)
-* The identity of the subject (common name, org. unit, org., state, country --> OID)
+* The identity of the subject (common name, org. unit, org., state, country $\rightarrow$ [[Certificate Standards#Object Identifiers (OIDs)|OID]])
 * The public key of the subject (Bit String)
 * Optional: URL to revocation center (OCSP!)
-* Auxiliary information (identity address, alternative names)
+* Auxiliary information (identity address, alternative names $\rightarrow$ [[X.509 Certificates#X.509v3 subjectAltNames (SAN)|SAN]])
 * The digital signature
 
-A typical X.509 certificate size can range from a few hundred bytes to a few kilobytes.
+A typical X.509 certificate size can range from a **few hundred bytes to a few kilobytes**.
 
 ![[X.509.png]]
 
@@ -38,7 +38,7 @@ Certificate ::= SEQUENCE {
 
 Mostly v3 in use today.
 
-## Serial Number
+### Serial Number
 
 `CertificateSerialNumber ::= INTEGER`
 
@@ -52,7 +52,7 @@ AlgorithmIdentifier ::= SEQUENCE {
   parameters ANY DEFINED BY algorithm OPTIONAL}
 ```
 
-Any needed parameters (like the elliptic curve to be used in ECDSA)
+Specifies the algorithm and any needed parameters (like the elliptic curve to be used in ECDSA).
 This is specified twice in “Standard Information” and in “Signature”. Both MUST be identical.
 
 ### Issuer
@@ -121,7 +121,7 @@ AlgorithmIdentifier ::= SEQUENCE {
 An extension can be marked as CRITICAL (usually extension “keyUsage” only). In this case an application must be able to process and handle this extension, if not it must reject the whole certificate!
 
 
-### X.509v3 subjectAltNames
+### X.509v3 subjectAltNames (SAN)
 
 Indicates alternative name forms associated with the owner of the certificate. If the subject DN (Standard Information) is null, one or more alternative name forms must be present, and this extension must be marked CRITICAL.
 
@@ -152,7 +152,7 @@ CA:
 
 ### Extended Key Usage
 
-Sequence of one or more Object Identifiers (OID) that identify specific usage of the certificate. OIDs associated with this extension can be:
+Sequence of one or more Object Identifiers ([[Certificate Standards#Object Identifiers (OIDs)|OID]]) that identify specific usage of the certificate. OIDs associated with this extension can be:
 
 * serverAuth – TLS Web Server Authentication 
 * clientAuth – TLS Web Client Authentication 
@@ -170,13 +170,13 @@ Sequence of one or more Object Identifiers (OID) that identify specific usage of
 * CRL Distribution Point
 	* Indicates the location of the CRL partition where revocation information associated with this certificate resides.
 * Certificate Policies
-	* The certificate policies extension contains a sequence of one or more policy information terms, each of which consists of an OID.
+	* The certificate policies extension contains a sequence of one or more policy information terms, each of which consists of an [[Certificate Standards#Object Identifiers (OIDs)|OID]].
 * Private-key usage period
 	* Indicates the period of time to use the private key corresponding to the public key. For example, with digital signature keys, the usage period for the signing private key can be shorter than that for the signature verifying public key.
 
 ### Authority Information Access
 
-A private extension present in end-entity and CA certificates, indicates how information or services offered by the issuer of the certificate can be obtained. Two access method OIDs have been defined:
+A private extension present in end-entity and CA certificates, indicates how information or services offered by the issuer of the certificate can be obtained. Two access method [[Certificate Standards#Object Identifiers (OIDs)|OIDs]] have been defined:
 
 - CA Issuers: This information can be used to help build certification paths or other information of services of the issuing CA
 - OCSP Validation Service: This access method is for on-line validation services based on OCSP
