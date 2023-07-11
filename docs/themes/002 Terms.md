@@ -199,7 +199,9 @@ links: [[themes/000 Index|Index]]
 - [[Distributed Computing#Zfone Authentication (ZRTP)|Zfone Authentication]] (extend DH stuff and call each other)
 - [[Distributed Computing#Self stabilisation|Self stabilisation]] (system that recovers it self)
 - [[Distributed Computing#Secure Multipart Computation (SMC)|SMC]] (Secure Multiparty Computation. Jointly compute something but private)
+- [[Anonymity - Mixing|Mixing]] (Mixing for emails mostly)
 - [[Anonymity - TOR|TOR]]
+- [[Anonymity - TOR#Hidden Services in Tor|TOR Hidden Services]]
 
 **Decentralisation**
 
