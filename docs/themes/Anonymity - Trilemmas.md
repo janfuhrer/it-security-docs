@@ -2,47 +2,43 @@ tags: #asymmetric
 
 # Trilemmas
 
-links:  [[210 AC2 TOC - Anonymity|AC2 TOC - Anonymity]] - [[themes/000 Index|Index]]
+links: [[210 AC2 TOC - Anonymity|AC2 TOC - Anonymity]] - [[themes/000 Index|Index]]
 
 ---
 
-## Examples for famous trilemmas
+## CAP Theorem
 
-**CAP Theorem**
+> No distributed system can be consistent, available and partition tolerant at the same time.
 
-This theorem is a concept in distributed data store systems which states that it is impossible for a distributed data store to simultaneously provide more than two out of the following three guarantees:
+- ﻿﻿**Consistency**: A read sees the changes made by all previous writes
+- ﻿﻿**Availability**: Reads and writes always succeed
+- ﻿﻿**Partition tolerance**: The system operates even when network connectivity between components is broken
 
-- **Consistency**: all nodes see the same data at the same time)
-- **Availability**: every request receives a response about whether it was successful or failed
-- **Partition Tolerance**: the system continues to operate despite arbitrary partitioning due to network failures.
-
-**Blockchain Trilemma**
+## Blockchain Trilemma
 
 This is a concept in blockchain technology that posits it's impossible to fully achieve all three of the following features at once: 
 
 - **Security**: the network can resist attacks
 - **Scalability**: the network can process a high number of transactions
-- **Decentralization**: all peers in the network are equal, and there are no trusted third parties.
+- **Decentralization**: all peers in the network are equal, and there are no trusted third parties
 
-**Ryge's Trilemma**
+## Ryge's Trilemma
 
-This is a concept in information security where three desirable attributes
+Ryge's Triangle postulates three key management goals for a system associating cryptographic keys with addresses or names:
 
-- **Anonymity**
-- **Free Speech**
-- **Accountability** 
+- ﻿﻿**Non-interactive**: the system should require no user interface
+- ﻿﻿**Flexible**: addresses / names can be re-used by other participants
+- ﻿﻿**Secure**: the system is secure against active attackers  
 
-are in conflict. The idea is that you can have any two, but not all three together. If you have anonymity and free speech, you lose accountability. If you have free speech and accountability, you lose anonymity. And if you have anonymity and accountability, you lose free speech.
+Ryge's triangle says that one can only have two of the three.
 
-**Zooko's Triangle**
+## Zooko's Triangle
 
 This is a trilemma concept in **naming systems** which argues that names can't be all three of the following: 
 
 - **Secure**: names honestly represent the identity of the named entity.
-- **Decentralized**: no central authority is needed to control name allocation
-- **Human-meaningful**: names are meaningful and memorable to humans.
-
-More recent developments in technology, such as blockchain systems, are challenging the notion of Zooko's Triangle, with claims that all three properties can be satisfied to some extent.
+- **Decentralized/ Global**: no central authority is needed to control name allocation
+- **Human-meaningful/ Memorable**: names are meaningful and memorable to humans.
 
 ---
-links:  [[210 AC2 TOC - Anonymity|AC2 TOC - Anonymity]] - [[themes/000 Index|Index]]
+links: [[210 AC2 TOC - Anonymity|AC2 TOC - Anonymity]] - [[themes/000 Index|Index]]

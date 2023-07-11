@@ -56,7 +56,6 @@ Deprecation blocks connections because older clients might only support older pr
 4. Workaround introduces security issue (downgrade)
 5. Workaround for security issue introduced by workaround gets standardized.
 
-
 ## TLS 1.3
 
 TLS 1.3 is trying to break away from the attack-patch-attack-patch design cycle of previous versions. The research community is more involved to make sure the primitives are secure. It's better but there are still lots of extensions and lots of modes and the client still begins negotiation with ClientHello.

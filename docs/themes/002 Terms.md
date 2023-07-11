@@ -191,14 +191,14 @@ links: [[themes/000 Index|Index]]
 
 - [[Anonymity]] (Different aspects of anonymity) 
 - [[Anonymity - Trilemmas|Trilemmas]] (achieve 2 out of 3 goals)
-- [[Anonymity - Attacks#What is a Sybil attack and how can it be mitigated|Sybil attack]] (many fake identities)
-- [[Anonymity - Attacks#What is an eclipse attack and how can it be mitigated?|Eclipse attack]](separate nodes from each other)
-- [[Anonymity - Attacks#What is a poisoning attack and how can it be mitigated?|Poisoning attack]] (nodes provide false information)
-- [[Anonymity - Attacks#What is a timing attack and how can it be mitigated?|Timing attack]] (latency, delay, timestamps)
-- [[Distributed Computing#Explain Boyd's Theorem I and II|Boyd's Theorems]] (about secure communication)
-- [[Distributed Computing#Explain Zfone Authentication (ZRTP)|Zfone Authentication]] (extend DH stuff and call each other)
-- [[Distributed Computing#Explain self stabilisation|Self stabilisation]] (system that recovers it self)
-- [[Distributed Computing#What is Secure Multiparty Computation?|SMC]] (Secure Multiparty Computation. Jointly compute something but private)
+- [[Anonymity - Attacks#Sybil Attacks|Sybil attack]] (many fake identities)
+- [[Anonymity - Attacks#Eclipse Attacks|Eclipse attack]] (separate nodes from each other)
+- [[Anonymity - Attacks#Poisoning Attacks|Poisoning attack]] (nodes provide false information)
+- [[Anonymity - Attacks#Timing Attacks|Timing attack]] (latency, delay, timestamps)
+- [[Distributed Computing#Limits on authentication|Boyd's Theorems]] (about secure communication)
+- [[Distributed Computing#Zfone Authentication (ZRTP)|Zfone Authentication]] (extend DH stuff and call each other)
+- [[Distributed Computing#Self stabilisation|Self stabilisation]] (system that recovers it self)
+- [[Distributed Computing#Secure Multipart Computation (SMC)|SMC]] (Secure Multiparty Computation. Jointly compute something but private)
 - [[Anonymity - TOR|TOR]]
 
 **Decentralisation**

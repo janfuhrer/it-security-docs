@@ -12,7 +12,7 @@ links: [[211 AC2 TOC - DPKI|AC2 TOC DPKI]] - [[themes/000 Index|Index]]
 - **Solution**: do not publish the graph, use "secure multi-part computation" (SMC) protocol for private set intersection cardinality with signatures.
 	- We will only consider paths with **one** intermediary
 
-Measuring and comparing private set intersection cardinality means that we are able to calculate how much similarities two sets have. To do this without exposing the social graph (which would leak information about who trusts whom), we can use [[Distributed Computing#What is Secure Multiparty Computation? 490099|Secure Multiparty Computation]] and sign the result to make it verifiable for the counterpart. This method is used in the straw-man protocol.
+Measuring and comparing private set intersection cardinality means that we are able to calculate how much similarities two sets have. To do this without exposing the social graph (which would leak information about who trusts whom), we can use [[Distributed Computing#Secure Multipart Computation (SMC)|SMC]] and sign the result to make it verifiable for the counterpart. This method is used in the straw-man protocol.
 
 ## Straw-man protocol
 
@@ -39,9 +39,9 @@ Measuring and comparing private set intersection cardinality means that we are a
 3. Alice can now calculate $\mathcal{Y}_A$ by taking each element of Bob's $\mathcal{X}_B$ (blinded trusted signers of Bob)
 4. Alice can now compare $\mathcal{Y}_A$ with $\mathcal{Y}_B$ and count the amount of equal values which gives the value $n = |\mathcal{Y}_A \cap \mathcal{Y}_B|$ she is looking for (linear cost).
 
-Since the trusted verifiers of Alice and the trusted signers of Bob are blinded by their respective ephemeral private scalars $t_A$ and $t_B$ (which leads to some double blinding behavior), the identities of the verifiers and signers is not leaked and therefore the social graph remains secret.
+Since the trusted verifiers of Alice and the trusted signers of Bob are blinded by their respective ephemeral private scalars $t_A$ and $t_B$ (which leads to some double blinding behaviour), the identities of the verifiers and signers is not leaked and therefore the social graph remains secret.
 
-(Because [[Distributed Computing#What is Secure Multiparty Computation? 490099|Secure Multiparty Computation]] works on [[Group Theory#^0078b7|homomorphic]] groups, this works because the values structurally remain the same, due to the properties of the mapping function $f$ between the different groups)
+(Because [[Distributed Computing#Secure Multipart Computation (SMC)|SMC]] works on [[Group Theory#^0078b7|homomorphic]] groups, this works because the values structurally remain the same, due to the properties of the mapping function $f$ between the different groups)
 
 **Attacks**
 
