@@ -91,6 +91,7 @@ Base64 of DER bytestream with "begin certificate" and "end certificate" markers.
 
 ## Certificate Authorities (CA)
 
+- see [[Public Key Infrastructure#Certification Authority (CA)|PKI CA]]
 - Entities that *claim* to be trustworthy to verify identities and issuing public key certificates
 - CAs can be organized into a directed graph
 - X.509: Tree depth can be limited for a subtree (see X.509 [[X.509 Certificates#basicConstraints|basicConstraints]] Extension)
