@@ -69,7 +69,7 @@ The above described attack can be omitted by implementing a Cut & Choose mechani
 	3. Alice can now also blind her $\mathcal{Y}_{A_j}$ to receive $\mathcal{Y'}_{A_j}$. Since she earlier received $\mathcal{Y'}_{B_i}$ and knows the subset $J$ (since she chose it earlier), she can now calculate $n = |\mathcal{Y'}_{A_j} \cap \mathcal{Y'}_{B_j}|$ for each $j \in J. Each received $n$ should be equal to the others. If this is the case Alice can be sure, that Bob didn't fool her into trusting untrustworthy signers.
 
 **Verification**
-(for explanation check points 5 to X above)
+(for explanation check point 5 above)
 
 ![[cut-and-choose_verification.png]]
 
