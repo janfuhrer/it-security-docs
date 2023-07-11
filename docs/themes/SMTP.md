@@ -1,4 +1,4 @@
-tags: #AC2
+tags: #AC2 #smtp
 
 # SMTP
 
@@ -21,9 +21,10 @@ There are two main components in SMTP communication: the content and the envelop
 
 In an SMTP session, the client (the sender's email server) establishes a connection with the server (the recipient's email server) over a reliable transport. The client then sends the envelope information to the server, followed by the content of the email. The server uses the envelope information to route and deliver the email to the recipient's mailbox.
 
-SMTP is a simple, text-based protocol, but it's also quite powerful and flexible, allowing for features like forwarding, carbon copies (Cc), and blind carbon copies (Bcc). However, SMTP itself does not include any built-in security features, so it's often used in conjunction with other protocols like TLS or SSL to ensure the confidentiality and integrity of email messages.
+SMTP is a simple, text-based protocol, but it's also quite powerful and flexible, allowing for features like forwarding, carbon copies (Cc), and blind carbon copies (Bcc). However, SMTP itself does not include any built-in security features, so it's often used in conjunction with other protocols like TLS or SSL to ensure the confidentiality and integrity of email messages. Everything is **7-bit US ASCII**.
 
 **Example Header**
+
 ![[SMTP-Header.png]]
 
 Delivery path of messages can be traced back due to the Received header information
