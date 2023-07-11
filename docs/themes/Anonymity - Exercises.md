@@ -19,6 +19,8 @@ $100 * \frac{1}{1000} * \log_{2}(1000) + \frac{9}{10} * log_{2}(\frac{10}{9}) = 
 
 ## Explain the Dining Cryptographers Problem
 
+You want to make sure that an entity inside a group is responsible for some action but you want, that it remains a secret who has done it. The dining cryptographers approach can make a statement, whether some entity inside the group is responsible for an action or someone outside (Mallory) did it.
+
 Every two cryptographers establish a shared one-bit secret. Everyone then makes an XOR out of the two shared one-bit secrets and reveals the result.
 
 - If they payed they invert the XOR
@@ -26,8 +28,8 @@ Every two cryptographers establish a shared one-bit secret. Everyone then makes 
 
 Finally the revealed results are XORed aswell
 
-- If the result is 1 then someone payed but this person stays anonymous
-- If the result is 0 then the NSA payed
+- If the result is 1 then someone payed but this person stays anonymous (someone of the group payed / did the action)
+- If the result is 0 then the NSA payed (someone who is not part of the group payed / did the action)
 
 ---
 links:  [[210 AC2 TOC - Anonymity|AC2 TOC - Anonymity]] - [[themes/000 Index|Index]]

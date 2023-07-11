@@ -66,7 +66,7 @@ This is a networking protocol that prevents loops in a network of connected node
 
 **in short**: compute result in distributed manner without revealing what exactly is computed
   
-Secure Multiparty Computation (SMC) is a subfield of cryptography that focuses on enabling multiple parties to jointly compute a function over their inputs while keeping those inputs private. This is a powerful tool when dealing with confidential data that shouldn't be revealed to other participants.
+Secure Multiparty Computation (SMC) is a subfield of cryptography that focuses on enabling multiple parties to jointly compute a function over their inputs while keeping those inputs private. This is a powerful tool when dealing with confidential data that shouldn't be revealed to other participants. ^eaa7a0
 
 Here's a simple example: Suppose there are three friends, Alice, Bob, and Charlie, and they want to know who has the highest salary, but none of them wants to disclose their individual salaries. Secure multiparty computation allows them to compute the function (in this case, finding the maximum salary) without revealing their individual inputs.
 

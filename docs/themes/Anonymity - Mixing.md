@@ -39,7 +39,7 @@ In a pool mix, incoming messages are added to a pool. A certain number of messag
 
 ## What is Mixminion?
 
-Mixminion is an type III anonymous remailer protocol that was designed to improve upon earlier protocols by offering better resistance to attacks, and more reliable delivery of messages. It's a mixmailer which uses mix networks for email communication, effectively anonymizing the sender and recipient of an email. Compared to previous mixers it has some advantages.
+Mixminion is a type III anonymous remailer protocol that was designed to improve upon earlier protocols by offering better resistance to attacks, and more reliable delivery of messages. It's a mixmailer which uses mix networks for email communication, effectively anonymizing the sender and recipient of an email. Compared to previous mixers it has some advantages.
 
 **Possibility to Reply**
 
@@ -120,7 +120,7 @@ If a nym server stores multiple messages and uses a single reply block to send a
 - Exit nodes can be liable for legal action
 - No functionality to avoid DoS attacks
 - Statistical correlation of entities communicating over time is still possible if the whole network is observed
-- Bridge between anonymous network and traditional a traditional protocol is difficult
+- Bridge between anonymous network and a traditional protocol is difficult
 
 ---
 links:  [[210 AC2 TOC - Anonymity|AC2 TOC - Anonymity]] - [[themes/000 Index|Index]]

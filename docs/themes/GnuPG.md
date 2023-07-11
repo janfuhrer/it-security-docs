@@ -59,7 +59,7 @@ links: [[211 AC2 TOC - DPKI|AC2 TOC DPKI]] - [[themes/000 Index|Index]]
 
 ### Key validity calculation
 
-- it at least one signature trust is ultimate, then the validity of the key is 1 (complete)
+- if at least one signature trust is ultimate, then the validity of the key is 1 (complete)
 - otherwise, a weighted sum of the signature trust values is computed (*always trusted* signature have more weight as *usually trusted*)
 
 ---
