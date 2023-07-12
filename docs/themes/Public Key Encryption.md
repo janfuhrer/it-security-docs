@@ -6,7 +6,7 @@ links: [[201 AC2 TOC - Intro Public Key Encryption|AC2 TOC - Intro Public Key En
 
 ---
 
-In the static application of Diffie-Hellman, the values ($a$, $A$) can be considered as an Alices key pair.
+In the static application of Diffie-Hellman, the values ($a$, $A$) can be considered as Alices key pair.
 
 - Public Key: $A$ can be published on a website or directory, or sent over an insecure channel.
 - Private Key: $a$ must be kept secret.

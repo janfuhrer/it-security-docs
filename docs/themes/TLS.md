@@ -25,7 +25,7 @@ To avoid that an attacker could truncate / cut off the TCP stream (attacker send
 ## What are problems of TLS?
 
 - TLS protocol is way too complex  
-- Many implementations in use  
+- Many implementations in use
 - Vulnerabilities in protocol design and implementations (lots of attacks in the past, e.g. BEAST, CRIME, ...)
 - There are different SSL/TLS modes which built "authenticated encryption" by combining auth and enc. Many attacks could have been avoided if a primitive that implements both in one was used ([[Authenticated Encryption#GCM (Galois Counter Mode)|AES-GCM]] or [[Authenticated Encryption#ChaCha20-Poly1305|ChaCha20-Poly1305]])
 - Anything using [[Block Cipher#Electronic Code Block (ECB) mode|ECB]], [[Block Cipher#Cipher Block Chaining (CBC) mode|CBC]], CFB, [[Block Cipher#Output Feedback (OFB) mode|OFB]], [[Block Cipher#Counter (CTR) mode|CTR]] is likely broken (only when used on its own $\rightarrow$ CTR is used in AES-GCM)

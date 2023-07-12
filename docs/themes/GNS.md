@@ -32,6 +32,7 @@ We can see that other than in DNS there is no centralized server which manages r
 ## Publishing Records
 
 To publish records, a RRBLOCK is written to the [[DHT]] by using the `PUT(key, value)` primitive such a [[DHT]] has. The `key` is derived from the zone key `zk` as follows: 
+
 ```
 PRK_h := HKDF-Extract ("key-derivation", zk)
 h := HKDF-Expand (PRK_h, label | "gns", 512 / 8)
