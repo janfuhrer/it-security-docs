@@ -12,7 +12,6 @@ links: [[208 AC2 TOC - Centralized public-key infrastructures|AC2 TOC - Centrali
 - Trust is centralized
 - Information is distributed
 - not "own" trust
-- (DNSSEC = CA System)
 
 > What is the idea of "trust agility", and is it reasonable?
 

@@ -10,13 +10,16 @@ links: [[204 AC2 TOC - RSA and ElGamal Encryption|AC2 TOC - RSA and ElGamal Encr
 
 ![[ElGamal-Encryption-Scheme.png]]
 
-- Security is based on the hardness of the DL (Discrete Logarithm) problem.
+- Security is based on the hardness of the [[Computational Hardness Assumption#Discrete Logarithm Assumptions (DL)|DL (Discrete Logarithm) problem]].
 
 ## ElGamal Key Generation
 
 The key generation of ElGamal takes a random secret key $sk$ which is a random number in the range between $1$ and a given prime $q$. The public key is then calculated by exponentiation of the generator $g$ as base with the private key $sk$ as exponent:
 
 ![[ElGamal-Key-Generation.png]]
+
+- $\mathbb{Z}_q$: Additive Groupe (Number between $\{1...q\}$)
+- $\mathbb{G}_q$: Multiplicative Subgroup (see [[Group Theory#Group of Integers Modulo a Safe Prime|Group of Integers Modulo a Safe Prime]])
 
 ## ElGamal Encryption and Decryption
 
@@ -49,7 +52,7 @@ Resolution in detail:
 
 *GPT*
 
-The Decisional Diffie-Hellman (DDH) assumption is a computational problem in cryptography. Specifically, it's an assumption made about the difficulty of a specific computational task in a cyclic group. The problem is to distinguish between the distributions $(g^a, g^b, g^{ab})$ and $(g^a, g^b, g^c)$ for random $a$, $b$, and $c$.
+The [[Computational Hardness Assumption#Discrete Logarithm Assumptions (DL)|Decisional Diffie-Hellman (DDH)]] assumption is a computational problem in cryptography. Specifically, it's an assumption made about the difficulty of a specific computational task in a cyclic group. The problem is to distinguish between the distributions $(g^a, g^b, g^{ab})$ and $(g^a, g^b, g^c)$ for random $a$, $b$, and $c$.
 
 In the multiplicative group $\mathbb{Z}_p^*$ (where $p$ is prime), the DDH assumption does not hold. This is because if you have access to a group element, you can easily compute its square root (modulo $p$). This means you can distinguish between a random group element and a square. Thus, given $(g^a, g^b, g^{ab})$ and $(g^a, g^b, g^c)$, it's possible to check whether the third element is the product of the first two (modulo $p$) or not.
 

@@ -8,7 +8,7 @@ links: [[210 AC2 TOC - Anonymity|AC2 TOC - Anonymity]] - [[themes/000 Index|Inde
 
 ## CAP Theorem
 
-> No distributed system can be consistent, available and partition tolerant at the same time.
+> No **distributed system** can be consistent, available and partition tolerant at the same time.
 
 - ﻿﻿**Consistency**: A read sees the changes made by all previous writes
 - ﻿﻿**Availability**: Reads and writes always succeed
@@ -16,7 +16,7 @@ links: [[210 AC2 TOC - Anonymity|AC2 TOC - Anonymity]] - [[themes/000 Index|Inde
 
 ## Blockchain Trilemma
 
-This is a concept in blockchain technology that posits it's impossible to fully achieve all three of the following features at once: 
+This is a concept in **blockchain technology** that posits it's impossible to fully achieve all three of the following features at once: 
 
 - **Security**: the network can resist attacks
 - **Scalability**: the network can process a high number of transactions
@@ -24,7 +24,7 @@ This is a concept in blockchain technology that posits it's impossible to fully 
 
 ## Ryge's Trilemma
 
-Ryge's Triangle postulates three key management goals for a system associating cryptographic keys with addresses or names:
+Ryge's Triangle postulates three **key management** goals for a system associating cryptographic keys with addresses or names:
 
 - ﻿﻿**Non-interactive**: the system should require no user interface
 - ﻿﻿**Flexible**: addresses / names can be re-used by other participants

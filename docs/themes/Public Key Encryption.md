@@ -6,7 +6,11 @@ links: [[201 AC2 TOC - Intro Public Key Encryption|AC2 TOC - Intro Public Key En
 
 ---
 
+<<<<<<< HEAD
 In the static application of Diffie-Hellman, the values ($a$, $A$) can be considered as Alices key pair.
+=======
+In the static application of [[Diffie-Hellman]], the values ($a$, $A$) can be considered as an Alices key pair.
+>>>>>>> 0da8a0b (docs: improvements)
 
 - Public Key: $A$ can be published on a website or directory, or sent over an insecure channel.
 - Private Key: $a$ must be kept secret.
@@ -32,7 +36,7 @@ $$enc : K_{pk} \times M \rightarrow C \qquad dec: K_{sk} \times C \rightarrow M$
 
 ## Private Communication
 
-The most important application of public-key encryption is private communication over an insecure channel
+The most important application of public-key encryption is private communication over an insecure channel.
 
 1. Alice generates a key pair ($pk$, $sk$) and sends $pk$ to Bob (over an authenticated channel)
 2. Bob computes the ciphertext $c \leftarrow enc_{pk}(m)$ and sends $c$ over an insecure channel to Alice

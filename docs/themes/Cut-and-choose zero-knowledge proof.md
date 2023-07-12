@@ -14,9 +14,9 @@ The general idea is that the prover prepares several instances of the proof and 
 
 A cut-and-choose proof does not guarantee to 100% that you counterpart did not lie. It's just a probability.
 
-In Taler for example your money is taken in case you are caught lying. So it's not economical to lie as you will always loose money in the long term.
+In [[GNU Taler Overview|Taler]] for example your money is taken in case you are caught lying. So it's not economical to lie as you will always loose money in the long term.
 
-[[Fog of Trust#Version 1 Cut & choose|You can find an example of a cut-and-choose algorithm here]] 
+[[Fog of Trust#Version 1 Cut & choose|You can find an example of a cut-and-choose algorithm here]]
 
 ---
 links: [[212 AC2 TOC - GNU Taler|AC2 TOC GNU Taler]] - [[themes/000 Index|Index]]

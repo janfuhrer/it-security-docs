@@ -41,7 +41,7 @@ zk_h := h mod L * zk
 q := SHA512 (zk_h) 
 ```
 
-The `value` is a `RRBLOCK` which contains information about the entry. Each `RRBLOCK` starts with the signature of the block. Only the `PUBLIC-KEY` does not belong to the signature. The `PUBLIC-KEY` follows the signature. This `PUBLIC-KEY` can be used to verify the data block. After the `PUBLIC-KEY`, `SIZE`, `PURPOSE` and `EXPIRATION` follow. They define the size of the `BDATA` block, the purpose is always set to `15` (network byte order -> Big Endian -> MSB) and the expiration defines when the `RRBLOCK` should be removed from the [[DHT]]. Then follows the `BDATA` block which contains the actual information about the resource record. The `BDATA` block is encrypted using a **key `K` and an `IV` which are derived as follows**:
+The `value` is a `RRBLOCK` which contains information about the entry. Each `RRBLOCK` starts with the signature of the block. Only the `PUBLIC-KEY` does not belong to the signature. The `PUBLIC-KEY` follows the signature. This `PUBLIC-KEY` can be used to verify the data block. After the `PUBLIC-KEY`, `SIZE`, `PURPOSE` and `EXPIRATION` follow. They define the size of the `BDATA` block, the purpose is always set to `15` (network byte order $\rightarrow$ Big Endian $\rightarrow$ MSB) and the expiration defines when the `RRBLOCK` should be removed from the [[DHT]]. Then follows the `BDATA` block which contains the actual information about the resource record. The `BDATA` block is encrypted using a **key `K` and an `IV` which are derived as follows**:
 
 ```
 PRK_k := HKDF-Extract ("gns-aes-ctx-key", zk)

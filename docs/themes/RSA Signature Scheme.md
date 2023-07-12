@@ -18,10 +18,10 @@ Again as in the encrypt-decrypt cycle in [[RSA]], the signature and verify cycle
 
 Textbook RSA should never be implemented like that  as it's not [[Digital Signatures#EUF-CMA|EUF-CMA]] secure:
 
-* Textbook RSA is deterministic (same message always gives the same result)
-* Textbook RSA is multiplicative (The attacker can choose $m_1$ and $m_2$, get signatures on them, and then construct a valid signature on the message $m_1m_2$, even though they never got a signature on that message)
+* Textbook RSA is **deterministic** (same message always gives the same result)
+* Textbook RSA is **multiplicative** (The attacker can choose $m_1$ and $m_2$, get signatures on them, and then construct a valid signature on the message $m_1m_2$, even though they never got a signature on that message)
 
-**Sign the hash not the message**
+**Sign the hash not the message!**
 
 ### Hash-and-Sign
 
@@ -38,7 +38,7 @@ $hash: \{0, 1\}^∗ \rightarrow \{0, 1\}^{256}$ for SHA-256
 
 Standardised in [[PKCS]]#1 v2.1 as **RSA-PSS** (probabilistic signature scheme)
 
-[[Digital Signatures#EUF-CMA|EUF-CMA]] secure under RSA assumption (provided that $hash(·)$ has the properties of a random oracle)
+[[Digital Signatures#EUF-CMA|EUF-CMA]] secure under RSA assumption (provided that $hash(·)$ has the properties of a [[Random-Oracle Model|random oracle]])
 
 See more details here: [[Blind Signatures (RSA)#Full Domain Hash (FDH)|FDH]]
 

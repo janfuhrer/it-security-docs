@@ -8,7 +8,7 @@ links: [[209 AC2 TOC - Secure messaging and channels|AC2 TOC - Secure messaging 
 
 ## What is TLS?
 
-Demo: [See this page fetch itself, byte by byte, over TLS](https://subtls.pages.dev/)
+*Demo*: [See this page fetch itself, byte by byte, over TLS](https://subtls.pages.dev/)
 
 Transport Layer Security (TLS) is a cryptographic protocol designed to provide secure communication over a computer network. This protocol uses asymmetric cryptography to authenticate the communication parties, symmetric encryption to maintain privacy of the transmitted data, and message authentication codes for message integrity. Before TLS there was Secure Socket Layer (SSL). TLS is a successor protocol of SSL.
 
@@ -81,7 +81,7 @@ TLS 1.3 is trying to break away from the attack-patch-attack-patch design cycle 
 
 ### Problems
 
-TLS 1.3 deprecated lots of insecure ciphers but still has downgrade attack problem. X.509 certificates are still used.
+TLS 1.3 deprecated lots of insecure ciphers but still has downgrade attack problem. [[X.509 certificates]] are still used.
 
 ---
 links: [[209 AC2 TOC - Secure messaging and channels|AC2 TOC - Secure messaging and channels]] - [[themes/000 Index|Index]]

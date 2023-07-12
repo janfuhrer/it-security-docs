@@ -21,7 +21,7 @@ links: [[211 AC2 TOC - DPKI|AC2 TOC DPKI]] - [[themes/000 Index|Index]]
 ## PGP Certificate
 
 - *PGP Version*
-- *Holder's public key*: [[RSA]] or DSA
+- *Holder's public key*: [[RSA]] or [[Digital Signatures|DSA]]
 - *Holder information*: identity information (name, user ID, ...)
 - *Holder digital signature*: "self-signature", signature using the private key
 - *Validity period*: start and expiration date

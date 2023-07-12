@@ -20,7 +20,7 @@ links: [[211 AC2 TOC - DPKI|AC2 TOC DPKI]] - [[themes/000 Index|Index]]
 
 - HACIENDA by JTRIG: port scans entire countries using nmap (randomly scans every ip identified in that country)
 - ORB: CSECs Operational Relay Box, 2-3 times/year 1 day focused effort to acquire as many new ORBs as possible in as many non 5-Eyes countries as possible
-- RAMPART-A by NSA: global mass surveillance, gain access to high-capacity international fiber-optic cabels, collect data on the host countries citizens
+- RAMPART-A by NSA: global mass surveillance, gain access to high-capacity international fiber-optic cables, collect data on the host countries citizens
 - TREASUREMAP by NSA: capability for building a near real-time, interactive map of the global internet
 
 - You should care!

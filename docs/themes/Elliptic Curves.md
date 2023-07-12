@@ -7,7 +7,7 @@ links: [[206 AC2 TOC - Elliptic Curves|AC2 TOC - Elliptic Curves]] - [[themes/00
 ---
 
 * An elliptic curve is a set of points $(x, y)$ satisfying the equation $y^2 = x^3 + ax + b$
-* The variables $x$ and $y$ and the curve parameters $a$ and $b$ take values from a field $\mathcal{F} = (F,+,−,0,×,^{−1} ,1)$
+* The variables $x$ and $y$ and the curve parameters $a$ and $b$ take values from a [[Group, Ring and Field#Field|field]] $\mathcal{F} = (F,+,−,0,×,^{−1} ,1)$
 * The special element $\mathcal{O} \in E_{a,b}(F)$ is called **point of infinity**
 
 ## Curve Point Operations
@@ -39,11 +39,11 @@ If $p$ is prime, then $(\mathbb{Z}_p,+,−,0,×,−1 ,1)$ is a field.
 
 As we are in $\mathbb{Z}_p$ now (modulo) we are always dealing with positive discrete numbers.
 
-Hasse’s theorem provides an estimate of the number of points on an elliptic curve over a finite field:
+*Hasse’s theorem* provides an estimate of the number of points on an elliptic curve over a finite [[Group, Ring and Field#Field|field]]:
 
 $|E_{a,b}(\mathbb{Z}_p)| = p + 1 + ε$, for $|ε| < 2\sqrt{p}$, hence $q = |E_{a,b}(\mathbb{Z}_p)| ≈ p$
 
-The number of points is around $p$
+> The number of points in the finite [[Group, Ring and Field#Field|field]] of $\mathbb{Z}_p$ is around $p$!
 
 ## Calculation
 

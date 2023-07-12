@@ -1,4 +1,4 @@
-tags: #AC2 #prime
+tags: #AC2 #prime #math
 
 # Prime Numbers
 
@@ -18,6 +18,7 @@ links: [[202 AC2 TOC - Modular Arithmetic and Group Theory|AC2 TOC - Modular Ari
 **Prime number theorem:** $\pi(n) \approx \frac{n}{\ln n}$
 
 In other words, when $n$ is large, then the probability that $n$ is prime is approximately:
+
 $$
 \frac{1}{\ln n} = \frac{\log e}{\log n}= \frac{1.44}{\log n}\approx \frac{1}{\log n}
 $$

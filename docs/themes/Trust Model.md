@@ -10,7 +10,7 @@ links: [[211 AC2 TOC - DPKI|AC2 TOC DPKI]] - [[themes/000 Index|Index]]
 
 - client creates a trust relationship with a not-yet-trusted and unknown endpoint
 - the public key of the endpoint is not verified, but subsequent connections to the same peer require that the information & key remain the same
-- Used in **SSH** and in **HTTP Public Key Pinning (HPKP)**
+- Used in **SSH** and in **HTTP Public Key Pinning** ([[X.509 CA Alternatives#Alternative 2 [HTTP PublicKey Pinning (HPKP)](https //www.owasp.org/index.php/Certificate_and_Public_Key_Pinning)|HPKP]])
 
 ## The Web of Trust
 

@@ -1,4 +1,4 @@
-tags: #AC2
+tags: #AC2 #asymmetric 
 
 # Certificate Standards
 
@@ -8,8 +8,8 @@ links: [[207 AC2 TOC - X.509|AC2 TOC - X.509]] - [[themes/000 Index|Index]]
 
 - [[X.509 Certificates]] (for public keys)
 - [[Attribute Certificates|Attribute Certificates]] (bind set of descriptive data items to a subject name)
-- PGP Certificates (Pretty Good Privacy. Web of Trust)
-- CV Certificates (Card Verifiable Certificates)
+- PGP Certificates (Pretty Good Privacy. [[Trust Model#The Web of Trust|Web of Trust]])
+- [[Card Verifiable Certificates|CV Certificates ]](Card Verifiable Certificates)
 
 X.509 certificates are not compatible to OpenPGP or CVC.
 
@@ -19,10 +19,10 @@ The [[X.509 Certificates]] Authentication Framework designed by CCITT/[[003 Orga
 
 Used in:
 
-* The official IETF PKI standard: **PKIX** (Public Key Infrastructure for X.509)
+* The official [[003 Organisations|IETF]] PKI standard: **PKIX** (Public Key Infrastructure for X.509)
 * The (older) industrial standard: [[PKCS]] (Public Key Cryptography Standards)
 
-X.509 is an ITU standard — but also:
+X.509 is an [[003 Organisations#^1776b5|ITU]] standard — but also:
 
 - TLS servers (and sometimes clients) are identified by public key (e.g. [mTLS](https://www.cloudflare.com/learning/access-management/what-is-mutual-tls/))
 - Public keys are certified by certificate authorities  
@@ -87,7 +87,7 @@ Base64 of DER bytestream with "begin certificate" and "end certificate" markers.
 * An Object Identifier (OID) is an identifier used to name an object in a hierarchically-assigned namespace $\rightarrow$ an OID number should never change!
 * In the security domain, OIDs serve to name almost every object type in X.509 certificates, such as components of Distinguished Names, Algorithms, etc.
 
-[Example](http://www.oid-info.com/cgi-bin/display?oid=1.2.840.113549.1.1.5&submit=Display&action=display)
+*Example*: [oid-info.com - oid 1.2.840.113549.1.1.5](http://www.oid-info.com/cgi-bin/display?oid=1.2.840.113549.1.1.5&submit=Display&action=display)
 
 ## Certificate Authorities (CA)
 

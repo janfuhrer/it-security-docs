@@ -1,4 +1,4 @@
-tags: #AC2
+tags: #AC2 #smtp #mime
 
 # MIME
 

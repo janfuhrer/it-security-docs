@@ -1,4 +1,4 @@
-tags: #asymmetric 
+tags: #asymmetric #GNU #taler
 
 # GNU Taler Key Management
 
@@ -6,7 +6,8 @@ links: [[212 AC2 TOC - GNU Taler|AC2 TOC GNU Taler]] - [[themes/000 Index|Index]
 
 ---
 
-Taler has many types of keys:  
+Taler has many types of keys:
+
 * Coin keys  
 * Denomination keys  
 * Online message signing keys 
@@ -16,8 +17,8 @@ Taler has many types of keys:
 * Security module keys 
 * Transfer keys 
 * Wallet keys  
-* TLS keys
-* DNSSEC keys
+* [[TLS]] keys
+* [[X.509 CA Alternatives#Alternative 1 [DNSSEC / DANE](https //tools.ietf.org/html/rfc6698)|DNSSEC]] keys
 
 ## Offline Keys
 
@@ -28,7 +29,7 @@ Both exchange and auditor use offline keys.
 
 ## Online Keys
 
-The exchange needs RSA and EdDSA keys to be available for online signing.
+The exchange needs [[RSA]] and [[DSA Signature Scheme|EdDSA]] keys to be available for online signing.
 The public keys are certified using Taler’s public key infrastructure (which uses offline-only keys).
 
 ![[Taler Key Management.png]]
