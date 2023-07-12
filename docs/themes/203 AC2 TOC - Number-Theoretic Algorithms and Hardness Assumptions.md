@@ -1,4 +1,4 @@
-tags: #AC2 #math 
+tags: #AC2
 
 # AC2 TOC - Number-Theoretic Algorithms and Hardness Assumptions
 

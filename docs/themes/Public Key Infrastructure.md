@@ -73,7 +73,7 @@ CAs are the foundation of the PKI since they are the only components that can is
 
 **Baseline Requirements (BR)**
 
-In several statements a CA describes the practices employed to support its certification services. For this purpose the IETF published templates in the form of a common RFC ([RFC 3647](https://datatracker.ietf.org/doc/html/rfc3647)):
+In several statements a CA describes the practices employed to support its certification services. For this purpose the [[003 Organisations|IETF]] published templates in the form of a common RFC ([RFC 3647](https://datatracker.ietf.org/doc/html/rfc3647)):
 
 - Certificate Practice Statement (CPS): a statement of the practices which a certification authority employs in issuing certificates.
 - Certificate Policy (CP): a named set of rules that indicates the applicability of a certificate to a particular community and/or class of application with common security requirements (see [[Trust Issues in X.509#X.509 CA challenges|Legal aspects]]) ^baee60
@@ -160,7 +160,7 @@ In a private PKI a single key pair for multipurpose might make sense but in a pu
 - Different registration processes
 - Restriction to certain policies and roles of EE
 - Location of key generation and storage facility (e.g. must be generated on a secure signature creation device (SSCD))
-- Security aspects (qualified signature <-> authentication) to prevent challenge semantic attack
+- Security aspects (qualified signature $\leftrightarrow$ authentication) to prevent challenge semantic attack
 - Backup and recovery policies
 - Key history and archiving handling
 
@@ -195,7 +195,7 @@ Let's consider an example involving an individual user in a corporate environmen
 - Microsoft **Auto-Enrollment process** for Domain integrated Entities
 	- *GPT: This is a feature provided in a Microsoft Active Directory (AD) environment. The Auto-Enrollment process allows for the automated enrollment and renewal of certificates for domain-joined entities (such as user accounts and computer accounts) in an AD domain. This process is driven by Group Policy and uses the underlying Microsoft Certificate Services (a role in Windows Server) to issue the certificates. The types of certificates that can be auto-enrolled, and to whom, are controlled by the certificate templates configured on the Certificate Services server.*
 - **Certificate Request Message Format** (CRMF)
-	- *GPT: Defined in RFC 4211, CRMF is a part of the Certificate Management Protocol (CMP). It's a syntax used to convey a request for a certificate to a Certificate Authority (CA) in certain PKI implementations. CRMF is often used in conjunction with PKCS#10 (Public Key Cryptography Standards #10), another standard used for certificate request syntax.*
+	- *GPT: Defined in RFC 4211, CRMF is a part of the Certificate Management Protocol (CMP). It's a syntax used to convey a request for a certificate to a Certificate Authority (CA) in certain PKI implementations. CRMF is often used in conjunction with [[PKCS]]#10, another standard used for certificate request syntax.*
 
 ## Certificate Management Protocol (CMP)
 
@@ -203,7 +203,7 @@ CMP is an internet protocol specified to manage X.509 digital certificates withi
 
 - A CMP client is able to communicate with a PKI service to request, revoke, suspend and resume certificate
 - CMP messages are ASN.1/DER encoded and are usually encapsulated in HTTP(S) messages
-- CMP is suppported by several libraries: cryptlib, EJBCA, OpenSSL, BouncyCastle, ...
+- CMP is supported by several libraries: cryptlib, EJBCA, OpenSSL, BouncyCastle, ...
 
 ## Automatic Certificate Management Environment (ACME)
 

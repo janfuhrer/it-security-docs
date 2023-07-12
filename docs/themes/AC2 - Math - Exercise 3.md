@@ -2,11 +2,13 @@ tags: #AC2 #math #exercise
 
 # AC2 - Math - Exercise 3
 
-links: [[203 AC2 TOC - Number-Theoretic Algorithms and Hardness Assumptions|AC2 TOC - Number-Theoretic Algorithms and Hardness Assumptions]] - [[Algorithm of Euclid]] - [[Multiplicative Inverse]] - [[themes/000 Index|Index]]
+links: [[203 AC2 TOC - Number-Theoretic Algorithms and Hardness Assumptions|AC2 TOC - Number-Theoretic Algorithms and Hardness Assumptions]] - [[themes/000 Index|Index]]
 
 ---
 
 ## Euclid
+
+see [[Algorithm of Euclid]]
 
 **Euclid(48, 174)**
 
@@ -18,6 +20,8 @@ links: [[203 AC2 TOC - Number-Theoretic Algorithms and Hardness Assumptions|AC2 
 
 ## ExtEuclid
 
+see [[Algorithm of Euclid#Extended Algorithm of Euclid|Extended Algorithm of Euclid]]
+
 **ExtEuclid(48, 174)**
 
 | | 6 = 18 - 1(12) |
@@ -27,6 +31,8 @@ links: [[203 AC2 TOC - Number-Theoretic Algorithms and Hardness Assumptions|AC2 
 | 30 = 174 - 3(48) | 6 = 2(48) - 3(174 - 3(48)) = ==-3(174) + 11(48)== |
 
 ## Multiplicative Inverse
+
+see [[Multiplicative Inverse]]
 
 **MultInv(48, 127)**
 
@@ -49,4 +55,4 @@ links: [[203 AC2 TOC - Number-Theoretic Algorithms and Hardness Assumptions|AC2 
 ==45== * 48 mod 127 = 1
 
 ---
-links: [[203 AC2 TOC - Number-Theoretic Algorithms and Hardness Assumptions|AC2 TOC - Number-Theoretic Algorithms and Hardness Assumptions]] - [[Algorithm of Euclid]] - [[Multiplicative Inverse]] - [[themes/000 Index|Index]]
+links: [[203 AC2 TOC - Number-Theoretic Algorithms and Hardness Assumptions|AC2 TOC - Number-Theoretic Algorithms and Hardness Assumptions]] - [[themes/000 Index|Index]]

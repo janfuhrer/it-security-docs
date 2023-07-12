@@ -1,4 +1,4 @@
-tags: #asymmetric 
+tags: #asymmetric #GNU #taler
 
 # GNU Taler Bank Integration
 

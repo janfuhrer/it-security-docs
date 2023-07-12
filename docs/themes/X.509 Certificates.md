@@ -1,4 +1,4 @@
-tags: #AC2
+tags: #AC2 #asymmetric 
 
 # X.509 Certificates
 
@@ -15,7 +15,7 @@ links: [[207 AC2 TOC - X.509|AC2 TOC - X.509]] - [[themes/000 Index|Index]]
 * Validity period (DateTime Not Before, Not After)
 * The identity of the subject (common name, org. unit, org., state, country $\rightarrow$ [[Certificate Standards#Object Identifiers (OIDs)|OID]])
 * The public key of the subject (Bit String)
-* Optional: URL to revocation center (OCSP!)
+* Optional: URL to revocation center ([[Trust Issues in X.509#Online Certificate Status Protocol (OCSP)|OCSP]]!)
 * Auxiliary information (identity address, alternative names $\rightarrow$ [[X.509 Certificates#X.509v3 subjectAltNames (SAN)|SAN]])
 * The digital signature
 
@@ -150,15 +150,15 @@ Bit string used to identify (or restrict) the functions or services that can be 
 
 Leaf:
 
-- digitalSignature: Bit 0  
-- nonRepudiation: Bit 1 
-- keyEncipherment: Bit 2 
-- dataEncipherment: Bit 3 
+- digitalSignature: Bit 0
+- nonRepudiation: Bit 1
+- keyEncipherment: Bit 2
+- dataEncipherment: Bit 3
 - keyAgreement: Bit 4
 
 CA:
 
-* certificateSign: Bit 5 
+* certificateSign: Bit 5
 * crlSign: Bit 6 (Sign revoke certificate)
 
 ### Extended Key Usage

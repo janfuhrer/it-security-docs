@@ -8,13 +8,13 @@ links: [[212 AC2 TOC - GNU Taler|AC2 TOC - GNU Taler]] - [[205 AC2 TOC - Digital
 
 Way nicer and simpler than [[DSA Signature Scheme|DSA/ECDSA]].
 
-Hint: For [[elliptic curves]] we use additive notation for groups
+*Hint*: For [[elliptic curves]] we use additive notation for groups
 
 * $G$ : base point of the elliptic curve
 * $q$ : order of the elliptic curve
 * $\mathbb{Z_q}$ : Set of integers modulo $q$
-* $d$ : private key
-* $P$ : public key
+* $d$ : private key (scalar)
+* $P$ : public key (point)
 * $m$ : message
 
 ## Key Generation

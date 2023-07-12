@@ -6,12 +6,13 @@ links: [[206 AC2 TOC - Elliptic Curves|AC2 TOC - Elliptic Curves]] - [[themes/00
 
 ---
 
-Writing elliptic curves as **additive** groups is a convention.
+Writing [[elliptic curves]] as **additive** groups is a convention.
 
 $xP = \underbrace{P + P + · · · + P}_{\text{x times}}$ instead of $P^x$
 
-A **generator** $G$ of an elliptic curve of order $q$ can generate all points from $G$ to $qG$
-If $q$ is prime all points are generators except for $\mathcal{O}$
+A **generator** $G$ of an elliptic curve of order $q$ can generate all points from $G$ to $qG$.
+
+If $q$ is prime all points are generators except for $\mathcal{O}$.
 
 ## DL problem in elliptic curves (ECDL)
 
@@ -29,7 +30,7 @@ We need algorithms to encode and decode messages into curve points. Those exist 
 
 ## Elliptic Curves in Practice
 
-The generation of “good” elliptic curves is a cumbersome process. Some parameters $a,b \in \mathbb{Z}_p$ are insecure.
+The generation of “good” [[elliptic curves]] is a cumbersome process. Some parameters $a,b \in \mathbb{Z}_p$ are insecure.
 
 Use standardised curves but be careful of magic numbers and whom you trust.
 
@@ -46,7 +47,7 @@ Use standardised curves but be careful of magic numbers and whom you trust.
 * The embedding degree of $E(\mathbb{Z}_p)$ relative to $q$ is the smallest integer $k$ such that $q$ divides $p^k − 1$
 * For elliptic curves with small embedding degrees $k = 2, 3, 4, 6$ the **Weil pairing** and **Tate pairing** can be computed efficiently
 
-If you have an elliptic curve defined over a finite field, you can consider the group of points on that curve, and that group will have a certain size (the order). You can also look at the finite field itself, and consider larger fields obtained by taking powers of the original field's size. The embedding degree tells you how far you have to go in this process before you get a field in which the order of the group divides the size of the field minus 1.
+If you have an [[Elliptic Curves|elliptic curve]] defined over a finite [[Group, Ring and Field#Field|field]], you can consider the group of points on that curve, and that group will have a certain size (the order). You can also look at the finite field itself, and consider larger fields obtained by taking powers of the original field's size. The embedding degree tells you how far you have to go in this process before you get a field in which the order of the group divides the size of the field minus 1.
 
 **Example**
 
@@ -95,7 +96,7 @@ $$e : G \times G → G_T$$
 
 ### Three-Party DH Key Exchange
 
-Extending the classical DH key exchange to three (or more) parties requires $>1$ communication rounds.
+Extending the classical [[Diffie-Hellman|DH]] key exchange to three (or more) parties requires $>1$ communication rounds.
 
 Using pairing-based cryptography, a single communication round is sufficient:
 
@@ -112,7 +113,7 @@ $$
 
 See more details [[Advanced Cryptographic Primitives#Boneh–Lynn–Shacham (BLS) signatures|here]].
 
-* BLS signatures are deterministic (other than RSA, DSA, etc.)
+* BLS signatures are deterministic (other than [[RSA]], [[DSA Signature Scheme|DSA]], etc.)
 * Scheme proven to be [[Digital Signatures#EUF-CMA|EUF-CMA]] secure under the CDH assumption in the random oracle model
 * Multiple signatures $S_1, . . . , S_n$ can be aggregated into a single short signature $S = S_1 + · · · + S_n$, which can be verified step by step using: $e(hash(m_n), PK_n)$
 	* (note that aggregated signatures are insecure due to the **rogue public-key attack**, but there are several defense strategies)

@@ -1,4 +1,4 @@
-tags: #asymmetric 
+tags: #asymmetric #mixing
 
 # Mixing
 
@@ -43,7 +43,7 @@ In a pool mix, incoming messages are added to a pool. A certain number of messag
 
 - *based on mixmailers*: uses mix networks for email communication, effectively anonymizing the sender and recipient of an email (only for email application)
 - *possibility to reply*: without knowing the sender's actual identity
-- *directory servers to evaluate participating remailers*: helps users to select reliable and trutworthy nodes for routing their message
+- *directory servers to evaluate participating remailers*: helps users to select reliable and trustworthy nodes for routing their message
 - *exit policies*: like with Tor, nodes can have policies which allow the operator to determine what type of traffic is allowed to exit their node and to where (legal and ethical considerations)
 
 **Key ideas**

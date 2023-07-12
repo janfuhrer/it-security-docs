@@ -8,7 +8,7 @@ links: [[212 AC2 TOC - GNU Taler|AC2 TOC - GNU Taler]] - [[205 AC2 TOC - Digital
 
 Blind signatures are a form of digital signature where the content of a message is disguised (blinded) before it is signed. The entity signing the message cannot see its contents, but other entities can still verify the signature.
 
-Like this a certain degree of anonymity can be established by allowing an intermediate to sign a blinded value and letting everybody verify the signature. Since the signature is not of the original sender but the intermediate, the receiver doesn't know who actually sent the message. The intermediate party therefore acts as trusted third party where the sender trusts that the TTP doesn't reveal who he is and the receiver trusts the TTP to only sign messages from trustworthy senders. 
+Like this a certain degree of [[anonymity]] can be established by allowing an intermediate to sign a blinded value and letting everybody verify the signature. Since the signature is not of the original sender but the intermediate, the receiver doesn't know who actually sent the message. The intermediate party therefore acts as trusted third party where the sender trusts that the TTP doesn't reveal who he is and the receiver trusts the TTP to only sign messages from trustworthy senders. 
 
 ## Full Domain Hash (FDH)
 

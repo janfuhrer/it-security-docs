@@ -8,7 +8,7 @@ links: [[211 AC2 TOC - DPKI|AC2 TOC DPKI]] - [[themes/000 Index|Index]]
 
 ## Homomorphic Encryption
 
-see [[Group Theory#^0078b7|Homomorphic Groups]]
+see [[Group Theory#Homomorphisms|Homomorphic Groups]]
 
 $$
 E(x_1 \oplus x_2) = E(x_1) \otimes E(x_2)
@@ -47,8 +47,6 @@ $$
 
 ## Pairing-based cryptography
 
-*Hint for Exam: this is a simple Signature Scheme*
-
 - Pairing-based cryptography is based on pairing functions that map pairs of points on an elliptic curve into a finite field
 - if constructed properly, they can produce finite fields that are large enough to make the discrete logarithm problem hard to compute, but small enough to make computations efficient
 - Pairing-based cryptography can be used to construct identity-based encryption (IBE), which allows a sender to encrypt a message without needing a receiver’s public key to have been certified and distributed in advance. IBE uses some form of a person (or entity’s) identification to generate a public key
@@ -59,7 +57,7 @@ Source: [en: doubleoctopus.com](https://doubleoctopus.com/security-wiki/encrypti
 
 ### Hardness assumption
 
-- Computational Diffie Hellman (remains hard on $G$ even given $e$):
+- [[Computational Hardness Assumption#Discrete Logarithm Assumptions (DL)|Computational Diffie Hellman]] (remains hard on $G$ even given $e$):
 
 $$
 g,g^x,g^y \implies g^{xy}
@@ -69,7 +67,7 @@ $$
 
 - cryptographic signature scheme with allows a user to verify that a signer is **authentic**
 - scheme uses a *bilinear pairing* for verification, signatures are elements of an elliptic curve group (provides some defense against index calculus attacks)
-- (Index calculus attacks exploit the algebraic structure of finite fields or elliptic curves to solve the discrete logarithm problem efficiently. The key idea behind index calculus attacks is to build a system of equations involving the unknown exponent "x" and then solve these equations using linear algebra or other mathematical techniques.)
+- (Index calculus attacks exploit the algebraic structure of finite fields or elliptic curves to solve the discrete logarithm problem efficiently. The key idea behind index calculus attacks is to build a system of equations involving the unknown exponent $x$ and then solve these equations using linear algebra or other mathematical techniques.)
 
 * $x$: private key
 * $g^x$: public key

@@ -1,4 +1,4 @@
-tags: #asymmetric #WebOfTrust
+tags: #asymmetric #WebOfTrust #FogOfTrust
 
 # Fog of Trust
 
@@ -9,18 +9,18 @@ links: [[211 AC2 TOC - DPKI|AC2 TOC DPKI]] - [[themes/000 Index|Index]]
 ## Problems of Web of Trust
 
 - publishing who certified whom exposes the social graph
-- **Solution**: do not publish the graph, use "secure multi-part computation" (SMC) protocol for private set intersection cardinality with signatures.
+- **Solution**: do not publish the graph, use "secure multi-part computation" ([[Distributed Computing#Secure Multipart Computation (SMC)|SMC]]) protocol for private set intersection cardinality with signatures.
 	- We will only consider paths with **one** intermediary
 
 Measuring and comparing private set intersection cardinality means that we are able to calculate how much similarities two sets have. To do this without exposing the social graph (which would leak information about who trusts whom), we can use [[Distributed Computing#Secure Multipart Computation (SMC)|SMC]] and sign the result to make it verifiable for the counterpart. This method is used in the straw-man protocol.
 
 ## Straw-man protocol
 
-- a *straw-man proposal* is a brainstormed simple draft proposal intended to generate discussion of its disadvantages and to spur the generation of new and better proposal.
+> a *straw-man proposal* is a brainstormed simple draft proposal intended to generate discussion of its disadvantages and to spur the generation of new and better proposal.
 
 ### Version 1: Straw-man protocol
 
-- Alice wants to compute $n := |\mathcal{L_A} \cap \mathcal{L_B}|$, where $\mathcal{L_A}$ and $\mathcal{L_B}$ are the sets of trusted public keys of Alice (as verifiers) and Bob (as signers). $n$ describes the number of keys which both trust. If $n$ is high enough, Alice might trust Bob and therefore his list of public keys of signers. If Alice trusts enough verifiers, whos signatures are deemed trustworthy by Bob, Alice might trust the signature ob Bob's trusted signers.
+- Alice wants to compute $n := |\mathcal{L_A} \cap \mathcal{L_B}|$, where $\mathcal{L_A}$ and $\mathcal{L_B}$ are the sets of trusted public keys of Alice (as verifiers) and Bob (as signers). $n$ describes the number of keys which both trust. If $n$ is high enough, Alice might trust Bob and therefore his list of public keys of signers. If Alice trusts enough verifiers, whose signatures are deemed trustworthy by Bob, Alice might trust the signature ob Bob's trusted signers.
 - suppose each user has a private key $c_i$ and the corresponding public key is $C_i := g^{c_i}$ where $g$ is the generator
 
 **Setup**
@@ -69,7 +69,8 @@ The above described attack can be omitted by implementing a Cut & Choose mechani
 	3. Alice can now also blind her $\mathcal{Y}_{A_j}$ to receive $\mathcal{Y'}_{A_j}$. Since she earlier received $\mathcal{Y'}_{B_i}$ and knows the subset $J$ (since she chose it earlier), she can now calculate $n = |\mathcal{Y'}_{A_j} \cap \mathcal{Y'}_{B_j}|$ for each $j \in J. Each received $n$ should be equal to the others. If this is the case Alice can be sure, that Bob didn't fool her into trusting untrustworthy signers.
 
 **Verification**
-(for explanation check point 5 above)
+
+(for explanation check points 5 to X above)
 
 ![[cut-and-choose_verification.png]]
 

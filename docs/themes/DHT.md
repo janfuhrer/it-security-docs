@@ -44,10 +44,10 @@ Everyone knows everyone
 
 ![[dht_clique.png]]
 
-- *routing table*: hash map of all peers $\rightarrow O(n)$
-- *lookup*: forward to closest peer in routing table $\rightarrow O(1)$
-- *join*: ask initial contact for routing table, copy table, introduce us to all other peers, migrate data we're closest to us $\rightarrow O(n)$
-- *leave*: send local data to remaining closest peer, disconnect from all peers to remove us from their routing table $\rightarrow O(n)$
+- *routing table*: hash map of all peers $\rightarrow \mathcal{O}(n)$
+- *lookup*: forward to closest peer in routing table $\rightarrow \mathcal{O}(1)$
+- *join*: ask initial contact for routing table, copy table, introduce us to all other peers, migrate data we're closest to us $\rightarrow \mathcal{O}(n)$
+- *leave*: send local data to remaining closest peer, disconnect from all peers to remove us from their routing table $\rightarrow \mathcal{O}(n)$
 
 ### The Circle
 
@@ -55,27 +55,26 @@ Nodes are aligned in a circle and each node is connected with the two nearest ne
 
 ![[dht_ring.png]]
 
-
-- *routing table*: left and right neighbour in cyclic identifier space $\rightarrow O(1)$
-- *lookup*: forward to closest peer (left or right) $\rightarrow O(n)$ 
-- *join*: lookup own peer identity to find position, transfer data from neighbour for keys we are closer to $\rightarrow O(n)$
-- *leave*: ask left and right neighbour connect directly, transfer data to respective neighbour $\rightarrow O(1)$
+- *routing table*: left and right neighbour in cyclic identifier space $\rightarrow \mathcal{O}(1)$
+- *lookup*: forward to closest peer (left or right) $\rightarrow \mathcal{O}(n)$ 
+- *join*: lookup own peer identity to find position, transfer data from neighbour for keys we are closer to $\rightarrow \mathcal{O}(n)$
+- *leave*: ask left and right neighbour connect directly, transfer data to respective neighbour $\rightarrow \mathcal{O}(1)$
 
 ### Content Addressable Network (CAN)
 
 ![[dht_can.png]]
 
-- *routing table*: neighbours in $d$-dimensional torus space $\rightarrow 2d = O(d)$
-- *lookup*: forward to closest peer $\rightarrow O(d \sqrt[d]{n})$
+- *routing table*: neighbours in $d$-dimensional torus space $\rightarrow 2d = \mathcal{O}(d)$
+- *lookup*: forward to closest peer $\rightarrow \mathcal{O}(d \sqrt[d]{n})$
 - *join*: lookup own peer identity to find join position, split quadrant (data areas) with existing peer
-- *leave*: assign quadrant space to neighbour(s) $\rightarrow O(d)$
+- *leave*: assign quadrant space to neighbour(s) $\rightarrow \mathcal{O}(d)$
 
 ### Chord
 
-- *routing table*: predecessor in circle and at distance $2^i$, plus $r$ successors $\rightarrow O(log_2(n))$
-- *lookup*: forward to closest peer $\rightarrow O(log_2(n))$
-- *join*: lookup own peer identity to find join position, use neighbour to establish finger table, migrate data form respective neighbour $\rightarrow O((log_2(n))^2)$
-- *leave*: join predecessor with successor, migrate data to respective neighbour, periodic stabilization protocol takes care of finger updates $\rightarrow O(1)$
+- *routing table*: predecessor in circle and at distance $2^i$, plus $r$ successors $\rightarrow \mathcal{O}(log_2(n))$
+- *lookup*: forward to closest peer $\rightarrow \mathcal{O}(log_2(n))$
+- *join*: lookup own peer identity to find join position, use neighbour to establish finger table, migrate data form respective neighbour $\rightarrow \mathcal{O}((log_2(n))^2)$
+- *leave*: join predecessor with successor, migrate data to respective neighbour, periodic stabilization protocol takes care of finger updates $\rightarrow \mathcal{O}(1)$
 
 ![[dht_chord.png]]{width="300"}
 
