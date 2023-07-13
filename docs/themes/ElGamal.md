@@ -18,7 +18,7 @@ The key generation of ElGamal takes a random secret key $sk$ which is a random n
 
 ![[ElGamal-Key-Generation.png]]
 
-- $\mathbb{Z}_q$: Additive Groupe (Number between $\{1...q\}$)
+- $\mathbb{Z}_q$: Additive Group (Number between $\{1...q\}$)
 - $\mathbb{G}_q$: Multiplicative Subgroup (see [[Group Theory#Group of Integers Modulo a Safe Prime|Group of Integers Modulo a Safe Prime]])
 
 ## ElGamal Encryption and Decryption

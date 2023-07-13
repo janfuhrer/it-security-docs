@@ -68,15 +68,10 @@ $$ord(G) = |G| $$
 
 ## Order of a Group
 
-<<<<<<< HEAD
-If a group $G$ is *finite* then the order of the group equals the number of its elements: $$ord(G) = |G| = o_G, o_G \neq \infty$$
-=======
-If a group $G$ is *not* finite then the order of the group equals the number of its elements:
+If a group $G$ is *finite* then the order of the group equals the number of its elements:
 
-$$
-ord(G) = |G| = o_G, o_G \neq \infty
-$$
->>>>>>> 0da8a0b (docs: improvements)
+$$ord(G) = |G| = o_G, o_G \neq \infty$$
+
 ## Generators
 
 > Note: arithmetic "primitive root modulo n" is equivalent to a generator in group theory!
