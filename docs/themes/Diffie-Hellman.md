@@ -73,7 +73,7 @@ There are 3 application modes for DH:
 
 Standardised in:
 
-- [[PKCS|PKCS#3]]
+- [[PKCS]]#3
 - RFC2631 ([[003 Organisations|IETF]])
 - [[003 Organisations|NIST]] Special Publication 800-56A (Revision 2)
 

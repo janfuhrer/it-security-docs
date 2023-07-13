@@ -32,7 +32,7 @@ There are several hardware crypto tokens/cards on the market (e.g. Yubikey, Smar
 ### Yubikey
 
 - Provides Smart Card functionality based on the Personal Identity Verification (PIV) interface specified in NIST SP 800-73
-- Performs sign/ decrypt operations using the private key stored on the token via a common interface such as [[PKCS|PKCS#11]]
+- Performs sign/ decrypt operations using the private key stored on the token via a common interface such as [[PKCS|PKCS]]#11
 - Supports [[RSA]] 2048 or ECC 256/384 key sizes
 - "Universal Smartcard Minidriver" provides smart functionality and certificate/ PIN management capabilities.
 - Some "special" Yubikeys have obtained FIPS 140-2 security level certification.

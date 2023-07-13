@@ -20,7 +20,7 @@ Argon2 can be parameterized by adjusting time-, memory-, and parallel-complexity
 
 ## PBKDF1 & PBKDF2
 
-Password-Based Key Derivation Function 1 & 2 are [[Key Derivation Function (KDF)|key derivation functions]]. PBKDF2 is part of [[themes/PKCS|PKCS]] (PKCS #5) series and supersedes PBKDF1, which could only produce derived keys up to 160 bits long.
+Password-Based Key Derivation Function 1 & 2 are [[Key Derivation Function (KDF)|key derivation functions]]. PBKDF2 is part of [[themes/PKCS|PKCS]]#5 series and supersedes PBKDF1, which could only produce derived keys up to 160 bits long.
 
 The PBKDF2 key derivation function has five input parameters:
 
