@@ -1,0 +1,22 @@
+@startuml
+actor A
+actor B
+
+activate A
+A -> A: Gen(n) = k
+A -> B: securekeyexchange(k)
+
+A -> A: Initialize PRNG with k
+A -> A: Generate random pad using PRNG
+A -> A: c = XOR random pad with m
+A -> B: send(c)
+deactivate A
+
+activate B
+B -> B: Initialize PRNG with k
+B -> B: Generate random pad using PRNG
+B -> B: m = XOR random pad with c
+
+deactivate B
+
+@enduml

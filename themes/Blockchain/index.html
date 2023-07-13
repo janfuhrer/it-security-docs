@@ -1,0 +1,1513 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+        <link rel="canonical" href="https://janfuhrer.github.io/it-security-docs/themes/Blockchain/">
+      
+      
+      
+      <link rel="icon" href="../../assets/favicon.png">
+      <meta name="generator" content="mkdocs-1.4.3, mkdocs-material-9.1.18">
+    
+    
+      
+        <title>Blockchain - IT-Security Docs</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.26e3688c.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.ecc896b0.min.css">
+      
+      
+
+    
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="deep-purple" data-md-color-accent="purple">
+  
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&"object"==typeof palette.color)for(var key of Object.keys(palette.color))document.body.setAttribute("data-md-color-"+key,palette.color[key])</script>
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#blockchain" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="IT-Security Docs" class="md-header__button md-logo" aria-label="IT-Security Docs" data-md-component="logo">
+      
+  <img src="../../assets/logo.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            IT-Security Docs
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Blockchain
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+          
+            
+            
+            
+            <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="default" data-md-color-primary="deep-purple" data-md-color-accent="purple"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_1">
+            
+              <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_2" hidden>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 6H7c-3.31 0-6 2.69-6 6s2.69 6 6 6h10c3.31 0 6-2.69 6-6s-2.69-6-6-6zm0 10H7c-2.21 0-4-1.79-4-4s1.79-4 4-4h10c2.21 0 4 1.79 4 4s-1.79 4-4 4zM7 9c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3z"/></svg>
+              </label>
+            
+          
+            
+            
+            
+            <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="deep-purple" data-md-color-accent="purple"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_2">
+            
+              <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_1" hidden>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 7H7a5 5 0 0 0-5 5 5 5 0 0 0 5 5h10a5 5 0 0 0 5-5 5 5 0 0 0-5-5m0 8a3 3 0 0 1-3-3 3 3 0 0 1 3-3 3 3 0 0 1 3 3 3 3 0 0 1-3 3Z"/></svg>
+              </label>
+            
+          
+        </form>
+      
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href="../000%20Index/" class="md-tabs__link">
+      Index
+    </a>
+  </li>
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../100%20AC1%20MOC/" class="md-tabs__link">
+        Applied Cryptography 1
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../200%20AC2%20MOC/" class="md-tabs__link">
+        Applied Cryptography 2
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../300%20Modern%20Cryptography%20MOC/" class="md-tabs__link">
+        Modern Cryptography
+      </a>
+    </li>
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="IT-Security Docs" class="md-nav__button md-logo" aria-label="IT-Security Docs" data-md-component="logo">
+      
+  <img src="../../assets/logo.png" alt="logo">
+
+    </a>
+    IT-Security Docs
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../000%20Index/" class="md-nav__link">
+        Index
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+      
+      
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+          Applied Cryptography 1
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_2">
+          <span class="md-nav__icon md-icon"></span>
+          Applied Cryptography 1
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../100%20AC1%20MOC/" class="md-nav__link">
+        Index
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../101%20AC1%20TOC%20-%20Intro/" class="md-nav__link">
+        Intro
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../102%20AC1%20TOC%20-%20Security%20%26%20Cryptography/" class="md-nav__link">
+        Security & Cryptography
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../103%20AC1%20TOC%20-%20Randomness/" class="md-nav__link">
+        Randomness
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../104%20AC1%20TOC%20-%20Private%20Key%20Encryption/" class="md-nav__link">
+        Private Key Encryption
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../105%20AC1%20TOC%20-%20Random%20Oracle%20%26%20Applications/" class="md-nav__link">
+        Random Oracle & Applications
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../106%20AC1%20TOC%20-%20AEAD/" class="md-nav__link">
+        AEAD
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../107%20AC1%20TOC%20-%20Secure%20Channels/" class="md-nav__link">
+        Secure Channels
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../108%20AC1%20TOC%20-%20Blockchain/" class="md-nav__link">
+        Blockchain
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../109%20AC1%20TOC%20-%20Secret%20sharing/" class="md-nav__link">
+        Secret Sharing
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+      
+      
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+          Applied Cryptography 2
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_3">
+          <span class="md-nav__icon md-icon"></span>
+          Applied Cryptography 2
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../200%20AC2%20MOC/" class="md-nav__link">
+        Index
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../201%20AC2%20TOC%20-%20Intro%20Public%20Key%20Encryption/" class="md-nav__link">
+        Intro
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../202%20AC2%20TOC%20-%20Modular%20Arithmetic%20and%20Group%20Theory/" class="md-nav__link">
+        Modular Arithmetic and Group Theory
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../203%20AC2%20TOC%20-%20Number-Theoretic%20Algorithms%20and%20Hardness%20Assumptions/" class="md-nav__link">
+        Number-Theoretic Algorithms
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../204%20AC2%20TOC%20-%20RSA%20and%20ElGamal%20Encryption/" class="md-nav__link">
+        RSA and ElGamal Encryption
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../205%20AC2%20TOC%20-%20Digital%20Signatures/" class="md-nav__link">
+        Digital Signatures
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../206%20AC2%20TOC%20-%20Elliptic%20curves/" class="md-nav__link">
+        Elliptic curves
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../207%20AC2%20TOC%20-%20X.509/" class="md-nav__link">
+        X.509
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../208%20AC2%20TOC%20-%20Centralized%20public-key%20infrastructures/" class="md-nav__link">
+        Centralized PKI
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../209%20AC2%20TOC%20-%20Secure%20messaging%20and%20channels/" class="md-nav__link">
+        Secure Messaging And Channels
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../210%20AC2%20TOC%20-%20Anonymity/" class="md-nav__link">
+        Anonymity
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../211%20AC2%20TOC%20-%20DPKI/" class="md-nav__link">
+        DPKI
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../212%20AC2%20TOC%20-%20GNU%20Taler/" class="md-nav__link">
+        GNU Taler
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+      
+      
+        
+          
+        
+          
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+          Modern Cryptography
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_4">
+          <span class="md-nav__icon md-icon"></span>
+          Modern Cryptography
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../300%20Modern%20Cryptography%20MOC/" class="md-nav__link">
+        Index
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_2" >
+      
+      
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_4_2" id="__nav_4_2_label" tabindex="0">
+          Introduction and Classical Cryptography
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_2_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_4_2">
+          <span class="md-nav__icon md-icon"></span>
+          Introduction and Classical Cryptography
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Introduction%20to%20Modern%20Cryptography/" class="md-nav__link">
+        Introduction
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Perfectly%20Secret%20Encryption/" class="md-nav__link">
+        Perfectly Secret Encryption
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../OneTimePad/" class="md-nav__link">
+        OneTimePad
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Shannons%20Theorem/" class="md-nav__link">
+        Shannons Theorem
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_3" >
+      
+      
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_4_3" id="__nav_4_3_label" tabindex="0">
+          Private-Key (Symmetric) Cryptography
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_3_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_4_3">
+          <span class="md-nav__icon md-icon"></span>
+          Private-Key (Symmetric) Cryptography
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Computational%20Security/" class="md-nav__link">
+        Computational Security
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../EAV-Security/" class="md-nav__link">
+        EAV-Security
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CPA-Security/" class="md-nav__link">
+        CPA-Security
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Stream%20Cipher/" class="md-nav__link">
+        Stream Cipher
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Block%20Cipher/" class="md-nav__link">
+        Block Cipher
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../MAC/" class="md-nav__link">
+        Message Authentication Codes
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Cryptographic%20MACs/" class="md-nav__link">
+        Cryptographic MACs
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Authenticated%20Encryption/" class="md-nav__link">
+        Authenticated Encryption
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CCA-Security/" class="md-nav__link">
+        CCA-Security
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Hash%20Functions/" class="md-nav__link">
+        Hash Functions
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Random-Oracle%20Model/" class="md-nav__link">
+        Random-Oracle Model
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Additional%20Applications%20of%20Hash%20Functions/" class="md-nav__link">
+        Additional Applications of Hash Functions
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Cryptographic%20Hash%20Functions/" class="md-nav__link">
+        Cryptographic Hash Functions
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Hash-and-Mac/" class="md-nav__link">
+        Hash-and-Mac
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#what-is-a-blockchain" class="md-nav__link">
+    What is a blockchain?
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#advertised-properties-of-blockchain" class="md-nav__link">
+    Advertised properties of blockchain
+  </a>
+  
+    <nav class="md-nav" aria-label="Advertised properties of blockchain">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#immutability" class="md-nav__link">
+    Immutability
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#transparency" class="md-nav__link">
+    Transparency
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#anonymity" class="md-nav__link">
+    Anonymity
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#decentralization" class="md-nav__link">
+    Decentralization
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#irreversibility" class="md-nav__link">
+    Irreversibility
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#autonomy" class="md-nav__link">
+    Autonomy
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#what-is-proof-of-work-mining" class="md-nav__link">
+    What is proof of work / mining?
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#what-is-proof-of-stake" class="md-nav__link">
+    What is proof of stake?
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#why-is-mining-staking-necessary" class="md-nav__link">
+    Why is mining / staking necessary?
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#what-is-bitcoin" class="md-nav__link">
+    What is bitcoin?
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#what-are-problems-of-bitcoin" class="md-nav__link">
+    What are problems of bitcoin?
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#what-are-altcoins" class="md-nav__link">
+    What are altcoins
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#case-study" class="md-nav__link">
+    Case study
+  </a>
+  
+    <nav class="md-nav" aria-label="Case study">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#virtues" class="md-nav__link">
+    Virtues
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#vices" class="md-nav__link">
+    Vices
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+<h1 id="blockchain">Blockchain<a class="headerlink" href="#blockchain" title="Permanent link">&para;</a></h1>
+<p>links: <a href="../108%20AC1%20TOC%20-%20Blockchain/">AC1 TOC - Blockchain</a> - <a href="../000%20Index/">Index</a></p>
+<hr />
+<h2 id="what-is-a-blockchain">What is a blockchain?<a class="headerlink" href="#what-is-a-blockchain" title="Permanent link">&para;</a></h2>
+<p>A blockchain is a distributed ledger which stores data in a series of blocks. Blocks contain lists of transactions and the hash of the previous block. Adding the hash of the previous block links every block to the next which leads to the formation of a chain. Altering data in a older block becomes more difficult over time because the hashes in all the following blocks have to be altered as well.</p>
+<h2 id="advertised-properties-of-blockchain">Advertised properties of blockchain<a class="headerlink" href="#advertised-properties-of-blockchain" title="Permanent link">&para;</a></h2>
+<p><em>Buzzwords:</em></p>
+<ul>
+<li>Immutability</li>
+<li>Transparency</li>
+<li>Anonymity</li>
+<li>Decentralization</li>
+<li>Irreversibility</li>
+<li>Autonomy</li>
+</ul>
+<h3 id="immutability">Immutability<a class="headerlink" href="#immutability" title="Permanent link">&para;</a></h3>
+<p><strong>Claim</strong></p>
+<p>When something is written to the blockchain it can not be altered anymore and stays there forever.</p>
+<p><strong>Reality</strong></p>
+<p>Given sufficient computing power an attacker can gain more mining power than the rest of the network. This allows them to change data inside a block and then recalculate the following blocks.</p>
+<p>It's possible to simply start an additional blockchain or fork the initial blockchain and change / remove transactions.</p>
+<p>It's possible that the network partitions for some time and then merges again. Depending on the protocol this either breaks consensus and some central power has to step in and fix the problem or the longer chain is chosen as the valid one which leads to transactions in the shorter chain getting lost.</p>
+<h3 id="transparency">Transparency<a class="headerlink" href="#transparency" title="Permanent link">&para;</a></h3>
+<p><strong>Claim</strong></p>
+<p>All transactions are publicly available. Every participant in the network can verify that the protocol is followed and there are no malicious transactions (for example double spending).</p>
+<p><strong>Reality</strong></p>
+<p>While all transactions are public, there is no personal data required to make a transaction on a blockchain. Every wallet (available money to spend) is represented as a public key (pseudonym) and for an outsider there is nothing to learn from single transactions.</p>
+<h3 id="anonymity">Anonymity<a class="headerlink" href="#anonymity" title="Permanent link">&para;</a></h3>
+<p><strong>Claim</strong></p>
+<p>Anonymity can be achieved with some wallets (changing public key after every transaction) and pseudonymity is always "given" since no personal information has to be given to anyone to use a blockchain.</p>
+<p><strong>Reality</strong></p>
+<p>The most common way to buy cryptocurrency (interacting with a blockchain) is over an exchange which requires kyc (know your customer). The exchange sends the money to your wallet (public key) which essentially links your personal information to your public key. The same is the case when using the money to buy something on the internet. Normally personal information has to be given to buy something on the internet.</p>
+<p>There are ways to mitigate those issues but it is up to the protocol to decide if those are required or not. For example monero has privacy and anonymity baked into the protocol. This can lead to other issues though. In the case of monero no one can verify that there is no inflation bug in the protocol since no one knows who has how much money.</p>
+<h3 id="decentralization">Decentralization<a class="headerlink" href="#decentralization" title="Permanent link">&para;</a></h3>
+<p><strong>Claim</strong></p>
+<p>Anyone can run a bitcoin node, anyone can mine bitcoin and everyone can see the blockchain and verify that everything is correct. It is believed / hoped that no single actor can gain power over the network and alter / stop / remove transactions. Decentralization is important because it eliminates the need to trust a central authority. The blockchain is supposed to run trustlessly</p>
+<p><strong>Reality</strong></p>
+<p>In reality blockchains often have a tendency to become more centralized. Places with cheaper energy and less regulation can mine cryptocurrencies cheaply which can lead to mining centralization. Miners are built by companies which gives those companies power. Early adopters of currencies might have a big amount of the currency which allows them to affect the price and in the case of proof of stake have a bigger voting power for new blocks and higher staking rewards.</p>
+<h3 id="irreversibility">Irreversibility<a class="headerlink" href="#irreversibility" title="Permanent link">&para;</a></h3>
+<p><strong>Claim</strong></p>
+<p>Once a transaction is on the blockchain it cannot be undone.</p>
+<p><strong>Reality</strong></p>
+<p>See Immutability</p>
+<h3 id="autonomy">Autonomy<a class="headerlink" href="#autonomy" title="Permanent link">&para;</a></h3>
+<p><strong>Claim</strong></p>
+<p>Every user owns his own money and can send it to anyone else without being censored by a central power (bank or government).</p>
+<p><strong>Reality</strong></p>
+<p>While the claims can be true there are problems that come with it. Users need to self custody their money which is similar to having money under the mattress. A user error leads to lost funds and no way to recover them (hackers, losing private key, security bug in wallet / protocol). Those properties lead users to store their funds on central exchanges. Since there is not much regulation currently when it comes to internet money, those exchanges can not always (never) be trusted.</p>
+<h2 id="what-is-proof-of-work-mining">What is proof of work / mining?<a class="headerlink" href="#what-is-proof-of-work-mining" title="Permanent link">&para;</a></h2>
+<p>Proof of work (POW) is what a miner does to append a block to the blockchain. User transactions are propagated through the network and end up in the mempool (memory pool) of the nodes. Mempool is just a list of pending transactions. A miner (node) then takes some transactions and puts them in a block and adds the hash of the previous block. The miner has to make sure that the chosen transactions are valid (no double spending and user must have enough available funds). A miner has to have all the balances from all users in the network loaded in memory to be able to verify new transactions in reasonable time. This means that every miner initially has to parse the whole blockchain (around 500GB for bitcoin) and load the current balances of all the users.</p>
+<p>Mining means adding a random string to the block and hashing the block until some goal is reached. Normally the goal is to find a hash which has a number of leading 0's (finding a partial collision). The number of the leading 0's is the difficulty. The difficulty can be adjusted based on the computing power of the network (how long it takes on average to find a new block). This happens automatically based on the rules in the protocol.</p>
+<p>When a miner finds a block he propagates it through the network. Every miner/node reads the random string from the block, hashes the block and confirms that the resulting hash has enough leading 0's to reach the difficulty goal. If that's the case they remove those transactions from their mempool, add the block to their local copy of the blockchain (ledger) and continue mining.</p>
+<p>Mining is usually done with ASICs (application-specific integrated circuit) to get the most out of the available power. Mining on CPU / GPU is possible but normally not economically viable.</p>
+<h2 id="what-is-proof-of-stake">What is proof of stake?<a class="headerlink" href="#what-is-proof-of-stake" title="Permanent link">&para;</a></h2>
+<p>Instead of mining users can lock up their money and put it "at stake". Users that are staking are randomly chosen to "mine" the next block. This solution uses less energy because no mining is happening but it's debatable if it's as secure as mining. Users with a lot of money can have more influence over the network and they get more money over time because they still get the rewards for every block they mine.</p>
+<h2 id="why-is-mining-staking-necessary">Why is mining / staking necessary?<a class="headerlink" href="#why-is-mining-staking-necessary" title="Permanent link">&para;</a></h2>
+<p>It's to avoid sybil attacks. If there was no requirement to mine a block an attacker could deploy multiple nodes and have a higher chance to mine blocks. Mining / staking ensures that this is not possible.</p>
+<h2 id="what-is-bitcoin">What is bitcoin?<a class="headerlink" href="#what-is-bitcoin" title="Permanent link">&para;</a></h2>
+<p>The most popular implementation of blockchain internet money / cryptocurrency is bitcoin. Every user has at least one public / private key pair. Money can be sent to other users public keys and private keys are used to sign transactions.</p>
+<p>Bitcoins are created (minted) when a block in mined. A miner can add a transaction in the block which essentially creates some bitcoin (6.25 currently) out of nothing and give it to himself. This is called the block reward. Regular users have to provide transaction fees when doing a transaction. The miner can add those fees to his own address as well.</p>
+<p>Normal block time is 10 minutes. This means that the protocol tries to adjust the difficulty so that around every 10 minutes a miner finds a block. If too many blocks are found the difficulty is increased which means miners have to find hashes with more leading 0's.</p>
+<p>Bitcoin has a maximum available supply of 21 million. Every ~4 years the block reward is cut in half. This means that to keep miners incentivised to mine the price of bitcoin needs to double every 4 years. If that is not the case then some miners will not be profitable anymore and might have to stop mining. This leads to less security for the network. In the year 2140 all 21 million bitcoin will be mined. It is not yet clear what is going to happen at this point. The current idea is that the block rewards will be replaced by transaction fees.</p>
+<p><img alt="bitcoin_payment_flow.png" src="../_media/slides/bitcoin_payment_flow.png" /></p>
+<h2 id="what-are-problems-of-bitcoin">What are problems of bitcoin?<a class="headerlink" href="#what-are-problems-of-bitcoin" title="Permanent link">&para;</a></h2>
+<p><strong>Conflicting blocks</strong></p>
+<p>It's possible that two miners mine a block at the same time. This means that one partition of the network has has Block A as latest block and the other partition has Block B as latest block. This problem is easily solved by the fact that bitcoins protocol always chooses the longest chain. If a miner which has Block A as latest block mines Block C then all nodes which have Block B as latest block will notice that they are not part of the longest chain anymore and will have to either resync with the rest of the network or fork.</p>
+<p><strong>Forking</strong></p>
+<p>Forking means that one or more nodes decide to mine their own blockchain independently from the rest of the network. This allows them to change the history of the blockchain, remove parts of the blockchain or change the protocol entirely.
+In the case of a protocol change, the history of the blockchain stays the same. This means that users who had money on the old blockchain will have the same amount on the new blockchain and will be able to spend the money on both blockchains.</p>
+<p>The most prominent fork is the bitcoin fork of 2016 which lead to the creation of bitcoin cash. For bitcoin nothing really changed through this fork. Some people sold off their bitcoin because they believe bitcoin cash is the real bitcoin but most users sold their newly forked bitcoin cash and kept their bitcoin which lead to bitcoin cash being orders of magnitude less valuable than bitcoin.</p>
+<p><strong>Finality / Latency</strong></p>
+<p>Because of the double spending problems it is recommended to wait around 6 blocks until a transaction is confirmed. Reversing a transaction after only 1 block is easier than reversing it after 6 additional blocks have already been mined. An attacker would need to change the transaction and then shadow mine (mine locally without broadcasting) all the previous blocks and catch up with the longest chain. An attacker needs at least 51% of the mining power to achieve this attack but the older the transaction the more mining power is needed to catch up with the current state of the chain in a reasonable time. For every shadow mined block the actual block chain has a 49% chance to also find a block which means the attacker need to shadow mine even more.</p>
+<p>Compared to mastercard the waiting time for finality isn't too bad. On Mastercard settlement only happens after 1-2 business days and even after that a chargeback can still be made weeks or months after the transaction happened.</p>
+<p><strong>Privacy</strong></p>
+<p>Transactions are only private as long as your personal information are not linked to your public key. All transactions are transparent and public available.</p>
+<p><strong>Storage</strong></p>
+<p>The bitcoin blockchain grows linearly over time. It's currently around 500GB and there is no garbage collection. Spent transactions are only used for parsing the blockchain and for nodes to verify themselves that every transaction that ever happened is valid. Removing part of the blockchain would theoretically add trust because new nodes will have to trust that previous transactions were valid. This is an open discussion and the blockchain can be pruned (remove old transactions) in the future if consensus can be reached.</p>
+<p><strong>Power consumption</strong></p>
+<p>Mining takes up a lot of energy. The spent energy can be considered as wasted. If bitcoin has actual value or not is a debatable topic and the amount of energy spent on creating it is linked to this discussion. It is believed that mining uses as much energy as Denmark today. There is no way to actually verify this claim.</p>
+<p><strong>Rate</strong></p>
+<p>The bitcoin network supports around 7 transactions per second which is very little. This leads to high transactions fees. Other solutions like the lightning network or central exchanges help with this problem but they lead to less security (lightning network) or less decentralization / more trust (central exchanges) -&gt; blockchain trilemma</p>
+<p><strong>Accountability</strong></p>
+<p>Because personal information is not linked to bitcoin public keys it used to be used for criminal activity. Because of the pseudonymity it is not the best solution since the police can still find bad actors if they can link the public key to a person in any way (buying bitcoin on exchange or spending it). Solutions like monero are better suited for criminal activity.</p>
+<h2 id="what-are-altcoins">What are altcoins<a class="headerlink" href="#what-are-altcoins" title="Permanent link">&para;</a></h2>
+<p>Altcoins are cryptocurrencies which are not bitcoin.</p>
+<p><strong>Dogecoin</strong></p>
+<p>Memecoin which essentially works like bitcoin, only slight protocol changes</p>
+<p><strong>Zcash</strong></p>
+<p>Uses ZKSNARKs (Zero-Knowledge Succinct Non-Interactive Argument of Knowledge) to hide transactions</p>
+<p><strong>Ethereum</strong></p>
+<p>Allows users to deploy smart contracts (programs) on the blockchain which miners will execute in decentralized way. Allows the creation of additional altcoins on top of ethereum.</p>
+<h2 id="case-study">Case study<a class="headerlink" href="#case-study" title="Permanent link">&para;</a></h2>
+<p>“A company is developing new software for private payments. This will enable its customers to transact with “complete” privacy (like cash). The solution does not include backdoors, and thus the company cannot block payments to support trade embargos or anti money laundering efforts.”</p>
+<h3 id="virtues">Virtues<a class="headerlink" href="#virtues" title="Permanent link">&para;</a></h3>
+<p><strong>Privacy</strong></p>
+<p>Users can transact money privately</p>
+<p><strong>Autonomy</strong></p>
+<p>Users can do whatever they want with their money and no one can stop them</p>
+<p><strong>Inclusivity</strong></p>
+<p>Users who might not had a bank account before get to use money on the internet which might not have been possible previously</p>
+<h3 id="vices">Vices<a class="headerlink" href="#vices" title="Permanent link">&para;</a></h3>
+<p><strong>Illicit activities</strong></p>
+<p>Users can use this system to do illegal activities like money laundering or tax evasion</p>
+<p><strong>Lack of consumer protection</strong></p>
+<p>Reversing fraudulent transactions is not possible if everything is private</p>
+<p><strong>Regulatory compliance</strong></p>
+<p>Anti-money laundering efforts can not be supported which might make this system illegal in some parts of the world</p>
+<hr />
+<p>links: <a href="../108%20AC1%20TOC%20-%20Blockchain/">AC1 TOC - Blockchain</a> - <a href="../000%20Index/">Index</a></p>
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8v12Z"/></svg>
+            Back to top
+          </button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+        <div class="md-social">
+  
+    
+    
+    
+    
+      
+      
+    
+    <a href="https://github.com/janfuhrer/it-security-docs" target="_blank" rel="noopener" title="github.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/></svg>
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.top", "search.highlight", "navigation.indexes", "navigation.tabs"], "search": "../../assets/javascripts/workers/search.74e28a9f.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.220ee61c.min.js"></script>
+      
+        
+          <script src="../../javascripts/mathjax.js"></script>
+        
+      
+        
+          <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+        
+      
+        
+          <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+        
+      
+        
+          <script src="https://unpkg.com/mermaid/dist/mermaid.min.js"></script>
+        
+      
+    
+  </body>
+</html>
